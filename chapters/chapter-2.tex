@@ -1,0 +1,218 @@
+\documentclass[../thesis.tex]{subfiles}
+
+\begin{document}
+\vspace{-1\baselineskip}
+
+Fission occurs in heavy nuclei ($A\gtrsim$ whatever). Although ab-initio approaches to nuclear structure have made much progress in the past decade, such methods struggle to reach past the medium-mass region of the nuclear chart. Similarly, shell-model approaches cap out at [some other value]. The only [GCM and other beyond-mean-field methods exist][check this] approach based on an effective nucleon-nucleon interaction that can reach heavy regions of the chart is (nuclear) density functional theory (DFT). It has been used in [insert literature review here] for nuclear structure and dynamics, and blah blah blah. DFT is the primary underlying methodology used throughout this work. As such, we will detour from the fission discussion to provide a (brief) overview.
+
+\section{The HFB Equations}
+The HFB equations have been derived in many works [list some], and many of their properties have been explored [elsewhere]. Here, we will simply summarize the key features. It is also worth noting that DFT can be done at the Hartree-Fock level, and many works have studied pairing only at the BCS level; throughout, we will pursue full HFB.
+
+HFB can first be understood supposing we start with a second-quantized interaction, composed of creation and annihilation operators $a_i^\dagger,\,a_j$: [check indices]
+\begin{align}
+	H=\sum_{ij}t_{ij}a_i^\dagger a_j+\sum_{ijkl}\bar{v}_{ijkl}a_i^\dagger a_j^\dagger a_ka_l+\cdots
+\end{align}
+These operators obey the anticommutation rules $\{a_i,a_j^\dagger\}=\delta_{ij}$, $\{a_i,a_j\}=0.$ Rather than computing the full spectrum of the Hamiltonian, we use the variational principle with a suitable wavefunction ansatz to approximately determine the ground state energy. [want to say that wavefunctions that are written using creation/annihilation operators are simple to write out equations of motion for]
+
+A number of useful variational wavefunctions exist. The independent-particle picture is an accurate depiction of nuclear motion, hence the success of shell-model-type approaches. As such, an appropriate wavefunction is the Slater determinant, which lets describes nucleons moving independently within a mean field. The key difference from shell-model approaches [be careful with who I attribute things to] is that the mean field is determined self-consistently via the variational principle.
+
+It is well established that pairing effects are important for [list things it helps with]. The simplicity of the single-particle picture can be retained, even while capturing much of the pairing effects [correlations?], by instead discussing the independent \textit{quasi}-particle picture. This leads to the HFB equations. In mathematical terms, the HFB wavefunction $|\hfb\rangle$ is a single Slater determinant, expressed in terms of quasiparticle operators $\alpha_i^\dagger,\alpha_j$ via the Boguliubov transformation:
+\begin{align}
+	\alpha_k=\sum_n(U_{nk}^*a_n+V_{nk}^*a_n^\dagger),\quad \alpha_k^\dagger=\sum_n(V_{nk}a_n+U_{nk}a_n^\dagger).
+\end{align}
+For this wavefunction, the ground-state energy can be computed straightforwardly:
+\begin{align}
+	E_\hfb=\frac{\langle\hfb|H|\hfb\rangle}{\langle\hfb|\hfb\rangle}=\tr\bigg[\bigg(t+\frac{1}{2}\Gamma\bigg)\rho\bigg]-\frac{1}{2}\tr[\Delta\kappa^*].
+\end{align}
+The particle, $\rho$, and pairing, $\kappa$, one-body densities are defined as [indices]
+\begin{align}
+	\rho_{ij}=(V^*V^T)_{ij},\quad \kappa_{ij}=(V^*U^T)_{ij},
+\end{align}
+and the mean-field potential and pairing field are
+\begin{align}
+	\Gamma_{ik}\equiv\frac{\delta E}{\delta\rho_{ji}}=\bar{v}_{ijkl}\rho_{lj},\quad \Delta_{ij}\equiv\frac{\delta E}{\delta\kappa^*_{ji}}=\frac{1}{2}\bar{v}_{ijkl}\kappa_{kl}.
+\end{align}
+Note that $\rho$ and $\kappa$ are not independent variables, but the variational derivatives treat them independently.
+
+The HFB equations can be derived following e.g. Refs [whatever]. The result is the self-consistent eigenvalue problem
+\begin{align}
+	\mathcal{H}\begin{pmatrix}
+		U\\V
+	\end{pmatrix}=D\begin{pmatrix}
+		U\\V
+	\end{pmatrix},\quad 
+	\mathcal{H}=
+	\begin{pmatrix}
+		h & \Delta \\ -\Delta^* & -h^*
+	\end{pmatrix}.
+\end{align}
+The matrix $\mathcal{H}$ is called the HFB matrix. Note that, even for a standard two-body interaction, $\mathcal{H}=\mathcal{H}[\rho,\kappa]$. Therefore, this problem must be solved self-consistently, which is typically done via some iteration scheme.
+
+In position space, the total energy $E_\hfb$ can be written as an integral over the energy density,
+\begin{align}
+	E_\hfb[\rho,\kappa]=\int d^3r\,\mathcal{E}[\rho(\bm{r}),\kappa(\bm{r})].
+\end{align}
+$\mathcal{E}$ is called the energy density functional (EDF) [check that it's not $E_\hfb$ that's the functional - Ref.~\cite{Bender2003} seems to agree with my vocabulary]. Via the Hohenberg-Kohn theorems, there is a correspondence between the exact many-body wavefunction and the ground-state density of the system [cite]. That is, there exists an EDF for which $\rho$ describes the true nuclear ground state. Therefore, while historically work has focused on many-body interactions (as will be seen with the Gogny interaction), much recent work has instead gone into determining the nuclear EDF.
+
+\section{The Energy Density Functional}
+Quite generically, the EDF can be written as
+\begin{align}
+	\mathcal{E}(\bm{r})=\mathcal{E}_\textrm{kin}+\mathcal{E}_\textrm{Coul}+\mathcal{E}_\textrm{ph}+\mathcal{E}_\textrm{pp},
+\end{align}
+although different authors organize the terms differently. These terms are composed of local densities. Such densities can be categorized based on their behavior under time reversal symmetry, although $\mathcal{E}$ is even under time-reversal symmetry. For the ground state of an even-even nucleus, the time-odd densities vanish [citation for this], so we will only introduce the time-even densities.
+
+The various densities $\rho_q,\tau_q$, and $J_{\mu\nu,q}$ are derived from the one-body density matrix, written in position space as
+\begin{align}
+	\rho_q(\bm{r}\sigma,\bm{r}'\sigma')=\sum_kV_{kq}(\bm{r}\sigma)V_{kq}^*(\bm{r}'\sigma').
+\end{align}
+The index $q$ labels the nucleon species ($q=n,p$) and $\sigma,\sigma'$ are the spin indices. Unlike in Hartree-Fock theory, single-particle states have partial occupancies, i.e. the norm of the lower components of the eigenvectors, $N_{kq}=\int d^3r\,\sum_\sigma|V_{kq}(\bm{r}\sigma)|^2$, can take on any value between 0 and 1. Therefore, the sum over $k$ is over all states (at least, all those allowed by the pairing regularization procedure - see e.g. Ref.~\cite{Stoitsov2005} for a discussion with a zero-range pairing interaction). The spin dependence of the particle density is decomposed as
+\begin{align}
+	\rho_q(\bm{r}\sigma,\bm{r}'\sigma')=\frac{1}{2}\rho_q(\bm{r},\bm{r}')\delta_{\sigma\sigma'}+\frac{1}{2}\sum_i(\sigma|\sigma_i|\sigma')\rho_{i,q}(\bm{r},\bm{r}'),
+\end{align}
+where the $\sigma_i$ are the usual Pauli matrices. The local particle density $\rho_q(\bm{r})$, kinetic energy density $\tau_q(\bm{r})$, and spin-current density $J_{\mu\nu,q}(\bm{r})$ are then defined as
+\begin{align}
+	\rho_q(\bm{r})=\rho_q(\bm{r},\bm{r}),\,\, \tau_q(\bm{r})=\nabla_{\bm{r}}\nabla_{\bm{r}'}\rho_q(\bm{r},\bm{r}')|_{\bm{r}'=\bm{r}},\,\, J_{\mu\nu,q}(\bm{r})=\frac{1}{2i}(\nabla_\mu-\nabla_\mu')\rho_{\nu,q}(\bm{r},\bm{r}')|_{\bm{r}'=\bm{r}}.
+\end{align}
+[probably want to provide intuition on how these terms commonly appear - e.g. J corresponds to the spin-orbit thing we're familiar with] These densities have analogues in the particle-particle channel, written in terms of the pairing density matrix
+\begin{align}
+	\tilde{\rho}_q(\bm{r}\sigma,\bm{r}'\sigma')=-\sum_k V_{kq}(\bm{r}\sigma)U_{kq}^*(\bm{r}'\sigma'),
+\end{align}
+as discussed in Ref.~\cite{Dobaczewski1984}. However, as commonly-used pairing EDFs $\mathcal{E}_\textrm{pp}$ ignore these densities, they will not be expanded upon here. [relate $\tilde{\rho}$ and $\kappa$?]
+
+The kinetic energy density is simply
+\begin{align}
+	\mathcal{E}_\textrm{kin}=\sum_q\frac{\hbar^2}{2m_q}\tau_q(\bm{r}),
+\end{align}
+with $m_q$ the nucleon mass. Commonly, one sets $\hbar^2/(2m_q)=20.73553$ [units], as in [unedf1 calibration]. The Coulomb energy density contains the direct and exchange terms,
+\begin{align}
+	\mathcal{E}_\textrm{Coul}\equiv \mathcal{E}_\textrm{Coul}^D+\mathcal{E}_\textrm{Coul}^E.
+\end{align}
+[want nice reference for this] The direct term depends on $\rho_p(\bm{r})$, and is simple to evaluate directly:
+\begin{align}
+	\mathcal{E}_\textrm{Coul}^D=\frac{e^2}{2}\rho_p(\bm{r})\int d^3r'\,\frac{\rho_p(\bm{r}')}{|\bm{r}-\bm{r}'|},
+\end{align}
+where $e$ is the electron charge. Numerical techniques for evaluating this integral have been discussed in Ref.~\cite{Stoitsov2005} [and others]. The exchange term, on the other hand, is~\cite{Slater1951}
+\begin{align}
+	\mathcal{E}_\textrm{Coul}^E(\bm{r})=-\frac{e^2}{2}\sum_{kk'\sigma\sigma'}V_{kp}(\bm{r}\sigma)V_{k'p}^*(\bm{r}\sigma)\int d^3r'\,\frac{V_{kp}^*(\bm{r}'\sigma')V_{k'p}(\bm{r}'\sigma')}{|\bm{r}-\bm{r}'|},
+\end{align}
+which depends instead on $\rho_p(\bm{r}\sigma,\bm{r}'\sigma')$. While some works evaluate this exactly, see e.g. [hfbtho v4 and others], it is numerically expensive.  Instead, one commonly uses the Slater approximation to write
+\begin{align}
+	\mathcal{E}_\textrm{Coul}^E(\bm{r})\approx -\frac{3}{4}e^2\bigg(\frac{3}{\pi}\bigg)^{1/3}\rho_p^{4/3}(\bm{r}),
+\end{align}
+and extensions depending on only $\rho_p(\bm{r})$ have been discussed in e.g. Ref.~\cite{Naito2019}. [probably should add discussion about impact of this approximation here]
+
+Nuclear physics is contained solely in the particle-hole and particle-particle terms, $\mathcal{E}_\textrm{ph}$ and $\mathcal{E}_\textrm{pp}$, respectively. This separation is somewhat artificial, as, while $\mathcal{E}_\textrm{ph}$ depends only on $\rho_q$ and its derivatives, $\mathcal{E}_\textrm{pp}$ depends both on $\rho_q$ and $\tilde{\rho}_q$. Over the last few decades, many EDFs have been developed [list useful references]. The most common EDFs are the Skyrme [cite] and Gogny~\cite{Decharg_e1980}, both of which have a large number of parameterizations that have been developed. Further, recent efforts to go beyond these forms have included [whatever e.g. Fayans]. For a recent overview, see e.g. [list references]. While many of the techniques developed throughout this thesis apply quite generally, we will focus next on the Skyrme- and Gogny-type EDFs.
+
+\subsection{The Skyrme EDF}
+The Skyrme EDF [something something history of it] is based on the density matrix expansion. It is motivated by the short range of the nucleon-nucleon interaction, which suggests that the full one-body density matrix $\rho(\bm{r},\bm{r}')$ can be expanded about $\bm{r}-\bm{r}'\approx0$, see e.g. Ref.~\cite{Bender2003}. In the particle-hole channel, the (time-even) nuclear part of the EDF is commonly written in the form~\cite{Kortelainen2014}
+\begin{align}
+	\mathcal{E}_\textrm{Sk}(\bm{r})=\sum_{t=0,1}\chi_t(\bm{r}),
+\end{align}
+which is the sum over the isoscalar ($t=0$) and isovector ($t=1$) components. These are, in turn, written as
+\begin{align}\label{eqn:skyrme-ph}
+	\chi_t(\bm{r})&=C_t^{\rho\rho}\rho_t^2+C_t^{\rho\tau}\rho_t\tau_t+C_t^{JJ}\sum_{\mu\nu}J_{\mu\nu,t}J_{\mu\nu,t}+C_t^{\rho\Delta\rho}\rho_t\Delta\rho_t+C_t^{\rho\nabla J}\rho_t\nabla\cdot\bm{J}_t.
+\end{align}
+[explain what divJ is] The coefficients $C_t^{uu'}$ are real constants, except for traditional density-dependence
+\begin{align}
+	C_t^{\rho\rho}\equiv C_{t0}^{\rho\rho}+C_{t1}^{\rho\rho}\rho^\gamma.
+\end{align}
+[elaborate on origins of this density dependence]
+
+Strictly speaking, the original Skyrme EDF [cite] was derived for Hartree-Fock theory, which does not include pairing effects. Historically, [note on pairing contributions to net binding energies], quite simple pairing terms have been used. If desired, one can rederive the Skyrme EDF in the pairing channel. The end result is that one simply replaces ph-densities with pp-densities everywhere in Eq.~\ref{eqn:skyrme-ph} except in the density-dependent coefficient $C_t^{\rho\rho}$. Modern EDFs use a simplified variant:
+\begin{align}
+	\mathcal{E}_\textrm{pp}=\sum_q\frac{V_q}{2}\bigg[1-\frac{1}{2}\bigg(\frac{\rho_0(\bm{r})}{\rho_c}\bigg)^\beta\bigg]\tilde{\rho}_q^2(\bm{r}),
+\end{align}
+see Ref.~\cite{Bender2003} and references therein. The isoscalar particle density is $\rho_0(\bm{r})=\rho_p(\bm{r})+\rho_n(\bm{r})$. The coefficients $V_q$, switching density $\rho_c$, and exponent $\beta$, are additional fit parameters. [comment on Fayans functional here]
+
+[paragraph discussing various fits that are out there - at least unedf and skms]. now-dated review: Stone J and Reinhard P G 2007 Prog. Part. Nucl. Phys. 58 587
+
+\subsection{The Gogny EDF}
+The particle-hole part of the Gogny EDF, unlike the Skyrme EDF, is almost exclusively written in the literature as an effective two-body interaction, as
+\begin{subequations}
+	\begin{align}
+		\hat{V}(\bm{r}_1,\bm{r}_2)&=\sum_{i=1,2}e^{-(\bm{r}_1-\bm{r}_2)^2/\mu_i^2}\big(W_i+B_i\hat{P}_\sigma-H_i\hat{P}_\tau-M_i\hat{P}_\sigma\hat{P}_\tau\big)\label{eqn:gogny-nonlocal}\\
+		&\qquad +t_0\big(1+x_0\hat{P}_\sigma\big)\rho^\alpha\bigg(\frac{\bm{r}_1+\bm{r}_2}{2}\bigg)\delta(\bm{r}_1-\bm{r}_2)\label{eqn:gogny-three-body}\\
+		&\qquad +iW_{\textrm{LS}}(\bm{\sigma}_1+\bm{\sigma}_2)\cdot(\overleftarrow{\nabla}_1-\overleftarrow{\nabla}_2)\times\delta(\bm{r}_1-\bm{r}_2)(\overrightarrow{\nabla}_1-\overrightarrow{\nabla}_2)\label{eqn:gogny-spin-orbit},
+	\end{align}
+\end{subequations}
+see Refs.~\cite{Perez2017} [and others] The operators $\hat{P}_\sigma,\,\hat{P}_\tau$ are the spin and isospin exchange operators, respectively. The gradients operate to the left or right corresponding to the direction of the arrow above them. The terms $\mu_i,\,W_i\,B_i\,H_i\,M_i\,t_0,\,x_0,\,\alpha,$ and $W_\textrm{LS}$ are fit parameters.
+
+One sees in this two-body interaction terms that are similar to the Skyrme effective interaction, which can be found in Ref.~\cite{Vautherin1972}. Indeed, expanding the first term, Eqn.~(\ref{eqn:gogny-nonlocal}), about $\bm{r}_1-\bm{r}_2=0$ precisely gives the contact terms in the Skyrme EDF. The approximate three-body force, Eqn.~(\ref{eqn:gogny-three-body}), matches the density-dependent coefficient $C_t^{\rho\rho}[\rho]$ in the same approximation, and Eqn.~(\ref{eqn:gogny-spin-orbit}) corresponds to the spin-orbit term.
+
+Various parameterizations exist [comment].
+
+\subsection{Other EDFs}
+Other EDFs include the Fayans [cite], BCPM [cite], others [cite]. Why are they interesting?
+
+\section{Constrained Calculations}
+The HFB equations can be solved with various constraints imposed, via the usual method of Lagrange multipliers. For any one-body operator, written in [form], one can simply do whatever. HFBTHO and others have clever ways of doing it; old literature mentions the various ways people have tried things before. Point out that expectation values of one-body operators have a generic form
+
+\subsection{Particle Number}
+The particle number operator is, in second-quantized form, $\hat{N}=\sum_ka_k^\dagger a_k$. Notice that the HFB wavefunction is not an eigenstate of this operator, i.e. the HFB wavefunction does not have definite particle number. This is problematic: we are describing finite nuclei, which have a definite number of protons and neutrons. Exact particle number restoration can be carried out in the framework of symmetry restoration, in which the HFB wavefunction is projected onto a desired eigenstate of $\hat{N}$, see refs [whatever]. Certainly, this has been carried out in a number of works, see [a bunch of refs]. 
+
+In this work, we do not exactly restore particle number symmetry. Doing so is computationally expensive [elaborate] compared to a single HFB calculation. As such, no EDFs have been fit with restored PN [check!]. Since the EDF is phenomenological - it is not connected to the underlying nucleon-nucleon interaction in the way that, say, effective field theories are connected to QCD - it must be fit to some experimental data. The choice of many-body method should be considered as part of the fit [surely Witek talked about this somewhere], meaning that one should not fit an EDF at the HFB level, then use it with exact particle-number restoration.
+
+Nevertheless, one can approximately restore particle number symmetry using the Lipkin-Nogami method. This also prevents pairing collapse, in which the effective pairing gap $\bar{\Delta}$ between quasiparticle levels vanishes, see Refs.~whatever. In short, LN adds the following term to $h_q$:
+
+The UNEDF1 functional mentioned above has also been fit using Lipkin-Nogami, blah blah blah. As such, we will distinguish the EDF used, denoting by UNEDF1$_\hfb$ (UNEDF1$_\textrm{LN}$) the fit done at the HFB (LN) level.
+
+Typically, one is reduced to constraining the average particle number, $\langle\hfb|\hat{N}|\hfb\rangle$, to the desired value. This is done for protons and neutrons separately. This has the effect of replacing the mean-field Hamiltonian $h$ with
+\begin{align}
+	h_q\to h_q-\lambda_q,
+\end{align}
+with chemical potential $\lambda_q$. [elaborate on what this does/means]
+
+\subsection{The Nuclear Shape}
+As will be discussed later, our approach to nuclear fission requires understanding the energy cost required to deform a nucleus. This is done by carrying out HFB calculations with the nucleus constrained to a given shape. There are a number of different parameterizations, including [whatever]. A common choice is the multipole moments,
+\begin{align}
+	Q_{\mu\lambda}=asdf.
+\end{align}
+
+idk, probably a useful figure goes here, or else just reference Schunck's review for images there
+
+explicitly mention that our constraints here define the collective coordinates
+
+\subsection{Dynamical Pairing}
+I guess this is not a constraint, so much as an input
+
+\section{Further Discussion}
+DFT has been used and extended far beyond the scope of this thesis. Instead of attempting to describe the field in detail, we will instead briefly introduce many of the ways DFT has been used and extended, followed by references to relevant literature.
+
+\subsection{Time Dynamics}
+The world is, ultimately, a dynamical system. As such, time dynamics have long existed in the mean-field picture. Runge-Gross theorems [see~\cite{Schunck2016} and refs within] prove similar results as the Hohenberg-Kohn theorems, but for time-dependent systems. For a discussion of TDDFT, and its adiabatic approximation, see Ref.~\cite{Schunck2016} and references within [probably add some of those...maybe? maybe not worth it]. For the purposes of this work, all that is needed is the collective inertia tensor. Adiabatic TDDFT expands the usual TDDFT equation in a low-velocity approximation, and identifies a collective kinetic and potential energy. The former can be written as
+\begin{align}
+	\mathcal{K}=\frac{1}{2}\sum_{\alpha\beta}M_{\alpha\beta}\dot{q}_\alpha\dot{q}_\beta,
+\end{align}
+where the $q_\alpha$ are the collective coordinates defined above, the dot signifies their time derivative, and $M_{\alpha\beta}$ is the collective inertia tensor.
+
+The exact calculation of $M$ is fraught numerically [I think]. Instead, one commonly (and we, throughout this work) use the so-called perturbative cranking approximation ...
+
+\subsection{Beyond the Mean Field}
+DFT has been expanded on in many ways. To describe
+
+\subsection{Applications}
+Way too much to do
+
+
+
+maybe discuss what else hfb has been used for, idk. probably adds to the discussion
+
+%\section{Solution methods/existing solvers?}
+%maybe doesn't belong until we touch on my reduced order modeling
+
+\newpage
+\begin{itemize}
+	\item motivation for dft. essentially, schrodinger equation can't be solved exactly, but strong evidence for mean-field picture
+	\item connection to quantum chemistry? brief mention of KS theorems?
+	\item historical use of dft? for finite nuclei and nuclear matter?
+	\item HF, BCS pairing, and HFB. since we work at HFB level, probably only need to discuss that
+	\item write down summary of HFB equations: write $E[\rho,\tilde{\rho}]$, vary wrt $\rho$ and $\tilde{\rho}$, end up with HFB matrix you diagonalize
+	\item densities are now important; can just be summarized w/out too much detail. also discusses orbitals as necessary step
+	\item write down Skyrme form of EDF; here, witek's form is sensible. mention time-odd terms; mention other forms that exist, but skyrme is most important for this work. emphasize pairing form of EDF?
+	\item hfb wavefunction is not eigenstate of particle number. constrain average particle number; LN is also a thing, but not super important. also probably don't need to discuss symmetry restoration
+	\item probably useful to enumerate some ways the edf has been calibrated, esp. unedf functionals
+	\item constrain to multipole moments to carve out effective barrier - so mention how constraints are used
+	\item probably helpful to mention the code(s) that're out there, esp. hfbtho
+\end{itemize}
+
+\end{document}

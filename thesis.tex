@@ -52,8 +52,7 @@ hidelinks
 \urlstyle{same}
 \usepackage[backend=biber, bibencoding=utf8]{biblatex}
 %\bibliography{works-cited.bib}
-\bibliography{$HOME/Research/papers/000_bibliography.bib}
-
+%\bibliography{$HOME/Research/papers/000_bibliography.bib}
 \usepackage{subfiles}
 \usepackage{bm}
 
@@ -71,8 +70,8 @@ hidelinks
 %% IMPORTANT: Load only those packages you know you will use.
 %% Some packages can cause conflicts resulting in improper formatting.
 
-\author{Your Name Here} %% Put your name in full as it is officially recognized by Michigan State University here.
-\title{Exciting Dissertation Title} %% Put the title of your dissertation here.
+\author{Hieu Le} %% Put your name in full as it is officially recognized by Michigan State University here.
+\title{Search for $\lowercase{t\bar{t}}Z' \rightarrow \lowercase{t\bar{t}t\bar{t}}$ production in the multilepton final state in $\lowercase{pp}$ collisions at \lowercase{$\sqrt{s}=$} 13 and 13.6 TeV with the ATLAS detector} %% Put the title of your dissertation here.
 
 %% Go to http://grad.msu.edu/etd/docs/DegreeGrantingUnits.pdf
 %% and find your GRADUATE DEGREE GRANTING UNIT/PROGRAM
@@ -161,9 +160,9 @@ remarks
 %\end{symbols}
 %% Similarly for a list of abbreviations remove the "%" in front of
 %% \begin{abbrev} and remove the "%" in front of \end{abbrev} below.
-%\begin{abbrev}
-%% Type your list using a list environment here.
-%\end{abbrev}
+\begin{abbrev}
+% Type your list using a list environment here.
+\end{abbrev}
 %% The list will be included in the TOC as
 %% KEY TO SYMBOLS or KEY TO ABBREVIATIONS
 %%%%%%%%%%
@@ -188,26 +187,44 @@ remarks
 %---------------------------------------------------------------------------------
 
 \chapter{Introduction}
-\label{chapter:intro}
+\label{chap:intro}
 \subfile{chapters/chapter-1}
 
-\chapter{Density Functional Theory}
-\label{chapter:dft}
+\chapter{Theoretical Overview}
+\label{chap:theory}
 \subfile{chapters/chapter-2}
 
-\chapter{Fission Observables}
-\label{chapter:tunneling}
+\chapter{LHC \& the ATLAS Experiment}
+\label{chap:LHCATLAS}
 \subfile{chapters/chapter-3}
 
-\chapter{Multimodal Fission}
-\label{chapter:multimodal}
+\chapter{Data \& Simulated Samples}
+\label{chap:samples}
 \subfile{chapters/chapter-4}
 
-\chapter{Fission Emulators}
-\label{chapter:emulators}
+\chapter{Particle Reconstruction \& Identification}
+\label{chap:obj}
 \subfile{chapters/chapter-5}
 
-\chapter{Conclusions/Outlook?}
+\chapter{Event Selection}
+\label{chap:evntsel}
+\subfile{chapters/chapter-6}
+
+%\chapter{Background Estimation}
+%\label{chap:bkg}
+%\subfile{chapters/chapter-7}
+
+\chapter{Systematic Uncertainties}
+\label{chap:sys}
+\subfile{chapters/chapter-8}
+
+\chapter{Results}
+\label{chap:results}
+\subfile{chapters/chapter-9}
+
+\chapter{Summary}
+\label{chap:summary}
+\subfile{chapters/chapter-10}
 
 }%end formatchapters block
 
@@ -279,7 +296,21 @@ remarks
 %\begin{doublespace}
 %% Any text entered now will be double spaced.
 
+{
+\FormatAppTitles %pretty chapter headings for Appendices. It is defined in the .cls document
 
+
+\appendix
+
+%Copy this block to add additional Appendices. It contains the requisite spacing commands. 
+%---------------------------------------------------------------------------------
+%---------------------------------------------------------------------------------
+\chapter{\qquad Statistical analysis}
+\label{appendix:stat}
+\subfile{chapters/appendix-A}
+
+
+}%End format appendices block
 
 %These commands close out the doublespace area and end the document.
 \end{doublespace}

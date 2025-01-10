@@ -3,68 +3,12 @@
 \begin{document}
 \vspace{-1\baselineskip}
 
-Fission was first observed accidentally by Fermi, when he bombarded uranium with neutrons in an attempt to create heavier nuclei. The first observation of fission was, therefore, neutron induced. Since then, fission has been widely studied with a number of entrance channels, including $\gamma$- and light-particle-induced [cite], and, recently, neutrino-induced [cite]. Spontaneous fission is markedly different from these, because it is not induced by particle interactions. 
-
-To understand the various observable quantities present in fission, we consider a single fission event chronologically. In induced fission, the first quantity is the cross section, which measures how likely a fission event is to be induced. For a review of the state of the field, see [refs]; since this work primarily studies SF, we will not dwell any longer on the cross section. [change if $\nu$-fission paper is out]
-
-For SF, then, the starting point is a static nucleus, sitting in its ground state. Induced fission will use many of the same tools, except assuming an excited state of a compound nucleus (i.e. an equilibrated nucleus that has no memory of how it was formed). The nucleus deforms, elongating in a (commonly asymmetric) manner, until it eventually splits, called scission (notice that this description ignores second- and third-chance fission, in which neutron(s) are emitted pre-scission). The timescale of this splitting varies greatly: some nuclei [example 1] live for $\sim10^8$ seconds, while others last for [lower bound]. The timescale is only important for SF, and is called the SF lifetime (induced fission I think you can't measure this timescale...?).
-
-Typically, two fragments are formed, although three fragments have been observed rarely [cite]. The fragments are determined probabilistically, and form a distribution in both $Z$ and $A$, called the primary fission fragment distribution [cite examples]. Typically, these yields are not observed directly - the fragments begin to decay roughly $10^{-18}$ seconds after the nucleus splits, see Ref.~\cite{Bender2020} - but are instead inferred afterwards [find lit for this].
-
-At this point, the fragments are highly excited, and are accelerated away from each other by the Coulomb force. The energy in these fragments is called the total kinetic energy [find good source for how it's measured]. As the fragments accelerate, they de-excite via neutron and $\gamma$ emission [saw many good papers on this]. The emitted particles can be measured, leading to neutron multiplicities [define], photon energies, and, a subject of much interest recently, photon angular momentum [cite stuff] correlations. I think this is also how one backs out the primary fragment yields?
-
-After the fragments de-excite as much as possible, the remaining fragments are still (typically) unstable. On long timescales, these nuclei undergo $\beta$ decay, moving towards stability. This spectrum can be measured, and the remaining stable nuclei form a distribution known as the cumulative fission yields. [comment on difficulty measuring data at this timescale]
-
-All told, a unified description of fission would require a model that is descriptive from $10^{-18}-10^8$ s. Rather than undertake such an absurd task, different timescales are treated using different models. This divide is not fixed, but a typical divide can be seen in Fig.~2 of Ref.~\cite{Bender2020}: the entrance channel, collective motion leading to primary fragment yields, statistical particle emission, and eventual $\beta$ decay are each treated separately. This work focuses solely on the collective motion leading to the primary fragment yields; for a review of the other processes, see [cite - maybe just Ref.~\cite{Bender2020} again].
-
-There are essentially two models used to describe this collective motion. blah blah blah mic-mac and DFT
-
-\newpage
-Start with how we do things in fission studies (ie dft $\to$ pyneb), then go to discrepancies between models (multimodal paper), then discuss emulation strategies for dft
-
-Things to discuss about fission:
-\begin{itemize}
-	\item Brief historical intro
-	\item Different stages/timescales in fission, and observable quantities at each stage
-	\item Discussion on primary fragment yields and SF lifetimes (maybe as part of the previous section)
-	\item Astrophysical motivation? Other scientific use cases for primary fission observables? Connection to other areas of nuclear structure/reactions theory?
-\end{itemize}
-
-Next section: methods for computing fission observables
-\begin{itemize}
-	\item Brief outline of DFT. Don't see a reason to describe all the gory details here, not even things like the EDF used. Make sure to include inertia tensor, not just PES
-	\item Discussion of tunneling - maybe belongs prior to DFT discussion? Tunneling happens with or without DFT, after all
-	\item Somewhere here I need to bring up other approaches. Main one is mic-mac plus Langevin; not sure how to work that in. Since we can do Langevin on DFT PESs, maybe a point of comparison there...? Tricky, b/c it could end up looking like I'm saying their work is improper, somehow. I see: Langevin belongs in next section. It doesn't get tunneling path at all - just the yields themselves. With mic-mac PESs, point out that LAP hasn't been computed there (yet!)
-	\item Previous algorithms used for tunneling paths
-	\item Pyneb
-	\item Results (comparison with previous algorithms, any runtime information at all)
-\end{itemize}
-
-Next section: multimodal paper
-\begin{itemize}
-	\item Maybe here worth discussing different fragment yield models? To point out that different methods exist, and that they make different predictions
-	\item Discuss fragment yield calculations here, once we've arrived at exit point (doesn't really make sense in tunneling discussion)
-	\item Explain meaningful differences between the EDFs we consider: finite-range vs point-like, what they were fit to
-	\item Compare results in 2d for Fm isotopes. Superheavy discussion doesn't really add to the discussion? Can just refer to paper
-	\item Discuss different sets of collective coordinates somewhere. Include axial/triaxial coordinates, lit review, etc
-	\item Compare 3D results to 2d results for 254Fm, 258Fm
-\end{itemize}
-
-Next section: emulators
-\begin{itemize}
-	\item Need astrophysics motivation before NN paper. Either in intro, or briefly here (or both)
-	\item Black-box emulation as a strategy for computing PESs and inertias
-	\item Results for exit points and lifetimes from above method
-	\item Insensitivity to network size? Doesn't really add much; maybe just a comment on it and leave it to the original paper
-\end{itemize}
-
-Next section: intrusive emulators (for SCMF in general)
-\begin{itemize}
-	\item Somewhere above, motivate Bayesian UQ - perhaps in section on multimodal paper
-	\item Discuss on a high-level the basis expansion method for solving HFB equations, and why we use it
-	\item Example with BGG equation, to show why it's annoying computationally, what to do about it, and how that helps
-	\item High-level description for Skyrme EDFs, repeating the same thing (could possibly get away with no eqns in this section)
-\end{itemize}
+\section{Motivation}
+\label{sec:motivation}
+\section{Analysis strategy}
+\label{sec:strat}
+\subsection{Profile likelihood fit}
+\subsection{Analysis regions}
 
 
 \end{document}

@@ -1,0 +1,739 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{Bender2003}{article}{}
+      \name{author}{3}{}{%
+        {{hash=48cf5495da7e7994fdb3355d1c93b02f}{%
+           family={Bender},
+           familyi={B\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8e985f360f7252a750cae9702d30bf38}{%
+           family={Heenen},
+           familyi={H\bibinitperiod},
+           given={Paul-Henri},
+           giveni={P\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=8914c9b8a657487067ee17980328c8bf}{%
+           family={Reinhard},
+           familyi={R\bibinitperiod},
+           given={Paul-Gerhard},
+           giveni={P\bibinithyphendelim G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{87552151a29c25899a16aa68e3b6a04e}
+      \strng{fullhash}{87552151a29c25899a16aa68e3b6a04e}
+      \strng{bibnamehash}{87552151a29c25899a16aa68e3b6a04e}
+      \strng{authorbibnamehash}{87552151a29c25899a16aa68e3b6a04e}
+      \strng{authornamehash}{87552151a29c25899a16aa68e3b6a04e}
+      \strng{authorfullhash}{87552151a29c25899a16aa68e3b6a04e}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{1}
+      \field{journaltitle}{Rev. Mod. Phys.}
+      \field{month}{1}
+      \field{title}{Self-consistent mean-field models for nuclear structure}
+      \field{volume}{75}
+      \field{year}{2003}
+      \field{pages}{121\bibrangedash 180}
+      \range{pages}{60}
+      \verb{doi}
+      \verb 10.1103/RevModPhys.75.121
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/RevModPhys.75.121
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/RevModPhys.75.121
+      \endverb
+    \endentry
+    \entry{Bender2020}{article}{}
+      \name{author}{33}{}{%
+        {{hash=48cf5495da7e7994fdb3355d1c93b02f}{%
+           family={Bender},
+           familyi={B\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5cfd01a23b61fd2c81fa56d28ea8db16}{%
+           family={Bernard},
+           familyi={B\bibinitperiod},
+           given={R\'{e}mi},
+           giveni={R\bibinitperiod}}}%
+        {{hash=2a89b8cb9254b0c889da26819b902294}{%
+           family={Bertsch},
+           familyi={B\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod}}}%
+        {{hash=164be1eceef7f3e80bb7faaa280beb10}{%
+           family={Chiba},
+           familyi={C\bibinitperiod},
+           given={Satoshi},
+           giveni={S\bibinitperiod}}}%
+        {{hash=7b2ad3004bad65245b36545eb09c8e58}{%
+           family={Dobaczewski},
+           familyi={D\bibinitperiod},
+           given={Jacek},
+           giveni={J\bibinitperiod}}}%
+        {{hash=38fd09a593254c5d94abcaca66cac20f}{%
+           family={Dubray},
+           familyi={D\bibinitperiod},
+           given={No\"{e}l},
+           giveni={N\bibinitperiod}}}%
+        {{hash=d09c40ad6dbceb1e044db071a4926528}{%
+           family={Giuliani},
+           familyi={G\bibinitperiod},
+           given={Samuel\bibnamedelima A},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=db5ea3950a6e62da0229d263c243ddaa}{%
+           family={Hagino},
+           familyi={H\bibinitperiod},
+           given={Kouichi},
+           giveni={K\bibinitperiod}}}%
+        {{hash=41bed56c5faceda2eaaf0adca67b9a97}{%
+           family={Lacroix},
+           familyi={L\bibinitperiod},
+           given={Denis},
+           giveni={D\bibinitperiod}}}%
+        {{hash=456155fc4da2bef8f8ca73ababf574c6}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Zhipan},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=ec1f50133936965e33098202935a2685}{%
+           family={Magierski},
+           familyi={M\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod}}}%
+        {{hash=1086cba32e495049340682ce85a2f100}{%
+           family={Maruhn},
+           familyi={M\bibinitperiod},
+           given={Joachim},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3128dc90a834a1a72bf3b7cea6571ddf}{%
+           family={Nazarewicz},
+           familyi={N\bibinitperiod},
+           given={Witold},
+           giveni={W\bibinitperiod}}}%
+        {{hash=0927035d3b90c0844347fd2647fce400}{%
+           family={Pei},
+           familyi={P\bibinitperiod},
+           given={Junchen},
+           giveni={J\bibinitperiod}}}%
+        {{hash=9b7dd7155aae906018516526d6bfa574}{%
+           family={P\'{e}ru},
+           familyi={P\bibinitperiod},
+           given={Sophie},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b109299f99de538d0a842504964360b6}{%
+           family={Pillet},
+           familyi={P\bibinitperiod},
+           given={Nathalie},
+           giveni={N\bibinitperiod}}}%
+        {{hash=0e1f7579c7adf21056f8b227ec3dadf8}{%
+           family={Randrup},
+           familyi={R\bibinitperiod},
+           given={J\o{}rgen},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8d7faae019fba1ac4e61eb8378c2600c}{%
+           family={Regnier},
+           familyi={R\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=8914c9b8a657487067ee17980328c8bf}{%
+           family={Reinhard},
+           familyi={R\bibinitperiod},
+           given={Paul-Gerhard},
+           giveni={P\bibinithyphendelim G\bibinitperiod}}}%
+        {{hash=9691de1eeaa818cc7e68489c39ad1f3b}{%
+           family={Robledo},
+           familyi={R\bibinitperiod},
+           given={Luis\bibnamedelima M},
+           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=0a0c8bda2d32723584b07ba562551fd2}{%
+           family={Ryssens},
+           familyi={R\bibinitperiod},
+           given={Wouter},
+           giveni={W\bibinitperiod}}}%
+        {{hash=b52750878c241c81e700c993b3ee999e}{%
+           family={Sadhukhan},
+           familyi={S\bibinitperiod},
+           given={Jhilam},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6edccd19e00d1e38ce7b3c08f4531308}{%
+           family={Scamps},
+           familyi={S\bibinitperiod},
+           given={Guillaume},
+           giveni={G\bibinitperiod}}}%
+        {{hash=fa8c85132e95dd30202bca2892f0d313}{%
+           family={Schunck},
+           familyi={S\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=923567ffe52e4a3ffa6237d23284cfd1}{%
+           family={Simenel},
+           familyi={S\bibinitperiod},
+           given={C\'{e}dric},
+           giveni={C\bibinitperiod}}}%
+        {{hash=126b475e3ff351db2ea1be43e5808998}{%
+           family={Skalski},
+           familyi={S\bibinitperiod},
+           given={Janusz},
+           giveni={J\bibinitperiod}}}%
+        {{hash=03cb8610bf9220b5fc74d9eae633485b}{%
+           family={Stetcu},
+           familyi={S\bibinitperiod},
+           given={Ionel},
+           giveni={I\bibinitperiod}}}%
+        {{hash=fe57d48c737caf87b1fcdf45d688e7ef}{%
+           family={Stevenson},
+           familyi={S\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=3d74fb3e6ae10cf8c62184dbd1be0196}{%
+           family={Umar},
+           familyi={U\bibinitperiod},
+           given={Sait},
+           giveni={S\bibinitperiod}}}%
+        {{hash=179a5347b9fe70c9bb92abbcc4e6d506}{%
+           family={Verriere},
+           familyi={V\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod}}}%
+        {{hash=16246b395a1754acbec6d30d41b796c1}{%
+           family={Vretenar},
+           familyi={V\bibinitperiod},
+           given={Dario},
+           giveni={D\bibinitperiod}}}%
+        {{hash=9d6e536fbf2db2f5f0488438d7a1e3a7}{%
+           family={Warda},
+           familyi={W\bibinitperiod},
+           given={Micha\l{}},
+           giveni={M\bibinitperiod}}}%
+        {{hash=cdd6503c51eced4de02f23183fb1e108}{%
+           family={\r{A}berg},
+           familyi={\r{A}\bibinitperiod},
+           given={Sven},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{3f2e610b8e753dbefada3aca540edb2f}
+      \strng{fullhash}{f0d894e749f7bde7ccebbc5b82a45838}
+      \strng{bibnamehash}{3f2e610b8e753dbefada3aca540edb2f}
+      \strng{authorbibnamehash}{3f2e610b8e753dbefada3aca540edb2f}
+      \strng{authornamehash}{3f2e610b8e753dbefada3aca540edb2f}
+      \strng{authorfullhash}{f0d894e749f7bde7ccebbc5b82a45838}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Physics G: Nuclear and Particle Physics}
+      \field{month}{10}
+      \field{number}{11}
+      \field{title}{Future of nuclear fission theory}
+      \field{volume}{47}
+      \field{year}{2020}
+      \field{pages}{113002}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1361-6471/abab4f
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.doi.org/10.1088/1361-6471/abab4f
+      \endverb
+      \verb{url}
+      \verb https://dx.doi.org/10.1088/1361-6471/abab4f
+      \endverb
+    \endentry
+    \entry{Decharg_e1980}{article}{}
+      \name{author}{2}{}{%
+        {{hash=0fcb08e6bbc04ee6050beb4575aa2480}{%
+           family={Decharg\'{e}},
+           familyi={D\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=13c807394f0a46191837d87f3e9a5da9}{%
+           family={Gogny},
+           familyi={G\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{f9f7c0cc9961a2d25950bc8482b58387}
+      \strng{fullhash}{f9f7c0cc9961a2d25950bc8482b58387}
+      \strng{bibnamehash}{f9f7c0cc9961a2d25950bc8482b58387}
+      \strng{authorbibnamehash}{f9f7c0cc9961a2d25950bc8482b58387}
+      \strng{authornamehash}{f9f7c0cc9961a2d25950bc8482b58387}
+      \strng{authorfullhash}{f9f7c0cc9961a2d25950bc8482b58387}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{4}
+      \field{journaltitle}{Phys. Rev. C}
+      \field{month}{4}
+      \field{title}{Hartree-Fock-Bogolyubov calculations with the $D1$ effective interaction on spherical nuclei}
+      \field{volume}{21}
+      \field{year}{1980}
+      \field{pages}{1568\bibrangedash 1593}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.1103/PhysRevC.21.1568
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevC.21.1568
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevC.21.1568
+      \endverb
+    \endentry
+    \entry{Dobaczewski1984}{article}{}
+      \name{author}{3}{}{%
+        {{hash=9e1debeec0e5bd6db94a79d98a41508e}{%
+           family={Dobaczewski},
+           familyi={D\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ae013a7d5a5c70dc6a8be44ed4e8b57e}{%
+           family={Flocard},
+           familyi={F\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=19a1c3aeae709f2ae0b8e49d6375415a}{%
+           family={Treiner},
+           familyi={T\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{a4abc550d356cdd82f614a1e1ff68804}
+      \strng{fullhash}{a4abc550d356cdd82f614a1e1ff68804}
+      \strng{bibnamehash}{a4abc550d356cdd82f614a1e1ff68804}
+      \strng{authorbibnamehash}{a4abc550d356cdd82f614a1e1ff68804}
+      \strng{authornamehash}{a4abc550d356cdd82f614a1e1ff68804}
+      \strng{authorfullhash}{a4abc550d356cdd82f614a1e1ff68804}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0375-9474}
+      \field{journaltitle}{Nuclear Physics A}
+      \field{number}{1}
+      \field{title}{Hartree-Fock-Bogolyubov description of nuclei near the neutron-drip line}
+      \field{volume}{422}
+      \field{year}{1984}
+      \field{pages}{103\bibrangedash 139}
+      \range{pages}{37}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0375-9474(84)90433-0
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/0375947484904330
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/0375947484904330
+      \endverb
+    \endentry
+    \entry{Kortelainen2014}{article}{}
+      \name{author}{11}{}{%
+        {{hash=bd317d3b5a8b8ef9c91fecda62fe870a}{%
+           family={Kortelainen},
+           familyi={K\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=477c1265b27d5f5a6c64850914f1f260}{%
+           family={McDonnell},
+           familyi={M\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4ec609b4a89cb1a9a334b9dfa06076e6}{%
+           family={Nazarewicz},
+           familyi={N\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=fbf2834cc34be1e66a469b669d02c71a}{%
+           family={Olsen},
+           familyi={O\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=b22b09ad1de2993aec6d6c876c80eaed}{%
+           family={Reinhard},
+           familyi={R\bibinitperiod},
+           given={P.-G.},
+           giveni={P\bibinithyphendelim G\bibinitperiod}}}%
+        {{hash=ab718927ee073a40207b5d6a2d1c95a3}{%
+           family={Sarich},
+           familyi={S\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d420336e4a3e12893fbc2446c00f74c1}{%
+           family={Schunck},
+           familyi={S\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=827b65d0c6a9d3ad87f3fd8be6bb6897}{%
+           family={Wild},
+           familyi={W\bibinitperiod},
+           given={S.\bibnamedelimi M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=2d6a5a5be44dd2c5663f233f2ccc4855}{%
+           family={Davesne},
+           familyi={D\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=7a8b71446873a9b49888d86190fda249}{%
+           family={Erler},
+           familyi={E\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a84be68d81e4d259149a947327c14972}{%
+           family={Pastore},
+           familyi={P\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{16582eb66a9a337244844efe1404472e}
+      \strng{fullhash}{7a4fde5f293abaab6901a1ca270ee5bd}
+      \strng{bibnamehash}{16582eb66a9a337244844efe1404472e}
+      \strng{authorbibnamehash}{16582eb66a9a337244844efe1404472e}
+      \strng{authornamehash}{16582eb66a9a337244844efe1404472e}
+      \strng{authorfullhash}{7a4fde5f293abaab6901a1ca270ee5bd}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{5}
+      \field{journaltitle}{Phys. Rev. C}
+      \field{month}{5}
+      \field{title}{Nuclear energy density optimization: Shell structure}
+      \field{volume}{89}
+      \field{year}{2014}
+      \field{pages}{054314}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevC.89.054314
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevC.89.054314
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevC.89.054314
+      \endverb
+    \endentry
+    \entry{Naito2019}{article}{}
+      \name{author}{4}{}{%
+        {{hash=77a41703356839f4c09a0d3f9bf55c2d}{%
+           family={Naito},
+           familyi={N\bibinitperiod},
+           given={Tomoya},
+           giveni={T\bibinitperiod}}}%
+        {{hash=5d0ab9d5da920e1ad3213c8d7cd3e9a6}{%
+           family={Roca-Maza},
+           familyi={R\bibinithyphendelim M\bibinitperiod},
+           given={Xavier},
+           giveni={X\bibinitperiod}}}%
+        {{hash=97e8ca1229dc76f05d8610cdd2cfd672}{%
+           family={Col\`{o}},
+           familyi={C\bibinitperiod},
+           given={Gianluca},
+           giveni={G\bibinitperiod}}}%
+        {{hash=8527edcea48a243fa6712d8de428e9c3}{%
+           family={Liang},
+           familyi={L\bibinitperiod},
+           given={Haozhao},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{d0a2ce73a0fa0bf766823179ccf984d1}
+      \strng{fullhash}{0e1d21376335e423d3fbed48ac4683fb}
+      \strng{bibnamehash}{d0a2ce73a0fa0bf766823179ccf984d1}
+      \strng{authorbibnamehash}{d0a2ce73a0fa0bf766823179ccf984d1}
+      \strng{authornamehash}{d0a2ce73a0fa0bf766823179ccf984d1}
+      \strng{authorfullhash}{0e1d21376335e423d3fbed48ac4683fb}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{2}
+      \field{journaltitle}{Phys. Rev. C}
+      \field{month}{2}
+      \field{title}{Coulomb exchange functional with generalized gradient approximation for self-consistent Skyrme Hartree-Fock calculations}
+      \field{volume}{99}
+      \field{year}{2019}
+      \field{pages}{024309}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevC.99.024309
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevC.99.024309
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevC.99.024309
+      \endverb
+    \endentry
+    \entry{Perez2017}{article}{}
+      \name{author}{5}{}{%
+        {{hash=8ea89c5a59cf5b58d82ada9bdef7e408}{%
+           family={Perez},
+           familyi={P\bibinitperiod},
+           given={R.\bibnamedelimi Navarro},
+           giveni={R\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=d420336e4a3e12893fbc2446c00f74c1}{%
+           family={Schunck},
+           familyi={S\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=cfb47c78c8c1c4f34d595faf6f41b1b3}{%
+           family={Lasseri},
+           familyi={L\bibinitperiod},
+           given={R.-D.},
+           giveni={R\bibinithyphendelim D\bibinitperiod}}}%
+        {{hash=08835018e7f90fcf262517bf88eb4d72}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=ab718927ee073a40207b5d6a2d1c95a3}{%
+           family={Sarich},
+           familyi={S\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{a166dc42009b0be8d922e9a3223c2094}
+      \strng{fullhash}{b534c7399751bd2ee952816e588d5d34}
+      \strng{bibnamehash}{a166dc42009b0be8d922e9a3223c2094}
+      \strng{authorbibnamehash}{a166dc42009b0be8d922e9a3223c2094}
+      \strng{authornamehash}{a166dc42009b0be8d922e9a3223c2094}
+      \strng{authorfullhash}{b534c7399751bd2ee952816e588d5d34}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0010-4655}
+      \field{journaltitle}{Computer Physics Communications}
+      \field{title}{Axially deformed solution of the Skyrme--Hartree--Fock--Bogolyubov equations using the transformed harmonic oscillator basis (III) hfbtho (v3.00): A new version of the program}
+      \field{volume}{220}
+      \field{year}{2017}
+      \field{pages}{363\bibrangedash 375}
+      \range{pages}{13}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.cpc.2017.06.022
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0010465517302047
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0010465517302047
+      \endverb
+    \endentry
+    \entry{Schunck2016}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d420336e4a3e12893fbc2446c00f74c1}{%
+           family={Schunck},
+           familyi={S\bibinitperiod},
+           given={N},
+           giveni={N\bibinitperiod}}}%
+        {{hash=b5d4c0039c09f8e894a711a815b280b7}{%
+           family={Robledo},
+           familyi={R\bibinitperiod},
+           given={L\bibnamedelima M},
+           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{c6f0bf7f5ab6b2a438e53db875b4b362}
+      \strng{fullhash}{c6f0bf7f5ab6b2a438e53db875b4b362}
+      \strng{bibnamehash}{c6f0bf7f5ab6b2a438e53db875b4b362}
+      \strng{authorbibnamehash}{c6f0bf7f5ab6b2a438e53db875b4b362}
+      \strng{authornamehash}{c6f0bf7f5ab6b2a438e53db875b4b362}
+      \strng{authorfullhash}{c6f0bf7f5ab6b2a438e53db875b4b362}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Reports on Progress in Physics}
+      \field{month}{10}
+      \field{number}{11}
+      \field{title}{Microscopic theory of nuclear fission: a review}
+      \field{volume}{79}
+      \field{year}{2016}
+      \field{pages}{116301}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/0034-4885/79/11/116301
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.doi.org/10.1088/0034-4885/79/11/116301
+      \endverb
+      \verb{url}
+      \verb https://dx.doi.org/10.1088/0034-4885/79/11/116301
+      \endverb
+    \endentry
+    \entry{Slater1951}{article}{}
+      \name{author}{1}{}{%
+        {{hash=2680effb67f4c8cd7c73443f7af7dbe9}{%
+           family={Slater},
+           familyi={S\bibinitperiod},
+           given={J.\bibnamedelimi C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{2680effb67f4c8cd7c73443f7af7dbe9}
+      \strng{fullhash}{2680effb67f4c8cd7c73443f7af7dbe9}
+      \strng{bibnamehash}{2680effb67f4c8cd7c73443f7af7dbe9}
+      \strng{authorbibnamehash}{2680effb67f4c8cd7c73443f7af7dbe9}
+      \strng{authornamehash}{2680effb67f4c8cd7c73443f7af7dbe9}
+      \strng{authorfullhash}{2680effb67f4c8cd7c73443f7af7dbe9}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{3}
+      \field{journaltitle}{Phys. Rev.}
+      \field{month}{2}
+      \field{title}{A Simplification of the Hartree-Fock Method}
+      \field{volume}{81}
+      \field{year}{1951}
+      \field{pages}{385\bibrangedash 390}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1103/PhysRev.81.385
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRev.81.385
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRev.81.385
+      \endverb
+    \endentry
+    \entry{Stoitsov2005}{article}{}
+      \name{author}{4}{}{%
+        {{hash=195cddd464e969b3f26cff31428c9fb0}{%
+           family={Stoitsov},
+           familyi={S\bibinitperiod},
+           given={M.V.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9e1debeec0e5bd6db94a79d98a41508e}{%
+           family={Dobaczewski},
+           familyi={D\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4ec609b4a89cb1a9a334b9dfa06076e6}{%
+           family={Nazarewicz},
+           familyi={N\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=1fbd467c0cefb3842616542ea69e419a}{%
+           family={Ring},
+           familyi={R\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{9862d136e62deed3db65bf3622019c13}
+      \strng{fullhash}{ee1d57249a3d1fc4094643d914d7de8e}
+      \strng{bibnamehash}{9862d136e62deed3db65bf3622019c13}
+      \strng{authorbibnamehash}{9862d136e62deed3db65bf3622019c13}
+      \strng{authornamehash}{9862d136e62deed3db65bf3622019c13}
+      \strng{authorfullhash}{ee1d57249a3d1fc4094643d914d7de8e}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0010-4655}
+      \field{journaltitle}{Computer Physics Communications}
+      \field{number}{1}
+      \field{title}{Axially deformed solution of the Skyrme--Hartree--Fock--Bogolyubov equations using the transformed harmonic oscillator basis. The program HFBTHO (v1.66p)}
+      \field{volume}{167}
+      \field{year}{2005}
+      \field{pages}{43\bibrangedash 63}
+      \range{pages}{21}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.cpc.2005.01.001
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0010465505000305
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0010465505000305
+      \endverb
+    \endentry
+    \entry{Vautherin1972}{article}{}
+      \name{author}{2}{}{%
+        {{hash=9e15c50567ce94ebb591e70843984266}{%
+           family={Vautherin},
+           familyi={V\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=568703edf6aaf1ec40b3065f594a8428}{%
+           family={Brink},
+           familyi={B\bibinitperiod},
+           given={D.\bibnamedelimi M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{acde8f75cc495c2aa23f59c1ccb28d68}
+      \strng{fullhash}{acde8f75cc495c2aa23f59c1ccb28d68}
+      \strng{bibnamehash}{acde8f75cc495c2aa23f59c1ccb28d68}
+      \strng{authorbibnamehash}{acde8f75cc495c2aa23f59c1ccb28d68}
+      \strng{authornamehash}{acde8f75cc495c2aa23f59c1ccb28d68}
+      \strng{authorfullhash}{acde8f75cc495c2aa23f59c1ccb28d68}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{3}
+      \field{journaltitle}{Phys. Rev. C}
+      \field{month}{3}
+      \field{title}{Hartree-Fock Calculations with Skyrme's Interaction. I. Spherical Nuclei}
+      \field{volume}{5}
+      \field{year}{1972}
+      \field{pages}{626\bibrangedash 647}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1103/PhysRevC.5.626
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevC.5.626
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevC.5.626
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

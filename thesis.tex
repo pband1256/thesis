@@ -42,6 +42,7 @@
 \usepackage{longtable, tabu}
 \usepackage[colorlinks]{hyperref}
 %\usepackage{tocbibind}
+\usepackage{xspace}
 \usepackage{appendix}
 \UseRawInputEncoding
 \hypersetup{
@@ -59,9 +60,50 @@ hidelinks
 
 %\titleformat{\chapter}[block]{\bfseries\fontsize{22pt}{22pt}\selectfont}{\chaptertitlename~\thechapter.}{10pt}{}
 
-\newcommand{\volume}{{\ooalign{\hfil$V$\hfil\cr\kern0.08em--\hfil\cr}}} %This command defines the "Volume Symbol," the V with a line through it. 
-\newcommand{\hfb}{\textrm{HFB}}
-\newcommand{\tr}{\textrm{tr}}
+%\newcommand{\volume}{{\ooalign{\hfil$V$\hfil\cr\kern0.08em--\hfil\cr}}} %This command defines the "Volume Symbol," the V with a line through it. 
+%\newcommand{\hfb}{\textrm{HFB}}
+%\newcommand{\tr}{\textrm{tr}}
+% Processes
+\newcommand{\tttt}{\ensuremath{t\bar{t}t\bar{t}}\xspace}
+\newcommand{\ttjets}{\ensuremath{t\bar{t}}+jets\xspace}
+\newcommand{\ttljets}{\ensuremath{t\bar{t}+}light\xspace}
+\newcommand{\ttcjets}{\ensuremath{t\bar{t}{+}{\geq}1c}\xspace}
+\newcommand{\ttbjets}{\ensuremath{t\bar{t}{+}{\geq}1b}\xspace}
+\newcommand{\ttHF}{\ensuremath{t\bar{t}+\mathrm{HF}}\xspace}
+\newcommand{\ttH}{\ensuremath{t\bar{t}H}\xspace}
+\newcommand{\ttHA}{\ensuremath{t\bar{t}H/A}\xspace}
+\newcommand{\ttV}{\ensuremath{t\bar{t}V}\xspace}
+\newcommand{\ttW}{\ensuremath{t\bar{t}W}\xspace}
+\newcommand{\ttWW}{\ensuremath{t\bar{t}WW}\xspace}
+\newcommand{\ttVV}{\ensuremath{t\bar{t}VV}\xspace}
+\newcommand{\ttZ}{\ensuremath{t\bar{t}Z}\xspace}
+\newcommand{\ttZp}{\ensuremath{t\bar{t}Z'}\xspace}
+\newcommand{\tZq}{\ensuremath{tZq}\xspace}
+\newcommand{\tZ}{\ensuremath{tZ}\xspace}
+\newcommand{\tWZ}{\ensuremath{tWZ}\xspace}
+\newcommand{\tWZp}{\ensuremath{tWZ'}\xspace}
+\newcommand{\tjZp}{\ensuremath{tjZ'}\xspace}
+\newcommand{\ttt}{\ensuremath{ttt}\xspace}
+\newcommand{\VV}{\ensuremath{VV}\xspace}
+\newcommand{\Vjets}{\ensuremath{V+}jets\xspace}
+\newcommand{\Zp}{\ensuremath{Z'}\xspace}
+\newcommand{\pT}{\ensuremath{p_\mathrm{T}}\xspace}
+\newcommand{\ttbar}{\ensuremath{t\bar{t}}\xspace}
+\newcommand{\mtt}{\ensuremath{m_{t\bar{t}}}\xspace}
+\newcommand{\mZp}{\ensuremath{m_{Z'}}\xspace}
+\newcommand{\fb}{~\si{fb}^{-1}}
+\newcommand{\njets}{\ensuremath{N_\text{jets}}\xspace}
+\newcommand{\Ecom}{\ensuremath{\sqrt{s}}\xspace}
+\newcommand{\CRCO}{CR~Mat.~Conv.\xspace}
+\newcommand{\CRGst}{CR~Low~\ensuremath{m_{\gamma^*}}\xspace}
+\newcommand{\CRHFe}{CR~HF~e\xspace}
+\newcommand{\CRHFm}{CR~HF~\ensuremath{\mu}\xspace} 
+\newcommand{\CRttW}{CR~\ensuremath{\ttW}\xspace} 
+\newcommand{\CRttWp}{CR~\ensuremath{\ttW^{+}}\xspace}
+\newcommand{\CRttWm}{CR~\ensuremath{\ttW^{-}}\xspace}
+\newcommand{\CRonebp}{CR 1b(+)\xspace}
+\newcommand{\CRonebm}{CR 1b(-)\xspace}
+\newcommand{\CRLowGNN}{CR Low GNN\xspace}
 
 %% This is the first command that must appear in your thesis.
 %% Insert packages you wish to use except setspace, subfig
@@ -71,7 +113,7 @@ hidelinks
 %% Some packages can cause conflicts resulting in improper formatting.
 
 \author{Hieu Le} %% Put your name in full as it is officially recognized by Michigan State University here.
-\title{Search for $\lowercase{t\bar{t}}Z' \rightarrow \lowercase{t\bar{t}t\bar{t}}$ production in the multilepton final state in $\lowercase{pp}$ collisions at \lowercase{$\sqrt{s}=$} 13 and 13.6 TeV with the ATLAS detector} %% Put the title of your dissertation here.
+\title{Search for $\lowercase{\ttbar}Z' \rightarrow \lowercase{\tttt}$ production in the multilepton final state in $\lowercase{pp}$ collisions at \lowercase{$\Ecom=$} 13 and 13.6 TeV with the ATLAS detector} %% Put the title of your dissertation here.
 
 %% Go to http://grad.msu.edu/etd/docs/DegreeGrantingUnits.pdf
 %% and find your GRADUATE DEGREE GRANTING UNIT/PROGRAM
@@ -194,7 +236,7 @@ remarks
 \label{chap:theory}
 \subfile{chapters/chapter-2}
 
-\chapter{LHC \& the ATLAS Experiment}
+\chapter{LHC \& ATLAS Experiment}
 \label{chap:LHCATLAS}
 \subfile{chapters/chapter-3}
 

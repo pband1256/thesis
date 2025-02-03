@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.20)  31 DEC 2024 21:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.20)  3 FEB 2025 13:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -564,7 +564,10 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
 \Hy@SectionHShift=\skip109
-) (/usr/local/texlive/2022/texmf-dist/tex/latex/appendix/appendix.sty
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/appendix/appendix.sty
 Package: appendix 2020/02/08 v1.2c extra appendix facilities
 \c@@pps=\count318
 \c@@ppsavesec=\count319
@@ -826,24 +829,24 @@ File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 (./thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -910,7 +913,7 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 86.
+Package hyperref Info: Link coloring OFF on input line 128.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -924,9 +927,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count456
 )
-LaTeX Info: Redefining \ref on input line 86.
-LaTeX Info: Redefining \pageref on input line 86.
-LaTeX Info: Redefining \nameref on input line 86.
+LaTeX Info: Redefining \ref on input line 128.
+LaTeX Info: Redefining \pageref on input line 128.
+LaTeX Info: Redefining \nameref on input line 128.
  (./thesis.out) (./thesis.out)
 \@outlinefile=\write4
 \openout4 = `thesis.out'.
@@ -947,15 +950,15 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'thesis.bbl' found.
 
 (./thesis.bbl)
-Package biblatex Info: Reference section=0 on input line 86.
-Package biblatex Info: Reference segment=0 on input line 86.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 88.
-
+Package biblatex Info: Reference section=0 on input line 128.
+Package biblatex Info: Reference segment=0 on input line 128.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 130
+.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 88.
-
+LaTeX Font Info:    Trying to load font information for U+msb on input line 130
+.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -999,68 +1002,78 @@ Overfull \hbox (14.19379pt too wide) detected at line 64
 Chapter 1.
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <22> not available
-(Font)              size <20.74> substituted on input line 189.
+(Font)              size <20.74> substituted on input line 231.
 
 (./chapters/chapter-1.tex)
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.193 \chapter
+l.235 \chapter
               {Theoretical Overview} [1
 
 ]
 Chapter 2.
-(./chapters/chapter-2.tex) [2
+(./chapters/chapter-2.tex [2
 
 ]
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no © in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no © in font cmr12!
+[3] [4]) [5] [6]
 Chapter 3.
-(./chapters/chapter-3.tex) [3
+(./chapters/chapter-3.tex
+Underfull \hbox (badness 10000) in paragraph at lines 21--29
 
-] [4]
+ []
+
+[7
+
+]) [8] [9]
 Chapter 4.
-(./chapters/chapter-4.tex) [5
+(./chapters/chapter-4.tex) [10
 
 ]
 Chapter 5.
-(./chapters/chapter-5.tex) [6
+(./chapters/chapter-5.tex) [11
 
 ]
 Chapter 6.
-(./chapters/chapter-6.tex) [7
+(./chapters/chapter-6.tex) [12
 
-] [8]
+] [13]
 Chapter 7.
-(./chapters/chapter-8.tex) [9
+(./chapters/chapter-8.tex) [14
 
 ]
 Chapter 8.
-(./chapters/chapter-9.tex) [10
+(./chapters/chapter-9.tex) [15
 
 ]
 Chapter 9.
-(./chapters/chapter-10.tex) [11
+(./chapters/chapter-10.tex) [16
 
 ]
-Overfull \hbox (6.64735pt too wide) in paragraph at lines 264--264
+Overfull \hbox (6.64735pt too wide) in paragraph at lines 306--306
 []\OT1/cmr/m/n/12 Michael Ben-der, Paul-Henri Hee-nen, and Paul-Gerhard Rein-ha
 rd. ``Self-consistent mean-
  []
 
-[12
+[17
 
 ]
-Overfull \hbox (9.17265pt too wide) in paragraph at lines 264--264
+Overfull \hbox (9.17265pt too wide) in paragraph at lines 306--306
 []\OT1/cmr/m/n/12 M.V. Stoitsov et al. ``Ax-i-ally de-formed so-lu-tion of the 
 Skyrme--Hartree--Fock--Bogolyubov
  []
 
-[13] [14]
+[18] [19]
 APPENDIX A.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 23.49976pt
-(hyperref)                replaced by space on input line 308.
+(hyperref)                replaced by space on input line 350.
 
 (./chapters/appendix-A.tex
 
@@ -1079,7 +1092,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 8.
 
-) [15
+) [20
 
 ] (./thesis.aux)
 
@@ -1090,7 +1103,7 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 8F09E052E89F271438FC1FAFAA0E92C5;10656.
+(rerunfilecheck)             Checksum: 0683CCB3B93E82EDFC8490CD8D3B3900;10578.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                thesis
@@ -1101,24 +1114,26 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23402 strings out of 478268
- 403934 string characters out of 5846347
- 1116946 words of memory out of 5000000
- 41173 multiletter control sequences out of 15000+600000
+ 23484 strings out of 478268
+ 405075 string characters out of 5846347
+ 1117779 words of memory out of 5000000
+ 41248 multiletter control sequences out of 15000+600000
  481111 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,6n,90p,1151b,1403s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 85i,6n,90p,1151b,1404s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
-></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
-</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
-usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
-r/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
-/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on thesis.pdf (25 pages, 120774 bytes).
+></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
+</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
+usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
+r/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
+local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/l
+ocal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on thesis.pdf (30 pages, 149829 bytes).
 PDF statistics:
- 555 PDF objects out of 1000 (max. 8388607)
- 508 compressed objects within 6 object streams
- 105 named destinations out of 1000 (max. 500000)
+ 587 PDF objects out of 1000 (max. 8388607)
+ 531 compressed objects within 6 object streams
+ 110 named destinations out of 1000 (max. 500000)
  537 words of extra memory for PDF output out of 10000 (max. 10000000)
 

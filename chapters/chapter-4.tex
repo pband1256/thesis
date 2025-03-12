@@ -5,17 +5,27 @@
 
 \section{Data samples}
 \label{sec:data}
-[trigger selection]
-[other cuts made]
-[luminosity]
+LHC Run 2 data collected at $\sqrt{s}=13$ TeV between 2015-2018\\
+luminosity 140 $\text{fb}^{-1}$ \\
+(include uncertainty for Run 2 only)
 
 \section{Monte Carlo samples}
 \label{sec:montecarlo}
-\subsection{Simulation}
-[geant4, madgraph, pdf set, etc.]
-\subsection{Signal samples}
+
+\subsection{\ttZp signal samples}
+Run 2 \ttZp sample\\
+samples: 6 samples for each mass poin from $[1, 1.25, 1.5, 2, 2.5, 3]$ TeV\\
+generator: \mgamc v.2.8.1p3.atlas9 at LO with \textsc{NNPDF3.1LO} pdf\\
+event: \pythia[v.244p3.rangefix] using \textsc{A14} tune \& \textsc{NNPDF2.3LO} pdf\\
+parameters:
+\begin{itemize}
+\item chirality $\theta$: does not affect the strong production mode for \ttZp, therefore picking default value $\pi/4$ to suppress loop-production of the \Zp resonance
+\item top coupling $c_t=1$
+\end{itemize}
+resonance width computed with \mgamc to be 4\% of model configuration with these parameters
+
 \subsection{Background samples}
-
-
-
+Run 2 mc20 samples (2015-2018)\\
+(show MC sample table)\\
+(go in depth into each sample? briefly explain different generator, pdf and ps?)
 \end{document}

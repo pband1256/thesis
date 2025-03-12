@@ -3,23 +3,33 @@
 \begin{document}
 \vspace{-1\baselineskip}
 
-\section{Object reconstruction}
-\label{sec:reco}
+\section{Vertex \& track reconstruction}
+Charged particles deposit energy in different layers of the inner detector and muon spectrometer\\
 
-\subsection{Vertex \& track reconstruction}
-\subsection{Jets}
-\subsection{Electrons}
+\section{Jets}
+\section{Electrons}
 [isolation criteria along with muon]
-\subsection{Muons}
-\subsection{Missing transverse momentum}
-\subsection{Topological clustering}
-\subsection{Pile-up \& overlap removal}
+\section{Muons}
+\section{Missing transverse momentum}
+\section{Topological clustering}
+\section{Pile-up \& overlap removal}
 
 
-\section{Particle identification}
-\label{sec:pid}
-\subsection*{$b$-tagging}
-[details about optimization work \& b-tagging calibration work]
+\section{$b$-tagging}
+- b-jets important object for many analyses (Higgs decay/top quark id)
+- special properties of b-jets allowing for identification: decays suppressed by CKM factor, allowing for longer lifetime with a displaced secondary decay vertex, with higher track multiplicity
+\subsection{GN2 algorithm}
+- GN2 graph neural network based b-tagging algorithm
+- brief explanation on how GN2 works
+- working points, trade off between efficiency and purity
+\subsection*{Calibration}
+- correct for b-tagging efficiency disparity between data and MC in the form of a correction scale factor
+- ttbar calibration
+[find ttbar calibration paper]
+- ptrel and high pT calibration
+- impact parameter -> signed transverse impact parameter significance
+- calibration results
+
 
 
 

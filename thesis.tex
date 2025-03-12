@@ -41,9 +41,10 @@
 \usepackage{pdfpages}
 \usepackage{longtable, tabu}
 \usepackage[colorlinks]{hyperref}
-%\usepackage{tocbibind}
+\usepackage{tocbibind}
 \usepackage{xspace}
 \usepackage{appendix}
+\usepackage{multicol}
 \UseRawInputEncoding
 \hypersetup{
 hidelinks
@@ -104,6 +105,63 @@ hidelinks
 \newcommand{\CRonebp}{CR 1b(+)\xspace}
 \newcommand{\CRonebm}{CR 1b(-)\xspace}
 \newcommand{\CRLowGNN}{CR Low GNN\xspace}
+% generators
+\def\pythia{\textsc{Pythia8}\xspace}
+\def\pythiasix{\textsc{Pythia6}\xspace}
+\def\sherpa{\textsc{Sherpa}\xspace}
+\def\alpgen{\textsc{Alpgen}\xspace}
+\def\herwig{\textsc{Herwig}\xspace}
+\def\herwigseven{\textsc{Herwig7}\xspace}
+\def\jimmy{\textsc{JIMMY}\xspace}
+\def\menlops{\textsc{MENLOPS}\xspace}
+\def\mepsatnlo{\textsc{MEPS@NLO}\xspace}
+\def\mepsatlo{\textsc{MEPS@LO}\xspace}
+\def\mcatnlo{\textsc{MC@NLO}\xspace}
+\def\mcfm{\textsc{MCFM}\xspace}
+\def\mgamc{\textsc{MadGraph5\_aMC@NLO}\xspace}
+\def\mg{\textsc{MadGraph}\xspace}
+\def\mgpythia{\textsc{MadGraph5\_aMC@NLO}\ensuremath{+}\pythia\xspace}
+\def\ggtwovv{\textsc{gg2VV}\xspace}
+\def\vbfnlo{\textsc{VBFNLO}\xspace}
+\def\openloops{\textsc{OpenLoops}\xspace}
+\def\collier{\textsc{Collier}\xspace}
+\def\minlo{\textsc{Powheg MiNLO}\xspace}
+\def\photospp{\textsc{Photos++}\xspace}
+\def\minntchannels{\texttt{Min\_N\_TChannels}\xspace}
+\def\fxfx{\textsc{FxFx}\xspace}
+% tunes and PDF sets
+\def\cteq{\texttt{CTEQ6L1}\xspace}
+\def\ctten{\texttt{CT10}\xspace}
+\def\cttennlo{\texttt{CT10nlo}\xspace}
+\def\ctfourteennlo{\texttt{CT14nnlo}\xspace}
+\def\ctfourteennnlo{\texttt{CT14nnlo}\xspace}
+\def\nnpdfonenlo{\texttt{NNPDF3\kern -0.1em .\kern -0.1em 1NLO}\xspace}
+\def\nnpdfnnlo{\texttt{NNPDF3.0nnlo}\xspace}
+\def\nnpdfnlo{\texttt{NNPDF3.0nlo}\xspace}
+\def\nnpdftwo{\texttt{NNPDF2.3lo}\xspace}
+\def\mstw{\texttt{MSTW2008nlo}\xspace}
+\def\powheg{\textsc{Powheg}\xspace}
+\def\powhegbox{\textsc{PowhegBox}\xspace}
+\def\powhegboxRes{\textsc{PowhegBoxRes}\xspace}
+\def\powhegboxpythia{\textsc{PowhegBox}\ensuremath{+}\pythia\xspace}
+\def\powhegboxRespythia{\textsc{PowhegBoxRes}\ensuremath{+}\pythia\xspace}
+\def\vbfnlopythia{\textsc{VBFNLO}\ensuremath{+}\pythia\xspace}
+\def\powhegboxherwig{\textsc{PowhegBox}\ensuremath{+}\herwig\xspace}
+\def\powhegboxherwigseven{\textsc{PowhegBox}\ensuremath{+}\herwigseven\xspace}
+\def\amcpeight{\mgamc+\pythia}
+\def\mcatnloherwig{\textsc{MC@NLO}\ensuremath{+}\herwig\xspace}
+\def\madspin{\textsc{MadSpin}\xspace}
+\def\photos{\texttt{Photos}\xspace}
+\def\photospp{\textsc{Photos++}\xspace}
+\def\evtgen{\textsc{EvtGen}\xspace}
+\def\a14{\texttt{A14}\xspace}
+\def\auet{\texttt{AUET2}\xspace}
+\def\aznlo{\texttt{AZNLO}\xspace}
+\def\mmhtnnlo{\texttt{MMHT2014\,NNLO}\xspace}
+\def\mmhtnlo{\texttt{MMHT2014\,NLO}\xspace}
+\def\ueee{\texttt{UE-EE-5}\xspace}
+\def\Gmu{\ensuremath{G_{\mu}}\xspace}
+\def\amchseven{\mgamc+\herwigseven}
 
 %% This is the first command that must appear in your thesis.
 %% Insert packages you wish to use except setspace, subfig
@@ -158,14 +216,22 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 %% A dedication must be single-spaced and
 %% centered on the page. Both will be done automatically.
 
-\begin{dedication}
-I dedicate this work to the Opossum and his noble pursuit of snacks.
-\end{dedication}
+%\begin{dedication}
+%I dedicate this work to the Opossum and his noble pursuit of snacks.
+%\end{dedication}
 
 %% If you wish to have an acknowledgment, remove the "%" in front of  \begin{acknowledgment}
 %% and remove the "%" in front of  \end{acknowledgment} below.
 \begin{acknowledgment}
-Una Salus Victis Nullam Sperare Salutem.
+Advisor: Reinhard Schwienhorst\\
+Postdoc: Binbin Dong\\
+Committee\\
+MSU group\\
+ATLAS analysis group\\
+Friend: Daniel, Grayson, Bella, Eric, Jordan\\
+Other friends: Jasper, Adam, Brittany\\
+Parents\\
+Spouse: Allen Sechrist
 \end{acknowledgment}
 
 %% If you wish to have a preface, remove the "%" in front of \begin{preface}

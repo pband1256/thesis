@@ -1,66 +1,57 @@
-\contentsline {chapter}{TABLE OF CONTENTS}{v}{chapter*.1}%
 \contentsline {chapter}{List of Tables}{vii}{chapter*.2}%
 \contentsline {chapter}{List of Figures}{viii}{chapter*.3}%
 \contentsline {chapter}{KEY TO ABBREVIATIONS}{ix}{section*.4}%
-\contentsline {chapter}{\numberline {Chapter 1.}\negthickspace \negthickspace Introduction}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Motivation}{1}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Analysis strategy}{1}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Profile likelihood fit}{1}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}Analysis regions}{1}{subsection.1.2.2}%
-\contentsline {chapter}{\numberline {Chapter 2.}\negthickspace \negthickspace Theoretical Overview}{2}{chapter.2}%
-\contentsline {section}{\numberline {2.1}The Standard Model}{2}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Elementary particles}{2}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Mathematical formalism}{3}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Beyond the Standard Model}{5}{subsection.2.1.3}%
-\contentsline {section}{\numberline {2.2}Four-top quark production}{5}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Collider physics}{6}{section.2.3}%
-\contentsline {chapter}{\numberline {Chapter 3.}\negthickspace \negthickspace LHC \& ATLAS Experiment}{7}{chapter.3}%
-\contentsline {section}{\numberline {3.1}The Large Hadron Collider}{7}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Overview}{7}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}LHC operations}{7}{subsection.3.1.2}%
-\contentsline {section}{\numberline {3.2}The ATLAS detector}{8}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Inner detector}{9}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Calorimeter systems}{10}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Muon spectrometer}{11}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Forward detectors}{13}{subsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.2.5}Magnetic systems}{14}{subsection.3.2.5}%
-\contentsline {subsection}{\numberline {3.2.6}Trigger \& data acquisition (TDAQ)}{14}{subsection.3.2.6}%
-\contentsline {chapter}{\numberline {Chapter 4.}\negthickspace \negthickspace Data \& Simulated Samples}{16}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Data samples}{16}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Monte Carlo samples}{16}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}\ensuremath {t\bar {t}Z'}\xspace signal samples}{16}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Background samples}{17}{subsection.4.2.2}%
-\contentsline {chapter}{\numberline {Chapter 5.}\negthickspace \negthickspace Particle Reconstruction \& Identification}{18}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Vertex \& track reconstruction}{18}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Jets}{18}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Electrons}{18}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Muons}{19}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Missing transverse momentum}{19}{section.5.5}%
-\contentsline {section}{\numberline {5.6}Topological clustering}{19}{section.5.6}%
-\contentsline {section}{\numberline {5.7}Pile-up \& overlap removal}{19}{section.5.7}%
-\contentsline {section}{\numberline {5.8}$b$-tagging}{19}{section.5.8}%
-\contentsline {subsection}{\numberline {5.8.1}GN2 algorithm}{19}{subsection.5.8.1}%
-\contentsline {chapter}{\numberline {Chapter 6.}\negthickspace \negthickspace Event Selection}{20}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Object definition}{20}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Background estimation}{20}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Fake \& non-prompt leptons}{20}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}Irreducible background}{20}{subsection.6.2.2}%
-\contentsline {section}{\numberline {6.3}Analysis regions}{20}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Control regions}{20}{subsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.3.2}Signal regions}{20}{subsection.6.3.2}%
-\contentsline {subsection}{\numberline {6.3.3}Validation region}{21}{subsection.6.3.3}%
-\contentsline {section}{\numberline {6.4}Signal extraction}{21}{section.6.4}%
-\contentsline {chapter}{\numberline {Chapter 7.}\negthickspace \negthickspace Systematic Uncertainties}{22}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Experimental uncertainties}{22}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Modeling uncertainties}{22}{section.7.2}%
-\contentsline {subsection}{\numberline {7.2.1}Signal modeling uncertainties}{22}{subsection.7.2.1}%
-\contentsline {subsection}{\numberline {7.2.2}Background modeling uncertainties}{22}{subsection.7.2.2}%
-\contentsline {chapter}{\numberline {Chapter 8.}\negthickspace \negthickspace Results}{23}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Likelihood fit}{23}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Limits}{23}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Interpretation}{23}{section.8.3}%
-\contentsline {chapter}{\numberline {Chapter 9.}\negthickspace \negthickspace Summary}{24}{chapter.9}%
-\contentsline {chapter}{\numberline {APPENDIX A.}\negthickspace \negthickspace \hskip 2em\relax Statistical analysis}{28}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Statistical inference}{28}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Hypothesis testing}{28}{section.A.2}%
-\contentsline {section}{\numberline {A.3}$\chi ^2$ template fitting}{28}{section.A.3}%
+\contentsline {chapter}{Roadmap}{1}{chapter*.5}%
+\contentsline {chapter}{\numberline {Chapter 1.}\negthickspace \negthickspace Introduction}{2}{chapter.1}%
+\contentsline {chapter}{\numberline {Chapter 2.}\negthickspace \negthickspace Theoretical Overview}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}The Standard Model}{3}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Elementary particles}{3}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Mathematical formalism}{4}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Beyond the Standard Model}{6}{subsection.2.1.3}%
+\contentsline {section}{\numberline {2.2}Four-top quark production}{6}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Collider physics}{7}{section.2.3}%
+\contentsline {chapter}{\numberline {Chapter 3.}\negthickspace \negthickspace LHC \& ATLAS Experiment}{8}{chapter.3}%
+\contentsline {section}{\numberline {3.1}The Large Hadron Collider}{8}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Overview}{8}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}LHC operations}{8}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}The ATLAS detector}{9}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Inner detector}{10}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Calorimeter systems}{11}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Muon spectrometer}{13}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Forward detectors}{15}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Magnetic systems}{15}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.6}Trigger \& data acquisition}{15}{subsection.3.2.6}%
+\contentsline {chapter}{\numberline {Chapter 4.}\negthickspace \negthickspace Data \& Simulated Samples}{17}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Data samples}{17}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Monte Carlo samples}{17}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}\ensuremath {t\bar {t}Z'}\xspace signal samples}{17}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Background samples}{18}{subsection.4.2.2}%
+\contentsline {chapter}{\numberline {Chapter 5.}\negthickspace \negthickspace Particle Reconstruction \& Identification}{19}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Primary reconstruction}{19}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Jets}{22}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Leptons}{26}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Electrons}{26}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Muons}{27}{subsection.5.3.2}%
+\contentsline {section}{\numberline {5.4}Missing transverse momentum}{27}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Pile-up \& overlap removal}{27}{section.5.5}%
+\contentsline {chapter}{\numberline {Chapter 6.}\negthickspace \negthickspace Event Selection}{28}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Object definition}{28}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Background estimation}{28}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Fake \& non-prompt leptons}{28}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Irreducible background}{28}{subsection.6.2.2}%
+\contentsline {section}{\numberline {6.3}Analysis regions}{28}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Control regions}{28}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Signal regions}{28}{subsection.6.3.2}%
+\contentsline {subsection}{\numberline {6.3.3}Validation region}{29}{subsection.6.3.3}%
+\contentsline {section}{\numberline {6.4}Signal extraction}{29}{section.6.4}%
+\contentsline {chapter}{\numberline {Chapter 7.}\negthickspace \negthickspace Systematic Uncertainties}{30}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Experimental uncertainties}{30}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Modeling uncertainties}{30}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}Signal modeling uncertainties}{30}{subsection.7.2.1}%
+\contentsline {subsection}{\numberline {7.2.2}Background modeling uncertainties}{30}{subsection.7.2.2}%
+\contentsline {chapter}{\numberline {Chapter 8.}\negthickspace \negthickspace Results}{31}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Likelihood fit}{31}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Limits}{31}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Interpretation}{31}{section.8.3}%
+\contentsline {chapter}{\numberline {Chapter 9.}\negthickspace \negthickspace Summary}{32}{chapter.9}%
+\contentsline {chapter}{References}{33}{chapter*.9}%

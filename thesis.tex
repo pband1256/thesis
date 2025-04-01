@@ -40,128 +40,41 @@
 \usepackage{adjustbox}
 \usepackage{pdfpages}
 \usepackage{longtable, tabu}
-\usepackage[colorlinks]{hyperref}
-\usepackage{tocbibind}
+\usepackage{hyperref}
+\hypersetup{
+colorlinks=true,
+allcolors=black,
+urlcolor=blue,
+citecolor=blue
+%hidelinks for plain black text
+}
+\usepackage[nottoc, numbib]{tocbibind}
 \usepackage{xspace}
 \usepackage{appendix}
 \usepackage{multicol}
 \UseRawInputEncoding
-\hypersetup{
-hidelinks
-}
 
 \usepackage{url}
 \urlstyle{same}
-\usepackage[backend=biber, bibencoding=utf8]{biblatex}
-%\bibliography{works-cited.bib}
+\usepackage[backend=bibtex,style=numeric-comp,bibencoding=utf8,natbib=true,backref]{biblatex}
+%\nocite{*}
+\DeclareFieldFormat*{title}{\mkbibitalic{#1}}
+\DeclareFieldFormat*{citetitle}{\mkbibitalic{#1}}
+\bibliography{bib/citations}
+\bibliography{bib/ANA-EXOT-2022-44-INT1.bib}
+\bibliography{bib/ATLAS.bib}
+\bibliography{bib/ATLAS-useful.bib}
+\bibliography{bib/CMS.bib}
+\bibliography{bib/ConfNotes.bib}
+\bibliography{bib/PubNotes.bib}
 %\bibliography{$HOME/Research/papers/000_bibliography.bib}
 \usepackage{subfiles}
 \usepackage{bm}
-
+\usepackage{thesis-defs}
 
 %\titleformat{\chapter}[block]{\bfseries\fontsize{22pt}{22pt}\selectfont}{\chaptertitlename~\thechapter.}{10pt}{}
 
 %\newcommand{\volume}{{\ooalign{\hfil$V$\hfil\cr\kern0.08em--\hfil\cr}}} %This command defines the "Volume Symbol," the V with a line through it. 
-%\newcommand{\hfb}{\textrm{HFB}}
-%\newcommand{\tr}{\textrm{tr}}
-% Processes
-\newcommand{\tttt}{\ensuremath{t\bar{t}t\bar{t}}\xspace}
-\newcommand{\ttjets}{\ensuremath{t\bar{t}}+jets\xspace}
-\newcommand{\ttljets}{\ensuremath{t\bar{t}+}light\xspace}
-\newcommand{\ttcjets}{\ensuremath{t\bar{t}{+}{\geq}1c}\xspace}
-\newcommand{\ttbjets}{\ensuremath{t\bar{t}{+}{\geq}1b}\xspace}
-\newcommand{\ttHF}{\ensuremath{t\bar{t}+\mathrm{HF}}\xspace}
-\newcommand{\ttH}{\ensuremath{t\bar{t}H}\xspace}
-\newcommand{\ttHA}{\ensuremath{t\bar{t}H/A}\xspace}
-\newcommand{\ttV}{\ensuremath{t\bar{t}V}\xspace}
-\newcommand{\ttW}{\ensuremath{t\bar{t}W}\xspace}
-\newcommand{\ttWW}{\ensuremath{t\bar{t}WW}\xspace}
-\newcommand{\ttVV}{\ensuremath{t\bar{t}VV}\xspace}
-\newcommand{\ttZ}{\ensuremath{t\bar{t}Z}\xspace}
-\newcommand{\ttZp}{\ensuremath{t\bar{t}Z'}\xspace}
-\newcommand{\tZq}{\ensuremath{tZq}\xspace}
-\newcommand{\tZ}{\ensuremath{tZ}\xspace}
-\newcommand{\tWZ}{\ensuremath{tWZ}\xspace}
-\newcommand{\tWZp}{\ensuremath{tWZ'}\xspace}
-\newcommand{\tjZp}{\ensuremath{tjZ'}\xspace}
-\newcommand{\ttt}{\ensuremath{ttt}\xspace}
-\newcommand{\VV}{\ensuremath{VV}\xspace}
-\newcommand{\Vjets}{\ensuremath{V+}jets\xspace}
-\newcommand{\Zp}{\ensuremath{Z'}\xspace}
-\newcommand{\pT}{\ensuremath{p_\mathrm{T}}\xspace}
-\newcommand{\ttbar}{\ensuremath{t\bar{t}}\xspace}
-\newcommand{\mtt}{\ensuremath{m_{t\bar{t}}}\xspace}
-\newcommand{\mZp}{\ensuremath{m_{Z'}}\xspace}
-\newcommand{\fb}{~\si{fb}^{-1}}
-\newcommand{\njets}{\ensuremath{N_\text{jets}}\xspace}
-\newcommand{\Ecom}{\ensuremath{\sqrt{s}}\xspace}
-\newcommand{\CRCO}{CR~Mat.~Conv.\xspace}
-\newcommand{\CRGst}{CR~Low~\ensuremath{m_{\gamma^*}}\xspace}
-\newcommand{\CRHFe}{CR~HF~e\xspace}
-\newcommand{\CRHFm}{CR~HF~\ensuremath{\mu}\xspace} 
-\newcommand{\CRttW}{CR~\ensuremath{\ttW}\xspace} 
-\newcommand{\CRttWp}{CR~\ensuremath{\ttW^{+}}\xspace}
-\newcommand{\CRttWm}{CR~\ensuremath{\ttW^{-}}\xspace}
-\newcommand{\CRonebp}{CR 1b(+)\xspace}
-\newcommand{\CRonebm}{CR 1b(-)\xspace}
-\newcommand{\CRLowGNN}{CR Low GNN\xspace}
-% generators
-\def\pythia{\textsc{Pythia8}\xspace}
-\def\pythiasix{\textsc{Pythia6}\xspace}
-\def\sherpa{\textsc{Sherpa}\xspace}
-\def\alpgen{\textsc{Alpgen}\xspace}
-\def\herwig{\textsc{Herwig}\xspace}
-\def\herwigseven{\textsc{Herwig7}\xspace}
-\def\jimmy{\textsc{JIMMY}\xspace}
-\def\menlops{\textsc{MENLOPS}\xspace}
-\def\mepsatnlo{\textsc{MEPS@NLO}\xspace}
-\def\mepsatlo{\textsc{MEPS@LO}\xspace}
-\def\mcatnlo{\textsc{MC@NLO}\xspace}
-\def\mcfm{\textsc{MCFM}\xspace}
-\def\mgamc{\textsc{MadGraph5\_aMC@NLO}\xspace}
-\def\mg{\textsc{MadGraph}\xspace}
-\def\mgpythia{\textsc{MadGraph5\_aMC@NLO}\ensuremath{+}\pythia\xspace}
-\def\ggtwovv{\textsc{gg2VV}\xspace}
-\def\vbfnlo{\textsc{VBFNLO}\xspace}
-\def\openloops{\textsc{OpenLoops}\xspace}
-\def\collier{\textsc{Collier}\xspace}
-\def\minlo{\textsc{Powheg MiNLO}\xspace}
-\def\photospp{\textsc{Photos++}\xspace}
-\def\minntchannels{\texttt{Min\_N\_TChannels}\xspace}
-\def\fxfx{\textsc{FxFx}\xspace}
-% tunes and PDF sets
-\def\cteq{\texttt{CTEQ6L1}\xspace}
-\def\ctten{\texttt{CT10}\xspace}
-\def\cttennlo{\texttt{CT10nlo}\xspace}
-\def\ctfourteennlo{\texttt{CT14nnlo}\xspace}
-\def\ctfourteennnlo{\texttt{CT14nnlo}\xspace}
-\def\nnpdfonenlo{\texttt{NNPDF3\kern -0.1em .\kern -0.1em 1NLO}\xspace}
-\def\nnpdfnnlo{\texttt{NNPDF3.0nnlo}\xspace}
-\def\nnpdfnlo{\texttt{NNPDF3.0nlo}\xspace}
-\def\nnpdftwo{\texttt{NNPDF2.3lo}\xspace}
-\def\mstw{\texttt{MSTW2008nlo}\xspace}
-\def\powheg{\textsc{Powheg}\xspace}
-\def\powhegbox{\textsc{PowhegBox}\xspace}
-\def\powhegboxRes{\textsc{PowhegBoxRes}\xspace}
-\def\powhegboxpythia{\textsc{PowhegBox}\ensuremath{+}\pythia\xspace}
-\def\powhegboxRespythia{\textsc{PowhegBoxRes}\ensuremath{+}\pythia\xspace}
-\def\vbfnlopythia{\textsc{VBFNLO}\ensuremath{+}\pythia\xspace}
-\def\powhegboxherwig{\textsc{PowhegBox}\ensuremath{+}\herwig\xspace}
-\def\powhegboxherwigseven{\textsc{PowhegBox}\ensuremath{+}\herwigseven\xspace}
-\def\amcpeight{\mgamc+\pythia}
-\def\mcatnloherwig{\textsc{MC@NLO}\ensuremath{+}\herwig\xspace}
-\def\madspin{\textsc{MadSpin}\xspace}
-\def\photos{\texttt{Photos}\xspace}
-\def\photospp{\textsc{Photos++}\xspace}
-\def\evtgen{\textsc{EvtGen}\xspace}
-\def\a14{\texttt{A14}\xspace}
-\def\auet{\texttt{AUET2}\xspace}
-\def\aznlo{\texttt{AZNLO}\xspace}
-\def\mmhtnnlo{\texttt{MMHT2014\,NNLO}\xspace}
-\def\mmhtnlo{\texttt{MMHT2014\,NLO}\xspace}
-\def\ueee{\texttt{UE-EE-5}\xspace}
-\def\Gmu{\ensuremath{G_{\mu}}\xspace}
-\def\amchseven{\mgamc+\herwigseven}
 
 %% This is the first command that must appear in your thesis.
 %% Insert packages you wish to use except setspace, subfig
@@ -176,15 +89,13 @@ hidelinks
 %% Go to http://grad.msu.edu/etd/docs/DegreeGrantingUnits.pdf
 %% and find your GRADUATE DEGREE GRANTING UNIT/PROGRAM
 %% and DEGREE.
-\unit{Physics --- Doctor of Philosophy\\
-Computational Mathematics, Science and Engineering --- Dual Major} %% Copy and paste these two items here
+\unit{Physics --- Doctor of Philosophy} %% Copy and paste these two items here
 %% separated by a dash, created by typing ---.
 %% ONLY ENTRIES FROM LIST MENTIONED ARE ACCEPTABLE!!
 
 %% Put additional preamble items here.
 
 \begin{document}
-
 \maketitlepage %%This command will produce the title page of your thesis.
 
 %% If you wish to include a "public abstract" (i.e.; in layman's terms), remove the "%"
@@ -231,7 +142,8 @@ ATLAS analysis group\\
 Friend: Daniel, Grayson, Bella, Eric, Jordan\\
 Other friends: Jasper, Adam, Brittany\\
 Parents\\
-Spouse: Allen Sechrist
+Spouse: Allen Sechrist\\
+ATLAS in general \& funding agencies
 \end{acknowledgment}
 
 %% If you wish to have a preface, remove the "%" in front of \begin{preface}
@@ -268,8 +180,75 @@ remarks
 %\end{symbols}
 %% Similarly for a list of abbreviations remove the "%" in front of
 %% \begin{abbrev} and remove the "%" in front of \end{abbrev} below.
+\makeatletter
+\newcommand{\tocfill}{\cleaders\hbox{$\m@th \mkern\@dotsep mu . \mkern\@dotsep mu$}\hfill}
+\makeatother
+\newcommand{\abbrlabel}[1]{\makebox[3cm][l]{\textbf{#1}\ \tocfill}}
+%\newcommand{\abbrlabel}[1]{\makebox[3cm][l]{\textbf{#1}\ \dotfill}}
+\newenvironment{abbreviations}{\begin{list}{}{\renewcommand{\makelabel}{\abbrlabel}}}{\end{list}}
 \begin{abbrev}
 % Type your list using a list environment here.
+Physical \& mathematical quantities
+\begin{abbreviations}
+\item[$\chi^2$] chi-squared
+\item[$\Delta R$] angular distance
+\item[$\eta$] pseudorapidity
+\item[$E_\mathrm{T}$] transverse energy
+\item[$E_\mathrm{T}^\mathrm{miss}$/MET] missing transverse energy
+\item[$\hat{H}$] Higgs oblique parameter
+\item[$I$] weak isospin
+\item[$L$] instantaneous luminosity
+\item[$\mu$] signal strength
+\item[\pT] transverse momentum
+\end{abbreviations}
+Particles
+\begin{abbreviations}
+\item[$b$] bottom quark
+\item[$pp$] proton-proton
+\item[$t/\bar{t}$] top/anti-top quark
+\item[\ttt /\tttt] three-/four-top-quark
+\item[$tW$] single-top
+\end{abbreviations}
+Acronyms
+\begin{abbreviations}
+\item[1LOS] one lepton, or two leptons of opposite charges
+\item[ATLAS] A Toroidal LHC ApparatuS
+\item[BDT] boosted decision tree
+\item[BSM] Beyond the Standard Model
+\item[CERN] European Organization for Nuclear Research
+\item[CMS] Compact Muon Solenoid
+\item[CR] control region
+\item[ECIDS] Electron Charge ID Selector
+\item[GNN] graph neural network
+\item[HLT] High-Level Trigger
+\item[ID] inner detector
+\item[JER] jet energy resolution
+\item[JES] jet energy scale
+\item[JVT] Jet Vertex Tagger
+\item[L1] Level 1
+\item[LH] likelihood
+\item[LLH] log-likelihood
+\item[LO] leading order
+\item[LAr] liquid argon
+\item[LHC] Large Hadron Collider
+\item[NF] normalization factor
+\item[NLO] next-to-leading order
+\item[NNLO] next-to-next-to-leading order
+\item[NP] nuisance parameter
+\item[OP] operating point
+\item[PS] parton shower
+\item[PDF] parton distribution function
+\item[PCBT] pseudo-continuous $b$-tagging
+\item[QED] quantum electrodynamics
+\item[QCD] quantum chromodynamics
+\item[QFT] quantum field theory
+\item[QmisID] charge mis-identification
+\item[SF] scale factor
+\item[SM] Standard Model
+\item[SR] signal region
+\item[SSML] two leptons of the same charge, or more than two leptons (multilepton)
+\item[TDAQ] Trigger and Data Acquisition
+\end{abbreviations}
 \end{abbrev}
 %% The list will be included in the TOC as
 %% KEY TO SYMBOLS or KEY TO ABBREVIATIONS
@@ -293,6 +272,29 @@ remarks
 %%copy this block to create more chapters
 %---------------------------------------------------------------------------------
 %---------------------------------------------------------------------------------
+
+\chapter*{Roadmap}
+\addcontentsline{toc}{chapter}{Roadmap}
+\begin{enumerate}
+\item Finish adding bullets for all sections \dotfill 04/04
+	\begin{itemize} Remaining
+	\item introduction
+	\item higgs-top yukawa coupling, SMEFT \& Higgs oblique parameter
+	\item collider physics
+	\item mc background samples
+	\item ttbar/ptrel/high pT calibration \& results
+	\end{itemize}
+\item Fill in details \dotfill 04/18
+	\begin{itemize}
+	\item Add missing figures
+	\item Add missing bib
+	\end{itemize}
+\item Finalize analysis \dotfill 04/30
+\item String everything together
+\item Miscellaneous/logistics (proofreading, review, ATLAS approval, etc.) \dotfill 05/15
+\item Submission to the graduate school \dotfill 05/16
+\item Defense \dotfill 05/30
+\end{enumerate}
 
 \chapter{Introduction}
 \label{chap:intro}
@@ -339,7 +341,19 @@ remarks
 %Here ends the body of your dissertation.
 %###############################################################################################
 
-
+%\begin{figure}[!htbp]
+%\begin{center}
+%\subcaptionbox{}{
+%\includegraphics[width=0.35\linewidth]{figures/signals/ttHA/m400_w5_event_Inclusive_HT_normalized.pdf}}
+%\subcaptionbox{}{
+%\includegraphics[width=0.35\linewidth]{figures/signals/ttHA/m1000_w30_event_Inclusive_HT_normalized.pdf}}
+%\subcaptionbox{}{
+%\includegraphics[width=0.35\linewidth]{figures/signals/ttHA/m400_w5_parton_Inclusive_InvM_ttbar_1_normalize.pdf}}
+%\subcaptionbox{}{
+%\includegraphics[width=0.35\linewidth]{figures/signals/ttHA/m1000_w30_parton_Inclusive_InvM_ttbar_1_normalize.pdf}}
+%\caption{\label{fig:setup_change} Kinematics comparison before and after aligning with the SM $t\Bar{t}t\Bar{t}$ sample. (a),(b): $H_T$, (c),(d): $t\Bar{t}$ invariant mass. The change of kinematics is mostly due to the change of dynamical scale choice from $H_T$ to $H_T/4$.}
+%\end{center}
+%\end{figure}
 
 
 %%%%%% LANDSCAPE PAGES  %%%%%%
@@ -363,12 +377,13 @@ remarks
 %% instead of �BIBLIOGRAPHY� if that is the convention in your discipline.
 %% To do so, copy and paste your choice into the empty argument
 %% of the following command and remove the "%".
-%%\renewcommand{\bibname}{Bibliography}
+%\renewcommand{\bibname}{References}
 %% The bibliography may be made using BibTeX.
 %% To do so the necessary commands must be entered in the
 %%uncomment the following two lines.
 %\bibliographystyle{ieeetr}
-\printbibliography
+
+\printbibliography[heading=bibintoc,title={References}]
 
 
 %% If the Bibliography is made from scratch,
@@ -413,9 +428,9 @@ remarks
 %Copy this block to add additional Appendices. It contains the requisite spacing commands. 
 %---------------------------------------------------------------------------------
 %---------------------------------------------------------------------------------
-\chapter{\qquad Statistical analysis}
-\label{appendix:stat}
-\subfile{chapters/appendix-A}
+%\chapter{\qquad Statistical analysis}
+%\label{appendix:stat}
+%\subfile{chapters/appendix-A}
 
 
 }%End format appendices block

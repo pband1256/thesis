@@ -1,16 +1,71 @@
-[0] Config.pm:307> INFO - This is Biber 2.17
-[0] Config.pm:310> INFO - Logfile is 'thesis.blg'
-[39] biber:340> INFO - === Mon Dec 16, 2024, 11:49:10
-[46] Biber.pm:418> INFO - Reading 'thesis.bcf'
-[77] Biber.pm:972> INFO - Found 11 citekeys in bib section 0
-[84] Biber.pm:4383> INFO - Processing section 0
-[88] Biber.pm:4574> INFO - Looking for bibtex file '$HOME/Research/papers/000_bibliography.bib' for section 0
-[159] bibtex.pm:1713> INFO - LaTeX decoding ...
-[167] bibtex.pm:1518> INFO - Found BibTeX data source '/home/daniel/Research/papers/000_bibliography.bib'
-[249] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[249] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[249] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[249] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
-[257] bbl.pm:654> INFO - Writing 'thesis.bbl' with encoding 'ascii'
-[257] bbl.pm:655> INFO - Converting UTF-8 to TeX macros on output to .bbl
-[271] bbl.pm:757> INFO - Output to thesis.bbl
+This is BibTeX, Version 0.99d (TeX Live 2022)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: thesis.aux
+The style file: biblatex.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: thesis-blx.bib
+Database file #2: bib/citations.bib
+Database file #3: bib/ANA-EXOT-2022-44-INT1.bib
+Database file #4: bib/ATLAS.bib
+Database file #5: bib/ATLAS-useful.bib
+Database file #6: bib/CMS.bib
+Database file #7: bib/ConfNotes.bib
+Database file #8: bib/PubNotes.bib
+Biblatex version: 3.17
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 20 entries,
+            6399 wiz_defined-function locations,
+            1336 strings with 14803 characters,
+and the built_in function-call counts, 257414 in all, are:
+= -- 23231
+> -- 2480
+< -- 542
++ -- 8590
+- -- 1038
+* -- 18647
+:= -- 32906
+add.period$ -- 0
+call.type$ -- 20
+change.case$ -- 279
+chr.to.int$ -- 45
+cite$ -- 38
+duplicate$ -- 27138
+empty$ -- 21155
+format.name$ -- 1913
+if$ -- 49622
+int.to.chr$ -- 0
+int.to.str$ -- 66
+missing$ -- 0
+newline$ -- 1067
+num.names$ -- 952
+pop$ -- 7937
+preamble$ -- 1
+purify$ -- 492
+quote$ -- 0
+skip$ -- 3812
+stack$ -- 0
+substring$ -- 45213
+swap$ -- 3840
+text.length$ -- 570
+text.prefix$ -- 33
+top$ -- 1
+type$ -- 664
+warning$ -- 0
+while$ -- 4074
+width$ -- 0
+write$ -- 1048

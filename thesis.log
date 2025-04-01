@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.20)  12 MAR 2025 18:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.20)  1 APR 2025 16:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -496,7 +496,6 @@ File: puenc.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 4018.
 Package hyperref Info: Hyper figures OFF on input line 4137.
 Package hyperref Info: Link nesting OFF on input line 4142.
 Package hyperref Info: Hyper index ON on input line 4145.
@@ -527,7 +526,7 @@ Package hyperref Info: Hyper figures OFF on input line 6027.
 Package hyperref Info: Link nesting OFF on input line 6032.
 Package hyperref Info: Hyper index ON on input line 6035.
 Package hyperref Info: backreferencing OFF on input line 6042.
-Package hyperref Info: Link coloring ON on input line 6045.
+Package hyperref Info: Link coloring OFF on input line 6047.
 Package hyperref Info: Link coloring with OCG OFF on input line 6052.
 Package hyperref Info: PDF/A mode OFF on input line 6057.
 LaTeX Info: Redefining \ref on input line 6097.
@@ -564,7 +563,9 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
 \Hy@SectionHShift=\skip109
-) (/usr/local/texlive/2022/texmf-dist/tex/latex/tocbibind/tocbibind.sty
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 50.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/tocbibind/tocbibind.sty
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
 Package tocbibind Info: The document has chapter divisions on input line 50.
 
@@ -725,6 +726,8 @@ Package biblatex Info: ... file 'blx-dm.def' found.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/blx-dm.def
 File: blx-dm.def 2022/02/02 v3.17 biblatex localization (PK/MW)
 )
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'numeric-comp.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@afterword=\count378
@@ -815,10 +818,20 @@ Package biblatex Info: ... file 'blx-compat.def' found.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/blx-compat.def
 File: blx-compat.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
 )
+Package biblatex Info: Trying to load BibTeX backend compatibility...
+Package biblatex Info: ... file 'blx-bibtex.def' found.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/blx-bibtex.def
+File: blx-bibtex.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
+
+
+Package biblatex Warning: Using fall-back BibTeX(8) backend:
+(biblatex)                functionality may be reduced/unavailable.
+
+)
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/biblatex.def
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
 \c@textcitecount=\count446
 \c@textcitetotal=\count447
@@ -834,6 +847,19 @@ File: biblatex.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
 \biburllcskip=\muskip21
 \c@smartand=\count454
 )
+Package biblatex Info: Trying to load natbib compatibility...
+Package biblatex Info: ... file 'blx-natbib.def' found.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/blx-natbib.def
+File: blx-natbib.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
+Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
+ overwriting.
+)
+Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.bbx' found.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
+File: numeric-comp.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
 
@@ -846,12 +872,16 @@ Package biblatex Info: ... file 'standard.bbx' found.
 File: standard.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
 \c@bbx:relatedcount=\count455
 \c@bbx:relatedtotal=\count456
-))
-Package biblatex Info: Trying to load citation style 'numeric'...
-Package biblatex Info: ... file 'numeric.cbx' found.
+)))
+Package biblatex Info: Trying to load citation style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.cbx' found.
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
-File: numeric.cbx 2022/02/02 v3.17 biblatex citation style (PK/MW)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
+File: numeric-comp.cbx 2022/02/02 v3.17 biblatex citation style (PK/MW)
+\c@cbx@tempcnta=\count457
+\c@cbx@tempcntb=\count458
+\c@cbx@tempcntc=\count459
+\c@cbx@tempcntd=\count460
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -893,36 +923,35 @@ Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
 Package bm Info: No bold for \U/msa/m/n, using \pmb.
 Package bm Info: No bold for \U/msb/m/n, using \pmb.
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
-)
-\@quotelevel=\count457
-\@quotereset=\count458
-
+) (./thesis-defs.sty)
+\@quotelevel=\count461
+\@quotereset=\count462
 (/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count459
+\l__color_backend_stack_int=\count463
 \l__pdf_internal_box=\box116
 )
 (./thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 186.
-LaTeX Font Info:    ... okay on input line 186.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 186.
-LaTeX Font Info:    ... okay on input line 186.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 186.
-LaTeX Font Info:    ... okay on input line 186.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 186.
-LaTeX Font Info:    ... okay on input line 186.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 186.
-LaTeX Font Info:    ... okay on input line 186.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 186.
-LaTeX Font Info:    ... okay on input line 186.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 186.
-LaTeX Font Info:    ... okay on input line 186.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 186.
-LaTeX Font Info:    ... okay on input line 186.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 186.
-LaTeX Font Info:    ... okay on input line 186.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -960,16 +989,16 @@ LaTeX Font Info:    ... okay on input line 186.
 
 (/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count460
+\scratchcounter=\count464
 \scratchdimen=\dimen281
 \scratchbox=\box117
-\nofMPsegments=\count461
-\nofMParguments=\count462
+\nofMPsegments=\count465
+\nofMParguments=\count466
 \everyMPshowfont=\toks36
-\MPscratchCnt=\count463
+\MPscratchCnt=\count467
 \MPscratchDim=\dimen282
-\MPnumerator=\count464
-\makeMPintoPDFobject=\count465
+\MPnumerator=\count468
+\makeMPintoPDFobject=\count469
 \everyMPtoPDFconversion=\toks37
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -989,7 +1018,7 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 186.
+Package hyperref Info: Link coloring ON on input line 98.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1001,11 +1030,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count466
+\c@section@level=\count470
 )
-LaTeX Info: Redefining \ref on input line 186.
-LaTeX Info: Redefining \pageref on input line 186.
-LaTeX Info: Redefining \nameref on input line 186.
+LaTeX Info: Redefining \ref on input line 98.
+LaTeX Info: Redefining \pageref on input line 98.
+LaTeX Info: Redefining \nameref on input line 98.
  (./thesis.out) (./thesis.out)
 \@outlinefile=\write4
 \openout4 = `thesis.out'.
@@ -1020,21 +1049,41 @@ Package biblatex Info: No input encoding detected.
 (biblatex)             Assuming 'ascii'.
 Package biblatex Info: Data encoding 'utf8' specified.
 (biblatex)             Backend will reencode on the fly.
-\openout3 = `thesis.bcf'.
+Package biblatex Info: No input encoding detected.
+(biblatex)             Assuming 'ascii'.
+Package biblatex Info: Data encoding 'utf8' specified.
+(biblatex)             Backend will reencode on the fly.
+\openout3 = `thesis-blx.bib'.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'thesis.bbl' found.
 
-(./thesis.bbl)
-Package biblatex Info: Reference section=0 on input line 186.
-Package biblatex Info: Reference segment=0 on input line 186.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 188
-.
+(./thesis.bbl
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'ftag:ttbar':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'reco:track_chi2':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'reco:oi':
+(biblatex)                - Invalid format of field 'month'.
+
+)
+Package biblatex Info: Reference section=0 on input line 98.
+Package biblatex Info: Reference segment=0 on input line 98.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 99.
+
  (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 188
-.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 99.
+
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1046,12 +1095,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (./thesis.toc [5
 
 
-]
-Overfull \hbox (14.19379pt too wide) detected at line 63
-\OT1/cmr/bx/n/12 APPENDIX A. 
- []
-
-)
+])
 \tf@toc=\write5
 \openout5 = `thesis.toc'.
 
@@ -1074,162 +1118,169 @@ Overfull \hbox (14.19379pt too wide) detected at line 63
 ] [9
 
 
-]
-Chapter 1.
+] [10] [11]
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <22> not available
-(Font)              size <20.74> substituted on input line 297.
+(Font)              size <20.74> substituted on input line 276.
 
-(./chapters/chapter-1.tex)
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.301 \chapter
-              {Theoretical Overview} [1
+l.299 \chapter
+              {Introduction} [1
+
+]
+Chapter 1.
+(./chapters/chapter-1.tex) [2
 
 ]
 Chapter 2.
-(./chapters/chapter-2.tex [2
+(./chapters/chapter-2.tex [3
 
 ]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no © in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no © in font cmr12!
-[3] [4] [5]) [6]
+[4] [5] [6]) [7]
 Chapter 3.
 (./chapters/chapter-3.tex
 Underfull \hbox (badness 10000) in paragraph at lines 21--29
 
  []
 
-[7
+[8
 
-] [8] [9]
-Underfull \hbox (badness 10000) in paragraph at lines 92--94
+] [9] [10]
+Underfull \hbox (badness 10000) in paragraph at lines 93--95
 
  []
 
-[10]
-Underfull \hbox (badness 6859) in paragraph at lines 99--100
+[11]
+Underfull \hbox (badness 6859) in paragraph at lines 100--101
 []\OT1/cmr/m/n/12 end-cap di-vided into outer wheel
  []
 
 
-Underfull \hbox (badness 6526) in paragraph at lines 112--113
+Underfull \hbox (badness 6526) in paragraph at lines 113--114
 []\OT1/cmr/m/n/12 tile calorime-ters: steel-plastic
  []
 
-[11] [12] [13]
-Underfull \hbox (badness 10000) in paragraph at lines 180--182
+[12] [13] [14]
+Underfull \hbox (badness 10000) in paragraph at lines 181--183
 
  []
 
-[14]) [15]
+[15]) [16]
 Chapter 4.
-(./chapters/chapter-4.tex) [16
+(./chapters/chapter-4.tex) [17
 
-] [17]
+] [18]
 Chapter 5.
 (./chapters/chapter-5.tex
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
+<fig/reco_topo1.png, id=443, 438.63875pt x 335.2525pt>
+File: fig/reco_topo1.png Graphic file (type png)
+<use fig/reco_topo1.png>
+Package pdftex.def Info: fig/reco_topo1.png  used on input line 24.
+(pdftex.def)             Requested size: 469.75502pt x 359.04402pt.
+ [19
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 30--33
+
+ []
+
+[20 <./fig/reco_topo1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 35--42
 
  []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 18.
+Underfull \hbox (badness 10000) in paragraph at lines 48--52
+
+ []
+
+[21] [22] [23]
+Underfull \hbox (badness 10000) in paragraph at lines 84--97
+
+ []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 18.
+Underfull \hbox (badness 10000) in paragraph at lines 84--97
 
-[18
+ []
 
-]) [19]
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--97
+
+ []
+
+<fig/ftag_gn2.png, id=488, 1069.9975pt x 284.06125pt>
+File: fig/ftag_gn2.png Graphic file (type png)
+<use fig/ftag_gn2.png>
+Package pdftex.def Info: fig/ftag_gn2.png  used on input line 104.
+(pdftex.def)             Requested size: 469.75502pt x 124.70992pt.
+[24]
+Underfull \hbox (badness 10000) in paragraph at lines 117--120
+
+ []
+
+[25 <./fig/ftag_gn2.png>]
+<fig/reco_electron.png, id=512, 770.88pt x 405.515pt>
+File: fig/reco_electron.png Graphic file (type png)
+<use fig/reco_electron.png>
+Package pdftex.def Info: fig/reco_electron.png  used on input line 126.
+(pdftex.def)             Requested size: 469.75502pt x 247.11008pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--134
+
+ []
+
+[26]) [27 <./fig/reco_electron.png>]
 Chapter 6.
-(./chapters/chapter-6.tex) [20
+(./chapters/chapter-6.tex) [28
 
-] [21]
+] [29]
 Chapter 7.
-(./chapters/chapter-8.tex) [22
+(./chapters/chapter-8.tex) [30
 
 ]
 Chapter 8.
-(./chapters/chapter-9.tex) [23
+(./chapters/chapter-9.tex) [31
 
 ]
 Chapter 9.
-(./chapters/chapter-10.tex) [24
+(./chapters/chapter-10.tex) [32
+
+] [33
 
 ]
-Overfull \hbox (6.64735pt too wide) in paragraph at lines 372--372
-[]\OT1/cmr/m/n/12 Michael Ben-der, Paul-Henri Hee-nen, and Paul-Gerhard Rein-ha
-rd. ``Self-consistent mean-
- []
-
-[25
-
-]
-Overfull \hbox (9.17265pt too wide) in paragraph at lines 372--372
-[]\OT1/cmr/m/n/12 M.V. Stoitsov et al. ``Ax-i-ally de-formed so-lu-tion of the 
-Skyrme--Hartree--Fock--Bogolyubov
- []
-
-[26] [27]
-APPENDIX A.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \hskip 23.49976pt
-(hyperref)                replaced by space on input line 416.
-
-(./chapters/appendix-A.tex
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 8.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\chi' on input line 8.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 8.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 8.
-
-) [28
-
-] (./thesis.aux)
+Missing character: There is no Ï in font cmti12!
+Missing character: There is no ‡ in font cmti12!
+[34]
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¼ in font cmr12!
+[35] [36] (./thesis.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.26pt have occurred.
 
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: D4A670F03109382DC93C77E5EDA8776F;10440.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                thesis
-(biblatex)                and rerun LaTeX afterwards.
-
+(rerunfilecheck)             Checksum: BCDB431182B03FDDBC56C3001920B238;8852.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23770 strings out of 478268
- 409450 string characters out of 5846347
- 1126217 words of memory out of 5000000
- 41521 multiletter control sequences out of 15000+600000
- 481448 words of font info for 72 fonts, out of 8000000 for 9000
+ 24093 strings out of 478268
+ 417307 string characters out of 5846347
+ 1094187 words of memory out of 5000000
+ 41806 multiletter control sequences out of 15000+600000
+ 480103 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,7n,90p,1151b,1404s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 85i,7n,90p,1865b,1822s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
@@ -1239,12 +1290,14 @@ usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
 sr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
 /local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/l
 ocal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
-cal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/loc
-al/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on thesis.pdf (37 pages, 182519 bytes).
+cal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/loc
+al/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/loca
+l/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local
+/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on thesis.pdf (47 pages, 606244 bytes).
 PDF statistics:
- 620 PDF objects out of 1000 (max. 8388607)
- 555 compressed objects within 6 object streams
- 115 named destinations out of 1000 (max. 500000)
- 529 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 711 PDF objects out of 1000 (max. 8388607)
+ 622 compressed objects within 7 object streams
+ 134 named destinations out of 1000 (max. 500000)
+ 472 words of extra memory for PDF output out of 10000 (max. 10000000)
 

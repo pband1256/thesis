@@ -41,10 +41,11 @@
   >
 ]>
 <requests version="1.0">
-  <internal package="biblatex" priority="9" active="1">
+  <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>thesis.bcf</file>
+      <file>thesis.aux</file>
+      <file>thesis-blx.bib</file>
     </provides>
     <requires type="dynamic">
       <file>thesis.bbl</file>
@@ -52,22 +53,26 @@
     <requires type="static">
       <file>blx-dm.def</file>
       <file>blx-compat.def</file>
+      <file>blx-bibtex.def</file>
       <file>biblatex.def</file>
+      <file>blx-natbib.def</file>
       <file>standard.bbx</file>
       <file>numeric.bbx</file>
-      <file>numeric.cbx</file>
+      <file>numeric-comp.bbx</file>
+      <file>numeric-comp.cbx</file>
       <file>biblatex.cfg</file>
       <file>english.lbx</file>
     </requires>
   </internal>
-  <external package="biblatex" priority="5" active="1">
-    <generic>biber</generic>
+  <external package="biblatex" priority="5" active="0">
+    <generic>bibtex</generic>
     <cmdline>
-      <binary>biber</binary>
+      <binary>bibtex</binary>
+      <option>-min-crossrefs 2</option>
       <infile>thesis</infile>
     </cmdline>
     <input>
-      <file>thesis.bcf</file>
+      <file>thesis.aux</file>
     </input>
     <output>
       <file>thesis.bbl</file>
@@ -76,7 +81,20 @@
       <file>thesis.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>thesis.bcf</file>
+      <file>thesis.aux</file>
+      <file>thesis-blx.bib</file>
+    </requires>
+    <requires type="editable">
+      <file>bib/citations.bib</file>
+      <file>bib/ANA-EXOT-2022-44-INT1.bib</file>
+      <file>bib/ATLAS.bib</file>
+      <file>bib/ATLAS-useful.bib</file>
+      <file>bib/CMS.bib</file>
+      <file>bib/ConfNotes.bib</file>
+      <file>bib/PubNotes.bib</file>
+    </requires>
+    <requires type="static">
+      <file>biblatex.bst</file>
     </requires>
   </external>
 </requests>

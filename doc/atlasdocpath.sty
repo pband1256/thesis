@@ -1,0 +1,23 @@
+%-------------------------------------------------------------------------------
+% Sets the PATH where ATLAS LaTeX style files can be found
+%
+% See ChangeLog or Git log for history of changes.
+% Responsible: Ian Brock (ian.brock@cern.ch)
+%
+% Note that this file can be overwritten when atlaslatex is updated.
+%
+% Copyright (C) 2002-2022 CERN for the benefit of the ATLAS collaboration
+%-------------------------------------------------------------------------------
+\ProvidesPackage{../atlasdocpath}[2022/03/14 v13.0.0 ATLAS LaTeX path]
+\NeedsTeXFormat{LaTeX2e}
+
+% TeX Live 2020 also provides the command \IfFormatAtLeastTF
+\providecommand\IfFormatAtLeastTF{\@ifl@t@r\fmtversion}
+
+%-------------------------------------------------------------------------------
+% As of TeX Live 2020 the slash is not needed after the directory name.
+\IfFormatAtLeastTF{2020/10/01}{%
+  \def\input@path{{..}{../../latex}}
+}{
+  \def\input@path{{../}{../../latex/}}
+}

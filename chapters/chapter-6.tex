@@ -3,27 +3,107 @@
 \begin{document}
 \vspace{-1\baselineskip}
 
-[event selection criteria]
+Events for the analysis first are preselected following a list of criteria to optimize for event quality and background rejection.\\
+The criteria are applied sequentially, from top to bottom
+
+\begin{enumerate}
+\item \textbf{Good Run List (GRL)}: data events must be part of a predefined list of suitable runs and luminosity blocks.
+\item \textbf{Calorimeter cleaning}: events containing signal hits indicating an error in the calorimeter are removed.
+\item \textbf{Primary vertex}: events must have at least one reconstructed vertex matched to 2 or more associated tracks with $\pT>500$ MeV.
+\item \textbf{Trigger}: events must be selected by at least one trigger documented in \autoref{sec:trigsec}.
+\item \textbf{Jet cleaning}: events must pass the LooseBad WP for jet cleaning using jets passing preselection criteria in \autoref{sec:objdef}. This is done to remove events with significant number of calorimeter hits from non-prompt sources (e.g. instrumental effects, cosmic ray background, non-collision particles)
+\item \textbf{Bad muon veto}: events are removed if they contain at least one muon before overlap removal with insufficient \pT resolution.
+\item \textbf{Kinematic selection}: events must have exactly two Tight leptons with the same electric charge, or at lease three Tight leptons of any charge. The leading lepton must have $\pT>28$ GeV, and all leptons must satisfy $\pT>15$ GeV.
+\end{enumerate}
+
+Events are separated into two channels based on the number of leptons: same-sign di-lepton (SS2L) for events with exactly two leptons of the same charge, or multilepton (ML) for events with three or more leptons.\\
+Further selections are applied based on the lepton flavors present. In the SS2L channel, if both leptons are electrons, the invariant mass $m_{ll}$ must satisfy $m_{ll}<81$ GeV and $m_{ll}>101$ GeV to suppress background involving $Z$-bosons. In the ML channel, the same criteria must be satisfied for every opposite-sign same-flavor pair of leptons in an event.
+\subsection*{Lepton \pT cut}
+
+
 \section{Object definition}
 \label{sec:objdef}
-[lepton pt cut study here]
-\section{Background estimation}
-\label{sec:bg}
-\subsection{Fake \& non-prompt leptons}
-\subsection{Irreducible background}
-\section{Analysis regions}
-\label{sec:regions}
-\subsection{Control regions}
-\subsubsection*{$t\bar{t}W$ CRs}
-\subsection{Signal regions}
-[include blinding strategy]
-\subsection{Validation region}
 
-\section{Signal extraction}
-\label{sec:mva}
-\subsection*{SM MVA}
-\subsection*{BSM MVA}
+(electrons, muons, jets)\\
+Jets are reconstructed using particle-flow method with anti-$k_t$ algorithm, using radius parameter $\Delta R=0.4$.\\
+Each selection comes with associated calibration scale factors to account for discrepancies between data and MC simulation, and are applied multiplicatively to the MC event weights.
 
+\begin{table}[!ht]
+\centering
+\begin{tabular}{l|cccc}
+\toprule\toprule
+Selection							& Electrons	& Muons	& Jets	\\
+\midrule
+\midrule
+\multirow{ 2}{*}{\pT [GeV]}
+	& $>15$ 					& $>15$ 	& $>20$ \\
+	& $\pT (l_0)>28$ & & &  \\
+\midrule
+\multirow{ 2}{*}{$|\eta|$}
+	& $1.52\leq|\eta|<2.47$ 	& $<2.5$ 	& $<2.5$ \\
+	& $<1.37$ & & &  \\
+\midrule
+\multirow{ 2}{*}{Identification}
+	& \verb|TightLH| 							& \verb|Medium| & NNJvt \verb|FixedEffPt| \\
+	& pass \verb|ECIDS| ($ee$/$e\mu$) & 	& ($\pT<60$, $|\eta|<2.4$) \\
+\midrule
+Isolation
+	& \verb|Tight_VarRad| 	& \verb|PflowTight_VarRad| 	& \\
+\midrule
+Track-vertex assoc. & & & \\
+\hspace{3mm} $|d_0^{\mathrm{BL}}(\sigma)|$ 
+	& $<5$ 		& $<3$ 		& \\
+\hspace{3mm} $|\Delta z_0^{\mathrm{BL}}\sin\theta|$ [mm]
+	& $<0.5$ 	& $<0.5$ 	& \\
+\end{tabular}
+\caption{\label{sel:obj}Caption}%
+\end{table}
+
+Jets containing $b$-hadrons are identified and tagged with the \verb|GN2v01| algorithm, described in \autoref{sec:btag}. For this analysis, a jet is considered $b$-tagged if it passes the 85\% WP; this gives the best sensitivity to the signal as shown in \autoref{sec:btagopt}. A \acs{PCBT} score is used to quantify the complete output of the $b$-tagging process for a qualifying jet, with values ranging from 1 to 6 corresponding respectively to the jet not passing any WP, to the jet passing all five WPs.\\
+
+The \acs{ETmiss} reconstruction also applies the NNJvt algorithm to jets, and uses the Tight WP for this analysis.\\
+
+\subsection*{$b$-tagging optimization}
+\label{sec:btagopt}
+(WP optimization study)
+
+
+\section{Trigger selection}
+\label{sec:trigsec}
+
+\begin{table}[!ht]
+\centering
+\begin{tabular}{p{9cm}|cccc}
+\toprule\toprule
+\multicolumn{1}{c|}{\multirow{ 2}{*}{Trigger}}	& \multicolumn{4}{c}{Data period} \\
+\multicolumn{1}{c|}{}							& 2015	& 2016	& 2017	& 2018 \\
+\midrule
+\multicolumn{5}{c}{Single electron triggers} \\
+\midrule
+\verb|HLT_e24_lhmedium_L1EM20VH| 		& \checkmark & - & - & - \\
+\verb|HLT_e60_lhmedium|					& \checkmark & - & - & - \\
+\verb|HLT_e120_lhloose|					& \checkmark & - & - & - \\
+\verb|HLT_e26_lhtight_nod0_ivarloose|	& - & \checkmark & \checkmark & \checkmark \\
+\verb|HLT_e60_lhmedium_nod0|			& - & \checkmark & \checkmark & \checkmark \\
+\verb|HLT_e140_lhloose_nod0|			& - & \checkmark & \checkmark & \checkmark \\
+\midrule
+\multicolumn{5}{c}{Di-electron triggers} \\
+\midrule
+\verb|HLT_2e12_lhloose_L12EM10VH |		& \checkmark & - & - & - \\
+\verb|HLT_2e17_lhvloose_nod0| 			& - & \checkmark & - & - \\
+\verb|HLT_2e24_lhvloose_nod0| 			& - & - & \checkmark & \checkmark \\
+\verb|HLT_2e17_lhvloose_nod0_L12EM15VHI| 	& - & - & - & \checkmark \\
+\midrule
+\multicolumn{5}{c}{Single muon trigger} \\
+\midrule
+\verb|HLT_mu20_iloose_L1MU15| 			& \checkmark & - & - & - \\
+\verb|HLT_mu40|							& \checkmark & - & - & - \\
+\verb|HLT_mu26_ivarmedium| 				& - & \checkmark & \checkmark & \checkmark \\
+\verb|HLT_mu50|							& - & \checkmark & \checkmark & \checkmark \\
+\bottomrule\bottomrule
+\end{tabular}
+\caption{\label{sel:trigger}Caption}%
+\end{table}
 
 
 \end{document}

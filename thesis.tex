@@ -35,10 +35,14 @@
 
 \documentclass{msuphddissertation}
 \usepackage{graphicx,float,wrapfig}
-\usepackage{amsmath, tabularx, amssymb}
+\usepackage{tabularx, amssymb}
+\usepackage{amsmath}
+\usepackage{mathtools}
 \usepackage{subfig}
 \usepackage{adjustbox}
 \usepackage{pdfpages}
+\usepackage{acronym}
+\usepackage{booktabs}
 \usepackage{longtable, tabu}
 \usepackage{hyperref}
 \hypersetup{
@@ -50,8 +54,9 @@ citecolor=blue
 }
 \usepackage[nottoc, numbib]{tocbibind}
 \usepackage{xspace}
+\usepackage{relsize}
 \usepackage{appendix}
-\usepackage{multicol}
+\usepackage{multicol, multirow}
 \UseRawInputEncoding
 
 \usepackage{url}
@@ -71,6 +76,8 @@ citecolor=blue
 \usepackage{subfiles}
 \usepackage{bm}
 \usepackage{thesis-defs}
+\setcounter{tocdepth}{5}
+\setcounter{secnumdepth}{5}
 
 %\titleformat{\chapter}[block]{\bfseries\fontsize{22pt}{22pt}\selectfont}{\chaptertitlename~\thechapter.}{10pt}{}
 
@@ -180,75 +187,74 @@ remarks
 %\end{symbols}
 %% Similarly for a list of abbreviations remove the "%" in front of
 %% \begin{abbrev} and remove the "%" in front of \end{abbrev} below.
-\makeatletter
-\newcommand{\tocfill}{\cleaders\hbox{$\m@th \mkern\@dotsep mu . \mkern\@dotsep mu$}\hfill}
-\makeatother
-\newcommand{\abbrlabel}[1]{\makebox[3cm][l]{\textbf{#1}\ \tocfill}}
-%\newcommand{\abbrlabel}[1]{\makebox[3cm][l]{\textbf{#1}\ \dotfill}}
-\newenvironment{abbreviations}{\begin{list}{}{\renewcommand{\makelabel}{\abbrlabel}}}{\end{list}}
+
+%\acro{chi2}[$\chi^2$]{chi-squared}
+%\acs{chi2}=$\chi^2$
+%\acl{chi2}=chi-squared
 \begin{abbrev}
 % Type your list using a list environment here.
 Physical \& mathematical quantities
-\begin{abbreviations}
-\item[$\chi^2$] chi-squared
-\item[$\Delta R$] angular distance
-\item[$\eta$] pseudorapidity
-\item[$E_\mathrm{T}$] transverse energy
-\item[$E_\mathrm{T}^\mathrm{miss}$/MET] missing transverse energy
-\item[$\hat{H}$] Higgs oblique parameter
-\item[$I$] weak isospin
-\item[$L$] instantaneous luminosity
-\item[$\mu$] signal strength
-\item[\pT] transverse momentum
-\end{abbreviations}
+\begin{acronym}
+	\acro{chi2}[$\chi^2$]{chi-squared}
+	\acro{dR}[$\Delta R$]{angular distance}
+	\acro{eta}[$\eta$]{pseudorapidity}
+	\acro{ET}[$E_\mathrm{T}$]{transverse energy}
+	\acro{ETmiss}[$E_\mathrm{T}^\mathrm{miss}$]{missing transverse momentum}
+	\acro{higgsobl}[$\hat{H}$]{Higgs oblique parameter}
+	\acro{isospin}[$I$]{weak isospin}
+	\acro{lumi}[$L$]{instantaneous luminosity}
+	\acro{mu}[$\mu$]{signal strength}
+	\acro{pT}[\pT]{transverse momentum}
+\end{acronym}
 Particles
-\begin{abbreviations}
-\item[$b$] bottom quark
-\item[$pp$] proton-proton
-\item[$t/\bar{t}$] top/anti-top quark
-\item[\ttt /\tttt] three-/four-top-quark
-\item[$tW$] single-top
-\end{abbreviations}
+\begin{acronym}
+\acro{b}[$b$]{bottom quark}
+\acro{pp}[$pp$]{proton-proton}
+\acro{ttbar}[\ttbar]{top/anti-top quark}
+\acro{tttt}[\tttt]{four-top-quark}
+\acro{tW}[$tW$]{single-top}
+\end{acronym}
 Acronyms
-\begin{abbreviations}
-\item[1LOS] one lepton, or two leptons of opposite charges
-\item[ATLAS] A Toroidal LHC ApparatuS
-\item[BDT] boosted decision tree
-\item[BSM] Beyond the Standard Model
-\item[CERN] European Organization for Nuclear Research
-\item[CMS] Compact Muon Solenoid
-\item[CR] control region
-\item[ECIDS] Electron Charge ID Selector
-\item[GNN] graph neural network
-\item[HLT] High-Level Trigger
-\item[ID] inner detector
-\item[JER] jet energy resolution
-\item[JES] jet energy scale
-\item[JVT] Jet Vertex Tagger
-\item[L1] Level 1
-\item[LH] likelihood
-\item[LLH] log-likelihood
-\item[LO] leading order
-\item[LAr] liquid argon
-\item[LHC] Large Hadron Collider
-\item[NF] normalization factor
-\item[NLO] next-to-leading order
-\item[NNLO] next-to-next-to-leading order
-\item[NP] nuisance parameter
-\item[OP] operating point
-\item[PS] parton shower
-\item[PDF] parton distribution function
-\item[PCBT] pseudo-continuous $b$-tagging
-\item[QED] quantum electrodynamics
-\item[QCD] quantum chromodynamics
-\item[QFT] quantum field theory
-\item[QmisID] charge mis-identification
-\item[SF] scale factor
-\item[SM] Standard Model
-\item[SR] signal region
-\item[SSML] two leptons of the same charge, or more than two leptons (multilepton)
-\item[TDAQ] Trigger and Data Acquisition
-\end{abbreviations}
+\begin{acronym}
+\acro{1LOS}{one lepton, or two leptons of opposite charges}
+\acro{ATLAS}{A Toroidal LHC ApparatuS}
+\acro{BDT}{boosted decision tree}
+\acro{BSM}{Beyond the Standard Model}
+\acro{CERN}{European Organization for Nuclear Research}
+\acro{CMS}{Compact Muon Solenoid}
+\acro{CR}{control region}
+\acro{ECIDS}{Electron Charge ID Selector}
+\acro{GNN}{graph neural network}
+\acro{HLT}{High-Level Trigger}
+\acro{ID}{inner detector}
+\acro{JER}{jet energy resolution}
+\acro{JES}{jet energy scale}
+\acro{JVT}{Jet Vertex Tagger}
+\acro{L1}{Level 1}
+\acro{LH}{likelihood}
+\acro{LLH}{log-likelihood}
+\acro{LO}{leading order}
+\acro{LAr}{liquid argon}
+\acro{LHC}{Large Hadron Collider}
+\acro{MET}{missing transverse energy}
+\acro{NF}{normalization factor}
+\acro{NLO}{next-to-leading order}
+\acro{NNLO}{next-to-next-to-leading order}
+\acro{NP}{nuisance parameter}
+\acro{OP}{operating point}
+\acro{PS}{parton shower}
+\acro{PDF}{parton distribution function}
+\acro{PCBT}{pseudo-continuous $b$-tagging}
+\acro{QED}{quantum electrodynamics}
+\acro{QCD}{quantum chromodynamics}
+\acro{QFT}{quantum field theory}
+\acro{QmisID}{charge mis-identification}
+\acro{SF}{scale factor}
+\acro{SM}{Standard Model}
+\acro{SR}{signal region}
+\acro{SSML}{two leptons of the same charge, or more than two leptons (multilepton)}
+\acro{TDAQ}{Trigger and Data Acquisition}
+\end{acronym}
 \end{abbrev}
 %% The list will be included in the TOC as
 %% KEY TO SYMBOLS or KEY TO ABBREVIATIONS
@@ -313,16 +319,16 @@ Acronyms
 \subfile{chapters/chapter-4}
 
 \chapter{Particle Reconstruction \& Identification}
-\label{chap:obj}
+\label{chap:reco}
 \subfile{chapters/chapter-5}
 
 \chapter{Event Selection}
-\label{chap:evntsel}
+\label{chap:sel}
 \subfile{chapters/chapter-6}
 
-%\chapter{Background Estimation}
-%\label{chap:bkg}
-%\subfile{chapters/chapter-7}
+\chapter{Analysis Strategy}
+\label{chap:anal}
+\subfile{chapters/chapter-7}
 
 \chapter{Systematic Uncertainties}
 \label{chap:sys}

@@ -1,5 +1,5 @@
 \documentclass[../thesis.tex]{subfiles}
-
+ 
 \begin{document}
 \vspace{-1\baselineskip}
 
@@ -9,7 +9,7 @@ These quantities then used to reconstruct physics objects i.e. particles (electr
 \section{Primary reconstruction}
 \label{sec:primaryreco}
 
-\subsection*{Topological clusters}
+\subsection{Topological clusters}
 \label{sec:topocluster}
 \citep{reco:topocluster}\citep{reco:topocluster_2}\\
 Topological cluster (topo-cluster): Clusters of topologically connected cell signals in the calorimeter at the EM scale. This scale does not consider loss of signal from hadrons. Singular hits without hits from neighboring cells are considered noise.\\
@@ -26,7 +26,7 @@ The process continues iteratively until all cells with significant signal effici
 \end{center}
 \end{figure}
 
-\subsection*{Tracks}
+\subsection{Tracks}
 \citep{reco:track}\\
 Charged particles deposit energy in different layers of the inner detector and muon spectrometer\\
 ID reco software: inside-out and outside-in algorithms\\
@@ -44,7 +44,7 @@ Reverse, starts with segments in TRT extending inward to silicon hits in pixel \
 Targeting secondary tracks (decays/interactions of primary particles) or long-lived particles
 \end{itemize}
 
-\subsection*{Vertices}
+\subsection{Vertices}
 Vertices: interaction or decay point\\
 Primary vertex: pp interaction point\\
 %Secondary vertex: secondary interaction or decay long-lived particle\\
@@ -70,9 +70,10 @@ Vertex is then estimated by iteratively minimizing an objective function of thes
 \item anti-$k_t$ algorithms: sequential recombination jet algorithms
 \item pile-up jets: multiple interactions associated with one bunch crossing in addition to the hard scattering of interest and reconstructed as jets in the final states. Reconstructed pile-up jets can result from   Pile-up jets are usually from soft interactions and can be distinguished with JVT algorithm using tracking information from the ID.
 \item JES/JER calibration: Jet reconstruction at EM scale does not accurately account for energy from QCD interactions and needs to be calibrated to jets reconstructed at particle level. This is done via a MC-based JES calibration sequence and additional JER calibration to match jet resolution in simulation to data using dijet events.
-\item reco setting: PFlow and anti-$k_t$ algorithms with radius parameter $R=0.4$, JVT applied to reconstructed jets with $\pT < 60$ GeV and $|\eta|<2.4$.
+%\item reco setting: PFlow and anti-$k_t$ algorithms with radius parameter $R=0.4$, JVT applied to reconstructed jets with $\pT < 60$ GeV and $|\eta|<2.4$.
 \end{itemize}
-\subsection*{Flavor tagging}
+\subsection{Flavor tagging}
+\label{sec:ftag}
 - Classification of hadronic jets is an important task for many LHC analyses especially ones studying final states (Higgs decay/4top)\\
 - Flavor tagging is namely interested in identifying jets containing $b$-hadrons, $c$-hadrons, $uds$-hadrons (light-jets), and hadronic decays from $\tau$.\\
 - Of these, identifying $b$-jets is of particular interest due to their characteristically long lifetime ($\approx 1.5$ ps) from decay suppression by CKM factor, with a displaced secondary decay vertex and usually a tertiary vertex from $c$-hadron decays.
@@ -84,8 +85,9 @@ Vertex is then estimated by iteratively minimizing an objective function of thes
 - \citep{ftag:calib}\\
 - Performance of $b$-taggers are studied on MC simulated samples. However, the $b$-tagging efficiency predicted by simulation $\varepsilon_b^\mathrm{sim}$ is usually not the same as the efficiency measured in data $\varepsilon_b^\mathrm{data}$.\\
 - The correction for the rate of events after applying a $b$-tagging requirement is calibrated and applied jet by jet in the form of data-to-simulation scale factors $\mathrm{SF}=\varepsilon_b^\mathrm{data}/\varepsilon_b^\mathrm{sim}$.\\
-- Usage of $b$-taggers are done via four operating points (OPs), corresponding to 60\%, 70\%, 77\% and 85\% $b$-jet tagging efficiency $\varepsilon_b$ in simulated \ttbar events in order from loosest to tightest discriminant cut points.\\
-- OPs are defined by selection on the tagger output to provide a pre-defined level of $\varepsilon_b$, and act as a variable trade-off between the $b$-tagging true-positive rate (efficiency) and false-positive rate (purity) \\
+- Usage of $b$-tagger in this analysis is done via five operating points (OPs), corresponding to 60\%, 70\%, 77\%, 85\% and 90\% $b$-jet tagging efficiency $\varepsilon_b$ in simulated \ttbar events in order from loosest to tightest discriminant cut points.
+- OPs are defined by selection on the tagger output to provide a pre-defined level of $\varepsilon_b$, and act as a variable trade-off between $b$-tagging efficiency and $c$-/light-jet rejection i.e. $b$-jet purity \\
+- A jet is considered $b$-tagged if it passes the efficiency criteria for a given OP. A pseudo-continuous $b$-tagging (PCBT) score is defined to summarize the OP criteria a jet passes into a variable. The PCBT score can take integer values between 1 and 6, where a score of 6 means a jet passes all four OP thresholds (passing 65\% OP), a score of 2 for jets that pass only the 90\% OP, and a score of 1 for jets that don't pass any OP. Additionally, PCBT defines a value of -1 for any jet that does not satisfy $b$-tagging criteria.\\
 - (insert TPR/FPR discriminant trade-off figure)\\
 \\
 \\
@@ -99,6 +101,7 @@ Vertex is then estimated by iteratively minimizing an objective function of thes
 
 
 \subsubsection*{GN2 $b$-tagging algorithm}
+\label{sec:btag}
 \begin{figure}[!htbp]
 \begin{center}
 \includegraphics[width=\linewidth]{fig/ftag_gn2.png}
@@ -116,7 +119,7 @@ Vertex is then estimated by iteratively minimizing an objective function of thes
 \section{Leptons}
 - Lepton reconstruction is concerned mainly with electron and muon construction, since tau decays quickly and can either be reconstructed using jets or light leptons. From here on out lepton will be used mostly to refer to electrons and muons\\
 - Leptons can be classified into two categories: prompt leptons resulting from heavy particle decays, or non-prompt leptons resulting from detector or reconstruction effects, or from $b$- or $c$- hadron decays\\
-- Reconstruction of leptons is therefore important to study the underlying physics and suppressing background\\
+- Reconstruction of leptons is therefore important to study the underlying physics and suppressing background
 \subsection{Electrons}
 - \citep{reco:electron_id}\citep{reco:electron_meas}\\
 - Electrons lose energy interacting with the detector materials via bremsstrahlung. The bremsstrahlung photon can then produce an electron-positron pair which can itself leaves signals in the detector, creating a collimated object that can leave multiple tracks in the ID or EM showers in the calorimeter, all considered part of the same EM topo-cluster.\\
@@ -124,20 +127,143 @@ Vertex is then estimated by iteratively minimizing an objective function of thes
 \begin{figure}[!htbp]
 \begin{center}
 \includegraphics[width=\linewidth]{fig/reco_electron.png}
-\caption{\label{fig:reco:electron}}
+\caption{\label{fig:reco:electron}\citep{reco:electron_id}}
 \end{center}
 \end{figure}
 - Seed-cluster reconstruction and track reconstruction are performed sequentially in accordance with the iterative clustering algorithm and track reconstruction method respectively, described in \autoref{sec:primaryreco}\\
-- The seed-cluster and track candidate not associated with a conversion vertex are then matched to form an electron candidate.\\
+- The seed-cluster and track candidate associated with a conversion vertex are then matched to form an electron candidate.\\
 - A reconstructed cluster is expanded from the seed-cluster in either $\phi$ or $\eta$ in the barrel or endcap region respectively\\
-- The cluster energy is then calibrated to compute the original electron energy.\\
+- The cluster energy is then calibrated to compute the original electron energy.
 
+\subsubsection*{Electron identification}
+- Additional likelihood-based identification selections using ID and EM calorimeter information are implemented to further improve the purity of the reconstructed electrons and photons. These selections also help suppress background from hadronic jet deposits, photon conversions or electrons from heavy-flavor decays.\\
+- Three operating points are defined for physics analyses: Loose, Medium and Tight, optimized for 9 bins in $|\eta|$ and 12 bins in \ET with each corresponding to a fixed efficiency requirement for each bin. The target efficiencies for Loose, Medium and Tight start at 93\%, 88\% and 80\% respectively for typical EW processes and increases with \ET \\ Similar to $b$-tagging OPs, the electron OPs represent a trade-off in signal efficiency and background rejection. The electron efficiency are estimated using tag-and-probe method \citep{reco:electron_id} on samples of $J/\Psi \rightarrow ee$ and $Z \rightarrow ee$.
+%The analysis in this thesis uses Tight electron identification requirement.
+\begin{figure}[!htbp]
+\centering
+\subfloat[Figure A]{
+\label{fig:a}\includegraphics[width=0.5\linewidth]{fig/reco_electron_eff_ET.png}}
+\subfloat[Figure B]{
+\label{fig:b}\includegraphics[width=0.5\linewidth]{fig/reco_electron_eff_eta.png}}
+\caption{\label{fig:reco:electron_eff}\citep{reco:electron_meas}}
+\end{figure}
 
+\subsubsection*{Electron isolation}
+\label{sec:eiso}
+- A characteristic distinction between prompt electrons and electrons from background processes is the relative lack of activity in both the ID and calorimeter within an area of $\Delta \eta \times \Delta \phi$ surrounding the reconstruction candidate\\
+- Electron isolation variables are needed to quantify the amount of activity around the electron candidate.\\
+- Calorimeter-based isolation variables $E_\mathrm{T}^{\mathrm{cone}XX}$ is calculated by first summing the energy of topological clusters with barycenters falling within a cone of radius $\Delta R = \sqrt{(\Delta \eta)^2+(\Delta \phi)^2}=XX/100$ around the direction of the electron candidate.\\
+- The final isolation variable is then obtained by subtracting energy at the core of the cone belonging to the candidate electron from the sum, then applying corrections for energy leakage outside of the core and pile-up effects.\\
+- Similar to calorimeter-based variables, track-based isolation variables $p_\mathrm{T}^{\mathrm{varcone}XX}$ are calculated by summing all track \pT within a cone of variable radius $\Delta R$ around the electron candidate, minus the candidate's contribution. The cone radius is variable as a function of \pT
+$$\Delta R = \min \left(\frac{10}{\pT \mathrm{ [GeV]}}, \Delta R_{\max} \right)$$
+with $\Delta R_{\max}$ being the maximum cone size, to account for the closer proximity of decay products to the electron in high-momentum heavy particle decays.\\
+- Four isolation operating points are implemented to satisfy specific needs by physics analyses: Loose, Tight, HighPtCaloOnly and Gradient. The first three OPs are fixed in isolation variables, while the Gradient OP fixes the isolation efficiency to a \pT dependent function defined as $ \varepsilon = 0.1143 \times \pT + 92.14\% $ with \pT in GeV, using $\Delta R=0.2$ for calorimeter isolation and $\Delta R_{\max}=0.2$ for track isolation.
+%For this thesis, electrons isolation using Tight requirements.
+
+\begin{figure}[!htbp]
+\centering
+\subfloat[Figure A]{
+\label{fig:a}\includegraphics[width=0.5\linewidth]{fig/reco_electron_iso_ET.png}}
+\subfloat[Figure B]{
+\label{fig:b}\includegraphics[width=0.5\linewidth]{fig/reco_electron_iso_eta.png}}
+\caption{\label{fig:reco:electron_iso}\citep{reco:electron_meas}}
+\end{figure}
+
+\subsubsection*{Electron charge misidentification}
+\citep{reco:electron_id}\citep{reco:qmisid_cnn}\\
+Electron charge is determined by the curvature of the associated track. Misidentification of charge can then occur via either an incorrect curvature measurement, or an incorrectly matched track.\\
+The former is more likely for electrons with high \pT due to the small curvature in track trajectories at such scale, while the latter usually results from bremsstrahlung pair-production, creating additional secondary tracks in the vicinity.\\
+Charge misidentification is a crucial irreducible background for analyses with charge selection criteria, and suppression of this background is done via a boosted decision tree discriminant known as the Electron Charge ID Selector (ECIDS) \citep{reco:electron_id}. The addition of ECIDS removed 90\% of electrons with incorrect charge while selecting 98\% of electrons with correct charge from electrons in $Z\rightarrow ee$ events satisfying Medium/Tight identification and Tight isolation criteria.
+\begin{figure}[!htbp]
+\centering
+\subfloat[Figure A]{
+\label{fig:a}\includegraphics[width=0.5\linewidth]{fig/reco_qmisid_ET.png}}
+\subfloat[Figure B]{
+\label{fig:b}\includegraphics[width=0.5\linewidth]{fig/reco_qmisid_eta.png}}
+\caption{\label{fig:reco:electron_iso}\citep{reco:electron_meas}}
+\end{figure}
 
 
 \subsection{Muons}
+Signature: minimum-ionizing particle leaves tracks in the MS or characteristics energy deposits in the calorimeter\\
+Muons can be reconstructed globally using information from the ID, MS and calorimeters.\\
+Five reconstruction strategies, each corresponding to a muon type:
+\begin{itemize}
+\item Combined (CB): primary ATLAS muon reconstruction method. Muons first reconstructed using MS tracks then extrapolated to include ID tracks (outside-in strategy). A global combined fit is then performed on both MS and ID tracks
+\item Inside-out combined (IO): Complementary to CB algorithm. Muon tracks are extrapolated from ID to MS, then fitted together with a combined track fit. Useful for muons without good MS information.
+\item MS extrapolated (ME): ME muons are defined as muons with a MS track that cannot be matched to an ID track using CB method. ME muons allow extension of muon reconstruction acceptance to regions not covered by the ID ($2.5<|\eta|<2.7$)
+\item Segment-tagged (ST): ST muons are ID tracks satisfying tight angular matching criteria to at least one reconstructed local segment in the MDT or CSC chambers when extrapolated to the MS. Used primarily when muons only crossed one layer of MS chambers.
+\item Calorimeter-tagged (CT): CT muons are ID tracks that when extrapolated through the calorimeter, can be matched to energy deposits consistent with those of a minimum-ionizing particle. Extends acceptance range to regions in the MS with sparse instrumentation ($|\eta|<0.1$), with a higher \pT threshold of 5 GeV compared to 2 GeV threshold used by other muon reconstruction algorithms due to large background contamination at the low \pT range of $15 < \pT < 100$ GeV
+\end{itemize}
+\subsubsection*{Muon identification}
+\citep{reco:muon_ID}\citep{reco:muon_ID2}\\
+Reconstructed muons are further filtered by identification criteria to select for high-quality prompt muons for physics analyses. Requirements include number of hits in the MS/ID, track fit properties and compatibility between measurements of the two systems.\\
+Three standard WPs (Loose, Medium, Tight) are defined to better match the needs of different physics analyses concerning prompt muon ID efficiency, \pT resolution and non-prompt muon rejection. Of the three, Medium WP is the default ID WP for ATLAS, by virtue of being optimized in efficiency and purity for a wide range of analyses while minimizing non-prompt rejection and systematic uncertainties.\\
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=0.9\linewidth]{fig/reco_muon_ID.png}
+\caption{\label{fig:reco:muon_ID}\citep{reco:muon_ID}}
+\end{figure}
+
+\subsubsection*{Muon isolation}
+Muons from heavy particle decays are often produced in an isolated manner compared to muons from semileptonic decays. Muon isolation is therefore an important tool for background rejection in physics analyses\\
+Muon isolation strategies are similar to that of electron in \autoref{sec:eiso}, with track-based and calorimeter-based isolation variables.\\
+Seven isolation WPs are defined to satisfy analyses' needs.
+
 \section{Missing transverse momentum}
-\section{Pile-up \& overlap removal}
+\label{sec:met}
+\citep{reco:met}\\
+Collisions at the LHC happen along the z-axis of the ATLAS coordination system between two particle beam of equal center-of-mass energy. By conservation of momentum, the sum of transverse momenta of outgoing particles should be zero. A discrepancy between measured momentum and zero would then suggest the presence of undetectable particles, which would consist of either SM neutrinos or some unknown BSM particles. This makes missing transverse momentum ($E_\mathrm{T}^\mathrm{miss}$) an important observable to reconstruct.\\
+Reconstructing $E_\mathrm{T}^\mathrm{miss}$ utilizes information from fully reconstructed leptons, photons, jets and other matched track-vertex objects not associated with a prompt object (soft signals), defined with respect to the $x (y)$-axis as
+\begin{equation}
+E^\mathrm{miss}_{x (y)} = -\mathlarger{\sum}_{i \in \{\text{hard objects}\}} p_{x (y),i} -\mathlarger{\sum}_{j \in \{\text{soft signals}\}} p_{x (y),j},
+\end{equation}
+where $p_{x(y)}$ is the $x(y)$-component of \pT for each particle. The following observables can then be defined:
+\begin{align}
+& \mathbf{E}_\mathrm{T}^\mathrm{miss}=(E^\mathrm{miss}_{x},E^\mathrm{miss}_{y}),\\
+& E_\mathrm{T}^\mathrm{miss}=|\mathbf{E}_\mathrm{T}^\mathrm{miss}|=\sqrt{(E^\mathrm{miss}_{x})^2+(E^\mathrm{miss}_{y})^2},\\
+& \phi^\mathrm{miss}=\tan^{-1}(E^\mathrm{miss}_{y}/E^\mathrm{miss}_{x}),
+\end{align}
+where $E_\mathrm{T}^\mathrm{miss}$ represents the magnitude of the missing transverse energy vector $\mathbf{E}_\mathrm{T}^\mathrm{miss}$, and $\phi^\mathrm{miss}$ its direction in the transverse plane. Since physics analyses have differing requirements for object selection, the vectorial sum $\mathbf{E}_\mathrm{T}^\mathrm{miss}$ can be broken down into
+\begin{equation}
+\mathbf{E}_\mathrm{T}^\mathrm{miss} =
+{\underbrace{
+-\sum_{\substack{\text{selected}\\ \text{electrons}}} \mathbf{p}_\mathrm{T}^e
+-\sum_{\substack{\text{selected}\\ \text{muons}}} \mathbf{p}_\mathrm{T}^\mu
+-\sum_{\substack{\text{accepted}\\ \text{photons}}} \mathbf{p}_\mathrm{T}^\gamma
+-\sum_{\substack{\text{accepted}\\ \text{\ensuremath{\tau}-leptons}}} \mathbf{p}_\mathrm{T}^\tau
+-\sum_{\substack{\text{accepted}\\ \text{jets}}} \mathbf{p}_\mathrm{T}^\mathrm{jet}
+}_\text{hard term}}
+{\underbrace{
+-\sum_{\substack{\vphantom{p}\text{unused}\\ \vphantom{p}\text{tracks}}} \mathbf{p}_\mathrm{T}^\mathrm{track}.
+}_\text{soft term}}
+\end{equation}
+Two WPs are defined for $E_\mathrm{T}^\mathrm{miss}$, Loose and Tight \citep{reco:met2}, with selections on jet \pT and JVT criteria. The Tight WP reduces pileup dependence of $E_\mathrm{T}^\mathrm{miss}$ by removing the phase space region with more pileup jets than hard-scatter jets, at the expense of resolution at low pileup and scale of the reconstructed $E_\mathrm{T}^\mathrm{miss}$.
+
+\section{Overlap removal}
+Since the reconstruction processes for different objects are performed independently, it is possible for the same detector signals to be used to reconstruct multiple objects. An overlap removal strategy to resolve ambiguities; the overlap removal process for this analysis applies selections listed in \autoref{reco:overlap} sequentially, from top to bottom.
+
+\begin{table}[!ht]
+\centering
+\begin{tabular}{lll}
+\toprule
+Remove		& Keep		& Matching criteria \\
+\midrule
+Electron	& Electron 	& Shared ID track, $p^e_\mathrm{T,1}<p^e_\mathrm{T,2}$ \\
+Muon		& Electron	& Shared ID track, CT muon \\
+Electron	& Muon		& Shared ID track \\
+%Photon		& Electron	& $\Delta R <0.4$ \\
+%Photon		& Muon		& $\Delta R <0.4$ \\
+Jet			& Electron	& $\Delta R <0.2$ \\
+Electron	& Jet		& $\Delta R <0.4$ \\
+Jet			& Muon		& ($\Delta R <0.2$ or ghost-associated) \& $N_\text{track}<3$ \\
+Muon		& Jet		& $\Delta R < \min(0.4, 0.04+10 \text{GeV/\ensuremath{p_\mathrm{T}^\mu}})$ \\
+%Jet			& Photon	& $\Delta R <0.4$ \\
+\bottomrule
+\end{tabular}
+\caption{\label{reco:overlap}\citep{reco:overlap}}%
+\end{table}
 
 
 

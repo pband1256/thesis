@@ -1,3 +1,13 @@
 \contentsline {figure}{\numberline {5.1}{\ignorespaces \relax }}{20}{figure.caption.6}%
 \contentsline {figure}{\numberline {5.2}{\ignorespaces \citep {ftag:gn1}\citep {ftag:gn1.1}\citep {ftag:gn2}\relax }}{25}{figure.caption.7}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces \relax }}{27}{figure.caption.8}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces \citep {reco:electron_id}\relax }}{27}{figure.caption.8}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces \citep {reco:electron_meas}\relax }}{28}{figure.caption.9}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Figure A}}}{28}{subfigure.4.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Figure B}}}{28}{subfigure.4.2}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces \citep {reco:electron_meas}\relax }}{30}{figure.caption.10}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Figure A}}}{30}{subfigure.5.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Figure B}}}{30}{subfigure.5.2}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces \citep {reco:electron_meas}\relax }}{31}{figure.caption.11}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Figure A}}}{31}{subfigure.6.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Figure B}}}{31}{subfigure.6.2}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces \citep {reco:muon_ID}\relax }}{33}{figure.caption.12}%

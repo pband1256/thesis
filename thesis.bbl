@@ -104,6 +104,28 @@
     \field{year}{2019}
   \endentry
 
+  \entry{reco:qmisid_cnn}{booklet}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{ATLAS Collaboration}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{howpublished}{{ATL-PHYS-PUB-2023-001}}
+    \field{title}{{Electron Identification with a Convolutional Neural Network
+  in the ATLAS Experiment}}
+    \verb{url}
+    \verb https://cds.cern.ch/record/2850666
+    \endverb
+    \field{year}{2023}
+  \endentry
+
   \entry{reco:electron_id}{article}{}
     \name{author}{1}{}{%
       {{hash=A}{%
@@ -118,20 +140,42 @@
     \field{sortinit}{A}
     \field{sortinithash}{A}
     \verb{doi}
-    \verb 10.1140/epjc/s10052-014-2941-0
+    \verb 10.1140/epjc/s10052-019-7140-6
     \endverb
     \verb{eprint}
-    \verb 1404.2240
+    \verb 1902.04655
     \endverb
-    \field{pages}{2941}
-    \field{title}{{Electron reconstruction and identification efficiency
-  measurements with the ATLAS detector using the 2011 LHC proton--proton
-  collision data}}
-    \field{volume}{74}
+    \field{pages}{639}
+    \field{title}{{Electron reconstruction and identification in the ATLAS
+  experiment using the 2015 and 2016 LHC proton--proton collision data at
+  \(\sqrt{s} = 13\,\text{TeV}\)}}
+    \field{volume}{79}
     \field{journaltitle}{Eur. Phys. J. C}
     \field{eprinttype}{arXiv}
-    \field{eprintclass}{hep-ex}
-    \field{year}{2014}
+    \field{eprintclass}{physics.ins-det}
+    \field{year}{2019}
+  \endentry
+
+  \entry{reco:met2}{booklet}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{ATLAS Collaboration}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{howpublished}{{ATLAS-CONF-2018-023}}
+    \field{title}{{\(E_{\text{T}}^{\text{miss}}\) performance in the ATLAS
+  detector using 2015--2016 LHC \(pp\) collisions}}
+    \verb{url}
+    \verb https://cds.cern.ch/record/2625233
+    \endverb
+    \field{year}{2018}
   \endentry
 
   \entry{ftag:gn1}{booklet}{}
@@ -228,6 +272,126 @@
     \verb https://cds.cern.ch/record/2804062
     \endverb
     \field{year}{2022}
+  \endentry
+
+  \entry{reco:muon_ID}{article}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{ATLAS Collaboration}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \verb{doi}
+    \verb 10.1140/epjc/s10052-021-09233-2
+    \endverb
+    \verb{eprint}
+    \verb 2012.00578
+    \endverb
+    \field{pages}{578}
+    \field{title}{{Muon reconstruction and identification efficiency in ATLAS
+  using the full Run~2 \(pp\) collision data set at \(\sqrt{s} =
+  13\,\text{TeV}\)}}
+    \field{volume}{81}
+    \field{journaltitle}{Eur. Phys. J. C}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ex}
+    \field{year}{2021}
+  \endentry
+
+  \entry{reco:muon_ID2}{article}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{ATLAS Collaboration}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \verb{doi}
+    \verb 10.1140/epjc/s10052-016-4120-y
+    \endverb
+    \verb{eprint}
+    \verb 1603.05598
+    \endverb
+    \field{pages}{292}
+    \field{title}{{Muon reconstruction performance of the ATLAS detector in
+  proton--proton collision data at \(\sqrt{s} = 13\,\text{TeV}\)}}
+    \field{volume}{76}
+    \field{journaltitle}{Eur. Phys. J. C}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ex}
+    \field{year}{2016}
+  \endentry
+
+  \entry{reco:overlap}{article}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{ATLAS Collaboration}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \verb{doi}
+    \verb 10.1140/epjc/s10052-021-09878-z
+    \endverb
+    \verb{eprint}
+    \verb 2109.00925
+    \endverb
+    \field{pages}{105}
+    \field{title}{{Observation of electroweak production of two jets in
+  association with an isolated photon and missing transverse momentum, and
+  search for a Higgs boson decaying into invisible particles at
+  \(13\,\text{TeV}\) with the ATLAS detector}}
+    \field{volume}{82}
+    \field{journaltitle}{Eur. Phys. J. C}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ex}
+    \field{year}{2022}
+  \endentry
+
+  \entry{reco:met}{article}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{ATLAS Collaboration}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \verb{doi}
+    \verb 10.1140/epjc/s10052-018-6288-9
+    \endverb
+    \verb{eprint}
+    \verb 1802.08168
+    \endverb
+    \field{pages}{903}
+    \field{title}{{Performance of missing transverse momentum reconstruction
+  with the ATLAS detector using proton--proton collisions at \(\sqrt{s} =
+  13\,\text{TeV}\)}}
+    \field{volume}{78}
+    \field{journaltitle}{Eur. Phys. J. C}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ex}
+    \field{year}{2018}
   \endentry
 
   \entry{reco:track}{article}{}
@@ -423,7 +587,6 @@
     \field{volume}{119}
     \field{journaltitle}{Journal of Physics: Conference Series}
     \field{year}{2008}
-    \warn{\item Invalid format of field 'month'}
   \endentry
 
   \entry{ftag:gn1.1}{report}{}
@@ -565,7 +728,6 @@
     \field{volume}{664}
     \field{journaltitle}{Journal of Physics: Conference Series}
     \field{year}{2015}
-    \warn{\item Invalid format of field 'month'}
   \endentry
 
   \entry{ftag:gn2}{report}{}

@@ -3,13 +3,43 @@
 \begin{document}
 \vspace{-1\baselineskip}
 
-\section{Fake \& non-prompt leptons}
-\label{sec:fake}
-\subsection*{Charge misidentification}
+\section{Analysis regions}
+\label{sec:regions}
 
-\section{Irreducible background}
-\label{sec:irrbg}
-\subsection*{$t\bar{t}W$ estimation}
+\subsection{Event categorization}
+Simulated events are categorized using truth information of leptons ($e$/$\mu$) and their originating MC particle (mother-particle).\\
+Each lepton can be classified as either prompt or non-prompt, with non-prompt leptons further categorized for background estimation purposes.\\
+If an event contains only prompt leptons, the event is classified as its corresponding process. If the event contains one non-prompt lepton, the event is classified as the corresponding type of the non-prompt lepton. If the event contains more than one non-prompt lepton, the event is classified as other.
+\begin{itemize}
+\item \textbf{Prompt}: if the lepton originates from $W$/$Z$/$H$ boson decays, or from a mother-particle created by a final state photon.
+\item \textbf{Non-prompt}:
+	\begin{itemize}
+	\item \textbf{Charge-flip ($e$ only)}: if the reconstructed charge of the lepton differs from that of the first mother-particle.
+	\item \textbf{Material conversion ($e$ only)}: if the lepton originated from a photon conversion and the mother-particle is an isolated prompt photon, non-isolated final state photon, or heavy boson.
+	\item \textbf{$\gamma$-conversion ($e$ only)}: if the lepton originated from a photon conversion and the mother-particle is a background electron.
+	\item \textbf{Heavy flavor decay}: if the lepton originated from a $b$- or $c$-hadron.
+	\item \textbf{Fake}: if the lepton originated from a light- or $s$-hadron, or if the truth type of the lepton is hadron.
+	\item \textbf{Other}: any lepton that does not belong to one of the above categories.
+	\end{itemize}
+\end{itemize}
+
+\subsection{Control regions}
+\subsubsection*{$t\bar{t}W$ CRs}
+\subsection{Signal regions}
+[include blinding strategy]
+\subsection{Validation region}
+
+
+\section{Background estimation}
+\label{sec:bg}
+\subsection{Fake \& non-prompt leptons}
+\subsection{Irreducible background}
+
+
+\section{Signal extraction}
+\label{sec:mva}
+%\subsection*{SM MVA}
+%\subsection*{BSM MVA}
 
 
 

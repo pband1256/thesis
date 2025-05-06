@@ -11,16 +11,18 @@ luminosity 140 $\text{fb}^{-1}$ \\
 
 \section{Monte Carlo samples}
 \label{sec:montecarlo}
+Monte Carlo simulated samples are used to estimate signal acceptance before unblinding, profile the physics background for the analysis and to study object optimizations.\\
+Simulated samples for this analysis use are generated from ATLAS' generalized MC20a/d/e samples for Run 2, using full detector simulation (FS) based on Geant4.
 
 \subsection{\ttZp signal samples}
 Run 2 \ttZp sample\\
-samples: 6 samples for each mass poin from $[1, 1.25, 1.5, 2, 2.5, 3]$ TeV\\
+samples: 6 samples for each mass point from $[1, 1.25, 1.5, 2, 2.5, 3]$ TeV\\
 generator: \mgamc v.2.8.1p3.atlas9 at LO with \textsc{NNPDF3.1LO} pdf\\
 event: \pythia[v.244p3.rangefix] using \textsc{A14} tune \& \textsc{NNPDF2.3LO} pdf\\
 parameters:
 \begin{itemize}
 \item chirality $\theta$: does not affect the strong production mode for \ttZp, therefore picking default value $\pi/4$ to suppress loop-production of the \Zp resonance
-\item top coupling $c_t=1$
+\item top-$Z^{'}$ coupling $c_t=1$
 \end{itemize}
 resonance width computed with \mgamc to be 4\% of model configuration with these parameters
 
@@ -28,4 +30,63 @@ resonance width computed with \mgamc to be 4\% of model configuration with these
 Run 2 mc20 samples (2015-2018)\\
 (show MC sample table)\\
 (go in depth into each sample? briefly explain different generator, pdf and ps?)
+
+\begin{table}[!htbp]
+\small
+\setlength{\tabcolsep}{3pt} % Reduce column spacing
+\renewcommand{\arraystretch}{1.2} % Adjust row spacing
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{p{2.8cm} p{4.5cm} p{3.0cm} p{4.3cm} p{1.5cm} p{1.7cm} p{1.2cm}}
+\toprule 
+Process    & ME Generator  & ME Order & ME PDF  & PS  & Tune & Sim. \\
+\midrule \bottomrule
+\multicolumn{7}{l}{\textbf{Signals}} \\ \midrule
+\ttHA      & \mgamc         & LO       & NNPDF30 LO    & \pythia & A14  & AF3 \\
+\ttZp/$tjZ'$/$tWZ'$ & \mgamc & LO       & NNPDF3.1LO    & \pythia & A14  & FS \\
+\midrule \bottomrule
+\multicolumn{7}{l}{\textbf{\tttt and \ttt}} \\ \midrule
+\tttt      & \mgamc         & NLO      & \nnpdfnlo     & \pythia & A14  & AF3 \\
+           & \mgamc         & NLO      & MMHT2014LO    & \herwigseven & H7-UE-MMHT & AF3 \\
+           & \sherpa        & NLO      & NNPDF3.0 NNLO & \herwigseven & \sherpa  & FS \\
+\ttt       & \mgamc         & LO       & \nnpdftwo     & \pythia & A14  & AF3 \\
+\midrule \bottomrule
+\multicolumn{7}{l}{\textbf{\ttV}} \\ \midrule
+\ttH       & \powhegbox~v2  & NLO      & \nnpdfnlo (mc20) & \pythia & A14  & FS \\
+           &                &          & PDF4LHC21 (mc23) &         &      & AF3 \\
+           & \powhegbox~v2  & NLO      & \nnpdfnlo     & \herwigseven & H7.2-Default & FS \\
+\ttZ       & \mgamc         & NLO      & NNPDF3.0 NNLO & \pythia & A14  & FS \\
+\ttW       & \sherpa        & NLO      & NNPDF3.0 NNLO & \sherpa & \sherpa  & FS \\
+           & \sherpa        & LO       & NNPDF3.0 NNLO & \sherpa & \sherpa  & FS \\
+\midrule \bottomrule
+\multicolumn{7}{l}{\textbf{\ttbar and Single-Top}} \\ \midrule
+\ttbar     & \powhegbox~v2  & NLO      & \nnpdfnlo     & \pythia & A14  & FS \\
+$tW$       & \powhegbox~v2  & NLO      & \nnpdfnlo     & \pythia & A14  & FS \\
+$t(q)b$    & \powhegbox~v2  & NLO      & \nnpdfnlo (s) & \pythia & A14  & FS \\
+           &                &          & \nnpdfnlo4f (t) &        &      & FS \\
+$tWZ$      & \mgamc         & NLO      & \nnpdfnlo     & \pythia & A14  & FS \\
+\tZ        & \mgamc         & LO       & \nnpdfnlo4f   & \pythia & A14  & FS \\
+\midrule \bottomrule
+\multicolumn{7}{l}{\textbf{\ttVV}} \\ \midrule
+\ttWW      & \mgamc (mc20)  & LO       & \nnpdfnlo     & \pythia & A14  & FS \\
+           & \mg (mc23)     &          &               &         &      & FS \\
+\ttWZ      & \mg            & LO       & \nnpdfnlo     & \pythia & A14  & AF3 \\
+\ttHH      & \mg            & LO       & \nnpdfnlo     & \pythia & A14  & AF3 \\
+\ttWH      & \mg            & LO       & \nnpdfnlo     & \pythia & A14  & AF3 \\
+\ttZZ      & \mg            & LO       & \nnpdfnlo     & \pythia & A14  & AF3 \\
+\midrule \bottomrule
+\multicolumn{7}{l}{\textbf{$V(VV)$+jets and $VH$}} \\ \midrule
+$V$+jets   & \sherpa        & NLO      & NNPDF3.0 NNLO & \sherpa & \sherpa & FS \\
+$VV$+jets  & \sherpa        & NLO      & NNPDF3.0 NNLO & \sherpa & \sherpa & FS \\
+           &                & LO ($gg\to VV$) &       &         &      & FS \\
+$VVV$+jets & \sherpa        & NLO      & NNPDF3.0 NNLO & \sherpa & \sherpa & FS \\
+$VH$       & \powhegbox~v2  & NLO      & NNPDF3.0 AZNLO & \pythia & A14  & FS \\
+\midrule \bottomrule
+\end{tabular}%
+} % End resizebox
+\caption{Summary of all Monte-Carlo samples used in this analysis.}
+\label{tab:MC}
+\end{table}
+
+
 \end{document}

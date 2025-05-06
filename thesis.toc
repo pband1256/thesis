@@ -26,39 +26,41 @@
 \contentsline {section}{\numberline {4.2}Monte Carlo samples}{17}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}\ensuremath {t\bar {t}Z'}\xspace signal samples}{17}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}Background samples}{18}{subsection.4.2.2}%
-\contentsline {chapter}{\numberline {Chapter 5.}\negthickspace \negthickspace Particle Reconstruction \& Identification}{19}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Primary reconstruction}{19}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Topological clusters}{19}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}Tracks}{20}{subsection.5.1.2}%
-\contentsline {subsection}{\numberline {5.1.3}Vertices}{21}{subsection.5.1.3}%
-\contentsline {section}{\numberline {5.2}Jets}{22}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Flavor tagging}{23}{subsection.5.2.1}%
-\contentsline {section}{\numberline {5.3}Leptons}{26}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Electrons}{26}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}Muons}{31}{subsection.5.3.2}%
-\contentsline {section}{\numberline {5.4}Missing transverse momentum}{34}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Overlap removal}{35}{section.5.5}%
-\contentsline {chapter}{\numberline {Chapter 6.}\negthickspace \negthickspace Event Selection}{36}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Object definition}{37}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Trigger selection}{38}{section.6.2}%
-\contentsline {chapter}{\numberline {Chapter 7.}\negthickspace \negthickspace Analysis Strategy}{40}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Analysis regions}{40}{section.7.1}%
-\contentsline {subsection}{\numberline {7.1.1}Event categorization}{40}{subsection.7.1.1}%
-\contentsline {subsection}{\numberline {7.1.2}Control regions}{41}{subsection.7.1.2}%
-\contentsline {subsection}{\numberline {7.1.3}Signal regions}{41}{subsection.7.1.3}%
-\contentsline {subsection}{\numberline {7.1.4}Validation region}{41}{subsection.7.1.4}%
-\contentsline {section}{\numberline {7.2}Background estimation}{41}{section.7.2}%
-\contentsline {subsection}{\numberline {7.2.1}Fake \& non-prompt leptons}{41}{subsection.7.2.1}%
-\contentsline {subsection}{\numberline {7.2.2}Irreducible background}{41}{subsection.7.2.2}%
-\contentsline {section}{\numberline {7.3}Signal extraction}{41}{section.7.3}%
-\contentsline {chapter}{\numberline {Chapter 8.}\negthickspace \negthickspace Systematic Uncertainties}{42}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Experimental uncertainties}{42}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Modeling uncertainties}{42}{section.8.2}%
-\contentsline {subsection}{\numberline {8.2.1}Signal modeling uncertainties}{42}{subsection.8.2.1}%
-\contentsline {subsection}{\numberline {8.2.2}Background modeling uncertainties}{42}{subsection.8.2.2}%
-\contentsline {chapter}{\numberline {Chapter 9.}\negthickspace \negthickspace Results}{43}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Likelihood fit}{43}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Limits}{43}{section.9.2}%
-\contentsline {section}{\numberline {9.3}Interpretation}{43}{section.9.3}%
-\contentsline {chapter}{\numberline {Chapter 10.}\negthickspace \negthickspace Summary}{44}{chapter.10}%
-\contentsline {chapter}{References}{45}{chapter*.16}%
+\contentsline {chapter}{\numberline {Chapter 5.}\negthickspace \negthickspace Particle Reconstruction \& Identification}{20}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Primary reconstruction}{20}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Topological clusters}{20}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Tracks}{21}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Vertices}{22}{subsection.5.1.3}%
+\contentsline {section}{\numberline {5.2}Jets}{23}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Flavor tagging}{24}{subsection.5.2.1}%
+\contentsline {section}{\numberline {5.3}Leptons}{27}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Electrons}{27}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Muons}{32}{subsection.5.3.2}%
+\contentsline {section}{\numberline {5.4}Missing transverse momentum}{35}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Overlap removal}{36}{section.5.5}%
+\contentsline {chapter}{\numberline {Chapter 6.}\negthickspace \negthickspace Analysis Strategy}{37}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Event selection}{37}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Object definition}{38}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Trigger selection}{40}{subsection.6.1.2}%
+\contentsline {subsection}{\numberline {6.1.3}Event categorization}{40}{subsection.6.1.3}%
+\contentsline {section}{\numberline {6.2}Analysis regions}{41}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Signal regions}{42}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Control regions}{42}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}Validation regions}{44}{subsection.6.2.3}%
+\contentsline {subsection}{\numberline {6.2.4}Unblinding strategy}{45}{subsection.6.2.4}%
+\contentsline {section}{\numberline {6.3}Background estimation}{45}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Template fitting for fake/non-prompt estimation}{47}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Charge misidentification data-driven estimation}{48}{subsection.6.3.2}%
+\contentsline {subsection}{\numberline {6.3.3}\ensuremath {t\bar {t}W}\xspace data-driven estimation}{49}{subsection.6.3.3}%
+\contentsline {section}{\numberline {6.4}Signal extraction}{49}{section.6.4}%
+\contentsline {chapter}{\numberline {Chapter 7.}\negthickspace \negthickspace Systematic Uncertainties}{50}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Experimental uncertainties}{50}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Modeling uncertainties}{50}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}Signal modeling uncertainties}{50}{subsection.7.2.1}%
+\contentsline {subsection}{\numberline {7.2.2}Background modeling uncertainties}{50}{subsection.7.2.2}%
+\contentsline {chapter}{\numberline {Chapter 8.}\negthickspace \negthickspace Results}{51}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Likelihood fit}{51}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Limits}{51}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Interpretation}{51}{section.8.3}%
+\contentsline {chapter}{\numberline {Chapter 9.}\negthickspace \negthickspace Summary}{52}{chapter.9}%
+\contentsline {chapter}{References}{53}{chapter*.20}%

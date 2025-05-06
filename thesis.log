@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.20)  16 APR 2025 00:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.20)  6 MAY 2025 01:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1684,24 +1684,179 @@ Underfull \hbox (badness 10000) in paragraph at lines 181--183
 
 [15]) [16]
 Chapter 4.
-(./chapters/chapter-4.tex) [17
+(./chapters/chapter-4.tex [17
 
-] [18]
+]
+Overfull \hbox (3.2514pt too wide) in paragraph at lines 86--86
+[]|\OT1/cmr/m/sc/10.95 MadGraph5[]aMC@NLO| 
+ []
+
+
+Overfull \hbox (1.42474pt too wide) in paragraph at lines 86--86
+[]|\OT1/cmr/m/sc/10.95 Pythia8| 
+ []
+
+
+Overfull \hbox (3.2514pt too wide) in paragraph at lines 86--86
+[]|\OT1/cmr/m/sc/10.95 MadGraph5[]aMC@NLO| 
+ []
+
+
+Overfull \hbox (1.42474pt too wide) in paragraph at lines 86--86
+[]|\OT1/cmr/m/sc/10.95 Pythia8| 
+ []
+
+
+Overfull \hbox (3.2514pt too wide) in paragraph at lines 86--86
+[]|\OT1/cmr/m/sc/10.95 MadGraph5[]aMC@NLO| 
+ []
+
+
+Overfull \hbox (1.42474pt too wide) in paragraph at lines 86--86
+[]|\OT1/cmr/m/sc/10.95 Pythia8| 
+ []
+
+
+Overfull \hbox (3.2514pt too wide) in paragraph at lines 86--86
+[]|\OT1/cmr/m/sc/10.95 MadGraph5[]aMC@NLO| 
+ []
+
+
+Overfull \hbox (3.49306pt too wide) in paragraph at lines 86--86
+[]|\OT1/cmr/m/sc/10.95 Herwig7| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--86
+[]|\OT1/cmr/m/n/10.95 H7-UE-
+ []
+
+
+Overfull \hbox (3.49306pt too wide) in paragraph at lines 86--86
+[]|\OT1/cmr/m/sc/10.95 Herwig7| 
+ []
+
+
+Overfull \hbox (3.2514pt too wide) in paragraph at lines 86--86
+[]|\OT1/cmr/m/sc/10.95 MadGraph5[]aMC@NLO| 
+ []
+
+
+Overfull \hbox (1.42474pt too wide) in paragraph at lines 86--86
+[]|\OT1/cmr/m/sc/10.95 Pythia8| 
+ []
+
+
+Overfull \hbox (1.42474pt too wide) in paragraph at lines 86--86
+[]|\OT1/cmr/m/sc/10.95 Pythia8| 
+ []
+
+
+Overfull \hbox (3.49306pt too wide) in paragraph at lines 86--86
+[]|\OT1/cmr/m/sc/10.95 Herwig7| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--86
+[]|\OT1/cmr/m/n/10.95 H7.2-
+ []
+
+
+Overfull \hbox (3.2514pt too wide) in paragraph at lines 86--86
+[]|\OT1/cmr/m/sc/10.95 MadGraph5[]aMC@NLO| 
+ []
+
+
+Overfull \hbox (1.42474pt too wide) in paragraph at lines 86--86
+[]|\OT1/cmr/m/sc/10.95 Pythia8| 
+ []
+
+
+Overfull \hbox (1.42474pt too wide) in paragraph at lines 86--86
+[]|\OT1/cmr/m/sc/10.95 Pythia8| 
+ []
+
+
+Overfull \hbox (1.42474pt too wide) in paragraph at lines 86--86
+[]|\OT1/cmr/m/sc/10.95 Pythia8| 
+ []
+
+
+Overfull \hbox (1.42474pt too wide) in paragraph at lines 86--86
+[]|\OT1/cmr/m/sc/10.95 Pythia8| 
+ []
+
+
+Overfull \hbox (3.2514pt too wide) in paragraph at lines 86--86
+[]|\OT1/cmr/m/sc/10.95 MadGraph5[]aMC@NLO| 
+ []
+
+
+Overfull \hbox (1.42474pt too wide) in paragraph at lines 86--86
+[]|\OT1/cmr/m/sc/10.95 Pythia8| 
+ []
+
+
+Overfull \hbox (3.2514pt too wide) in paragraph at lines 86--86
+[]|\OT1/cmr/m/sc/10.95 MadGraph5[]aMC@NLO| 
+ []
+
+
+Overfull \hbox (1.42474pt too wide) in paragraph at lines 86--86
+[]|\OT1/cmr/m/sc/10.95 Pythia8| 
+ []
+
+
+Overfull \hbox (3.2514pt too wide) in paragraph at lines 86--86
+[]|\OT1/cmr/m/sc/10.95 MadGraph5[]aMC@NLO
+ []
+
+
+Overfull \hbox (1.42474pt too wide) in paragraph at lines 86--86
+[]|\OT1/cmr/m/sc/10.95 Pythia8| 
+ []
+
+
+Overfull \hbox (1.42474pt too wide) in paragraph at lines 86--86
+[]|\OT1/cmr/m/sc/10.95 Pythia8| 
+ []
+
+
+Overfull \hbox (1.42474pt too wide) in paragraph at lines 86--86
+[]|\OT1/cmr/m/sc/10.95 Pythia8| 
+ []
+
+
+Overfull \hbox (1.42474pt too wide) in paragraph at lines 86--86
+[]|\OT1/cmr/m/sc/10.95 Pythia8| 
+ []
+
+
+Overfull \hbox (1.42474pt too wide) in paragraph at lines 86--86
+[]|\OT1/cmr/m/sc/10.95 Pythia8| 
+ []
+
+
+Overfull \hbox (1.42474pt too wide) in paragraph at lines 86--86
+[]|\OT1/cmr/m/sc/10.95 Pythia8| 
+ []
+
+) [18] [19]
 Chapter 5.
 (./chapters/chapter-5.tex
-<fig/reco_topo1.png, id=555, 438.63875pt x 335.2525pt>
+<fig/reco_topo1.png, id=581, 438.63875pt x 335.2525pt>
 File: fig/reco_topo1.png Graphic file (type png)
 <use fig/reco_topo1.png>
 Package pdftex.def Info: fig/reco_topo1.png  used on input line 24.
 (pdftex.def)             Requested size: 469.75502pt x 359.04402pt.
- [19
+ [20
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 30--33
 
  []
 
-[20 <./fig/reco_topo1.png>]
+[21 <./fig/reco_topo1.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 35--42
 
  []
@@ -1711,7 +1866,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--52
 
  []
 
-[21] [22]
+[22] [23]
 Underfull \hbox (badness 10000) in paragraph at lines 85--99
 
  []
@@ -1726,25 +1881,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 85--99
 
  []
 
-[23] [24]
-<fig/ftag_gn2.png, id=607, 1069.9975pt x 284.06125pt>
+[24] [25]
+<fig/ftag_gn2.png, id=632, 1069.9975pt x 284.06125pt>
 File: fig/ftag_gn2.png Graphic file (type png)
 <use fig/ftag_gn2.png>
 Package pdftex.def Info: fig/ftag_gn2.png  used on input line 107.
 (pdftex.def)             Requested size: 469.75502pt x 124.70992pt.
- [25 <./fig/ftag_gn2.png>]
-<fig/reco_electron.png, id=625, 770.88pt x 405.515pt>
+ [26 <./fig/ftag_gn2.png>]
+<fig/reco_electron.png, id=651, 770.88pt x 405.515pt>
 File: fig/reco_electron.png Graphic file (type png)
 <use fig/reco_electron.png>
 Package pdftex.def Info: fig/reco_electron.png  used on input line 129.
 (pdftex.def)             Requested size: 469.75502pt x 247.11008pt.
- [26]
-<fig/reco_electron_eff_ET.png, id=635, 435.6275pt x 432.61626pt>
+ [27]
+<fig/reco_electron_eff_ET.png, id=660, 435.6275pt x 432.61626pt>
 File: fig/reco_electron_eff_ET.png Graphic file (type png)
 <use fig/reco_electron_eff_ET.png>
 Package pdftex.def Info: fig/reco_electron_eff_ET.png  used on input line 145.
 (pdftex.def)             Requested size: 234.8775pt x 233.25284pt.
-<fig/reco_electron_eff_eta.png, id=636, 435.6275pt x 432.61626pt>
+<fig/reco_electron_eff_eta.png, id=661, 435.6275pt x 432.61626pt>
 File: fig/reco_electron_eff_eta.png Graphic file (type png)
 <use fig/reco_electron_eff_eta.png>
 Package pdftex.def Info: fig/reco_electron_eff_eta.png  used on input line 147.
@@ -1755,19 +1910,19 @@ Overfull \hbox (7.83324pt too wide) in paragraph at lines 145--148
  [][][][] 
  []
 
-[27 <./fig/reco_electron.png>]
+[28 <./fig/reco_electron.png>]
 Overfull \hbox (1.98268pt too wide) in paragraph at lines 153--158
 \OT1/cmr/m/n/12 topo-log-i-cal clus-ters with barycen-ters falling within a con
 e of ra-dius $^^A\OML/cmm/m/it/12 R \OT1/cmr/m/n/12 = [] =
  []
 
-[28 <./fig/reco_electron_eff_ET.png> <./fig/reco_electron_eff_eta.png>]
-<fig/reco_electron_iso_ET.png, id=652, 447.6725pt x 441.65pt>
+[29 <./fig/reco_electron_eff_ET.png> <./fig/reco_electron_eff_eta.png>]
+<fig/reco_electron_iso_ET.png, id=677, 447.6725pt x 441.65pt>
 File: fig/reco_electron_iso_ET.png Graphic file (type png)
 <use fig/reco_electron_iso_ET.png>
 Package pdftex.def Info: fig/reco_electron_iso_ET.png  used on input line 166.
 (pdftex.def)             Requested size: 234.8775pt x 231.72145pt.
-<fig/reco_electron_iso_eta.png, id=653, 447.6725pt x 441.65pt>
+<fig/reco_electron_iso_eta.png, id=678, 447.6725pt x 441.65pt>
 File: fig/reco_electron_iso_eta.png Graphic file (type png)
 <use fig/reco_electron_iso_eta.png>
 Package pdftex.def Info: fig/reco_electron_iso_eta.png  used on input line 168.
@@ -1778,12 +1933,12 @@ Overfull \hbox (7.83324pt too wide) in paragraph at lines 166--169
  [][][][] 
  []
 
-<fig/reco_qmisid_ET.png, id=659, 586.19pt x 567.11874pt>
+<fig/reco_qmisid_ET.png, id=684, 586.19pt x 567.11874pt>
 File: fig/reco_qmisid_ET.png Graphic file (type png)
 <use fig/reco_qmisid_ET.png>
 Package pdftex.def Info: fig/reco_qmisid_ET.png  used on input line 180.
 (pdftex.def)             Requested size: 234.8775pt x 227.23288pt.
-<fig/reco_qmisid_eta.png, id=660, 586.19pt x 567.11874pt>
+<fig/reco_qmisid_eta.png, id=685, 586.19pt x 567.11874pt>
 File: fig/reco_qmisid_eta.png Graphic file (type png)
 <use fig/reco_qmisid_eta.png>
 Package pdftex.def Info: fig/reco_qmisid_eta.png  used on input line 182.
@@ -1793,63 +1948,80 @@ Overfull \hbox (7.83324pt too wide) in paragraph at lines 180--183
  [][][][] 
  []
 
-[29] [30 <./fig/reco_electron_iso_ET.png> <./fig/reco_electron_iso_eta.png>]
-[31 <./fig/reco_qmisid_ET.png> <./fig/reco_qmisid_eta.png>]
+[30] [31 <./fig/reco_electron_iso_ET.png> <./fig/reco_electron_iso_eta.png>]
+[32 <./fig/reco_qmisid_ET.png> <./fig/reco_qmisid_eta.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 199--202
 
  []
 
-[32]
-<fig/reco_muon_ID.png, id=692, 632.3625pt x 457.71pt>
+[33]
+<fig/reco_muon_ID.png, id=717, 632.3625pt x 457.71pt>
 File: fig/reco_muon_ID.png Graphic file (type png)
 <use fig/reco_muon_ID.png>
 Package pdftex.def Info: fig/reco_muon_ID.png  used on input line 205.
 (pdftex.def)             Requested size: 422.77664pt x 306.01459pt.
- [33 <./fig/reco_muon_ID.png>] [34]) [35]
+ [34 <./fig/reco_muon_ID.png>] [35]) [36]
 Chapter 6.
-(./chapters/chapter-6.tex
-Overfull \hbox (7.11768pt too wide) in paragraph at lines 11--12
+(./chapters/chapter-7.tex
+Overfull \hbox (7.11768pt too wide) in paragraph at lines 13--14
 []\OT1/cmr/bx/n/12 Calorimeter clean-ing\OT1/cmr/m/n/12 : events con-tain-ing s
 ig-nal hits in-di-cat-ing an er-ror in the calorime-
  []
 
-[36
+[37
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
+[38]
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
 
  []
 
-[37]) [38] [39]
+[39] [40] [41]
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
+
+ []
+
+[42]
+Underfull \hbox (badness 10000) in paragraph at lines 192--193
+
+ []
+
+[43]
+Overfull \hbox (15.04866pt too wide) in paragraph at lines 194--197
+\OT1/cmr/m/n/12 con-ver-sion can-di-date and nei-ther as with a ma-te-rial con-
+ver-sion can-di-date ($[][] =
+ []
+
+[44] [45] [46] [47] [48]
+Overfull \hbox (16.28302pt too wide) detected at line 321
+[]
+ []
+
+) [49]
 Chapter 7.
-(./chapters/chapter-7.tex [40
+(./chapters/chapter-8.tex) [50
 
-]) [41]
+]
 Chapter 8.
-(./chapters/chapter-8.tex) [42
+(./chapters/chapter-9.tex) [51
 
 ]
 Chapter 9.
-(./chapters/chapter-9.tex) [43
+(./chapters/chapter-10.tex) [52
 
-]
-Chapter 10.
-(./chapters/chapter-10.tex) [44
+] [53
 
-] [45
-
-] [46]
+] [54]
 Missing character: There is no Ï in font cmti12!
 Missing character: There is no ‡ in font cmti12!
-[47]
+[55]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¼ in font cmr12!
-[48] [49] (./thesis.aux)
+[56] [57] (./thesis.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.26pt have occurred.
@@ -1860,38 +2032,47 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 1D4E4BF3B4D59B3E5E66D4459AE36B5A;9782.
+
+Package rerunfilecheck Warning: File `thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `thesis.out':
+(rerunfilecheck)             Before: 767E4D052B66546212A0A9473CA81C2B;10347
+(rerunfilecheck)             After:  628D3F2113A841CE9994FA9DE4138495;10352.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25731 strings out of 478268
- 444345 string characters out of 5846347
- 1126446 words of memory out of 5000000
- 43299 multiletter control sequences out of 15000+600000
- 480103 words of font info for 67 fonts, out of 8000000 for 9000
+ 25802 strings out of 478268
+ 445097 string characters out of 5846347
+ 1157952 words of memory out of 5000000
+ 43341 multiletter control sequences out of 15000+600000
+ 487990 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  85i,20n,90p,1865b,1865s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
-}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
-</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
-sr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
-/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/l
-ocal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
-cal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/loc
-al/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/loca
-l/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local
-/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/l
-ocal/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on thesis.pdf (60 pages, 1152519 bytes).
+}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
+</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
+/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><
+/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
+usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
+sr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></us
+r/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
+local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/lo
+cal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
+al/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local
+/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/
+texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/t
+exlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/te
+xlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/tex
+live/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local
+/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on thesis.pdf (68 pages, 1212079 bytes).
 PDF statistics:
- 998 PDF objects out of 1000 (max. 8388607)
- 872 compressed objects within 9 object streams
- 238 named destinations out of 1000 (max. 500000)
- 563 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1075 PDF objects out of 1200 (max. 8388607)
+ 934 compressed objects within 10 object streams
+ 256 named destinations out of 1000 (max. 500000)
+ 579 words of extra memory for PDF output out of 10000 (max. 10000000)
 

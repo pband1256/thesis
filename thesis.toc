@@ -47,20 +47,23 @@
 \contentsline {subsection}{\numberline {6.2.1}Signal regions}{42}{subsection.6.2.1}%
 \contentsline {subsection}{\numberline {6.2.2}Control regions}{42}{subsection.6.2.2}%
 \contentsline {subsection}{\numberline {6.2.3}Validation regions}{44}{subsection.6.2.3}%
-\contentsline {subsection}{\numberline {6.2.4}Unblinding strategy}{45}{subsection.6.2.4}%
 \contentsline {section}{\numberline {6.3}Background estimation}{45}{section.6.3}%
 \contentsline {subsection}{\numberline {6.3.1}Template fitting for fake/non-prompt estimation}{47}{subsection.6.3.1}%
 \contentsline {subsection}{\numberline {6.3.2}Charge misidentification data-driven estimation}{48}{subsection.6.3.2}%
-\contentsline {subsection}{\numberline {6.3.3}\ensuremath {t\bar {t}W}\xspace data-driven estimation}{49}{subsection.6.3.3}%
-\contentsline {section}{\numberline {6.4}Signal extraction}{49}{section.6.4}%
-\contentsline {chapter}{\numberline {Chapter 7.}\negthickspace \negthickspace Systematic Uncertainties}{50}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Experimental uncertainties}{50}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Modeling uncertainties}{50}{section.7.2}%
-\contentsline {subsection}{\numberline {7.2.1}Signal modeling uncertainties}{50}{subsection.7.2.1}%
-\contentsline {subsection}{\numberline {7.2.2}Background modeling uncertainties}{50}{subsection.7.2.2}%
-\contentsline {chapter}{\numberline {Chapter 8.}\negthickspace \negthickspace Results}{51}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Likelihood fit}{51}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Limits}{51}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Interpretation}{51}{section.8.3}%
-\contentsline {chapter}{\numberline {Chapter 9.}\negthickspace \negthickspace Summary}{52}{chapter.9}%
-\contentsline {chapter}{References}{53}{chapter*.20}%
+\contentsline {subsection}{\numberline {6.3.3}\ensuremath {t\bar {t}W}\xspace background data-driven estimation}{49}{subsection.6.3.3}%
+\contentsline {subsection}{\numberline {6.3.4}\ensuremath {t\bar {t}Z}\xspace background validation}{52}{subsection.6.3.4}%
+\contentsline {chapter}{\numberline {Chapter 7.}\negthickspace \negthickspace Systematic Uncertainties}{53}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Experimental uncertainties}{53}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}Leptons}{53}{subsection.7.1.1}%
+\contentsline {subsection}{\numberline {7.1.2}Jets}{54}{subsection.7.1.2}%
+\contentsline {subsection}{\numberline {7.1.3}Missing transverse energy}{56}{subsection.7.1.3}%
+\contentsline {section}{\numberline {7.2}Modeling uncertainties}{56}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}Signal and irreducible background uncertainties}{56}{subsection.7.2.1}%
+\contentsline {subsection}{\numberline {7.2.2}Reducible background uncertainties}{56}{subsection.7.2.2}%
+\contentsline {chapter}{\numberline {Chapter 8.}\negthickspace \negthickspace Results}{59}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Profile likelihood fit}{59}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Fit results}{59}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Limits}{59}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Interpretation}{59}{section.8.4}%
+\contentsline {chapter}{\numberline {Chapter 9.}\negthickspace \negthickspace Summary}{60}{chapter.9}%
+\contentsline {chapter}{References}{61}{chapter*.22}%

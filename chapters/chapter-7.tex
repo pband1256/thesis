@@ -66,7 +66,7 @@ The \acs{ETmiss} reconstruction also applies the NNJvt algorithm to jets, and us
 
 \subsubsection*{Lepton \pT cut}
 \label{sec:lepptcut}
-\textcolor{red}{(lepton \pT cut study: 7 GeV vs 15 GeV}
+\textcolor{red}{(lepton \pT cut study: 7 GeV vs 15 GeV)}
 
 \subsubsection*{$b$-tagging optimization}
 \label{sec:btagopt}
@@ -165,11 +165,11 @@ The signal is then extracted from the SRs with a profile LH fit using all region
 Control regions are defined for each background to be enriched in the targeted background events, in order to maximize the targeted background's purity and minimize contamination from other sources within the region.\\
 This helps to constrain and reduce correlation between background normalization factors.\\
 Fit variables and selection criteria are determined via optimization studies on CRs to achieve the largest discriminating power possible between the target background and other event types.
-\subsubsection*{$t\bar{t}W$ background CRs}
-Four CRs are defined to estimate the flavor composition and normalization of \ttW +jets background.\\
+\subsubsection*{\ttW background CRs}
+Two types of CRs are defined to estimate the flavor composition and normalization of \ttW +jets background: CR $t\bar{t}W^\pm$+jets to constrain flavor composition, and CR 1b($\pm$) to constrain jet multiplicity spectrum.\\
+These are further split into \CRttWpm and \CRonebpm due to the pronounced asymmetry in \ttW production from $pp$ collisions, with \ttWplus being produced at approximately twice the rate of \ttWminus.
 Selections on \HT and $N_\mathrm{jets}$ to ensure orthogonality to SR\\
 Selections on total charge for each charged $W^\pm$ boson\\
-Two types of CRs for \ttW +jets background: CR $t\bar{t}W^\pm$+jets to constrain flavor composition, and CR 1b($\pm$) to constrain jet multiplicity spectrum.
 
 \subsubsection*{Fake/non-prompt background CRs}
 Selection for fake/non-prompt CRs are determined using the \verb|DFCommonAddAmbiguity| (DFCAA) variable for reconstructed leptons.
@@ -245,37 +245,28 @@ CR Mat. Conv. 			& SS $e\ell$ 	& $[4,6)$	& $\geq 1$	&
 	& & & & total charge $< 0$ & \\[6pt]
 \multirow{3}{*}{CR 1b(+)} 				& \multirow{3}{*}{SS2L+3L}		& \multirow{3}{*}{$\geq 4$}	& \multirow{3}{*}{$1$}		& 
 	$\ell_1+\ell_2$ not from material conversion & \multirow{3}{*}{$N_\mathrm{jets}$} \\
-	& & & & $\HT < 500$ GeV & \\
+	& & & & $\HT > 500$ GeV & \\
 	& & & & total charge $> 0$ & \\[6pt]
 \multirow{3}{*}{CR 1b(-)} 				& \multirow{3}{*}{SS2L+3L} 		& \multirow{3}{*}{$\geq 4$}	& \multirow{3}{*}{$1$}		& 
 	$\ell_1+\ell_2$ not from material conversion & \multirow{3}{*}{$N_\mathrm{jets}$} \\
-	& & & & $\HT < 500$ GeV & \\
+	& & & & $\HT > 500$ GeV & \\
 	& & & & total charge $< 0$ & \\
 \midrule
 VR \ttZ 		& 3L $\ell^{\pm}\ell^{\mp}$	& $\geq 4$ 	& $\geq 2$ 	
 	& $m_{\ell\ell} \in [81,101]$ GeV	& $N_\mathrm{jets}, m_{\ell\ell}$ \\[6pt]
-VR \ttW +1b 	& SS2L+3L 	& 			& 			
+VR \ttW+1b 	& SS2L+3L 	& 			& 			
 	& CR $t\bar{t}W^{\pm}$ $||$ CR 1b($\pm$) 			& $N_\mathrm{jets}$ \\[6pt]
-VR \ttW +1b+SR 	& SS2L+3L 	& 			& 			
+VR \ttW+1b+SR 	& SS2L+3L 	& 			& 			
 	& CR $t\bar{t}W^{\pm}$ $||$ CR 1b($\pm$) $||$ SR 	& $N_\mathrm{jets}$ \\[6pt]
 \midrule
 \midrule
 \multirow{2}{*}{SR} 					& \multirow{2}{*}{SS2L+3L} 		& \multirow{2}{*}{$\geq 6$}	& \multirow{2}{*}{$\geq 2$}	& 
-	$\HT < 500$ GeV & \multirow{2}{*}{\HT} \\
+	$\HT > 500$ GeV & \multirow{2}{*}{\HT} \\
 	& & & & $m_{\ell\ell} \notin [81,101]$ GeV & \\
 \bottomrule\bottomrule
 \end{tabular}}
 \caption{\label{tab:ana:regions}Caption}%
 \end{table}
-
-\subsection{Unblinding strategy}
-Run 2 data has already been unblinded, but general unblinding strategy is still carried out.
-\begin{itemize}
-\item Plain Asimov fit
-\item Real CRs-only fit
-\item Real SR-blinded fit
-\item Real SR-unblinded fit
-\end{itemize}
 
 
 \section{Background estimation}
@@ -287,15 +278,23 @@ Three main types: charge misidentification (QmisID), fake leptons and non-prompt
 Estimated using template fitting method to adjust MC predictions via floating normalization factors constrained in the CRs.\\
 Irreducible background consists of SM processes that result in SSML final states physically, with all leptons being prompt.\\
 Main irreducible background considered in this analysis: \tttt, \ttW, \ttZ, and \ttH with smaller contributions from $VV$, $VVV$, $VH$ and rarer processes like \ttVV, \tWZ, \tZq and \ttt.\\
-Most irreducible backgrounds are estimated using MC simulations normalized to their theoretical SM cross sections, with the exception of \ttW background due to MC mismodeling of the process at high jet multiplicities.\\
-The \ttW is instead given four dedicated CRs, and estimated using a data-driven method with a fitted function parameterized in $N_\mathrm{jets}$
+Most irreducible backgrounds are estimated using MC simulations normalized to their theoretical SM cross sections (template fitting), with the exception of \ttW background due to MC mismodeling of the process at high jet multiplicities.\\
+The \ttW is instead given four dedicated CRs, and estimated using a data-driven method with a fitted function parameterized in $N_\mathrm{jets}$\\
+All CRs and SR are included in the final LH-fit to data.
+
+
 %\subsection{Fake \& non-prompt leptons}
 %\subsection{Reducible background}
 \subsection{Template fitting for fake/non-prompt estimation}
 \label{sec:template}
-Template fit method is a semi-data-driven approach that estimates background distributions by fitting the corresponding MC kinematic profiles to data via free-floating normalization factors.\\
-There are four NFs for fake/non-prompt backgrounds, one for each corresponding background and CR used to constrain them: $\mathrm{NF}_{\text{HF }e(\mu)}$ for events with one non-prompt electron (muon) from heavy flavor decays, $\mathrm{NF}_{\text{Mat. Conv.}}$ for events with non-prompt electrons from material conversion, and $\mathrm{NF}_{\text{Low }m_{\gamma^{*}}}$ for events with non-prompt electrons from virtual photon conversion.\\
-The free-floating NFs are calibrated using a fit to data within each CR, then applied to the MC background estimates in the final SR fit as a correction factor.
+Template fit method is a semi-data-driven approach that estimates fake/non-prompt background distributions by fitting the MC kinematic profiles of background processes arising from fake/non-prompt leptons to data.\\
+Each of the four main sources of fake/non-prompt leptons is assigned a free-floating normalization factor constrained by a CR enriched with the corresponding background. The NFs are determined simultaneously with the signal.
+\begin{itemize}
+\item $\mathrm{NF}_{\text{HF }e(\mu)}$: events with one reconstructed non-prompt electron (muon) from heavy flavor decays,
+\item $\mathrm{NF}_{\text{Mat. Conv.}}$: events with one reconstructed non-prompt electrons from photon conversion in the detector material
+\item $\mathrm{NF}_{\text{Low }m_{\gamma^{*}}}$: events with one reconstructed non-prompt electrons in an $e^+e^-$ pair from virtual photon ($\gamma^*$) conversion.
+\end{itemize}
+
 
 \subsection{Charge misidentification data-driven estimation}
 \label{sec:qmisid}
@@ -324,13 +323,50 @@ The charge flip rate is then calculated separately for SR and CRs with different
 w = \frac{\epsilon_i+\epsilon_j-2\epsilon_i\epsilon_j}{1-\epsilon_i-\epsilon_j+2\epsilon_i\epsilon_j}.
 \end{equation}
 
-\subsection{\ttW data-driven estimation}
 
 
-\section{Signal extraction}
-\label{sec:mva}
-%\subsection*{SM MVA}
-%\subsection*{BSM MVA}
+\subsection{\ttW background data-driven estimation}
+- \ttW represents a major source of irreducible background contamination in SM and BSM analyses with \tttt final states.\\
+- Measured cross section for \ttW background has been consistently higher than predicted values as seen in previous analyses (\ttH/\ttW multilepton \citep{bg:ttH_ttW_ML}\cite{ana:ttW_meas}, \tttt analyses \citep{ana:tttt_ev}\citep{ana:tttt_obs}) due to mismodeling, especially at higher $N_\mathrm{jets}$ \\
+(show postfit \ttW VR distribution)\\
+- Previously, this was handled by assigning large ad-hoc systematic uncertainties to \ttW events with 7 or more jets. 
+% expand on tttt VR discrepancy?
+- A semi-data-driven method originally employed in the R-parity-violating-supersymmetry search \citep{ana:r_par_susy_2021} was used to mitigate this problem. 
+- This method was shown to be effective in the SM \tttt observation analysis \citep{ana:tttt_obs} by improving \ttW modeling especially in the showering step and switching \ttW systematic uncertainties from predominantly modeling to statistical.\\
+- MC kinematic distibutions for \ttW are applied with correction factors obtained from a fitted function parameterized in $N_\mathrm{jets}$.\\
+- The function describes scaling patterns for QCD \citep{bg:qcd_scaling} can be represented by ratio of successive exclusive jet cross-sections
+\begin{equation}
+R_{(n+1)/n} = e^{-b} + \frac{\bar{n}}{n+1} = a_0 + \frac{a_1}{1+(j-4)},
+\end{equation}
+where $n$ is the number of jets in addition to the hard process, $j$ is the inclusive number of jets, and $\bar{n}$ is the expectation value for the Poisson distribution for exclusive jet cross-section at jet multiplicity $n$, described as $P_n=\sigma_n/\sigma_\mathrm{tot}$.\\
+- Same-sign di-lepton \ttW events dominate the \ttW background and produce $4$ jets in the matrix element at tree level for the hard process, so $n$ is defined starting from $5$ jets and $j$ is defined as inclusive number of jets with 4 or more jets, or $j\equiv n+4$.\\
+- The two terms in the equation correspond respectively to staircase and Poisson scaling between successive multiplicity cross sections, defined as constant ratios $e^{-b}$ and ratios between Poisson probability for $n+1$ and $n$ jets. Staircase scaling is sensitive to events with high jet multiplicity, while Poisson scaling is sensitive to events with low jet multiplicity \citep{bg:qcd_scaling}.\\
+- The scaling pattern can then be re-parameterized in $a_0$ and $a_1$ to obtain the \ttW yield at $j'$
+\begin{equation}
+\mathrm{Yield}_{\ttW(j')} = \mathrm{Yield}_{\ttW(j=4)} \times 
+\mathlarger{\prod}_{j=4}^{j'-1} \left( a_0 + \frac{a_1}{1+(j-4)} \right)
+\end{equation}
+where $j'$ is defined as $j'\equiv j+1$ with $j\geq 4$ since the parameterization starts at the $4^\mathrm{th}$ jet.\\
+The \ttW yield at the 4-jet bin can be represented by a normalization factor applied to \ttW MC simulation as $\mathrm{Yield}_{\ttW(j=4)}=\mathrm{NF}_{\ttW(j=4)} \times \mathrm{MC}_{j=4}$.\\
+To account for the disparity in \ttWplus and \ttWminus cross-section, assuming the scaling is the same for both processes, $\mathrm{NF}_{\ttW(j=4)}$ can be further split into $\mathrm{NF}_{\ttWplus(j=4)}$ and $\mathrm{NF}_{\ttWminus(j=4)}$. Both NFs are left free-floating to constrain \ttW yields at the 4-jet bin in \CRonebp and \CRonebm.\\
+The final $N_\mathrm{jets}$-parameterized function can then be represented by $\mathrm{NF}_{\ttW(j')}$ as
+\begin{equation}
+\label{eq:ttWdd}
+\mathrm{NF}_{\ttW(j')} = \left(\mathrm{NF}_{\ttWplus(j=4)} + \mathrm{NF}_{\ttWminus(j=4)}\right) \times \mathlarger{\prod}_{j=4}^{j'-1} \left( a_0 + \frac{a_1}{1+(j-4)} \right).
+\end{equation}
+This normalization is calculated and applied separately for each sub-sample of \ttWplus and \ttWminus in an $N_\mathrm{jets}$ bin for $4\leq N_\mathrm{jets}<10$.\\
+Due to small contributions in the CRs, events with $N_\mathrm{jets}<4$ and $N_\mathrm{jets}\geq 10$ are not normalized with this scheme.\\
+Instead, $N_\mathrm{jets}<4$ \ttW events are fitted by propagating normalization in the 4-jet bin without additional shape correction. The correction factor for \ttW events with $N_\mathrm{jets}\geq 10$ is obtained by summing up the overflow from $N_\mathrm{jets}=10$ to $N_\mathrm{jets}=12$, described as $\sum_{j'=10}^{12} \prod_{j=4}^{j'-1}\left(a_0+\frac{a_1}{1+(j-4)}\right)$. Events with $N_\mathrm{jets}\geq 13$ are negligible and thus not included in the sum.
+
+\subsubsection*{Control region definitions}
+Four control regions \CRttWp, \CRttWm, \CRonebp, \CRonebm are constructed to fit $\mathrm{NF}_{\ttWpm(j=4)}$ and the scaling parameters $a_0$, $a_1$ for the \ttW background, as well as validating the parameterization.\\
+Events in \CRttWpm are required to contain at least two $b$-tagged jets similar to the SR to determine the \ttW normalization within an SR-related phase space. Orthogonality with SR is satisfied by requiring $\HT<500$ GeV or $N_\mathrm{jets}<6$ when $N_b=2$, and $\HT<500$ GeV when $N_b\geq 3$.\\
+The remaining \CRonebpm require events to have $\HT>500$ GeV and at least four jets to encompass events with high $N_\mathrm{jets}$, which can be used to determine the \ttW jet multiplicity spectrum for fitting $a_{0,1}$. The selection criteria also include exactly one $b$-tagged jet to maintain orthogonality with SR. Assuming the \ttW jet multiplicity distribution is similar across different $N_b$, a fitted $N_\mathrm{jets}$ distribution in \CRonebpm can be used to describe the \ttW parameterization at higher $N_\mathrm{jets}$. The full selection criteria for all four regions are shown in \autoref{tab:ana:regions}\\
+
+Validating the \ttW parameterization in \autoref{eq:ttWdd} makes use of the unique charge asymmetry in \ttW production that's not present in other background or signal processes. The number of events with all negatively charged leptons is subtracted from that of events with all positively charged leptons, which cancels out charge symmetric events and leaves the \ttW background. Validation is done via a statistical-only (stat-only) fit to the \ttW MC prediction in \CRonebpm. \textcolor{red}{validation results}
+
+
+\subsection{\ttZ background validation}
 
 
 

@@ -58,11 +58,12 @@ citecolor=blue
 \usepackage{appendix}
 \usepackage{multicol, multirow}
 \UseRawInputEncoding
-
+\usepackage{lineno}
+\linenumbers
 \usepackage{url}
 \urlstyle{same}
-\usepackage[backend=bibtex,style=numeric-comp,bibencoding=utf8,natbib=true,backref]{biblatex}
-%\nocite{*}
+%\usepackage[backend=bibtex,style=numeric-comp,bibencoding=utf8,natbib=true,sorting=none,backref]{biblatex}
+\usepackage[backend=bibtex,style=ieee,bibencoding=utf8,natbib=true,sorting=none,backref]{biblatex}
 \DeclareFieldFormat*{title}{\mkbibitalic{#1}}
 \DeclareFieldFormat*{citetitle}{\mkbibitalic{#1}}
 \bibliography{bib/citations}
@@ -91,7 +92,7 @@ citecolor=blue
 %% Some packages can cause conflicts resulting in improper formatting.
 
 \author{Hieu Le} %% Put your name in full as it is officially recognized by Michigan State University here.
-\title{Search for $\lowercase{\ttbar}Z' \rightarrow \lowercase{\tttt}$ production in the multilepton final state in $\lowercase{pp}$ collisions at \lowercase{$\Ecom=$} 13 and 13.6 TeV with the ATLAS detector} %% Put the title of your dissertation here.
+\title{Search for $\lowercase{\ttbar}Z' \rightarrow \lowercase{\tttt}$ production in the multilepton final state in $\lowercase{pp}$ collisions at \lowercase{$\Ecom=$} 13 TeV with the ATLAS detector} %% Put the title of your dissertation here.
 
 %% Go to http://grad.msu.edu/etd/docs/DegreeGrantingUnits.pdf
 %% and find your GRADUATE DEGREE GRANTING UNIT/PROGRAM
@@ -224,6 +225,8 @@ Acronyms
 \acro{CMS}{Compact Muon Solenoid}
 \acro{CR}{control region}
 \acro{ECIDS}{Electron Charge ID Selector}
+\acro{EM}{electromagnetic}
+\acro{EW}{electroweak}
 \acro{GNN}{graph neural network}
 \acro{HLT}{High-Level Trigger}
 \acro{ID}{inner detector}
@@ -282,24 +285,20 @@ Acronyms
 \chapter*{Roadmap}
 \addcontentsline{toc}{chapter}{Roadmap}
 \begin{enumerate}
-\item Finish adding bullets for all sections \dotfill 05/16
+\item Finish adding bullets for all sections \dotfill 06/04
 	\begin{itemize} Remaining
 	\item introduction
-	\item higgs-top yukawa coupling, SMEFT \& Higgs oblique parameter
-	\item collider physics
-	\item mc background samples
-	\item ttbar/ptrel/high pT calibration \& results
 	\end{itemize}
-\item Fill in details \dotfill 05/23
+\item Fill in details \dotfill 06/13
 	\begin{itemize}
 	\item Add missing figures
 	\item Add missing bib
 	\end{itemize}
-\item Finalize analysis \dotfill 05/30
+\item Finalize analysis
 \item String everything together
 \item Miscellaneous/logistics (proofreading, review, ATLAS approval, etc.) \dotfill
-\item Submission to the graduate school \dotfill 06/15
-\item Defense \dotfill 06/30
+\item Submission to the graduate school \dotfill 07/01
+\item Defense \dotfill 07/15
 \end{enumerate}
 
 \chapter{Introduction}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.20)  19 MAY 2025 22:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.20)  3 JUN 2025 21:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -714,62 +714,80 @@ Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@dima=\skip114
 \bigstrutjot=\dimen302
 )
+(/usr/local/texlive/2022/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count339
+\output=\toks38
+\linenoprevgraf=\count340
+\linenumbersep=\dimen303
+\linenumberwidth=\dimen304
+\c@linenumber=\count341
+\c@pagewiselinenumber=\count342
+\c@LN@truepage=\count343
+\c@internallinenumber=\count344
+\c@internallinenumbers=\count345
+\quotelinenumbersep=\dimen305
+\bframerule=\dimen306
+\bframesep=\dimen307
+\bframebox=\box117
+LaTeX Info: Redefining \\ on input line 3056.
+)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2022/02/02 v3.17 programmable bibliographies (PK/MW)
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count339
+\etb@tempcnta=\count346
 )
 (/usr/local/texlive/2022/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count340
+\lrq@indent=\count347
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count341
-\c@listtotal=\count342
-\c@listcount=\count343
-\c@liststart=\count344
-\c@liststop=\count345
-\c@citecount=\count346
-\c@citetotal=\count347
-\c@multicitecount=\count348
-\c@multicitetotal=\count349
-\c@instcount=\count350
-\c@maxnames=\count351
-\c@minnames=\count352
-\c@maxitems=\count353
-\c@minitems=\count354
-\c@citecounter=\count355
-\c@maxcitecounter=\count356
-\c@savedcitecounter=\count357
-\c@uniquelist=\count358
-\c@uniquename=\count359
-\c@refsection=\count360
-\c@refsegment=\count361
-\c@maxextratitle=\count362
-\c@maxextratitleyear=\count363
-\c@maxextraname=\count364
-\c@maxextradate=\count365
-\c@maxextraalpha=\count366
-\c@abbrvpenalty=\count367
-\c@highnamepenalty=\count368
-\c@lownamepenalty=\count369
-\c@maxparens=\count370
-\c@parenlevel=\count371
-\blx@tempcnta=\count372
-\blx@tempcntb=\count373
-\blx@tempcntc=\count374
-\c@blx@maxsection=\count375
-\c@blx@maxsegment@0=\count376
-\blx@notetype=\count377
-\blx@parenlevel@text=\count378
-\blx@parenlevel@foot=\count379
-\c@blx@sectionciteorder@0=\count380
-\blx@entrysetcounter=\count381
-\blx@biblioinstance=\count382
+\c@tabx@nest=\count348
+\c@listtotal=\count349
+\c@listcount=\count350
+\c@liststart=\count351
+\c@liststop=\count352
+\c@citecount=\count353
+\c@citetotal=\count354
+\c@multicitecount=\count355
+\c@multicitetotal=\count356
+\c@instcount=\count357
+\c@maxnames=\count358
+\c@minnames=\count359
+\c@maxitems=\count360
+\c@minitems=\count361
+\c@citecounter=\count362
+\c@maxcitecounter=\count363
+\c@savedcitecounter=\count364
+\c@uniquelist=\count365
+\c@uniquename=\count366
+\c@refsection=\count367
+\c@refsegment=\count368
+\c@maxextratitle=\count369
+\c@maxextratitleyear=\count370
+\c@maxextraname=\count371
+\c@maxextradate=\count372
+\c@maxextraalpha=\count373
+\c@abbrvpenalty=\count374
+\c@highnamepenalty=\count375
+\c@lownamepenalty=\count376
+\c@maxparens=\count377
+\c@parenlevel=\count378
+\blx@tempcnta=\count379
+\blx@tempcntb=\count380
+\blx@tempcntc=\count381
+\c@blx@maxsection=\count382
+\c@blx@maxsegment@0=\count383
+\blx@notetype=\count384
+\blx@parenlevel@text=\count385
+\blx@parenlevel@foot=\count386
+\c@blx@sectionciteorder@0=\count387
+\blx@entrysetcounter=\count388
+\blx@biblioinstance=\count389
 \labelnumberwidth=\skip115
 \labelalphawidth=\skip116
 \biblabelsep=\skip117
@@ -781,9 +799,9 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \blx@bcfin=\read2
 \blx@bcfout=\write3
 \blx@langwohyphens=\language87
-\c@mincomprange=\count383
-\c@maxcomprange=\count384
-\c@mincompwidth=\count385
+\c@mincomprange=\count390
+\c@maxcomprange=\count391
+\c@mincompwidth=\count392
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -791,77 +809,77 @@ Package biblatex Info: ... file 'blx-dm.def' found.
 File: blx-dm.def 2022/02/02 v3.17 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'numeric-comp.dbx' not found.
+Package biblatex Info: ... file 'ieee.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count386
-\c@savedafterword=\count387
-\c@annotator=\count388
-\c@savedannotator=\count389
-\c@author=\count390
-\c@savedauthor=\count391
-\c@bookauthor=\count392
-\c@savedbookauthor=\count393
-\c@commentator=\count394
-\c@savedcommentator=\count395
-\c@editor=\count396
-\c@savededitor=\count397
-\c@editora=\count398
-\c@savededitora=\count399
-\c@editorb=\count400
-\c@savededitorb=\count401
-\c@editorc=\count402
-\c@savededitorc=\count403
-\c@foreword=\count404
-\c@savedforeword=\count405
-\c@holder=\count406
-\c@savedholder=\count407
-\c@introduction=\count408
-\c@savedintroduction=\count409
-\c@namea=\count410
-\c@savednamea=\count411
-\c@nameb=\count412
-\c@savednameb=\count413
-\c@namec=\count414
-\c@savednamec=\count415
-\c@translator=\count416
-\c@savedtranslator=\count417
-\c@shortauthor=\count418
-\c@savedshortauthor=\count419
-\c@shorteditor=\count420
-\c@savedshorteditor=\count421
-\c@labelname=\count422
-\c@savedlabelname=\count423
-\c@institution=\count424
-\c@savedinstitution=\count425
-\c@lista=\count426
-\c@savedlista=\count427
-\c@listb=\count428
-\c@savedlistb=\count429
-\c@listc=\count430
-\c@savedlistc=\count431
-\c@listd=\count432
-\c@savedlistd=\count433
-\c@liste=\count434
-\c@savedliste=\count435
-\c@listf=\count436
-\c@savedlistf=\count437
-\c@location=\count438
-\c@savedlocation=\count439
-\c@organization=\count440
-\c@savedorganization=\count441
-\c@origlocation=\count442
-\c@savedoriglocation=\count443
-\c@origpublisher=\count444
-\c@savedorigpublisher=\count445
-\c@publisher=\count446
-\c@savedpublisher=\count447
-\c@language=\count448
-\c@savedlanguage=\count449
-\c@origlanguage=\count450
-\c@savedoriglanguage=\count451
-\c@pageref=\count452
-\c@savedpageref=\count453
+\c@afterword=\count393
+\c@savedafterword=\count394
+\c@annotator=\count395
+\c@savedannotator=\count396
+\c@author=\count397
+\c@savedauthor=\count398
+\c@bookauthor=\count399
+\c@savedbookauthor=\count400
+\c@commentator=\count401
+\c@savedcommentator=\count402
+\c@editor=\count403
+\c@savededitor=\count404
+\c@editora=\count405
+\c@savededitora=\count406
+\c@editorb=\count407
+\c@savededitorb=\count408
+\c@editorc=\count409
+\c@savededitorc=\count410
+\c@foreword=\count411
+\c@savedforeword=\count412
+\c@holder=\count413
+\c@savedholder=\count414
+\c@introduction=\count415
+\c@savedintroduction=\count416
+\c@namea=\count417
+\c@savednamea=\count418
+\c@nameb=\count419
+\c@savednameb=\count420
+\c@namec=\count421
+\c@savednamec=\count422
+\c@translator=\count423
+\c@savedtranslator=\count424
+\c@shortauthor=\count425
+\c@savedshortauthor=\count426
+\c@shorteditor=\count427
+\c@savedshorteditor=\count428
+\c@labelname=\count429
+\c@savedlabelname=\count430
+\c@institution=\count431
+\c@savedinstitution=\count432
+\c@lista=\count433
+\c@savedlista=\count434
+\c@listb=\count435
+\c@savedlistb=\count436
+\c@listc=\count437
+\c@savedlistc=\count438
+\c@listd=\count439
+\c@savedlistd=\count440
+\c@liste=\count441
+\c@savedliste=\count442
+\c@listf=\count443
+\c@savedlistf=\count444
+\c@location=\count445
+\c@savedlocation=\count446
+\c@organization=\count447
+\c@savedorganization=\count448
+\c@origlocation=\count449
+\c@savedoriglocation=\count450
+\c@origpublisher=\count451
+\c@savedorigpublisher=\count452
+\c@publisher=\count453
+\c@savedpublisher=\count454
+\c@language=\count455
+\c@savedlanguage=\count456
+\c@origlanguage=\count457
+\c@savedoriglanguage=\count458
+\c@pageref=\count459
+\c@savedpageref=\count460
 \shorthandwidth=\skip123
 \shortjournalwidth=\skip124
 \shortserieswidth=\skip125
@@ -897,19 +915,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
-\c@textcitecount=\count454
-\c@textcitetotal=\count455
-\c@textcitemaxnames=\count456
-\c@biburlbigbreakpenalty=\count457
-\c@biburlbreakpenalty=\count458
-\c@biburlnumpenalty=\count459
-\c@biburlucpenalty=\count460
-\c@biburllcpenalty=\count461
+\c@textcitecount=\count461
+\c@textcitetotal=\count462
+\c@textcitemaxnames=\count463
+\c@biburlbigbreakpenalty=\count464
+\c@biburlbreakpenalty=\count465
+\c@biburlnumpenalty=\count466
+\c@biburlucpenalty=\count467
+\c@biburllcpenalty=\count468
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count462
+\c@smartand=\count469
 )
 Package biblatex Info: Trying to load natbib compatibility...
 Package biblatex Info: ... file 'blx-natbib.def' found.
@@ -919,6 +937,11 @@ File: blx-natbib.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
 Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
  overwriting.
 )
+Package biblatex Info: Trying to load bibliography style 'ieee'...
+Package biblatex Info: ... file 'ieee.bbx' found.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex-ieee/ieee.bbx
+File: ieee.bbx 2021/12/06 v1.3f biblatex bibliography style
 Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.bbx' found.
 
@@ -934,18 +957,23 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count463
-\c@bbx:relatedtotal=\count464
-)))
+\c@bbx:relatedcount=\count470
+\c@bbx:relatedtotal=\count471
+))))
+Package biblatex Info: Trying to load citation style 'ieee'...
+Package biblatex Info: ... file 'ieee.cbx' found.
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex-ieee/ieee.cbx
+File: ieee.cbx 2021/12/06 v1.3f biblatex citation style
 Package biblatex Info: Trying to load citation style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.cbx' found.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
 File: numeric-comp.cbx 2022/02/02 v3.17 biblatex citation style (PK/MW)
-\c@cbx@tempcnta=\count465
-\c@cbx@tempcntb=\count466
-\c@cbx@tempcntc=\count467
-\c@cbx@tempcntd=\count468
+\c@cbx@tempcnta=\count472
+\c@cbx@tempcntb=\count473
+\c@cbx@tempcntc=\count474
+\c@cbx@tempcntd=\count475
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -957,6 +985,10 @@ Package biblatex Info: Redefining '\textcites'.
 Package biblatex Info: Redefining '\cites'.
 Package biblatex Info: Redefining '\parencites'.
 Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\cites'.
 )
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
@@ -988,62 +1020,34 @@ Package bm Info: No bold for \U/msa/m/n, using \pmb.
 Package bm Info: No bold for \U/msb/m/n, using \pmb.
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
 ) (./thesis-defs.sty)
-\@quotelevel=\count469
-\@quotereset=\count470
+\@quotelevel=\count476
+\@quotereset=\count477
 (/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count471
-\l__pdf_internal_box=\box117
+\l__color_backend_stack_int=\count478
+\l__pdf_internal_box=\box118
 )
-(./thesis.aux
-
-LaTeX Warning: Label `fig:a' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:a' multiply defined.
-
-
-LaTeX Warning: Label `fig:b' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:b' multiply defined.
-
-
-LaTeX Warning: Label `fig:a' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:a' multiply defined.
-
-
-LaTeX Warning: Label `fig:b' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:b' multiply defined.
-
-
-LaTeX Warning: Label `fig:reco:electron_iso' multiply defined.
-
-)
+(./thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1081,17 +1085,17 @@ LaTeX Font Info:    ... okay on input line 105.
 
 (/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count472
-\scratchdimen=\dimen303
-\scratchbox=\box118
-\nofMPsegments=\count473
-\nofMParguments=\count474
-\everyMPshowfont=\toks38
-\MPscratchCnt=\count475
-\MPscratchDim=\dimen304
-\MPnumerator=\count476
-\makeMPintoPDFobject=\count477
-\everyMPtoPDFconversion=\toks39
+\scratchcounter=\count479
+\scratchdimen=\dimen308
+\scratchbox=\box119
+\nofMPsegments=\count480
+\nofMParguments=\count481
+\everyMPshowfont=\toks39
+\MPscratchCnt=\count482
+\MPscratchDim=\dimen309
+\MPnumerator=\count483
+\makeMPintoPDFobject=\count484
+\everyMPtoPDFconversion=\toks40
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1110,7 +1114,7 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 105.
+Package hyperref Info: Link coloring ON on input line 106.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1122,11 +1126,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count478
+\c@section@level=\count485
 )
-LaTeX Info: Redefining \ref on input line 105.
-LaTeX Info: Redefining \pageref on input line 105.
-LaTeX Info: Redefining \nameref on input line 105.
+LaTeX Info: Redefining \ref on input line 106.
+LaTeX Info: Redefining \pageref on input line 106.
+LaTeX Info: Redefining \nameref on input line 106.
  (./thesis.out) (./thesis.out)
 \@outlinefile=\write4
 \openout4 = `thesis.out'.
@@ -1150,21 +1154,15 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'thesis.bbl' found.
 
-(./thesis.bbl
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'ftag:ttbar':
-(biblatex)                - Invalid format of field 'month'.
-
-)
-Package biblatex Info: Reference section=0 on input line 105.
-Package biblatex Info: Reference segment=0 on input line 105.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 106
+(./thesis.bbl)
+Package biblatex Info: Reference section=0 on input line 106.
+Package biblatex Info: Reference segment=0 on input line 106.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 107
 .
  (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 106
+LaTeX Font Info:    Trying to load font information for U+msb on input line 107
 .
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -1200,444 +1198,464 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ]
 
 LaTeX Warning: Hyper reference `acro:chi2' on page ix undefined on input line 1
-98.
+99.
 
 
 LaTeX Warning: Hyper reference `acro:chi2' on page ix undefined on input line 1
-98.
+99.
 
 
-LaTeX Warning: Hyper reference `acro:dR' on page ix undefined on input line 199
+LaTeX Warning: Hyper reference `acro:dR' on page ix undefined on input line 200
 .
 
 
-LaTeX Warning: Hyper reference `acro:dR' on page ix undefined on input line 199
+LaTeX Warning: Hyper reference `acro:dR' on page ix undefined on input line 200
 .
 
 
 LaTeX Warning: Hyper reference `acro:eta' on page ix undefined on input line 20
-0.
+1.
 
 
 LaTeX Warning: Hyper reference `acro:eta' on page ix undefined on input line 20
+1.
+
+
+LaTeX Warning: Hyper reference `acro:ET' on page ix undefined on input line 202
+.
+
+
+LaTeX Warning: Hyper reference `acro:ET' on page ix undefined on input line 202
+.
+
+
+LaTeX Warning: Hyper reference `acro:ETmiss' on page ix undefined on input line
+ 203.
+
+
+LaTeX Warning: Hyper reference `acro:ETmiss' on page ix undefined on input line
+ 203.
+
+
+LaTeX Warning: Hyper reference `acro:higgsobl' on page ix undefined on input li
+ne 204.
+
+
+LaTeX Warning: Hyper reference `acro:higgsobl' on page ix undefined on input li
+ne 204.
+
+
+LaTeX Warning: Hyper reference `acro:isospin' on page ix undefined on input lin
+e 205.
+
+
+LaTeX Warning: Hyper reference `acro:isospin' on page ix undefined on input lin
+e 205.
+
+
+LaTeX Warning: Hyper reference `acro:lumi' on page ix undefined on input line 2
+06.
+
+
+LaTeX Warning: Hyper reference `acro:lumi' on page ix undefined on input line 2
+06.
+
+
+LaTeX Warning: Hyper reference `acro:mu' on page ix undefined on input line 207
+.
+
+
+LaTeX Warning: Hyper reference `acro:mu' on page ix undefined on input line 207
+.
+
+
+LaTeX Warning: Hyper reference `acro:pT' on page ix undefined on input line 208
+.
+
+
+LaTeX Warning: Hyper reference `acro:pT' on page ix undefined on input line 208
+.
+
+
+LaTeX Warning: Hyper reference `acro:b' on page ix undefined on input line 212.
+
+
+
+LaTeX Warning: Hyper reference `acro:b' on page ix undefined on input line 212.
+
+
+
+LaTeX Warning: Hyper reference `acro:pp' on page ix undefined on input line 213
+.
+
+
+LaTeX Warning: Hyper reference `acro:pp' on page ix undefined on input line 213
+.
+
+
+LaTeX Warning: Hyper reference `acro:ttbar' on page ix undefined on input line 
+214.
+
+
+LaTeX Warning: Hyper reference `acro:ttbar' on page ix undefined on input line 
+214.
+
+
+LaTeX Warning: Hyper reference `acro:tttt' on page ix undefined on input line 2
+15.
+
+
+LaTeX Warning: Hyper reference `acro:tttt' on page ix undefined on input line 2
+15.
+
+
+LaTeX Warning: Hyper reference `acro:tW' on page ix undefined on input line 216
+.
+
+
+LaTeX Warning: Hyper reference `acro:tW' on page ix undefined on input line 216
+.
+
+
+LaTeX Warning: Hyper reference `acro:1LOS' on page ix undefined on input line 2
+20.
+
+
+LaTeX Warning: Hyper reference `acro:1LOS' on page ix undefined on input line 2
+20.
+
+
+LaTeX Warning: Hyper reference `acro:ATLAS' on page ix undefined on input line 
+221.
+
+
+LaTeX Warning: Hyper reference `acro:ATLAS' on page ix undefined on input line 
+221.
+
+
+LaTeX Warning: Hyper reference `acro:BDT' on page ix undefined on input line 22
+2.
+
+
+LaTeX Warning: Hyper reference `acro:BDT' on page ix undefined on input line 22
+2.
+
+
+LaTeX Warning: Hyper reference `acro:BSM' on page ix undefined on input line 22
+3.
+
+
+LaTeX Warning: Hyper reference `acro:BSM' on page ix undefined on input line 22
+3.
+
+
+LaTeX Warning: Hyper reference `acro:CERN' on page ix undefined on input line 2
+24.
+
+
+LaTeX Warning: Hyper reference `acro:CERN' on page ix undefined on input line 2
+24.
+
+
+LaTeX Warning: Hyper reference `acro:CMS' on page ix undefined on input line 22
+5.
+
+
+LaTeX Warning: Hyper reference `acro:CMS' on page ix undefined on input line 22
+5.
+
+
+LaTeX Warning: Hyper reference `acro:CR' on page ix undefined on input line 226
+.
+
+
+LaTeX Warning: Hyper reference `acro:CR' on page ix undefined on input line 226
+.
+
+
+LaTeX Warning: Hyper reference `acro:ECIDS' on page ix undefined on input line 
+227.
+
+
+LaTeX Warning: Hyper reference `acro:ECIDS' on page ix undefined on input line 
+227.
+
+
+LaTeX Warning: Hyper reference `acro:EM' on page ix undefined on input line 228
+.
+
+
+LaTeX Warning: Hyper reference `acro:EM' on page ix undefined on input line 228
+.
+
+
+LaTeX Warning: Hyper reference `acro:EW' on page ix undefined on input line 229
+.
+
+
+LaTeX Warning: Hyper reference `acro:EW' on page ix undefined on input line 229
+.
+
+
+LaTeX Warning: Hyper reference `acro:GNN' on page ix undefined on input line 23
 0.
 
 
-LaTeX Warning: Hyper reference `acro:ET' on page ix undefined on input line 201
-.
-
-
-LaTeX Warning: Hyper reference `acro:ET' on page ix undefined on input line 201
-.
-
-
-LaTeX Warning: Hyper reference `acro:ETmiss' on page ix undefined on input line
- 202.
-
-
-LaTeX Warning: Hyper reference `acro:ETmiss' on page ix undefined on input line
- 202.
-
-
-LaTeX Warning: Hyper reference `acro:higgsobl' on page ix undefined on input li
-ne 203.
-
-
-LaTeX Warning: Hyper reference `acro:higgsobl' on page ix undefined on input li
-ne 203.
-
-
-LaTeX Warning: Hyper reference `acro:isospin' on page ix undefined on input lin
-e 204.
-
-
-LaTeX Warning: Hyper reference `acro:isospin' on page ix undefined on input lin
-e 204.
-
-
-LaTeX Warning: Hyper reference `acro:lumi' on page ix undefined on input line 2
-05.
-
-
-LaTeX Warning: Hyper reference `acro:lumi' on page ix undefined on input line 2
-05.
-
-
-LaTeX Warning: Hyper reference `acro:mu' on page ix undefined on input line 206
-.
-
-
-LaTeX Warning: Hyper reference `acro:mu' on page ix undefined on input line 206
-.
-
-
-LaTeX Warning: Hyper reference `acro:pT' on page ix undefined on input line 207
-.
-
-
-LaTeX Warning: Hyper reference `acro:pT' on page ix undefined on input line 207
-.
-
-
-LaTeX Warning: Hyper reference `acro:b' on page ix undefined on input line 211.
-
-
-
-LaTeX Warning: Hyper reference `acro:b' on page ix undefined on input line 211.
-
-
-
-LaTeX Warning: Hyper reference `acro:pp' on page ix undefined on input line 212
-.
-
-
-LaTeX Warning: Hyper reference `acro:pp' on page ix undefined on input line 212
-.
-
-
-LaTeX Warning: Hyper reference `acro:ttbar' on page ix undefined on input line 
-213.
-
-
-LaTeX Warning: Hyper reference `acro:ttbar' on page ix undefined on input line 
-213.
-
-
-LaTeX Warning: Hyper reference `acro:tttt' on page ix undefined on input line 2
-14.
-
-
-LaTeX Warning: Hyper reference `acro:tttt' on page ix undefined on input line 2
-14.
-
-
-LaTeX Warning: Hyper reference `acro:tW' on page ix undefined on input line 215
-.
-
-
-LaTeX Warning: Hyper reference `acro:tW' on page ix undefined on input line 215
-.
-
-
-LaTeX Warning: Hyper reference `acro:1LOS' on page ix undefined on input line 2
-19.
-
-
-LaTeX Warning: Hyper reference `acro:1LOS' on page ix undefined on input line 2
-19.
-
-
-LaTeX Warning: Hyper reference `acro:ATLAS' on page ix undefined on input line 
-220.
-
-
-LaTeX Warning: Hyper reference `acro:ATLAS' on page ix undefined on input line 
-220.
-
-
-LaTeX Warning: Hyper reference `acro:BDT' on page ix undefined on input line 22
-1.
-
-
-LaTeX Warning: Hyper reference `acro:BDT' on page ix undefined on input line 22
-1.
-
-
-LaTeX Warning: Hyper reference `acro:BSM' on page ix undefined on input line 22
-2.
-
-
-LaTeX Warning: Hyper reference `acro:BSM' on page ix undefined on input line 22
-2.
-
-
-LaTeX Warning: Hyper reference `acro:CERN' on page ix undefined on input line 2
-23.
-
-
-LaTeX Warning: Hyper reference `acro:CERN' on page ix undefined on input line 2
-23.
-
-
-LaTeX Warning: Hyper reference `acro:CMS' on page ix undefined on input line 22
-4.
-
-
-LaTeX Warning: Hyper reference `acro:CMS' on page ix undefined on input line 22
-4.
-
-
-LaTeX Warning: Hyper reference `acro:CR' on page ix undefined on input line 225
-.
-
-
-LaTeX Warning: Hyper reference `acro:CR' on page ix undefined on input line 225
-.
-
-
-LaTeX Warning: Hyper reference `acro:ECIDS' on page ix undefined on input line 
-226.
-
-
-LaTeX Warning: Hyper reference `acro:ECIDS' on page ix undefined on input line 
-226.
-
-
-LaTeX Warning: Hyper reference `acro:GNN' on page ix undefined on input line 22
-7.
-
-
-LaTeX Warning: Hyper reference `acro:GNN' on page ix undefined on input line 22
-7.
-
-
-LaTeX Warning: Hyper reference `acro:HLT' on page ix undefined on input line 22
-8.
-
-
-LaTeX Warning: Hyper reference `acro:HLT' on page ix undefined on input line 22
-8.
-
-
-LaTeX Warning: Hyper reference `acro:ID' on page ix undefined on input line 229
-.
-
-
-LaTeX Warning: Hyper reference `acro:ID' on page ix undefined on input line 229
-.
+LaTeX Warning: Hyper reference `acro:GNN' on page ix undefined on input line 23
+0.
 
 [9
 
 
 ]
 
-LaTeX Warning: Hyper reference `acro:JER' on page x undefined on input line 230
+LaTeX Warning: Hyper reference `acro:HLT' on page x undefined on input line 231
 .
 
 
-LaTeX Warning: Hyper reference `acro:JER' on page x undefined on input line 230
+LaTeX Warning: Hyper reference `acro:HLT' on page x undefined on input line 231
 .
 
 
-LaTeX Warning: Hyper reference `acro:JES' on page x undefined on input line 231
+LaTeX Warning: Hyper reference `acro:ID' on page x undefined on input line 232.
+
+
+
+LaTeX Warning: Hyper reference `acro:ID' on page x undefined on input line 232.
+
+
+
+LaTeX Warning: Hyper reference `acro:JER' on page x undefined on input line 233
 .
 
 
-LaTeX Warning: Hyper reference `acro:JES' on page x undefined on input line 231
+LaTeX Warning: Hyper reference `acro:JER' on page x undefined on input line 233
 .
 
 
-LaTeX Warning: Hyper reference `acro:JVT' on page x undefined on input line 232
+LaTeX Warning: Hyper reference `acro:JES' on page x undefined on input line 234
 .
 
 
-LaTeX Warning: Hyper reference `acro:JVT' on page x undefined on input line 232
+LaTeX Warning: Hyper reference `acro:JES' on page x undefined on input line 234
 .
 
 
-LaTeX Warning: Hyper reference `acro:L1' on page x undefined on input line 233.
-
-
-
-LaTeX Warning: Hyper reference `acro:L1' on page x undefined on input line 233.
-
-
-
-LaTeX Warning: Hyper reference `acro:LH' on page x undefined on input line 234.
-
-
-
-LaTeX Warning: Hyper reference `acro:LH' on page x undefined on input line 234.
-
-
-
-LaTeX Warning: Hyper reference `acro:LLH' on page x undefined on input line 235
+LaTeX Warning: Hyper reference `acro:JVT' on page x undefined on input line 235
 .
 
 
-LaTeX Warning: Hyper reference `acro:LLH' on page x undefined on input line 235
+LaTeX Warning: Hyper reference `acro:JVT' on page x undefined on input line 235
 .
 
 
-LaTeX Warning: Hyper reference `acro:LO' on page x undefined on input line 236.
+LaTeX Warning: Hyper reference `acro:L1' on page x undefined on input line 236.
 
 
 
-LaTeX Warning: Hyper reference `acro:LO' on page x undefined on input line 236.
+LaTeX Warning: Hyper reference `acro:L1' on page x undefined on input line 236.
 
 
 
-LaTeX Warning: Hyper reference `acro:LAr' on page x undefined on input line 237
+LaTeX Warning: Hyper reference `acro:LH' on page x undefined on input line 237.
+
+
+
+LaTeX Warning: Hyper reference `acro:LH' on page x undefined on input line 237.
+
+
+
+LaTeX Warning: Hyper reference `acro:LLH' on page x undefined on input line 238
 .
 
 
-LaTeX Warning: Hyper reference `acro:LAr' on page x undefined on input line 237
+LaTeX Warning: Hyper reference `acro:LLH' on page x undefined on input line 238
 .
 
 
-LaTeX Warning: Hyper reference `acro:LHC' on page x undefined on input line 238
+LaTeX Warning: Hyper reference `acro:LO' on page x undefined on input line 239.
+
+
+
+LaTeX Warning: Hyper reference `acro:LO' on page x undefined on input line 239.
+
+
+
+LaTeX Warning: Hyper reference `acro:LAr' on page x undefined on input line 240
 .
 
 
-LaTeX Warning: Hyper reference `acro:LHC' on page x undefined on input line 238
+LaTeX Warning: Hyper reference `acro:LAr' on page x undefined on input line 240
 .
 
 
-LaTeX Warning: Hyper reference `acro:MET' on page x undefined on input line 239
+LaTeX Warning: Hyper reference `acro:LHC' on page x undefined on input line 241
 .
 
 
-LaTeX Warning: Hyper reference `acro:MET' on page x undefined on input line 239
+LaTeX Warning: Hyper reference `acro:LHC' on page x undefined on input line 241
 .
 
 
-LaTeX Warning: Hyper reference `acro:NF' on page x undefined on input line 240.
-
-
-
-LaTeX Warning: Hyper reference `acro:NF' on page x undefined on input line 240.
-
-
-
-LaTeX Warning: Hyper reference `acro:NLO' on page x undefined on input line 241
+LaTeX Warning: Hyper reference `acro:MET' on page x undefined on input line 242
 .
 
 
-LaTeX Warning: Hyper reference `acro:NLO' on page x undefined on input line 241
+LaTeX Warning: Hyper reference `acro:MET' on page x undefined on input line 242
+.
+
+
+LaTeX Warning: Hyper reference `acro:NF' on page x undefined on input line 243.
+
+
+
+LaTeX Warning: Hyper reference `acro:NF' on page x undefined on input line 243.
+
+
+
+LaTeX Warning: Hyper reference `acro:NLO' on page x undefined on input line 244
+.
+
+
+LaTeX Warning: Hyper reference `acro:NLO' on page x undefined on input line 244
 .
 
 
 LaTeX Warning: Hyper reference `acro:NNLO' on page x undefined on input line 24
-2.
+5.
 
 
 LaTeX Warning: Hyper reference `acro:NNLO' on page x undefined on input line 24
-2.
+5.
 
 
-LaTeX Warning: Hyper reference `acro:NP' on page x undefined on input line 243.
-
-
-
-LaTeX Warning: Hyper reference `acro:NP' on page x undefined on input line 243.
+LaTeX Warning: Hyper reference `acro:NP' on page x undefined on input line 246.
 
 
 
-LaTeX Warning: Hyper reference `acro:OP' on page x undefined on input line 244.
+LaTeX Warning: Hyper reference `acro:NP' on page x undefined on input line 246.
 
 
 
-LaTeX Warning: Hyper reference `acro:OP' on page x undefined on input line 244.
+LaTeX Warning: Hyper reference `acro:OP' on page x undefined on input line 247.
 
 
 
-LaTeX Warning: Hyper reference `acro:PS' on page x undefined on input line 245.
+LaTeX Warning: Hyper reference `acro:OP' on page x undefined on input line 247.
 
 
 
-LaTeX Warning: Hyper reference `acro:PS' on page x undefined on input line 245.
+LaTeX Warning: Hyper reference `acro:PS' on page x undefined on input line 248.
 
 
 
-LaTeX Warning: Hyper reference `acro:PDF' on page x undefined on input line 246
+LaTeX Warning: Hyper reference `acro:PS' on page x undefined on input line 248.
+
+
+
+LaTeX Warning: Hyper reference `acro:PDF' on page x undefined on input line 249
 .
 
 
-LaTeX Warning: Hyper reference `acro:PDF' on page x undefined on input line 246
+LaTeX Warning: Hyper reference `acro:PDF' on page x undefined on input line 249
 .
 
 
-LaTeX Warning: Hyper reference `acro:PCBT' on page x undefined on input line 24
-7.
+LaTeX Warning: Hyper reference `acro:PCBT' on page x undefined on input line 25
+0.
 
 
-LaTeX Warning: Hyper reference `acro:PCBT' on page x undefined on input line 24
-7.
+LaTeX Warning: Hyper reference `acro:PCBT' on page x undefined on input line 25
+0.
 
 
-LaTeX Warning: Hyper reference `acro:QED' on page x undefined on input line 248
+LaTeX Warning: Hyper reference `acro:QED' on page x undefined on input line 251
 .
 
 
-LaTeX Warning: Hyper reference `acro:QED' on page x undefined on input line 248
+LaTeX Warning: Hyper reference `acro:QED' on page x undefined on input line 251
 .
 
 
-LaTeX Warning: Hyper reference `acro:QCD' on page x undefined on input line 249
+LaTeX Warning: Hyper reference `acro:QCD' on page x undefined on input line 252
 .
 
 
-LaTeX Warning: Hyper reference `acro:QCD' on page x undefined on input line 249
+LaTeX Warning: Hyper reference `acro:QCD' on page x undefined on input line 252
 .
 
 
-LaTeX Warning: Hyper reference `acro:QFT' on page x undefined on input line 250
+LaTeX Warning: Hyper reference `acro:QFT' on page x undefined on input line 253
 .
 
 
-LaTeX Warning: Hyper reference `acro:QFT' on page x undefined on input line 250
+LaTeX Warning: Hyper reference `acro:QFT' on page x undefined on input line 253
 .
 
 
 LaTeX Warning: Hyper reference `acro:QmisID' on page x undefined on input line 
-251.
+254.
 
 
 LaTeX Warning: Hyper reference `acro:QmisID' on page x undefined on input line 
-251.
+254.
 
 
-LaTeX Warning: Hyper reference `acro:SF' on page x undefined on input line 252.
-
-
-
-LaTeX Warning: Hyper reference `acro:SF' on page x undefined on input line 252.
+LaTeX Warning: Hyper reference `acro:SF' on page x undefined on input line 255.
 
 
 
-LaTeX Warning: Hyper reference `acro:SM' on page x undefined on input line 253.
+LaTeX Warning: Hyper reference `acro:SF' on page x undefined on input line 255.
 
 
 
-LaTeX Warning: Hyper reference `acro:SM' on page x undefined on input line 253.
+LaTeX Warning: Hyper reference `acro:SM' on page x undefined on input line 256.
 
 
 
-LaTeX Warning: Hyper reference `acro:SR' on page x undefined on input line 254.
+LaTeX Warning: Hyper reference `acro:SM' on page x undefined on input line 256.
 
-
-
-LaTeX Warning: Hyper reference `acro:SR' on page x undefined on input line 254.
-
-
-
-LaTeX Warning: Hyper reference `acro:SSML' on page x undefined on input line 25
-5.
-
-
-LaTeX Warning: Hyper reference `acro:SSML' on page x undefined on input line 25
-5.
 
 [10]
 
-LaTeX Warning: Hyper reference `acro:TDAQ' on page xi undefined on input line 2
-56.
+LaTeX Warning: Hyper reference `acro:SR' on page xi undefined on input line 257
+.
+
+
+LaTeX Warning: Hyper reference `acro:SR' on page xi undefined on input line 257
+.
+
+
+LaTeX Warning: Hyper reference `acro:SSML' on page xi undefined on input line 2
+58.
+
+
+LaTeX Warning: Hyper reference `acro:SSML' on page xi undefined on input line 2
+58.
 
 
 LaTeX Warning: Hyper reference `acro:TDAQ' on page xi undefined on input line 2
-56.
+59.
+
+
+LaTeX Warning: Hyper reference `acro:TDAQ' on page xi undefined on input line 2
+59.
 
 [11]
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <22> not available
-(Font)              size <20.74> substituted on input line 282.
+(Font)              size <20.74> substituted on input line 285.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <22> not available
+(Font)              size <20.74> substituted on input line 285.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.305 \chapter
+l.304 \chapter
               {Introduction} [1
 
 ]
@@ -1646,28 +1664,38 @@ Chapter 1.
 
 ]
 Chapter 2.
-(./chapters/chapter-2.tex [3
+(./chapters/chapter-2.tex
+Underfull \hbox (badness 10000) in paragraph at lines 8--11
 
-]
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-[4] [5] [6]) [7]
+ []
+
+<fig/theory_smparticles.pdf, id=527, 305.67198pt x 218.54247pt>
+File: fig/theory_smparticles.pdf Graphic file (type pdf)
+<use fig/theory_smparticles.pdf>
+Package pdftex.def Info: fig/theory_smparticles.pdf  used on input line 20.
+(pdftex.def)             Requested size: 469.75502pt x 335.86949pt.
+[3
+
+] [4 <./fig/theory_smparticles.pdf>] [5] [6] [7]
+Underfull \hbox (badness 10000) in paragraph at lines 98--100
+
+ []
+
+[8] [9] [10] [11] [12]) [13]
 Chapter 3.
 (./chapters/chapter-3.tex
 Underfull \hbox (badness 10000) in paragraph at lines 21--29
 
  []
 
-[8
+[14
 
-] [9] [10]
+] [15] [16]
 Underfull \hbox (badness 10000) in paragraph at lines 93--95
 
  []
 
-[11]
+[17]
 Underfull \hbox (badness 6859) in paragraph at lines 100--101
 []\OT1/cmr/m/n/12 end-cap di-vided into outer wheel
  []
@@ -1677,186 +1705,176 @@ Underfull \hbox (badness 6526) in paragraph at lines 113--114
 []\OT1/cmr/m/n/12 tile calorime-ters: steel-plastic
  []
 
-[12] [13] [14]
+[18] [19] [20]
 Underfull \hbox (badness 10000) in paragraph at lines 181--183
 
  []
 
-[15]) [16]
+[21]) [22]
 Chapter 4.
-(./chapters/chapter-4.tex [17
+(./chapters/chapter-4.tex [23
 
 ]
-Overfull \hbox (3.2514pt too wide) in paragraph at lines 86--86
+Overfull \hbox (3.2514pt too wide) in paragraph at lines 120--120
 []|\OT1/cmr/m/sc/10.95 MadGraph5[]aMC@NLO| 
  []
 
 
-Overfull \hbox (1.42474pt too wide) in paragraph at lines 86--86
+Overfull \hbox (1.42474pt too wide) in paragraph at lines 120--120
 []|\OT1/cmr/m/sc/10.95 Pythia8| 
  []
 
 
-Overfull \hbox (3.2514pt too wide) in paragraph at lines 86--86
+Overfull \hbox (3.2514pt too wide) in paragraph at lines 120--120
 []|\OT1/cmr/m/sc/10.95 MadGraph5[]aMC@NLO| 
  []
 
 
-Overfull \hbox (1.42474pt too wide) in paragraph at lines 86--86
+Overfull \hbox (1.42474pt too wide) in paragraph at lines 120--120
 []|\OT1/cmr/m/sc/10.95 Pythia8| 
  []
 
 
-Overfull \hbox (3.2514pt too wide) in paragraph at lines 86--86
+Overfull \hbox (3.2514pt too wide) in paragraph at lines 120--120
 []|\OT1/cmr/m/sc/10.95 MadGraph5[]aMC@NLO| 
  []
 
 
-Overfull \hbox (1.42474pt too wide) in paragraph at lines 86--86
-[]|\OT1/cmr/m/sc/10.95 Pythia8| 
- []
-
-
-Overfull \hbox (3.2514pt too wide) in paragraph at lines 86--86
-[]|\OT1/cmr/m/sc/10.95 MadGraph5[]aMC@NLO| 
- []
-
-
-Overfull \hbox (3.49306pt too wide) in paragraph at lines 86--86
+Overfull \hbox (3.49306pt too wide) in paragraph at lines 120--120
 []|\OT1/cmr/m/sc/10.95 Herwig7| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--86
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
 []|\OT1/cmr/m/n/10.95 H7-UE-
  []
 
 
-Overfull \hbox (3.49306pt too wide) in paragraph at lines 86--86
+Overfull \hbox (3.49306pt too wide) in paragraph at lines 120--120
 []|\OT1/cmr/m/sc/10.95 Herwig7| 
  []
 
 
-Overfull \hbox (3.2514pt too wide) in paragraph at lines 86--86
+Overfull \hbox (3.2514pt too wide) in paragraph at lines 120--120
 []|\OT1/cmr/m/sc/10.95 MadGraph5[]aMC@NLO| 
  []
 
 
-Overfull \hbox (1.42474pt too wide) in paragraph at lines 86--86
+Overfull \hbox (1.42474pt too wide) in paragraph at lines 120--120
 []|\OT1/cmr/m/sc/10.95 Pythia8| 
  []
 
 
-Overfull \hbox (1.42474pt too wide) in paragraph at lines 86--86
+Overfull \hbox (1.42474pt too wide) in paragraph at lines 120--120
 []|\OT1/cmr/m/sc/10.95 Pythia8| 
  []
 
 
-Overfull \hbox (3.49306pt too wide) in paragraph at lines 86--86
+Overfull \hbox (3.49306pt too wide) in paragraph at lines 120--120
 []|\OT1/cmr/m/sc/10.95 Herwig7| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--86
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
 []|\OT1/cmr/m/n/10.95 H7.2-
  []
 
 
-Overfull \hbox (3.2514pt too wide) in paragraph at lines 86--86
+Overfull \hbox (3.2514pt too wide) in paragraph at lines 120--120
 []|\OT1/cmr/m/sc/10.95 MadGraph5[]aMC@NLO| 
  []
 
 
-Overfull \hbox (1.42474pt too wide) in paragraph at lines 86--86
+Overfull \hbox (1.42474pt too wide) in paragraph at lines 120--120
 []|\OT1/cmr/m/sc/10.95 Pythia8| 
  []
 
 
-Overfull \hbox (1.42474pt too wide) in paragraph at lines 86--86
+Overfull \hbox (1.42474pt too wide) in paragraph at lines 120--120
 []|\OT1/cmr/m/sc/10.95 Pythia8| 
  []
 
 
-Overfull \hbox (1.42474pt too wide) in paragraph at lines 86--86
+Overfull \hbox (1.42474pt too wide) in paragraph at lines 120--120
 []|\OT1/cmr/m/sc/10.95 Pythia8| 
  []
 
 
-Overfull \hbox (1.42474pt too wide) in paragraph at lines 86--86
+Overfull \hbox (1.42474pt too wide) in paragraph at lines 120--120
 []|\OT1/cmr/m/sc/10.95 Pythia8| 
  []
 
 
-Overfull \hbox (3.2514pt too wide) in paragraph at lines 86--86
+Overfull \hbox (3.2514pt too wide) in paragraph at lines 120--120
 []|\OT1/cmr/m/sc/10.95 MadGraph5[]aMC@NLO| 
  []
 
 
-Overfull \hbox (1.42474pt too wide) in paragraph at lines 86--86
+Overfull \hbox (1.42474pt too wide) in paragraph at lines 120--120
 []|\OT1/cmr/m/sc/10.95 Pythia8| 
  []
 
 
-Overfull \hbox (3.2514pt too wide) in paragraph at lines 86--86
+Overfull \hbox (3.2514pt too wide) in paragraph at lines 120--120
 []|\OT1/cmr/m/sc/10.95 MadGraph5[]aMC@NLO| 
  []
 
 
-Overfull \hbox (1.42474pt too wide) in paragraph at lines 86--86
+Overfull \hbox (1.42474pt too wide) in paragraph at lines 120--120
 []|\OT1/cmr/m/sc/10.95 Pythia8| 
  []
 
 
-Overfull \hbox (3.2514pt too wide) in paragraph at lines 86--86
+Overfull \hbox (3.2514pt too wide) in paragraph at lines 120--120
 []|\OT1/cmr/m/sc/10.95 MadGraph5[]aMC@NLO
  []
 
 
-Overfull \hbox (1.42474pt too wide) in paragraph at lines 86--86
+Overfull \hbox (1.42474pt too wide) in paragraph at lines 120--120
 []|\OT1/cmr/m/sc/10.95 Pythia8| 
  []
 
 
-Overfull \hbox (1.42474pt too wide) in paragraph at lines 86--86
+Overfull \hbox (1.42474pt too wide) in paragraph at lines 120--120
 []|\OT1/cmr/m/sc/10.95 Pythia8| 
  []
 
 
-Overfull \hbox (1.42474pt too wide) in paragraph at lines 86--86
+Overfull \hbox (1.42474pt too wide) in paragraph at lines 120--120
 []|\OT1/cmr/m/sc/10.95 Pythia8| 
  []
 
 
-Overfull \hbox (1.42474pt too wide) in paragraph at lines 86--86
+Overfull \hbox (1.42474pt too wide) in paragraph at lines 120--120
 []|\OT1/cmr/m/sc/10.95 Pythia8| 
  []
 
 
-Overfull \hbox (1.42474pt too wide) in paragraph at lines 86--86
+Overfull \hbox (1.42474pt too wide) in paragraph at lines 120--120
 []|\OT1/cmr/m/sc/10.95 Pythia8| 
  []
 
 
-Overfull \hbox (1.42474pt too wide) in paragraph at lines 86--86
+Overfull \hbox (1.42474pt too wide) in paragraph at lines 120--120
 []|\OT1/cmr/m/sc/10.95 Pythia8| 
  []
 
-) [18] [19]
+) [24] [25]
 Chapter 5.
 (./chapters/chapter-5.tex
-<fig/reco_topo1.png, id=602, 438.63875pt x 335.2525pt>
+<fig/reco_topo1.png, id=786, 438.63875pt x 335.2525pt>
 File: fig/reco_topo1.png Graphic file (type png)
 <use fig/reco_topo1.png>
 Package pdftex.def Info: fig/reco_topo1.png  used on input line 24.
 (pdftex.def)             Requested size: 469.75502pt x 359.04402pt.
- [20
+ [26
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 30--33
 
  []
 
-[21 <./fig/reco_topo1.png>]
+[27 <./fig/reco_topo1.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 35--42
 
  []
@@ -1866,101 +1884,51 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--52
 
  []
 
-[22] [23]
-Underfull \hbox (badness 10000) in paragraph at lines 85--99
+[28] [29] [30]
+Underfull \hbox (badness 10000) in paragraph at lines 86--92
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 85--99
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 85--99
-
- []
-
-[24] [25]
-<fig/ftag_gn2.png, id=653, 1069.9975pt x 284.06125pt>
+[31]
+<fig/ftag_gn2.png, id=833, 1069.9975pt x 284.06125pt>
 File: fig/ftag_gn2.png Graphic file (type png)
 <use fig/ftag_gn2.png>
-Package pdftex.def Info: fig/ftag_gn2.png  used on input line 107.
+Package pdftex.def Info: fig/ftag_gn2.png  used on input line 100.
 (pdftex.def)             Requested size: 469.75502pt x 124.70992pt.
- [26 <./fig/ftag_gn2.png>]
-<fig/reco_electron.png, id=672, 770.88pt x 405.515pt>
+ [32 <./fig/ftag_gn2.png>]
+<fig/reco_electron.png, id=848, 770.88pt x 405.515pt>
 File: fig/reco_electron.png Graphic file (type png)
 <use fig/reco_electron.png>
-Package pdftex.def Info: fig/reco_electron.png  used on input line 129.
+Package pdftex.def Info: fig/reco_electron.png  used on input line 122.
 (pdftex.def)             Requested size: 469.75502pt x 247.11008pt.
- [27]
-<fig/reco_electron_eff_ET.png, id=681, 435.6275pt x 432.61626pt>
-File: fig/reco_electron_eff_ET.png Graphic file (type png)
-<use fig/reco_electron_eff_ET.png>
-Package pdftex.def Info: fig/reco_electron_eff_ET.png  used on input line 145.
-(pdftex.def)             Requested size: 234.8775pt x 233.25284pt.
-<fig/reco_electron_eff_eta.png, id=682, 435.6275pt x 432.61626pt>
-File: fig/reco_electron_eff_eta.png Graphic file (type png)
-<use fig/reco_electron_eff_eta.png>
-Package pdftex.def Info: fig/reco_electron_eff_eta.png  used on input line 147.
-
-(pdftex.def)             Requested size: 234.8775pt x 233.25284pt.
-
-Overfull \hbox (7.83324pt too wide) in paragraph at lines 145--148
- [][][][] 
- []
-
-[28 <./fig/reco_electron.png>]
-Overfull \hbox (1.98268pt too wide) in paragraph at lines 153--158
+ [33] [34 <./fig/reco_electron.png>]
+Overfull \hbox (1.98268pt too wide) in paragraph at lines 146--151
 \OT1/cmr/m/n/12 topo-log-i-cal clus-ters with barycen-ters falling within a con
 e of ra-dius $^^A\OML/cmm/m/it/12 R \OT1/cmr/m/n/12 = [] =
  []
 
-[29 <./fig/reco_electron_eff_ET.png> <./fig/reco_electron_eff_eta.png>]
-<fig/reco_electron_iso_ET.png, id=698, 447.6725pt x 441.65pt>
-File: fig/reco_electron_iso_ET.png Graphic file (type png)
-<use fig/reco_electron_iso_ET.png>
-Package pdftex.def Info: fig/reco_electron_iso_ET.png  used on input line 166.
-(pdftex.def)             Requested size: 234.8775pt x 231.72145pt.
-<fig/reco_electron_iso_eta.png, id=699, 447.6725pt x 441.65pt>
-File: fig/reco_electron_iso_eta.png Graphic file (type png)
-<use fig/reco_electron_iso_eta.png>
-Package pdftex.def Info: fig/reco_electron_iso_eta.png  used on input line 168.
-
-(pdftex.def)             Requested size: 234.8775pt x 231.72145pt.
-
-Overfull \hbox (7.83324pt too wide) in paragraph at lines 166--169
- [][][][] 
- []
-
-<fig/reco_qmisid_ET.png, id=705, 586.19pt x 567.11874pt>
+[35]
+<fig/reco_qmisid_ET.png, id=872, 586.19pt x 567.11874pt>
 File: fig/reco_qmisid_ET.png Graphic file (type png)
 <use fig/reco_qmisid_ET.png>
-Package pdftex.def Info: fig/reco_qmisid_ET.png  used on input line 180.
+Package pdftex.def Info: fig/reco_qmisid_ET.png  used on input line 173.
 (pdftex.def)             Requested size: 234.8775pt x 227.23288pt.
-<fig/reco_qmisid_eta.png, id=706, 586.19pt x 567.11874pt>
+<fig/reco_qmisid_eta.png, id=873, 586.19pt x 567.11874pt>
 File: fig/reco_qmisid_eta.png Graphic file (type png)
 <use fig/reco_qmisid_eta.png>
-Package pdftex.def Info: fig/reco_qmisid_eta.png  used on input line 182.
+Package pdftex.def Info: fig/reco_qmisid_eta.png  used on input line 175.
 (pdftex.def)             Requested size: 234.8775pt x 227.23288pt.
 
-Overfull \hbox (7.83324pt too wide) in paragraph at lines 180--183
+Overfull \hbox (7.83324pt too wide) in paragraph at lines 173--176
  [][][][] 
  []
 
-[30] [31 <./fig/reco_electron_iso_ET.png> <./fig/reco_electron_iso_eta.png>]
-[32 <./fig/reco_qmisid_ET.png> <./fig/reco_qmisid_eta.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 199--202
+[36] [37 <./fig/reco_qmisid_ET.png> <./fig/reco_qmisid_eta.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 192--195
 
  []
 
-[33]
-<fig/reco_muon_ID.png, id=739, 632.3625pt x 457.71pt>
-File: fig/reco_muon_ID.png Graphic file (type png)
-<use fig/reco_muon_ID.png>
-Package pdftex.def Info: fig/reco_muon_ID.png  used on input line 205.
-(pdftex.def)             Requested size: 422.77664pt x 306.01459pt.
- [34 <./fig/reco_muon_ID.png>] [35]) [36]
+[38] [39] [40]) [41] [42]
 Chapter 6.
 (./chapters/chapter-7.tex
 Overfull \hbox (7.11768pt too wide) in paragraph at lines 13--14
@@ -1968,100 +1936,94 @@ Overfull \hbox (7.11768pt too wide) in paragraph at lines 13--14
 ig-nal hits in-di-cat-ing an er-ror in the calorime-
  []
 
-[37
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 63--64
+LaTeX Warning: Reference `sec:trigsec' on page 43 undefined on input line 15.
 
- []
+[43
 
-[38]
-Underfull \hbox (badness 10000) in paragraph at lines 65--66
+] [44] [45]
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
 
-[39] [40] [41]
-Underfull \hbox (badness 10000) in paragraph at lines 143--144
-
- []
-
-[42]
-Underfull \hbox (badness 10000) in paragraph at lines 169--173
+[46]
+Underfull \hbox (badness 10000) in paragraph at lines 78--82
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 192--193
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
 
  []
 
-[43]
-Overfull \hbox (15.04866pt too wide) in paragraph at lines 194--197
+[47]
+Overfull \hbox (15.04866pt too wide) in paragraph at lines 103--106
 \OT1/cmr/m/n/12 con-ver-sion can-di-date and nei-ther as with a ma-te-rial con-
 ver-sion can-di-date ($[][] =
  []
 
-[44] [45] [46] [47] [48]
-Overfull \hbox (16.28302pt too wide) detected at line 320
+[48] [49] [50] [51] [52]
+Overfull \hbox (16.28302pt too wide) detected at line 229
 []
  []
 
-[49] [50]
-Overfull \hbox (2.38562pt too wide) in paragraph at lines 348--353
+[53] [54]
+Overfull \hbox (2.38562pt too wide) in paragraph at lines 257--262
 \OT1/cmr/m/n/12 same for both pro-cesses, $[][]$ can be fur-ther split into $[]
 []$ and $[][]$.
  []
 
+[55]
 
-Underfull \hbox (badness 10000) in paragraph at lines 362--365
+LaTeX Warning: Reference `tab:ana:regions' on page 56 undefined on input line 2
+73.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--274
 
  []
 
-[51]) [52]
+[56]) [57]
 Chapter 7.
 (./chapters/chapter-8.tex
-Underfull \hbox (badness 10000) in paragraph at lines 15--18
+Underfull \hbox (badness 10000) in paragraph at lines 16--19
 
  []
 
-[53
+[58
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
 
  []
 
 
-Overfull \hbox (11.55943pt too wide) in paragraph at lines 25--26
+Overfull \hbox (11.55943pt too wide) in paragraph at lines 26--27
 []$\OML/cmm/m/it/12 ^^Q$ \OT1/cmr/m/n/12 in-ter-cal-i-bra-tion: 6 to-tal com-po
 -nents (1 modeling-related, 4 non-closure and 1 statistical-
  []
 
-[54] [55]) [56]
+[59] [60] [61] [62] [63]
 
-LaTeX Warning: Text page 57 contains only floats.
-
-
-Overfull \vbox (3.37482pt too high) has occurred while \output is active []
+LaTeX Warning: Float too large for page by 1.63622pt on input line 301.
 
 
-[57] [58]
+Overfull \hbox (9.21565pt too wide) in paragraph at lines 311--312
+[]\OT1/cmtt/m/n/12 +HF: contaminates SR phase space with large $\OML/cmm/m/it/1
+2 b$\OT1/cmtt/m/n/12 -jet multiplicity, estimated
+ []
+
+) [64] [65] [66]
 Chapter 8.
-(./chapters/chapter-9.tex) [59
+(./chapters/chapter-9.tex [67
 
-]
+]) [68]
 Chapter 9.
-(./chapters/chapter-10.tex) [60
+(./chapters/chapter-10.tex) [69
 
-] [61
+] [70
 
-] [62] [63]
-Missing character: There is no Ï in font cmti12!
-Missing character: There is no ‡ in font cmti12!
-[64]
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no ¼ in font cmr12!
-[65] [66] (./thesis.aux)
+] [71] [72] [73] [74] (./thesis.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.26pt have occurred.
@@ -2069,23 +2031,25 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 01DC38B3C09DE6CB0F1F70C6A46B0AD7;10924.
+(rerunfilecheck)             Checksum: 80772513CA0022AEC02FA7CEAD1FC0ED;10827.
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                thesis
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25878 strings out of 478268
- 446880 string characters out of 5846347
- 1158697 words of memory out of 5000000
- 43388 multiletter control sequences out of 15000+600000
- 489891 words of font info for 103 fonts, out of 8000000 for 9000
+ 26158 strings out of 478268
+ 450920 string characters out of 5846347
+ 1164116 words of memory out of 5000000
+ 43627 multiletter control sequences out of 15000+600000
+ 490490 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,20n,90p,1865b,1865s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 85i,22n,90p,1865b,1880s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
@@ -2094,25 +2058,28 @@ sr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></u
 sr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
 r/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr
 /local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/
-local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/lo
-cal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loca
-l/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/
-texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/tex
-live/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texliv
-e/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
-/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2
-022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/202
-2/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2022/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2022/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2022/te
-xmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/202
-2/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2022/
-texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on thesis.pdf (77 pages, 1308694 bytes).
+local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/lo
+cal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loca
+l/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/
+texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/te
+xlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texli
+ve/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/
+2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/202
+2/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2022/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2022/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2022/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2022/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2022/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2022/texmf-dis
+t/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2022/texmf
+-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2022/texmf-d
+ist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on thesis.pdf (85 pages, 1055798 bytes).
 PDF statistics:
- 1209 PDF objects out of 1440 (max. 8388607)
- 1046 compressed objects within 11 object streams
- 279 named destinations out of 1000 (max. 500000)
- 603 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1394 PDF objects out of 1440 (max. 8388607)
+ 1193 compressed objects within 12 object streams
+ 313 named destinations out of 1000 (max. 500000)
+ 575 words of extra memory for PDF output out of 10000 (max. 10000000)
 

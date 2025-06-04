@@ -9,6 +9,41 @@ LHC Run 2 data collected at $\sqrt{s}=13$ TeV between 2015-2018\\
 luminosity 140 $\text{fb}^{-1}$ \\
 (include uncertainty for Run 2 only)
 
+Triggers used:
+\begin{table}[!ht]
+\centering
+\caption{\label{tab:ana:trigger}Caption}%
+\begin{tabular}{p{9cm}|cccc}
+\toprule\toprule
+\multicolumn{1}{c|}{\multirow{ 2}{*}{Trigger}}	& \multicolumn{4}{c}{Data period} \\
+\multicolumn{1}{c|}{}							& 2015	& 2016	& 2017	& 2018 \\
+\midrule
+\multicolumn{5}{c}{Single electron triggers} \\
+\midrule
+\verb|HLT_e24_lhmedium_L1EM20VH| 		& \checkmark & - & - & - \\
+\verb|HLT_e60_lhmedium|					& \checkmark & - & - & - \\
+\verb|HLT_e120_lhloose|					& \checkmark & - & - & - \\
+\verb|HLT_e26_lhtight_nod0_ivarloose|	& - & \checkmark & \checkmark & \checkmark \\
+\verb|HLT_e60_lhmedium_nod0|			& - & \checkmark & \checkmark & \checkmark \\
+\verb|HLT_e140_lhloose_nod0|			& - & \checkmark & \checkmark & \checkmark \\
+\midrule
+\multicolumn{5}{c}{Di-electron triggers} \\
+\midrule
+\verb|HLT_2e12_lhloose_L12EM10VH |		& \checkmark & - & - & - \\
+\verb|HLT_2e17_lhvloose_nod0| 			& - & \checkmark & - & - \\
+\verb|HLT_2e24_lhvloose_nod0| 			& - & - & \checkmark & \checkmark \\
+\verb|HLT_2e17_lhvloose_nod0_L12EM15VHI| 	& - & - & - & \checkmark \\
+\midrule
+\multicolumn{5}{c}{Single muon trigger} \\
+\midrule
+\verb|HLT_mu20_iloose_L1MU15| 			& \checkmark & - & - & - \\
+\verb|HLT_mu40|							& \checkmark & - & - & - \\
+\verb|HLT_mu26_ivarmedium| 				& - & \checkmark & \checkmark & \checkmark \\
+\verb|HLT_mu50|							& - & \checkmark & \checkmark & \checkmark \\
+\bottomrule\bottomrule
+\end{tabular}
+\end{table}
+
 \section{Monte Carlo samples}
 \label{sec:montecarlo}
 Monte Carlo simulated samples are used to estimate signal acceptance before unblinding, profile the physics background for the analysis and to study object optimizations.\\
@@ -28,21 +63,20 @@ resonance width computed with \mgamc to be 4\% of model configuration with these
 
 \subsection{Background samples}
 Run 2 mc20 samples (2015-2018)\\
-(show MC sample table)\\
-(go in depth into each sample? briefly explain different generator, pdf and ps?)
+(explain most important backgrounds: \tttt \& \ttt, \ttV, \tt
 
 \begin{table}[!htbp]
 \small
 \setlength{\tabcolsep}{3pt} % Reduce column spacing
 \renewcommand{\arraystretch}{1.2} % Adjust row spacing
 \centering
+\caption{\label{tab:MC}Summary of all Monte-Carlo samples used in this analysis.}
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{p{2.8cm} p{4.5cm} p{3.0cm} p{4.3cm} p{1.5cm} p{1.7cm} p{1.2cm}}
 \toprule 
 Process    & ME Generator  & ME Order & ME PDF  & PS  & Tune & Sim. \\
 \midrule \bottomrule
 \multicolumn{7}{l}{\textbf{Signals}} \\ \midrule
-\ttHA      & \mgamc         & LO       & NNPDF30 LO    & \pythia & A14  & AF3 \\
 \ttZp/$tjZ'$/$tWZ'$ & \mgamc & LO       & NNPDF3.1LO    & \pythia & A14  & FS \\
 \midrule \bottomrule
 \multicolumn{7}{l}{\textbf{\tttt and \ttt}} \\ \midrule
@@ -84,8 +118,6 @@ $VH$       & \powhegbox~v2  & NLO      & NNPDF3.0 AZNLO & \pythia & A14  & FS \\
 \midrule \bottomrule
 \end{tabular}%
 } % End resizebox
-\caption{Summary of all Monte-Carlo samples used in this analysis.}
-\label{tab:MC}
 \end{table}
 
 

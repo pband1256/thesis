@@ -2,7 +2,8 @@
 
 \begin{document}
 \vspace{-1\baselineskip}
-(nuisance parameters)
+(nuisance parameters)\\
+- Heavy pruning, 5\% on shape and normalization pruning \textcolor{red}{(to fit timeline?)}
 
 \section{Experimental uncertainties}
 \label{sec:sysexp}
@@ -120,9 +121,11 @@ Uncertainties for \ETmiss arise from possible miscalibration of its soft-track c
 %  \label{tab:syst_summary}
 %\end{table}
 
-\begin{table}[!ht]
+\begin{table}[!htbp]
   \centering
   \scriptsize
+  \caption{Summary of the experimental systematic uncertainties considered in this analysis.} 
+  \label{tab:syst_summary}
   \begin{center}
   \resizebox{\textwidth}{!}{%
     \begin{tabular}{lcc}
@@ -193,19 +196,52 @@ Uncertainties for \ETmiss arise from possible miscalibration of its soft-track c
       \bottomrule
     \end{tabular}}
   \end{center}
-  \caption{Summary of the experimental systematic uncertainties considered in this analysis.} 
-  \label{tab:syst_summary}
 \end{table}
 
 \section{Modeling uncertainties}
 \label{sec:sysmod}
 \subsection{Signal and irreducible background uncertainties}
+- scale variations - 6-point variation method, varying $\mu_R$ \& $\mu_F$ vs central values to cover missing higher-order QCD corrections (signal \& all major irreducible background)\\
+$(\mu_R, \mu_F) = (0.5,0.5), (0.5,1), (1,0.5), (1,2), (2,1), (2,2)$
+- pdf uncertainty: flat 1\% for \ttZp, \tttt, \ttZ, \ttH, envelope of differences between nominal vs. other pdf choices for \ttt
 
-\begin{table}[!ht]
+\subsubsection*{\ttZp signal}
+- parton distribution function: 1\%
+
+\subsubsection*{SM \tttt background}
+- cross section: 20\% from NLO prediction in QCD+EW\\
+- generator uncertainty: madgraph5\_amc@nlo (nominal) vs sherpa 2.2.10\\
+- parton shower uncertainty: pythia8 (nominal) vs herwig7
+
+\subsubsection*{SM \ttt background}
+- cross section: 30\% from NLO prediction in QCD+EW\\
+- additional $b$-jets: 50\% for \ttt events with 4+ truth $b$-jets
+
+\subsubsection*{\ttW, \ttZ, \ttH background}
+- cross section: \ttZ 12\%, \ttH 10\% \textcolor{red}{(from CERN yellow report)}\\
+no cross-section and pdf uncertainties for \ttW since normalizations and jet multiplicity spectrum are estimated with data-driven method\\
+- parton shower uncertainty: \ttH powhegbox+pythia8 (nominal) vs powhegbox+herwig7\\
+- additional $b$-jets: events with additional HF jets can contaminate SR and are challenging to model w/ MC - 50\% for events with an additional truth $b$-jet not from top-quark decay, additional 50\% for 2 or more\\
+- generator uncertainty \textcolor{red}{table?}
+\begin{itemize}
+\item \ttW - sherpa (nominal) vs madgraph5\_amc@nlo
+\item \ttZ - madgraph5\_amc@nlo (nominal) vs sherpa 2.2.10
+\item \ttH - powheg8/PhPy8 (nominal) vs powheg8/PhPy8 pthard
+\end{itemize} 
+
+\subsubsection*{Other backgrounds}
+\begin{itemize}
+\item $t(\bar{t})X$: cross section 30\%
+\item $VV$: cross section (STDM-2018-03) uncorrelated 20\%/50\%/60\% for events with 3-/4/5+ jets; events with 1+ truth $b$-jets not from top decay 50\%
+\item $t\bar{t}VV$, $VVV$, $VH$: cross section 50\%; addtional $b$-jets same as $VV$
+\end{itemize}
+
+\begin{table}[!htbp]
   \centering
-  \scriptsize
+%  \scriptsize
+  \caption{\label{tab:syst_signal}Caption}
   \begin{center}
-  \resizebox{0.7\textwidth}{!}{%
+%  \resizebox{0.7\textwidth}{!}{%
     \begin{tabular}{lcc}
       \toprule \midrule
       Systematic uncertainty	& Terms     & Scale [\%] \\
@@ -259,76 +295,48 @@ Uncertainties for \ETmiss arise from possible miscalibration of its soft-track c
       Cross-section & & \\
       Additional $b$-jets & & \\
       \bottomrule
-    \end{tabular}}
+    \end{tabular}
+%    }
   \end{center}
-  \caption{} 
-  \label{tab:syst_signal}
 \end{table}
 
 \subsection{Reducible background uncertainties}
 
+
+\begin{itemize}
+\item Electron charge misidentification background: 
+\item Material and internal (low $\gamma^{*}$) conversion background: estimated based on data/MC differences in a region enriched with $Z \rightarrow \ell^+\ell^-\gamma$; 30\% \& 21\% for material \& internal conversion
+\item Heavy-flavor non-prompt lepton background: estimated based on data/MC differences in CR/SR distributions, ranging from 20-100\%
+\item Light-flavor decays and other fake/non-prompt background: Conservative normalization uncertainty of 100\% for light-flavor non-prompt lepton background (ATLAS-CONF-2019-045), 30\% for normalization of all other fake backgrounds.
+\item \tt+HF: contaminates SR phase space with large $b$-jet multiplicity, estimated from data/MC discrepancy, 30\% for \tt events with 
+\end{itemize}
+
 \begin{table}[!ht]
-  \centering
-  \scriptsize
+  \caption{\label{tab:syst_bg}Caption}
+%  \scriptsize
   \begin{center}
-  \resizebox{0.7\textwidth}{!}{%
+%  \resizebox{0.7\textwidth}{!}{%
     \begin{tabular}{lcc}
       \toprule \midrule
       Systematic uncertainty	& Terms     & Scale [\%] \\
       \midrule
-      \multicolumn{3}{c}{\textbf{\ttZp modeling}}  \\
+      \multicolumn{3}{c}{\textbf{Reducible SM background}}  \\
       \midrule
-      Renormalization \& factorization scale & & \\
-      PDF & & \\
+      $t\bar{t}/V/t$+jets & 2 & \\
+      Charge misidentification & 1 & \\
       \midrule
-      \multicolumn{3}{c}{\textbf{SM \tttt modeling}}  \\
+      \multicolumn{3}{c}{\textbf{Fake \& non-prompt background}}  \\
       \midrule
-      Cross-section & & \\
-      Renormalization \& factorization scale & & \\
-      PDF & & \\
-      Generator choice & & \\
-      Parton shower model & & \\
-      %Higher-order EW corrections
-      \midrule
-      \multicolumn{3}{c}{\textbf{SM \ttt modeling}}  \\
-      \midrule
-      Cross-section & & \\
-      Renormalization \& factorization scale & & \\
-      PDF & & \\
-      Additional $b$-jets & & \\
-      \midrule
-      \multicolumn{3}{c}{\textbf{\ttW modeling}}  \\
-      \midrule
-      Renormalization \& factorization scale & & \\
-      Generator choice & & \\
-      Additional $b$-jets & & \\
-      \midrule
-      \multicolumn{3}{c}{\textbf{\ttZ modeling}}  \\
-      \midrule
-      Cross-section & & \\
-      Renormalization \& factorization scale & & \\
-      PDF & & \\
-      Generator choice & & \\
-      Additional $b$-jets & & \\
-      \midrule
-      \multicolumn{3}{c}{\textbf{\ttH modeling}}  \\
-      \midrule
-      Cross-section & & \\
-      Renormalization \& factorization scale & & \\
-      PDF & & \\
-      Generator choice & & \\
-      Parton shower model & & \\
-      Additional $b$-jets & & \\
-      \midrule
-      \multicolumn{3}{c}{\textbf{Other minor processes}}  \\
-      \midrule
-      Cross-section & & \\
-      Additional $b$-jets & & \\
+      Low $\gamma^{*}$ & 1 & \\
+      Material conversion & 1 & \\
+      HF $e$ & 1 & \\
+      HF $\mu$ & 1 & \\
+      Light-flavor decays & 1 & 100 \\
+      Other fakes & 1 & 30 \\
       \bottomrule
-    \end{tabular}}
+    \end{tabular}
+%    }
   \end{center}
-  \caption{} 
-  \label{tab:syst_bg}
 \end{table}
 
 

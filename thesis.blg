@@ -17,55 +17,62 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated field_info (elt_size=4) to 11440 items from 5000.
 Database file #1: thesis-blx.bib
 Database file #2: bib/citations.bib
 Database file #3: bib/ANA-EXOT-2022-44-INT1.bib
 Database file #4: bib/ATLAS.bib
+Repeated entry---line 18324 of file bib/ATLAS.bib
+ : @article{theory:ttZp
+ :                     ,
+I'm skipping whatever remains of this entry
 Database file #5: bib/ATLAS-useful.bib
 Database file #6: bib/CMS.bib
 Database file #7: bib/ConfNotes.bib
 Database file #8: bib/PubNotes.bib
+Warning--I didn't find a database entry for "ana:tttt_obs"
 Biblatex version: 3.17
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 29 entries,
+You've used 45 entries,
             6399 wiz_defined-function locations,
-            1390 strings with 16458 characters,
-and the built_in function-call counts, 298202 in all, are:
-= -- 25925
-> -- 3541
-< -- 573
-+ -- 9712
-- -- 1587
-* -- 21302
-:= -- 37299
+            1505 strings with 20328 characters,
+and the built_in function-call counts, 402054 in all, are:
+= -- 33922
+> -- 5241
+< -- 977
++ -- 12503
+- -- 2287
+* -- 28427
+:= -- 48352
 add.period$ -- 0
-call.type$ -- 29
-change.case$ -- 246
-chr.to.int$ -- 72
-cite$ -- 56
-duplicate$ -- 31178
-empty$ -- 25126
-format.name$ -- 2416
-if$ -- 57975
+call.type$ -- 45
+change.case$ -- 471
+chr.to.int$ -- 109
+cite$ -- 88
+duplicate$ -- 42015
+empty$ -- 34721
+format.name$ -- 3290
+if$ -- 79108
 int.to.chr$ -- 0
-int.to.str$ -- 97
+int.to.str$ -- 140
 missing$ -- 0
-newline$ -- 1265
-num.names$ -- 1231
-pop$ -- 10911
+newline$ -- 1769
+num.names$ -- 1982
+pop$ -- 16383
 preamble$ -- 1
-purify$ -- 522
+purify$ -- 819
 quote$ -- 0
-skip$ -- 5037
+skip$ -- 7815
 stack$ -- 0
-substring$ -- 50036
-swap$ -- 4653
-text.length$ -- 660
+substring$ -- 64537
+swap$ -- 6981
+text.length$ -- 972
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 971
+type$ -- 1514
 warning$ -- 0
-while$ -- 4543
+while$ -- 5859
 width$ -- 0
-write$ -- 1237
+write$ -- 1725
+(There was 1 error message)

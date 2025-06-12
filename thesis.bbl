@@ -17,47 +17,18 @@
 \endgroup
 
 \datalist[entry]{none/global//global/global}
-  \entry{reco:overlap}{article}{}
-    \name{author}{1}{}{%
-      {{hash=A}{%
-         family={{ATLAS Collaboration}},
-         familyi={A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{A1}
-    \strng{fullhash}{A1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1140/epjc/s10052-021-09878-z
-    \endverb
-    \verb{eprint}
-    \verb 2109.00925
-    \endverb
-    \field{pages}{105}
-    \field{title}{{Observation of electroweak production of two jets in
-  association with an isolated photon and missing transverse momentum, and
-  search for a Higgs boson decaying into invisible particles at
-  \(13\,\text{TeV}\) with the ATLAS detector}}
-    \field{volume}{82}
-    \field{journaltitle}{Eur. Phys. J. C}
-    \field{eprinttype}{arXiv}
-    \field{eprintclass}{hep-ex}
-    \field{year}{2022}
-  \endentry
-
-  \entry{theory:smparticles3}{online}{}
+  \entry{theory:smparticles}{misc}{}
     \name{author}{2}{}{%
       {{hash=BC}{%
          family={Burgard},
          familyi={B\bibinitperiod},
-         given={C.},
+         given={Carsten},
          giveni={C\bibinitperiod},
       }}%
       {{hash=GD}{%
          family={Galbraith},
          familyi={G\bibinitperiod},
-         given={D.},
+         given={David},
          giveni={D\bibinitperiod},
       }}%
     }
@@ -72,6 +43,909 @@
     \field{urlday}{02}
     \field{urlmonth}{06}
     \field{urlyear}{2025}
+  \endentry
+
+  \entry{theory:ew}{inproceedings}{}
+    \name{author}{1}{}{%
+      {{hash=PA}{%
+         family={Pich},
+         familyi={P\bibinitperiod},
+         given={Antonio},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PA1}
+    \strng{fullhash}{PA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{{2004 European School of High-Energy Physics}}
+    \verb{eprint}
+    \verb hep-ph/0502010
+    \endverb
+    \field{pages}{1\bibrangedash 48}
+    \field{title}{{The Standard Model of electroweak interactions}}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ex}
+    \field{month}{02}
+    \field{year}{2005}
+  \endentry
+
+  \entry{theory:higgs1}{article}{}
+    \name{author}{1}{}{%
+      {{hash=HP}{%
+         family={Higgs},
+         familyi={H\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{HP1}
+    \strng{fullhash}{HP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevLett.13.508
+    \endverb
+    \field{issue}{16}
+    \field{pages}{508\bibrangedash 509}
+    \field{title}{Broken symmetries and the masses of gauge bosons}
+    \field{volume}{13}
+    \field{journaltitle}{Phys. Rev. Lett.}
+    \field{year}{1964}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{theory:higgs2}{article}{}
+    \name{author}{1}{}{%
+      {{hash=HP}{%
+         family={Higgs},
+         familyi={H\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HP1}
+    \strng{fullhash}{HP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb https://doi.org/10.1016/0031-9163(64)91136-9
+    \endverb
+    \field{issn}{0031-9163}
+    \field{number}{2}
+    \field{pages}{132\bibrangedash 133}
+    \field{title}{Broken symmetries, massless particles and gauge fields}
+    \field{volume}{12}
+    \field{journaltitle}{Physics Letters}
+    \field{year}{1964}
+  \endentry
+
+  \entry{theory:brout_englert}{article}{}
+    \name{author}{2}{}{%
+      {{hash=EF}{%
+         family={Englert},
+         familyi={E\bibinitperiod},
+         given={Fran\c{c}ois},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=BR}{%
+         family={Brout},
+         familyi={B\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{EFBR1}
+    \strng{fullhash}{EFBR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevLett.13.321
+    \endverb
+    \field{issue}{9}
+    \field{pages}{321\bibrangedash 323}
+    \field{title}{Broken Symmetry and the Mass of Gauge Vector Mesons}
+    \field{volume}{13}
+    \field{journaltitle}{Phys. Rev. Lett.}
+    \field{year}{1964}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{theory:higgs_atlas}{article}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{ATLAS Collaboration}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.physletb.2012.08.020
+    \endverb
+    \verb{eprint}
+    \verb 1207.7214
+    \endverb
+    \field{pages}{1}
+    \field{title}{{Observation of a new particle in the search for the Standard
+  Model Higgs boson with the ATLAS detector at the LHC}}
+    \field{volume}{716}
+    \field{journaltitle}{Phys. Lett. B}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ex}
+    \field{year}{2012}
+  \endentry
+
+  \entry{theory:higgs_cms}{article}{}
+    \name{author}{1}{}{%
+      {{hash=C}{%
+         family={{CMS Collaboration}},
+         familyi={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{C1}
+    \strng{fullhash}{C1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.physletb.2012.08.021
+    \endverb
+    \verb{eprint}
+    \verb 1207.7235
+    \endverb
+    \field{pages}{30}
+    \field{title}{{Observation of a new boson at a mass of 125 GeV with the CMS
+  experiment at the LHC}}
+    \field{volume}{716}
+    \field{journaltitle}{Phys. Lett. B}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ex}
+    \field{year}{2012}
+  \endentry
+
+  \entry{theory:higgs_physics}{inproceedings}{}
+    \name{author}{1}{}{%
+      {{hash=EJ}{%
+         family={Ellis},
+         familyi={E\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{EJ1}
+    \strng{fullhash}{EJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{{2013 European School of High-Energy Physics}}
+    \verb{doi}
+    \verb 10.5170/CERN-2015-004.117
+    \endverb
+    \verb{eprint}
+    \verb 1312.5672
+    \endverb
+    \field{pages}{117\bibrangedash 168}
+    \field{title}{{Higgs Physics}}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{year}{2015}
+  \endentry
+
+  \entry{theory:Zp}{article}{}
+    \name{author}{1}{}{%
+      {{hash=LP}{%
+         family={Langacker},
+         familyi={L\bibinitperiod},
+         given={Paul},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LP1}
+    \strng{fullhash}{LP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/RevModPhys.81.1199
+    \endverb
+    \verb{eprint}
+    \verb 0801.1345
+    \endverb
+    \field{pages}{1199\bibrangedash 1228}
+    \field{title}{{The Physics of Heavy $Z^\prime$ Gauge Bosons}}
+    \field{volume}{81}
+    \field{journaltitle}{Rev. Mod. Phys.}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{year}{2009}
+  \endentry
+
+  \entry{Ferretti:2013kya}{article}{}
+    \name{author}{2}{}{%
+      {{hash=FG}{%
+         family={Ferretti},
+         familyi={F\bibinitperiod},
+         given={Gabriele},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=KD}{%
+         family={Karateev},
+         familyi={K\bibinitperiod},
+         given={Denis},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {Springer Science}%
+      {Business Media LLC}%
+    }
+    \strng{namehash}{FGKD1}
+    \strng{fullhash}{FGKD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/jhep03(2014)077
+    \endverb
+    \field{issn}{1029-8479}
+    \field{number}{3}
+    \field{title}{Fermionic UV completions of composite Higgs models}
+    \verb{url}
+    \verb http://dx.doi.org/10.1007/JHEP03(2014)077
+    \endverb
+    \field{volume}{2014}
+    \field{journaltitle}{Journal of High Energy Physics}
+    \field{month}{03}
+    \field{year}{2014}
+  \endentry
+
+  \entry{Vecchi:2015fma}{article}{}
+    \name{author}{1}{}{%
+      {{hash=VL}{%
+         family={Vecchi},
+         familyi={V\bibinitperiod},
+         given={Luca},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{VL1}
+    \strng{fullhash}{VL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/JHEP02(2017)094
+    \endverb
+    \verb{eprint}
+    \verb 1506.00623
+    \endverb
+    \field{pages}{094}
+    \field{title}{{A dangerous irrelevant UV-completion of the composite
+  Higgs}}
+    \field{volume}{02}
+    \field{journaltitle}{JHEP}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{year}{2017}
+  \endentry
+
+  \entry{Agashe:2003zs}{article}{}
+    \name{author}{4}{}{%
+      {{hash=AK}{%
+         family={Agashe},
+         familyi={A\bibinitperiod},
+         given={Kaustubh},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=DA}{%
+         family={Delgado},
+         familyi={D\bibinitperiod},
+         given={Antonio},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=MMJ}{%
+         family={May},
+         familyi={M\bibinitperiod},
+         given={Michael\bibnamedelima J.},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=SR}{%
+         family={Sundrum},
+         familyi={S\bibinitperiod},
+         given={Raman},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AK+1}
+    \strng{fullhash}{AKDAMMJSR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1088/1126-6708/2003/08/050
+    \endverb
+    \verb{eprint}
+    \verb hep-ph/0308036
+    \endverb
+    \field{pages}{050}
+    \field{title}{{RS1, custodial isospin and precision tests}}
+    \field{volume}{08}
+    \field{journaltitle}{JHEP}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{year}{2003}
+  \endentry
+
+  \entry{Agashe:2004rs}{article}{}
+    \name{author}{3}{}{%
+      {{hash=AK}{%
+         family={Agashe},
+         familyi={A\bibinitperiod},
+         given={Kaustubh},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=CR}{%
+         family={Contino},
+         familyi={C\bibinitperiod},
+         given={Roberto},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={Pomarol},
+         familyi={P\bibinitperiod},
+         given={Alex},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AKCRPA1}
+    \strng{fullhash}{AKCRPA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.nuclphysb.2005.04.035
+    \endverb
+    \verb{eprint}
+    \verb hep-ph/0412089
+    \endverb
+    \field{pages}{165\bibrangedash 187}
+    \field{title}{{The Minimal composite Higgs model}}
+    \field{volume}{B719}
+    \field{journaltitle}{Nucl. Phys.}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{year}{2005}
+  \endentry
+
+  \entry{theory:ttZp}{article}{}
+    \name{author}{5}{}{%
+      {{hash=GN}{%
+         family={Greiner},
+         familyi={G\bibinitperiod},
+         given={Nicolas},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=KK}{%
+         family={Kong},
+         familyi={K\bibinitperiod},
+         given={Kyoungchul},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=PJC}{%
+         family={Park},
+         familyi={P\bibinitperiod},
+         given={Jong-Chul},
+         giveni={J\bibinithyphendelim C\bibinitperiod},
+      }}%
+      {{hash=PSC}{%
+         family={Park},
+         familyi={P\bibinitperiod},
+         given={Seong\bibnamedelima Chan},
+         giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=WJC}{%
+         family={Winter},
+         familyi={W\bibinitperiod},
+         given={Jan-Christopher},
+         giveni={J\bibinithyphendelim C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GN+1}
+    \strng{fullhash}{GNKKPJCPSCWJC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    We investigate the collider phenomenology of a color-singlet vector
+  resonance, which couples to the heaviest quarks, the top quarks, but very
+  weakly to the rest of the fermions in the Standard Model. We find that the
+  dominant production of such a resonance does not appear at the tree level ---
+  it rather occurs at the one-loop level in association with an extra jet.
+  Signatures like {\$}{\$} t{\backslash}overline{\{}t{\}} {\$}{\$}plus jets
+  readily emerge as a result of the subsequent decay of the resonance into a
+  pair of top quarks. Without the additional jet, the resonance can still be
+  produced off-shell, which gives a sizeable contribution at low masses. The
+  lower top quark multiplicity of the loop induced resonance production
+  facilitates its reconstruction as compared to the tree level production that
+  gives rise to more exotic signatures involving three or even four top quarks
+  in the final state. For all these cases, we discuss the constraints on the
+  resonance production stemming from recent experimental measurements in the
+  top quark sector. We find that the top-philic vector resonance remains
+  largely unconstrained for the majority of the parameter space, although this
+  will be scrutinized closely in the Run 2 phase of the LHC.%
+    }
+    \verb{doi}
+    \verb 10.1007/JHEP04(2015)029
+    \endverb
+    \field{issn}{1029-8479}
+    \field{number}{4}
+    \field{pages}{29}
+    \field{title}{{Model-independent production of a top-philic resonance at
+  the LHC}}
+    \field{volume}{2015}
+    \field{journaltitle}{Journal of High Energy Physics}
+    \field{year}{2015}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{theory:ttZp_LHC}{article}{}
+    \name{author}{4}{}{%
+      {{hash=KJH}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={Jeong\bibnamedelima Han},
+         giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=KK}{%
+         family={Kong},
+         familyi={K\bibinitperiod},
+         given={Kyoungchul},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=LSJ}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={Seung\bibnamedelima J.},
+         giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=MG}{%
+         family={Mohlabeng},
+         familyi={M\bibinitperiod},
+         given={Gopolang},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{KJH+1}
+    \strng{fullhash}{KJHKKLSJMG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevD.94.035023
+    \endverb
+    \field{issue}{3}
+    \field{pages}{035023}
+    \field{title}{{Probing TeV scale top-philic resonances with boosted
+  top-tagging at the high luminosity LHC}}
+    \field{volume}{94}
+    \field{journaltitle}{Phys. Rev. D}
+    \field{year}{2016}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{tttt_obs}{article}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{ATLAS Collaboration}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1140/epjc/s10052-023-11573-0
+    \endverb
+    \verb{eprint}
+    \verb 2303.15061
+    \endverb
+    \field{pages}{496}
+    \field{title}{{Observation of four-top-quark production in the multilepton
+  final state with the ATLAS detector}}
+    \field{volume}{83}
+    \field{journaltitle}{Eur. Phys. J. C}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ex}
+    \field{year}{2023}
+  \endentry
+
+  \entry{lhc:hl_lhc}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=H}{%
+         family={{High Luminosity LHC Project Organization}},
+         familyi={H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{H1}
+    \strng{fullhash}{H1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{The HL-LHC project}}
+    \verb{url}
+    \verb https://hilumilhc.web.cern.ch/content/hl-lhc-project
+    \endverb
+    \field{urlday}{11}
+    \field{urlmonth}{06}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{ATL-PHYS-PUB-2023-039}{booklet}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{ATLAS Collaboration}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{{ATL-PHYS-PUB-2023-039}}
+    \field{title}{{Standard Model Summary Plots October 2023}}
+    \verb{url}
+    \verb https://cds.cern.ch/record/2882448
+    \endverb
+    \field{year}{2023}
+  \endentry
+
+  \entry{reco:topocluster}{article}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{ATLAS Collaboration}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1140/epjc/s10052-017-5004-5
+    \endverb
+    \verb{eprint}
+    \verb 1603.02934
+    \endverb
+    \field{pages}{490}
+    \field{title}{{Topological cell clustering in the ATLAS calorimeters and
+  its performance in LHC Run~1}}
+    \field{volume}{77}
+    \field{journaltitle}{Eur. Phys. J. C}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ex}
+    \field{year}{2017}
+  \endentry
+
+  \entry{reco:topocluster_2}{booklet}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{1}{}{%
+      {{hash=LW}{%
+         family={Lampl},
+         familyi={L\bibinitperiod},
+         given={Walter},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LW+1}
+    \strng{fullhash}{LW+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{{ATL-LARG-PUB-2008-002}}
+    \field{title}{{Calorimeter clustering algorithms: description and
+  performance}}
+    \verb{url}
+    \verb https://cds.cern.ch/record/1099735
+    \endverb
+    \field{year}{2008}
+  \endentry
+
+  \entry{reco:track}{article}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{ATLAS Collaboration}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1140/epjc/s10052-017-5225-7
+    \endverb
+    \verb{eprint}
+    \verb 1704.07983
+    \endverb
+    \field{pages}{673}
+    \field{title}{{Performance of the ATLAS track reconstruction algorithms in
+  dense environments in LHC Run~2}}
+    \field{volume}{77}
+    \field{journaltitle}{Eur. Phys. J. C}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ex}
+    \field{year}{2017}
+  \endentry
+
+  \entry{reco:io}{report}{}
+    \name{author}{6}{}{%
+      {{hash=CT}{%
+         family={Cornelissen},
+         familyi={C\bibinitperiod},
+         given={Thijs},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=EM}{%
+         family={Elsing},
+         familyi={E\bibinitperiod},
+         given={Markus},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=FS}{%
+         family={Fleischmann},
+         familyi={F\bibinitperiod},
+         given={Sebastian},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=LW}{%
+         family={Liebig},
+         familyi={L\bibinitperiod},
+         given={Wolfgang},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=ME}{%
+         family={Moyse},
+         familyi={M\bibinitperiod},
+         given={Edward},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Salzburger},
+         familyi={S\bibinitperiod},
+         given={Andreas},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CT+1}
+    \strng{fullhash}{CTEMFSLWMESA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{Concepts, design and implementation of the ATLAS New
+  Tracking (NEWT)}}
+    \verb{url}
+    \verb https://cds.cern.ch/record/1020106
+    \endverb
+    \list{location}{1}{%
+      {Geneva}%
+    }
+    \list{institution}{1}{%
+      {CERN}%
+    }
+    \field{type}{techreport}
+    \field{year}{2007}
+  \endentry
+
+  \entry{reco:kalman}{article}{}
+    \name{author}{1}{}{%
+      {{hash=FR}{%
+         family={Fr{\"u}hwirth},
+         familyi={F\bibinitperiod},
+         given={Rudolf},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FR1}
+    \strng{fullhash}{FR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Recently iterative procedures have been proposed for track and vertex
+  fitting in counter experiments. We show that the proper theoretical framework
+  for these procedures is the theory of linear filtering, in particular the
+  Kalman filter. Using results from filtering theory we confirm and extend the
+  previous results. We also discuss the detection of outliers and of secondary
+  vertices.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.1016/0168-9002(87)90887-4
+    \endverb
+    \field{issn}{0168-9002}
+    \field{number}{2}
+    \field{pages}{444\bibrangedash 450}
+    \field{title}{{Application of Kalman filtering to track and vertex
+  fitting}}
+    \field{volume}{262}
+    \field{journaltitle}{Nucl. Instrum. Methods Phys. Res. A}
+    \field{year}{1987}
+  \endentry
+
+  \entry{reco:track_chi2}{article}{}
+    \name{author}{9}{}{%
+      {{hash=CT}{%
+         family={Cornelissen},
+         familyi={C\bibinitperiod},
+         given={Thijs},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=EM}{%
+         family={Elsing},
+         familyi={E\bibinitperiod},
+         given={Markus},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=GI}{%
+         family={Gavrilenko},
+         familyi={G\bibinitperiod},
+         given={Igor},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=LJF}{%
+         family={Laporte},
+         familyi={L\bibinitperiod},
+         given={Jean-Francois},
+         giveni={J\bibinithyphendelim F\bibinitperiod},
+      }}%
+      {{hash=LW}{%
+         family={Liebig},
+         familyi={L\bibinitperiod},
+         given={Wolfgang},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={Limper},
+         familyi={L\bibinitperiod},
+         given={Maaike},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=NK}{%
+         family={Nikolopoulos},
+         familyi={N\bibinitperiod},
+         given={Konstantinos},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={Poppleton},
+         familyi={P\bibinitperiod},
+         given={Alan},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Salzburger},
+         familyi={S\bibinitperiod},
+         given={Andreas},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CT+1}
+    \strng{fullhash}{CTEMGILJFLWLMNKPASA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1088/1742-6596/119/3/032013
+    \endverb
+    \field{number}{3}
+    \field{pages}{032013}
+    \field{title}{{The global \(\chi^2\) track fitter in ATLAS}}
+    \field{volume}{119}
+    \field{journaltitle}{Journal of Physics: Conference Series}
+    \field{year}{2008}
+  \endentry
+
+  \entry{reco:track_gsf}{booklet}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{ATLAS Collaboration}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{{ATLAS-CONF-2012-047}}
+    \field{title}{{Improved electron reconstruction in ATLAS using the Gaussian
+  Sum Filter-based model for bremsstrahlung}}
+    \verb{url}
+    \verb https://cds.cern.ch/record/1449796
+    \endverb
+    \field{year}{2012}
+  \endentry
+
+  \entry{reco:track_ambiguity}{report}{}
+    \name{author}{1}{}{%
+      {{hash=WD}{%
+         family={Wicke},
+         familyi={W\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WD1}
+    \strng{fullhash}{WD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{A new algorithm for solving tracking ambiguities}}
+    \verb{url}
+    \verb https://cds.cern.ch/record/2625731
+    \endverb
+    \field{type}{techreport}
+    \field{month}{10}
+    \field{year}{1998}
+  \endentry
+
+  \entry{reco:oi}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SA}{%
+         family={Salzburger},
+         familyi={S\bibinitperiod},
+         given={Andreas},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=obotAC}{%
+         prefix={on\bibnamedelima behalf of\bibnamedelima the},
+         prefixi={o\bibinitperiod\bibinitdelim b\bibinitperiod\bibinitdelim
+  o\bibinitperiod\bibinitdelim t\bibinitperiod},
+         family={ATLAS\bibnamedelima Collaboration},
+         familyi={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IOP Publishing}%
+    }
+    \strng{namehash}{SAACobot1}
+    \strng{fullhash}{SAACobot1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1088/1742-6596/664/7/072042
+    \endverb
+    \field{number}{7}
+    \field{pages}{072042}
+    \field{title}{{Optimisation of the ATLAS Track Reconstruction Software for
+  Run-2}}
+    \field{volume}{664}
+    \field{journaltitle}{Journal of Physics: Conference Series}
+    \field{year}{2015}
+  \endentry
+
+  \entry{ftag:calib}{article}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{ATLAS Collaboration}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/JHEP08(2018)089
+    \endverb
+    \verb{eprint}
+    \verb 1805.01845
+    \endverb
+    \field{pages}{089}
+    \field{title}{{Measurements of \(b\)-jet tagging efficiency with the ATLAS
+  detector using \(t\bar{t}\) events at \(\sqrt{s} = 13\,\text{TeV}\)}}
+    \field{volume}{08}
+    \field{journaltitle}{JHEP}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ex}
+    \field{year}{2018}
   \endentry
 
   \entry{ftag:gn1}{booklet}{}
@@ -575,7 +1449,7 @@
          giveni={M\bibinitperiod},
       }}%
     }
-    \strng{namehash}{VSSDAWY+1}
+    \strng{namehash}{VSS+1}
   \strng{fullhash}{VSSDAWYFACJEGSVVWJMPNIGDLBDBFAGPHNMBJKNKMBAMBGGSMTKDDMBJCKNSTPDBXLFZLWLMFGBDGERSSJTLGHPSLDMBRWZJWMTEYMESLYYLQMASBTHJRNRZMMHVLSMSBAMPGTLWTTMMBDTBFJGLGSCDLLWSDVHTBSNGM1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
@@ -646,358 +1520,6 @@
     \field{eprinttype}{arXiv}
     \field{eprintclass}{hep-ex}
     \field{year}{2019}
-  \endentry
-
-  \entry{reco:topocluster}{article}{}
-    \name{author}{1}{}{%
-      {{hash=A}{%
-         family={{ATLAS Collaboration}},
-         familyi={A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{A1}
-    \strng{fullhash}{A1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1140/epjc/s10052-017-5004-5
-    \endverb
-    \verb{eprint}
-    \verb 1603.02934
-    \endverb
-    \field{pages}{490}
-    \field{title}{{Topological cell clustering in the ATLAS calorimeters and
-  its performance in LHC Run~1}}
-    \field{volume}{77}
-    \field{journaltitle}{Eur. Phys. J. C}
-    \field{eprinttype}{arXiv}
-    \field{eprintclass}{hep-ex}
-    \field{year}{2017}
-  \endentry
-
-  \entry{reco:topocluster_2}{booklet}{}
-    \true{moreauthor}
-    \true{morelabelname}
-    \name{author}{1}{}{%
-      {{hash=LW}{%
-         family={Lampl},
-         familyi={L\bibinitperiod},
-         given={Walter},
-         giveni={W\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{LW+1}
-    \strng{fullhash}{LW+1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{howpublished}{{ATL-LARG-PUB-2008-002}}
-    \field{title}{{Calorimeter clustering algorithms: description and
-  performance}}
-    \verb{url}
-    \verb https://cds.cern.ch/record/1099735
-    \endverb
-    \field{year}{2008}
-  \endentry
-
-  \entry{reco:track}{article}{}
-    \name{author}{1}{}{%
-      {{hash=A}{%
-         family={{ATLAS Collaboration}},
-         familyi={A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{A1}
-    \strng{fullhash}{A1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1140/epjc/s10052-017-5225-7
-    \endverb
-    \verb{eprint}
-    \verb 1704.07983
-    \endverb
-    \field{pages}{673}
-    \field{title}{{Performance of the ATLAS track reconstruction algorithms in
-  dense environments in LHC Run~2}}
-    \field{volume}{77}
-    \field{journaltitle}{Eur. Phys. J. C}
-    \field{eprinttype}{arXiv}
-    \field{eprintclass}{hep-ex}
-    \field{year}{2017}
-  \endentry
-
-  \entry{reco:io}{report}{}
-    \name{author}{6}{}{%
-      {{hash=CT}{%
-         family={Cornelissen},
-         familyi={C\bibinitperiod},
-         given={T.},
-         giveni={T\bibinitperiod},
-      }}%
-      {{hash=EM}{%
-         family={Elsing},
-         familyi={E\bibinitperiod},
-         given={M.},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=FS}{%
-         family={Fleischmann},
-         familyi={F\bibinitperiod},
-         given={S.},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=LW}{%
-         family={Liebig},
-         familyi={L\bibinitperiod},
-         given={W.},
-         giveni={W\bibinitperiod},
-      }}%
-      {{hash=ME}{%
-         family={Moyse},
-         familyi={M\bibinitperiod},
-         given={E.},
-         giveni={E\bibinitperiod},
-      }}%
-      {{hash=SA}{%
-         family={Salzburger},
-         familyi={S\bibinitperiod},
-         given={A.},
-         giveni={A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{CTEMFS+1}
-    \strng{fullhash}{CTEMFSLWMESA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{title}{{Concepts, design and implementation of the ATLAS New
-  Tracking (NEWT)}}
-    \verb{url}
-    \verb https://cds.cern.ch/record/1020106
-    \endverb
-    \list{location}{1}{%
-      {Geneva}%
-    }
-    \list{institution}{1}{%
-      {CERN}%
-    }
-    \field{type}{techreport}
-    \field{year}{2007}
-  \endentry
-
-  \entry{reco:kalman}{article}{}
-    \name{author}{1}{}{%
-      {{hash=FR}{%
-         family={Fr{\"u}hwirth},
-         familyi={F\bibinitperiod},
-         given={R.},
-         giveni={R\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{FR1}
-    \strng{fullhash}{FR1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    Recently iterative procedures have been proposed for track and vertex
-  fitting in counter experiments. We show that the proper theoretical framework
-  for these procedures is the theory of linear filtering, in particular the
-  Kalman filter. Using results from filtering theory we confirm and extend the
-  previous results. We also discuss the detection of outliers and of secondary
-  vertices.%
-    }
-    \verb{doi}
-    \verb https://doi.org/10.1016/0168-9002(87)90887-4
-    \endverb
-    \field{issn}{0168-9002}
-    \field{number}{2}
-    \field{pages}{444\bibrangedash 450}
-    \field{title}{{Application of Kalman filtering to track and vertex
-  fitting}}
-    \verb{url}
-    \verb https://www.sciencedirect.com/science/article/pii/0168900287908874
-    \endverb
-    \field{volume}{262}
-    \field{journaltitle}{Nuclear Instruments and Methods in Physics Research
-  Section A: Accelerators, Spectrometers, Detectors and Associated Equipment}
-    \field{year}{1987}
-  \endentry
-
-  \entry{reco:track_chi2}{article}{}
-    \name{author}{9}{}{%
-      {{hash=CT}{%
-         family={Cornelissen},
-         familyi={C\bibinitperiod},
-         given={T.},
-         giveni={T\bibinitperiod},
-      }}%
-      {{hash=EM}{%
-         family={Elsing},
-         familyi={E\bibinitperiod},
-         given={M.},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=GI}{%
-         family={Gavrilenko},
-         familyi={G\bibinitperiod},
-         given={I.},
-         giveni={I\bibinitperiod},
-      }}%
-      {{hash=LJF}{%
-         family={Laporte},
-         familyi={L\bibinitperiod},
-         given={J-F.},
-         giveni={J\bibinithyphendelim F\bibinitperiod},
-      }}%
-      {{hash=LW}{%
-         family={Liebig},
-         familyi={L\bibinitperiod},
-         given={W.},
-         giveni={W\bibinitperiod},
-      }}%
-      {{hash=LM}{%
-         family={Limper},
-         familyi={L\bibinitperiod},
-         given={M.},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=NK}{%
-         family={Nikolopoulos},
-         familyi={N\bibinitperiod},
-         given={K.},
-         giveni={K\bibinitperiod},
-      }}%
-      {{hash=PA}{%
-         family={Poppleton},
-         familyi={P\bibinitperiod},
-         given={A.},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=SA}{%
-         family={Salzburger},
-         familyi={S\bibinitperiod},
-         given={A.},
-         giveni={A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{CTEMGI+1}
-    \strng{fullhash}{CTEMGILJFLWLMNKPASA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1088/1742-6596/119/3/032013
-    \endverb
-    \field{number}{3}
-    \field{pages}{032013}
-    \field{title}{{The global \(\chi^2\) track fitter in ATLAS}}
-    \verb{url}
-    \verb https://dx.doi.org/10.1088/1742-6596/119/3/032013
-    \endverb
-    \field{volume}{119}
-    \field{journaltitle}{Journal of Physics: Conference Series}
-    \field{year}{2008}
-  \endentry
-
-  \entry{reco:track_gsf}{booklet}{}
-    \name{author}{1}{}{%
-      {{hash=A}{%
-         family={{ATLAS Collaboration}},
-         familyi={A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{A1}
-    \strng{fullhash}{A1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{howpublished}{{ATLAS-CONF-2012-047}}
-    \field{title}{{Improved electron reconstruction in ATLAS using the Gaussian
-  Sum Filter-based model for bremsstrahlung}}
-    \verb{url}
-    \verb https://cds.cern.ch/record/1449796
-    \endverb
-    \field{year}{2012}
-  \endentry
-
-  \entry{reco:track_ambiguity}{article}{}
-    \name{author}{1}{}{%
-      {{hash=WD}{%
-         family={Wicke},
-         familyi={W\bibinitperiod},
-         given={D.},
-         giveni={D\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{WD1}
-    \strng{fullhash}{WD1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{title}{{A new algorithm for solving tracking ambiguities}}
-    \field{month}{10}
-    \field{year}{1998}
-  \endentry
-
-  \entry{reco:oi}{article}{}
-    \name{author}{2}{}{%
-      {{hash=SA}{%
-         family={Salzburger},
-         familyi={S\bibinitperiod},
-         given={Andreas},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=obotAC}{%
-         prefix={on\bibnamedelima behalf of\bibnamedelima the},
-         prefixi={o\bibinitperiod\bibinitdelim b\bibinitperiod\bibinitdelim
-  o\bibinitperiod\bibinitdelim t\bibinitperiod},
-         family={ATLAS\bibnamedelima Collaboration},
-         familyi={A\bibinitperiod\bibinitdelim C\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {IOP Publishing}%
-    }
-    \strng{namehash}{SAACobot1}
-    \strng{fullhash}{SAACobot1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1088/1742-6596/664/7/072042
-    \endverb
-    \field{number}{7}
-    \field{pages}{072042}
-    \field{title}{{Optimisation of the ATLAS Track Reconstruction Software for
-  Run-2}}
-    \verb{url}
-    \verb https://dx.doi.org/10.1088/1742-6596/664/7/072042
-    \endverb
-    \field{volume}{664}
-    \field{journaltitle}{Journal of Physics: Conference Series}
-    \field{year}{2015}
-  \endentry
-
-  \entry{ftag:calib}{article}{}
-    \name{author}{1}{}{%
-      {{hash=A}{%
-         family={{ATLAS Collaboration}},
-         familyi={A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{A1}
-    \strng{fullhash}{A1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1007/JHEP08(2018)089
-    \endverb
-    \verb{eprint}
-    \verb 1805.01845
-    \endverb
-    \field{pages}{089}
-    \field{title}{{Measurements of \(b\)-jet tagging efficiency with the ATLAS
-  detector using \(t\bar{t}\) events at \(\sqrt{s} = 13\,\text{TeV}\)}}
-    \field{volume}{08}
-    \field{journaltitle}{JHEP}
-    \field{eprinttype}{arXiv}
-    \field{eprintclass}{hep-ex}
-    \field{year}{2018}
   \endentry
 
   \entry{reco:qmisid_cnn}{booklet}{}
@@ -1123,6 +1645,35 @@
     \field{year}{2018}
   \endentry
 
+  \entry{reco:overlap}{article}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{ATLAS Collaboration}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1140/epjc/s10052-021-09878-z
+    \endverb
+    \verb{eprint}
+    \verb 2109.00925
+    \endverb
+    \field{pages}{105}
+    \field{title}{{Observation of electroweak production of two jets in
+  association with an isolated photon and missing transverse momentum, and
+  search for a Higgs boson decaying into invisible particles at
+  \(13\,\text{TeV}\) with the ATLAS detector}}
+    \field{volume}{82}
+    \field{journaltitle}{Eur. Phys. J. C}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ex}
+    \field{year}{2022}
+  \endentry
+
   \entry{bg:ttH_ttW_ML}{booklet}{}
     \name{author}{1}{}{%
       {{hash=A}{%
@@ -1171,7 +1722,7 @@
     \field{year}{2024}
   \endentry
 
-  \entry{ana:tttt_ev}{article}{}
+  \entry{tttt_evidence}{article}{}
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
@@ -1197,33 +1748,6 @@
     \field{eprinttype}{arXiv}
     \field{eprintclass}{hep-ex}
     \field{year}{2020}
-  \endentry
-
-  \entry{ana:tttt_obs}{article}{}
-    \name{author}{1}{}{%
-      {{hash=A}{%
-         family={{ATLAS Collaboration}},
-         familyi={A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{A1}
-    \strng{fullhash}{A1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1140/epjc/s10052-023-11573-0
-    \endverb
-    \verb{eprint}
-    \verb 2303.15061
-    \endverb
-    \field{pages}{496}
-    \field{title}{{Observation of four-top-quark production in the multilepton
-  final state with the ATLAS detector}}
-    \field{volume}{83}
-    \field{journaltitle}{Eur. Phys. J. C}
-    \field{eprinttype}{arXiv}
-    \field{eprintclass}{hep-ex}
-    \field{year}{2023}
   \endentry
 
   \entry{ana:r_par_susy_2021}{article}{}
@@ -1281,7 +1805,7 @@
          giveni={P\bibinitperiod},
       }}%
     }
-    \strng{namehash}{GEPTSS+1}
+    \strng{namehash}{GE+1}
     \strng{fullhash}{GEPTSSSP1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}

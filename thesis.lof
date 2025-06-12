@@ -1,7 +1,17 @@
-\contentsline {figure}{\numberline {2.1}{\ignorespaces \citep {theory:smparticles3}\relax }}{4}{figure.caption.6}%
-\contentsline {figure}{\numberline {5.1}{\ignorespaces \relax }}{27}{figure.caption.9}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces \citep {ftag:gn1}\citep {ftag:gn1.1}\citep {ftag:gn2}\relax }}{32}{figure.caption.10}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces \citep {reco:electron_id}\relax }}{34}{figure.caption.11}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces \citep {reco:electron_meas}\relax }}{37}{figure.caption.12}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Figure A}}}{37}{subfigure.4.1}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Figure B}}}{37}{subfigure.4.2}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Caption}}{4}{figure.caption.6}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Caption}}{18}{figure.caption.7}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{18}{subfigure.2.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{18}{subfigure.2.2}%
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{18}{subfigure.2.3}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Caption}}{19}{figure.caption.8}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{19}{subfigure.3.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{19}{subfigure.3.2}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Caption\relax }}{20}{figure.caption.9}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Caption}}{22}{figure.caption.10}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Caption}}{23}{figure.caption.11}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces \relax }}{35}{figure.caption.14}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Caption}}{40}{figure.caption.15}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Caption}}{42}{figure.caption.16}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Caption}}{45}{figure.caption.17}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Figure A}}}{45}{subfigure.4.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Figure B}}}{45}{subfigure.4.2}%

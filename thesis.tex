@@ -62,10 +62,51 @@ citecolor=blue
 \linenumbers
 \usepackage{url}
 \urlstyle{same}
-%\usepackage[backend=bibtex,style=numeric-comp,bibencoding=utf8,natbib=true,sorting=none,backref]{biblatex}
-\usepackage[backend=bibtex,style=ieee,bibencoding=utf8,natbib=true,sorting=none,backref]{biblatex}
+\usepackage[backend=bibtex,style=numeric-comp,bibencoding=utf8,natbib=true,sorting=none,backref,backrefstyle=three,firstinits=true,maxbibnames=5]{biblatex}
+%\usepackage[backend=bibtex,style=ieee,bibencoding=utf8,natbib=true,sorting=none,backref]{biblatex}
 \DeclareFieldFormat*{title}{\mkbibitalic{#1}}
 \DeclareFieldFormat*{citetitle}{\mkbibitalic{#1}}
+\DeclareFieldFormat{journaltitle}{#1\isdot}
+\DeclareNameAlias{sortname}{family-given}
+\renewbibmacro{in:}{}
+\ExecuteBibliographyOptions{doi=false}
+\DeclareFieldFormat{doilink}{%
+\iffieldundef{doi}{#1}%
+{\href{http://dx.doi.org/\thefield{doi}}{#1}}}
+\DeclareBibliographyDriver{article}{%
+  \usebibmacro{bibindex}%
+  \usebibmacro{begentry}%
+  \usebibmacro{author/translator+others}%
+  \setunit{\labelnamepunct}\newblock
+  \usebibmacro{title}%
+  \newunit
+  \printlist{language}%
+  \newunit\newblock
+  \usebibmacro{byauthor}%
+  \newunit\newblock
+  \usebibmacro{bytranslator+others}%
+  \newunit\newblock
+  \printfield{version}%
+  \newunit\newblock
+  \usebibmacro{in:}%
+  \printtext[doilink]{%
+  \usebibmacro{journal+issuetitle}%
+  \newunit
+  \usebibmacro{byeditor+others}%
+  \newunit
+  \usebibmacro{note+pages}%
+  }%
+  \newunit\newblock
+  \iftoggle{bbx:isbn}
+    {\printfield{issn}}
+    {}%
+  \newunit\newblock
+  \usebibmacro{doi+eprint+url}%
+  \newunit\newblock
+  \usebibmacro{addendum+pubstate}%
+  \setunit{\bibpagerefpunct}\newblock
+  \usebibmacro{pageref}%
+  \usebibmacro{finentry}}
 \bibliography{bib/citations}
 \bibliography{bib/ANA-EXOT-2022-44-INT1.bib}
 \bibliography{bib/ATLAS.bib}
@@ -73,7 +114,6 @@ citecolor=blue
 \bibliography{bib/CMS.bib}
 \bibliography{bib/ConfNotes.bib}
 \bibliography{bib/PubNotes.bib}
-%\bibliography{$HOME/Research/papers/000_bibliography.bib}
 \usepackage{subfiles}
 \usepackage{bm}
 \usepackage{thesis-defs}
@@ -188,77 +228,8 @@ remarks
 %\end{symbols}
 %% Similarly for a list of abbreviations remove the "%" in front of
 %% \begin{abbrev} and remove the "%" in front of \end{abbrev} below.
-
-%\acro{chi2}[$\chi^2$]{chi-squared}
-%\acs{chi2}=$\chi^2$
-%\acl{chi2}=chi-squared
-\begin{abbrev}
 % Type your list using a list environment here.
-Physical \& mathematical quantities
-\begin{acronym}
-	\acro{chi2}[$\chi^2$]{chi-squared}
-	\acro{dR}[$\Delta R$]{angular distance}
-	\acro{eta}[$\eta$]{pseudorapidity}
-	\acro{ET}[$E_\mathrm{T}$]{transverse energy}
-	\acro{ETmiss}[$E_\mathrm{T}^\mathrm{miss}$]{missing transverse momentum}
-	\acro{higgsobl}[$\hat{H}$]{Higgs oblique parameter}
-	\acro{isospin}[$I$]{weak isospin}
-	\acro{lumi}[$L$]{instantaneous luminosity}
-	\acro{mu}[$\mu$]{signal strength}
-	\acro{pT}[\pT]{transverse momentum}
-\end{acronym}
-Particles
-\begin{acronym}
-\acro{b}[$b$]{bottom quark}
-\acro{pp}[$pp$]{proton-proton}
-\acro{ttbar}[\ttbar]{top/anti-top quark}
-\acro{tttt}[\tttt]{four-top-quark}
-\acro{tW}[$tW$]{single-top}
-\end{acronym}
-Acronyms
-\begin{acronym}
-\acro{1LOS}{one lepton, or two leptons of opposite charges}
-\acro{ATLAS}{A Toroidal LHC ApparatuS}
-\acro{BDT}{boosted decision tree}
-\acro{BSM}{Beyond the Standard Model}
-\acro{CERN}{European Organization for Nuclear Research}
-\acro{CMS}{Compact Muon Solenoid}
-\acro{CR}{control region}
-\acro{ECIDS}{Electron Charge ID Selector}
-\acro{EM}{electromagnetic}
-\acro{EW}{electroweak}
-\acro{GNN}{graph neural network}
-\acro{HLT}{High-Level Trigger}
-\acro{ID}{inner detector}
-\acro{JER}{jet energy resolution}
-\acro{JES}{jet energy scale}
-\acro{JVT}{Jet Vertex Tagger}
-\acro{L1}{Level 1}
-\acro{LH}{likelihood}
-\acro{LLH}{log-likelihood}
-\acro{LO}{leading order}
-\acro{LAr}{liquid argon}
-\acro{LHC}{Large Hadron Collider}
-\acro{MET}{missing transverse energy}
-\acro{NF}{normalization factor}
-\acro{NLO}{next-to-leading order}
-\acro{NNLO}{next-to-next-to-leading order}
-\acro{NP}{nuisance parameter}
-\acro{OP}{operating point}
-\acro{PS}{parton shower}
-\acro{PDF}{parton distribution function}
-\acro{PCBT}{pseudo-continuous $b$-tagging}
-\acro{QED}{quantum electrodynamics}
-\acro{QCD}{quantum chromodynamics}
-\acro{QFT}{quantum field theory}
-\acro{QmisID}{charge mis-identification}
-\acro{SF}{scale factor}
-\acro{SM}{Standard Model}
-\acro{SR}{signal region}
-\acro{SSML}{two leptons of the same charge, or more than two leptons (multilepton)}
-\acro{TDAQ}{Trigger and Data Acquisition}
-\end{acronym}
-\end{abbrev}
+\subfile{abbreviations}
 %% The list will be included in the TOC as
 %% KEY TO SYMBOLS or KEY TO ABBREVIATIONS
 %%%%%%%%%%
@@ -388,6 +359,7 @@ Acronyms
 %%uncomment the following two lines.
 %\bibliographystyle{ieeetr}
 
+%\renewcommand*{\UrlFont}{\rmfamily}
 \printbibliography[heading=bibintoc,title={References}]
 
 

@@ -8,7 +8,6 @@
 The Standard Model of physics (\acs{SM}) is currently the most successful formalism to describe the physical world at a microscopic scale.\\
 The \acs{SM} provides descriptions for all currently known elementary particles and three out of four fundamental forces with the exception of gravity.\\
 %- limitations: gravity \& general relativity, arbitrary free parameters
-
 \subsection{Elementary particles}
 Elementary particles in the \acs{SM} can be classified into two groups: bosons, consisting of particles following Bose-Einstein statistics with integer spin and fermions, consisting of particles following Fermi-Dirac statistics with half-integer spin\\
 Fermions are the building blocks of composite particles and consequently all known matter, and can be further split into quarks \& leptons.\\
@@ -18,7 +17,7 @@ For each elementary particle there also exists a corresponding antiparticle with
 \begin{figure}[!htbp]
 \begin{center}
 \includegraphics[width=\linewidth]{fig/theory_smparticles.pdf}
-\caption{\label{fig:smparticles}\citep{theory:smparticles3}}
+\caption[Caption]{\label{fig:smparticles}Caption\citep{theory:smparticles}}
 \end{center}
 \end{figure}
 
@@ -43,14 +42,15 @@ Other than the vector gauge boson, the only scalar boson in the SM is the Higgs 
 The Higgs boson does not mediate a fundamental force like vector bosons, but serve to provide the rest mass for all massive elementary particles in the SM through the Higgs mechanism.
 
 \subsection{Mathematical formalism}
-The \acs{SM} can be described within the formalism of quantum field theory (\acs{QFT}) with a composite Lagrangian
+The \acs{SM} can be described within the formalism of quantum field theory (\acs{QFT}) with the Lagrangian
 \begin{equation}
 \mathcal{L}_\mathrm{SM} = \mathcal{L}_\mathrm{QCD} + {\underbrace{(\mathcal{L}_\mathrm{gauge}+\mathcal{L}_\mathrm{fermion}+\mathcal{L}_\mathrm{Higgs}+\mathcal{L}_\mathrm{Yukawa})}_{\mathcal{L}_\mathrm{EW}}}
 \end{equation}
 where $\mathcal{L}_\mathrm{QCD}$ is the \acs{QCD} term and $\mathcal{L}_\mathrm{EW}$ is the electroweak (\acs{EW}) term of the Lagrangian.\\
-%QFT treats particles as excitations of their corresponding quantum fields: fermion field $\psi$, electroweak boson fields $W_{1,2,3}$ \& $B$, gluon field $G_\alpha$ and Higgs field $\phi$.\\
+QFT treats particles as excitations of their corresponding quantum fields: fermion field $\psi$, electroweak boson fields $W_{1,2,3}$ \& $B$, gluon field $G_\alpha$ and Higgs field $\phi$.\\
+\acs{QFT} depends heavily on gauge theory. A quantum field has gauge symmetry if there exists a continuous gauge transformation that when applied to every point (local gauge transformation) leaves the field Lagrangian unchanged. The set of gauge transformations of a gauge symmetry is the symmetry group of the field, which comes with a set of generators, each with a corresponding gauge field. Under \acs{QFT}, the quanta of these gauge fields are called gauge bosons.
 The \acs{SM} Lagrangian is gauge invariant under global Poincar\'e symmetry and local $SU(3)_C \times SU(2)_L \times U(1)_Y$ gauge symmetry, with the gauge term $SU(3)_C$ corresponding to the strong interaction and $SU(2)_L \times U(1)_Y$ to the \acs{EW} interaction.\\
-Global Poincar\'e symmetry ensures that $\mathcal{L}_\mathrm{SM}$ satisfies translational symmetry, rotational symmetry and Lorentz boost frame invariance. By Noether's theorem, these symmetries give rise to conservation of momentum, angular momentum and energy.
+Global Poincar\'e symmetry ensures that $\mathcal{L}_\mathrm{SM}$ satisfies translational symmetry, rotational symmetry and Lorentz boost frame invariance. By Noether's theorem, gauge symmetries lead to corresponding conservation laws which leads to conservation of momentum, angular momentum and energy in the \acs{SM}.
 
 \subsubsection*{Quantum chromodynamics}
 \acs{QCD} is a non-Abelian gauge theory (Yang-Mills theory) describing the strong interaction between quarks in the \acs{SM} with the gauge group $SU(3)_C$, where $C$ represents conservation of color charge under $SU(3)_C$ symmetry.\\
@@ -96,8 +96,7 @@ which can be expressed in the form of
 \bar{\psi}^i\left( g_s \gamma^\mu (T_a)_{ij} G^a_\mu \right)\bar{\psi}^j
 }_\text{quark-gluon interaction}.
 \end{equation}
-with $i$, $j$ being the color indices with integer values from $1$ to $3$. The noncommutativity of $SU(3)_C$ gives rise to an additional term consisting of only gluon fields and gluon-gluon interactions. Additionally, the Lagrangian also forces gluons to be massless to maintain gauge invariance.\\
-
+with $i$, $j$ being the color indices with integer values from $1$ to $3$. The noncommutativity of $SU(3)_C$ gives rise to an additional term consisting of only gluon fields and gluon-gluon interactions. Additionally, the Lagrangian also forces gluons to be massless to maintain gauge invariance.
 \subsubsection*{Electroweak theory}
 The electroweak interaction is the unified description of the weak interaction and electromagnetism under the $SU(2)_L \times U(1)_Y$ symmetry group, where $L$ represents the left-handed chirality of the weak interaction and $Y$ represents the weak hypercharge quantum number. The quantum number associated with the weak chirality is the weak isospin $I$. The \acs{EW} quantum numbers are connected by the Gell-Mann-Nishijima relation
 \begin{equation}
@@ -105,10 +104,12 @@ Q = I_3 + Y/2
 \end{equation}
 where $Q$ is the electric charge and $I_3$ is the third component of weak isospin $I$.\\
 Fermions can have either left-handed or right-handed chirality, and can be divided into left-handed doublets and right-handed singlets
-\begin{align}
+\begin{equation}
+\begin{aligned}
 \psi_L &= \displaystyle\binom{\nu_e}{e_L}, \displaystyle\binom{\nu_\mu}{\mu_L}, \displaystyle\binom{\nu_\tau}{\tau_L}, \displaystyle\binom{u_L}{d_L}, \displaystyle\binom{c_L}{s_L}, \displaystyle\binom{t_L}{b_L} \\
 \psi_R &= e_R, \mu_R, \tau_R, u_R, d_R, c_R, s_R, t_R, b_R,
-\end{align}
+\end{aligned}
+\end{equation}
 with the exception of neutrino which can only have left-handed chirality in the \acs{SM}.\\
 Both left-handed and right-handed fermion fields are invariant under $U(1)_Y$ transformation
 \begin{equation}
@@ -130,10 +131,12 @@ and $g'$ is the $B_\mu$ coupling constant.\\
 %\end{equation}
 %is then invariant under local $U(1)_Y$ symmetry.\\
 Right-handed fermion singlets are not affected by $SU(2)_L$ transformation, so fermion fields transform under $SU(2)_L$ as
-\begin{align}
+\begin{equation}
+\begin{aligned}
 \psi_L &\rightarrow e^{iI_3 \vec{\theta}(x)\cdot\vec{\sigma}/2} \psi_L \\
 \psi_R &\rightarrow \psi_R.
-\end{align}
+\end{aligned}
+\end{equation}
 where $\vec{\sigma}/2$ are generators of $SU(2)_L$ and $\vec{\sigma}$ are Pauli matrices. In order to preserve local symmetry, the gauge covariant derivative for $SU(2)_L$ is defined as
 \begin{equation}
 D_\mu \psi_L = \left( \partial_\mu - ig\frac{\sigma_i}{2}W_\mu^i \right) \psi_L
@@ -145,30 +148,40 @@ W_\mu^i \rightarrow e^{i\displaystyle\frac{\sigma_i}{2}\theta_i(x)} \left( W_\mu
 \end{equation}
 with $g$ as the gauge coupling constant for $W^i_\mu$, and $\epsilon^{ijk}$ as the structure constant for $SU(2)_L$.\\
 The gauge covariant derivative for $SU(2)_L \times U(1)_Y$ can then be written as
-\begin{align}
+
+\begin{equation}
+\begin{aligned}
+\label{eq:EW_cov}
 D_\mu \psi_L &= \left( \partial_\mu - ig'\frac{Y_L}{2}B_\mu - ig\frac{\sigma_i}{2}W_\mu^i \right) \psi_L \\
 D_\mu \psi_R &= \left( \partial_\mu - ig'\frac{Y_R}{2}B_\mu \right) \psi_R.
-\end{align}
+\end{aligned}
+\end{equation}
 Similar to \acs{QCD}, the kinetic term is added by defining field strengths for the four gauge fields
-\begin{align}
+\begin{equation}
+\begin{aligned}
 B_{\mu \nu}   &\equiv \partial_\mu B_\nu - \partial_\nu B_\mu \\
 W_{\mu \nu}^i &\equiv \partial_\mu W^i_\nu - \partial_\nu W^i_\mu - g e^{ijk} W^j_\mu W^k_\nu.
-\end{align}
+\end{aligned}
+\end{equation}
 The local $SU(2)_L \times U(1)_Y$ invariant \acs{EW} Lagrangian can then be expressed as
-\begin{align}
+\begin{equation}
+\begin{aligned}
 \mathcal{L}_\text{EW} &= i\bar{\psi}(\gamma^\mu D_\mu)\psi - \frac{1}{4}W^i_{\mu\nu}W_i^{\mu\nu} - \frac{1}{4}B_{\mu\nu}B^{\mu\nu} \\
-&= \underbrace{\vphantom{\frac{1}{4}}
+&= \underbrace{\vphantom{\left(\frac{Y}{2}\right)}
 i\bar{\psi}\left(\gamma^\mu\partial_\mu\right)\psi
 }_{\substack{\text{fermion}\vphantom{\frac{1}{4}}\\ \text{kinematics}}}
-\underbrace{\vphantom{\frac{1}{4}}
+\underbrace{
 -\bar{\psi}\left(\gamma^\mu g'\frac{Y}{2}B_\mu\right)\psi - \bar{\psi}_L\left(\gamma^\mu g\frac{\sigma_i}{2}W_\mu^i\right)\psi_L
 }_\text{fermion-gauge boson interaction}
-\underbrace{\vphantom{\frac{1}{4}}
+\underbrace{\vphantom{\left(\frac{Y}{2}\right)}
 -\frac{1}{4}W^i_{\mu\nu}W_i^{\mu\nu} - \frac{1}{4}B_{\mu\nu}B^{\mu\nu}
 }_{\substack{\text{boson kinematics}\vphantom{\frac{1}{4}}\\ \text{\& self-interaction}}}.
-\end{align}
-The \acs{SM} \acs{EW} bosons can be extracted from $\mathcal{L}_\text{EW}$ by reparameterizing the gauge fields $B_\mu$ and $W_\mu^i$ as
-\begin{align}
+\end{aligned}
+\end{equation}
+The \acs{EW} $Z$, $\gamma$ and $W^\pm$ bosons can be extracted from $\mathcal{L}_\text{EW}$ by reparameterizing the weak hypercharge gauge boson $B_\mu$ and weak isospin gauge bosons $W_\mu^i$ as
+\begin{equation}
+\begin{aligned}
+\label{eq:EW_repara}
 W^\pm &\equiv \frac{1}{\sqrt{2}}\left(W^1_\mu \mp iW^2_\mu\right) \\ 
 \begin{pmatrix}
 A \\ Z^0
@@ -180,11 +193,13 @@ A \\ Z^0
 \begin{pmatrix}
 B_\mu \\ W_\mu^3
 \end{pmatrix}
-\end{align}
-where $\theta_\text{W}\equiv\cos^{-1}\left(g/\sqrt{g^2+g'^2}\right)$ is the weak mixing angle. The \acs{EW} Lagrangian can then be rewritten as
+\end{aligned}
+\end{equation}
+where $\theta_\text{W}\equiv\cos^{-1}\left(g/\sqrt{g^2+g'^2}\right)$ is the weak mixing angle. The boson kinetic term can also be refactorized to extract cubic (three vertices) and quartic (four vertices) self-interactions among the gauge bosons \citep{theory:ew}.\\
+The \acs{EW} Lagrangian can then be rewritten as
 \begin{equation}
 \begin{aligned}
-\mathcal{L}_\text{EW} =&
+\mathcal{L}_\text{EW} &=
 \underbrace{\vphantom{\displaystyle\frac{e}{2\sin\theta_\text{W}}}
 eA_\mu\bar{\psi}\left(\gamma^\mu Q\right)\psi
 }_\text{electromagnetism}
@@ -194,52 +209,166 @@ eA_\mu\bar{\psi}\left(\gamma^\mu Q\right)\psi
 &+\underbrace{
 \displaystyle\frac{g}{2\sqrt{2}}\mathlarger{\sum}_{\psi_L}
 \left[ \bar{f}_2\gamma^\mu\left(1-\gamma_5\right)f_1 W_\mu^+ + \bar{f}_1\gamma^\mu\left(1-\gamma_5\right)f_2 W_\mu^- \right]
-}_\text{charged current interaction}
+}_\text{charged current interaction} \\
+&+\mathcal{L}_\text{kinetic}+\underbrace{\vphantom{\frac{1}{4}}
+\mathcal{L}_\text{cubic}+\mathcal{L}_\text{quartic}
+}_\text{boson self-interaction}
 \end{aligned}
 \end{equation}
 where $a_f=I_3$, $v_f=I_3(1-4|Q|\sin^2\theta_\text{W})$ and $f_1$, $f_2$ are up and down type fermions of a left-handed doublet.
 
 
 \subsubsection*{Higgs mechanism}
-fermions \& bosons still massless from previous section, resolved by introduction of the Higgs mechanism\\
-(show Higgs field, potential \& Lagrangian)\\
-(show minimum of Higgs potential aka VEV)\\
-----------------------------------[continue later]----------------------------------
+So far, the $EW$ bosons are massless according to the \acs{EW} Lagrangian, since the mass terms $-m\bar{\psi}\psi$ for fermions and $-mA^\mu A_\mu$ for bosons are not invariant under the \acs{EW} Lagrangian. The particles must then acquire mass under another mechanism. The Brout-Engler-Higgs mechanism \citep{theory:higgs1,theory:higgs2,theory:brout_englert} was introduced in 1964 to rectify this issue, and verified in 2012 with the discovery of the Higgs boson \citep{theory:higgs_atlas,theory:higgs_cms}.\\
+The Higgs potential is expressed as
+\begin{equation}
+V(\phi^\dagger\phi) = \mu^2\phi^\dagger\phi+\lambda(\phi^\dagger\phi)^2
+\end{equation}
+where $\mu^2$ and $\lambda>0$ are arbitrary parameters, and the $SU(2)_L$ doublet $\phi$ is the Higgs field
+\begin{equation}
+\phi = 
+\begin{pmatrix}
+\phi^+ \\ \phi^0
+\end{pmatrix},
+\end{equation}
+with complex scalar fields $\phi^+$ and $\phi^0$ carrying $+1$ and $0$ electric charge respectively. The Lagrangian for a scalar field is
+\begin{equation}
+\mathcal{L}_H = \left(\partial_\mu \phi\right)^\dagger \left(\partial^\mu \phi\right) - V\left(\phi^\dagger\phi\right).
+\end{equation}
+%which is invariant under local $U(1)$ transformation
+%\begin{equation}
+%\phi \rightarrow e^{i\theta(x)}\phi.
+%\end{equation}
+Since the potential $V(\phi)$ is constrained by $\lambda>0$, the ground state is solely controlled by $\mu$. If $\mu^2>0$, the ground state would be $\phi=0$, and the \acs{EW} bosons would remain massless. If $\mu^2<0$, the ground state would be
+\begin{equation}
+|\phi|^2 = -\displaystyle\frac{\mu^2}{2\lambda} \equiv \displaystyle\frac{v^2}{\sqrt{2}},
+\end{equation}
+where $v$ is defined as the vacuum expectation value (\acs{VEV}). The standard ground state for the Higgs potential without loss of generality can be chosen as
+\begin{equation}
+\phi(0) = \frac{1}{\sqrt{2}}
+\binom{0}{v}.
+\end{equation}
+\textcolor{red}{sombrero potential pic}\\
+Due to $U(1)$ invariance, any $-e^{i\theta}\sqrt{\mu^2/\lambda}$ is a ground state for the Higgs Lagrangian. This vacuum state degeneracy results in spontaneous symmetry breaking of the $SU(2)_L\times U(1)_Y$ symmetry into $U(1)_\text{\acs{EM}}$ symmetry. The spontaneous symmetry breaking introduces three massless (Nambu-Goldstone) vector gauge boson $\xi$ and a massive scalar boson $\eta$, each corresponds to a generator of the gauge group. The bosons can be extracted using the reparameterization \citep{theory:higgs_physics}
+\begin{align}
+\xi  &\equiv \phi^+\sqrt{2}
+\  ,&
+\eta &\equiv \phi^0\sqrt{2}-v,
+\end{align}
+such that $\xi$, $\eta$ are real fields. The Higgs field now become
+\begin{equation}
+\phi=\frac{v+\eta+i\xi}{\sqrt{2}}=e^{i\xi\cdot\displaystyle\frac{\sigma}{2v}}
+\begin{pmatrix}
+0 \\ \displaystyle\frac{v+\eta}{\sqrt{2}}
+\end{pmatrix}.
+\end{equation}
+Due to $U(1)_\text{\acs{EM}}$ invariance, a unitary gauge with the transformation $\phi \rightarrow \exp(-i\xi\cdot)\frac{\sigma}{2v}$ can be chosen to eliminate the massless bosons, leaving the massive $\eta$ which can now be observed as an excitation of the Higgs field $\phi$ and consequently the Higgs boson $h$. Using the \acs{EW} covariant derivative from \autoref{eq:EW_cov}, the Higgs Lagrangian around the vacuum state becomes
+\begin{equation}
+\begin{aligned}
+\mathcal{L}_H &= \left(D_\mu\phi\right)^\dagger \left(D^\mu\phi\right) - \mu^2\left(\displaystyle\frac{v+h}{\sqrt{2}}\right)^2-\lambda\left(\displaystyle\frac{v+h}{\sqrt{2}}\right)^4 \\
+&= \left(D_\mu\phi\right)^\dagger \left(D^\mu\phi\right) - \frac{1}{2}\mu^2h^2 - \lambda v h^3 - \frac{\lambda}{4} h^4 - \ldots.
+\end{aligned}
+\end{equation}
+The Higgs mass can be extracted from the quadratic term as $m_H = \sqrt{-2\mu^2}$. The kinetic term in the Lagrangian can be written as
+\begin{equation}
+\begin{aligned}
+\left(D_\mu\phi\right)^\dagger \left(D^\mu\phi\right) 
+&= \frac{1}{2}(\partial_\mu h)^2 + \frac{g^2}{8}(v+h)^2\left|W^1_\mu -iW^2_\mu\right|^2 + \frac{1}{8}(v+h)^2\left(g'W_\mu-gB_\mu\right) \\
+&= \frac{1}{2}(\partial_\mu h)^2 + (v+h)^2 \left( \frac{g^2}{4}W^{+}_{\mu} W^{-,\mu }+\frac{1}{8} \left(g^2+g'^2\right)Z^{0}_{\mu} Z^{0,\mu} \right),
+\end{aligned}
+\end{equation}
+using the reparameterization from \autoref{eq:EW_repara}. Masses for the \acs{EW} bosons can be extracted from the quadratic terms
+\begin{equation}
+m_{W^\pm} = \frac{v}{2}g\:, \qquad m_Z = \frac{v}{2}\sqrt{g^2+g'^2}\:, \qquad m_\gamma = 0.
+\end{equation}
+Fermions acquire mass via Yukawa interactions with the scalar Higgs field \citep{theory:higgs_physics}, which add a term to the Lagrangian
+\begin{equation}
+\begin{aligned}
+\mathcal{L}_\text{Yukawa} 
+&= -c_f\frac{v+h}{\sqrt{2}}\left(\bar{\psi}_R\psi_L+\bar{\psi}_L\psi_R\right) \\
+&=
+- \underbrace{\frac{c_f}{\sqrt{2}}v(\bar{\psi}\psi)}_\text{fermion mass}
+- \underbrace{\frac{c_f}{\sqrt{2}}(h\bar{\psi}\psi)}_\text{fermion-Higgs interaction},
+\end{aligned}
+\end{equation}
+where $c_f$ is the fermion-Higgs Yukawa coupling. The fermion mass is then $m_f = c_f v/\sqrt{2}$.
 
-
-
-\subsection{Four-top quark production}
-\label{sec:4top}
-- Top: heaviest particle, strong coupling to many BSM particles in BSM models.\\
-- 4top: xsec relevant to and enhanced by many BSM models\\
-- Predicted by SM and observed [observation paper]\\
-- Predicted xsec and observed xsec\\
-- (insert Feynman diagrams)\\
-- Decay products \& final state topologies
-
+\subsection{Shortcomings of the Standard Model}
+\subsubsection*{Gravity and general relativity}
+\subsubsection*{Grand Unified Theory (\acs{GUT})}
+\subsubsection*{Dark energy and dark matter}
+\subsubsection*{Hierarchy problem}
+\subsubsection*{Matter-antimatter asymmetry}
+\subsubsection*{Neutrino masses}
 
 
 \section{Beyond the Standard Model}
+\subsection{Top-philic vector resonance}
+Many BSM models extend the \acs{SM} by adding to the \acs{EW} gauge group additional $U(1)'$ gauge symmetries, each with an associated vector gauge boson nominally named $Z'$ \citep{theory:Zp}. In the case of a \acs{BSM} global symmetry group with rank larger than the \acs{SM} gauge group, the symmetry group can break into $G_\text{\acs{SM}}\times U(1)^{'n}$, where $G_\text{\acs{SM}}$ is the \acs{SM} gauge group $SU(3)_C \times SU(2)_L \times U(1)_Y$ and $U(1)^{'n}$ is any $n\geq 1$ number of $U(1)'$ symmetries. The existence of additional vector bosons $Z'$ would also open up many avenues of new physics e.g. extended Higgs sectors from $U(1)'$ symmetry breaking, existence of flavor-changing neutral current (FCNC) effects in some models, and possible exotic production from heavy $Z'$ decays \citep{theory:Zp}\\
+Due to the top quark having the largest mass out of all known elementary particles in the \acs{SM}, many \acs{BSM} models \citep{Ferretti:2013kya,Vecchi:2015fma,Agashe:2003zs,Agashe:2004rs} predict 'top-philic' vector resonances that have much stronger coupling to the top quark compared to other quarks such that the coupling factors to lighter quarks are negligible.\\
+The analysis in this thesis attempts to reconstruct the resonance directly to avoid dependency on model choice. In addition, a simplified color-singlet vector particle model \citep{theory:ttZp,theory:ttZp_LHC} is employed to study model-dependent interpretations. The interaction Lagrangian assumes only coupling with the top quark, expressed as
+\begin{equation}
+\begin{aligned}
+\mathcal{L}_{Z'} &= \bar{t}\gamma_\mu\left(c_L P_L + c_R P_R\right) tZ'^{\mu}\\
+&= c_t \bar{t}\gamma_\mu\left(\cos\theta P_L + \sin\theta P_R\right) tZ'^{\mu}
+\end{aligned}
+\end{equation}
+where $c_t=\sqrt{c_L^2+c_R^2}$ is the top coupling strength, $P_{L/R}=(1\mp \gamma_5)/2$ are the chirality projection operators, and $\theta = \tan^{-1}(c_R/c_L)$ is the chirality mixing angle \citep{theory:ttZp}.\\
+Assuming the $Z'$ mass $m_{Z'}$ is much larger than the top mass ($m_t^2/m_{Z'}^2 \approx 0$), the $Z'$ decay width at leading-order (\acs{LO}) can be approximated as
+\begin{equation}
+\Gamma(Z' \rightarrow \ttbar) \approx \frac{c_t^2 m_{Z'}}{8\pi}.
+\end{equation}
+The main production channels for the aforementioned heavy top-philic color singlet $Z'$ are at tree level and loop level, with the one-loop level being the dominant processes. To minimize model dependence, only the tree level production was considered. The Feynman diagrams for tree level production channels are shown in \autoref{fig:theory:ttZp_feynman}, with $pp\rightarrow Z'+\ttbar\rightarrow\tttt$ having the largest contribution out of the three.
 
-\subsection*{Top-philic vector resonance}
-- (briefly introduce composite pseudo-nambu-Goldstone boson and motivation)\\
-- hypothesis: top quark large mass results from high mixing between a "true" top quark and a  colored, fermionic composite state\\
-- composite vector resonance can be modeled as a top-philic \Zp boson (without QCD color) or top-philic KK-gluon (with QCD color)\\
-- color singlet vector boson (Z') model coupling strongly to top and weakly or not at all to others\\
-- (show Lagrangian for interaction)\\
-- two body decay \Zp into \ttbar with \mZp in TeV range $\rightarrow$ top mass\\
-- decay channels: \ttZp s \& t channels, \tWZp, \tjZp\\
-- (show decay width at LO)\\
-- (Feynman diagrams here)
+\begin{figure}[!htbp]
+\centering
+\subfloat[]{
+\includegraphics[width=0.33\linewidth]{fig/theory_ttZp.png}}
+\subfloat[]{
+\includegraphics[width=0.33\linewidth]{fig/theory_tjZp.png}}
+\subfloat[]{
+\includegraphics[width=0.33\linewidth]{fig/theory_tWZp.png}}
+\caption[Caption]{\label{fig:theory:ttZp_feynman}tree level $Z'$ production in association with (a) \ttbar to 4tops, (b) $tj$ (light quark) to 3tops, (c) $tW$ to 3 tops, derived from top quark final states produced via strong, \acs{EW} and mixed \acs{QCD}-\acs{EW} interactions \citep{theory:ttZp}}
+\end{figure}
 
-\subsection*{Higgs-top Yukawa coupling}
-(show Lagrangian of Higgs-top Yukawa coupling)\\
-(show dependence of \tttt xsec on Yukawa coupling at LO)
 %\subsection*{Effective field theory}
 %SMEFT expanding on SM Lagrangian using higher order operators\\
 %(show EFT Lagrangian)\\
 %quick overview on SMEFT dimension-6 four-fermion operators for BSM interpretation\\
 %and Higgs oblique parameter
+
+\section{Four-top quark production}
+\label{sec:4top}
+As of now, the top quark is the heaviest particle in the \acs{SM} with mass of about 173 GeV. This also gives it the strongest coupling to the Higgs boson and new resonances in various proposed \acs{BSM} models \textcolor{red}{(citations)}, making the top quark and its processes attractive vehicles with which to probe \acs{BSM} physics.\\
+The analysis presented in this thesis uses the \tttt final state signal signature to search for the existence of a heavy \acs{BSM} resonance that couples strongly to the top quark.\\
+Production of \tttt is a rare process predicted by the \acs{SM} with a predicted cross section of $\sigma_{\tttt}=12\pm 2.4$ fb at next-to-leading (\acs{NLO}) in \acs{QCD} including \acs{EW} corrections. Including threshold summation at \acs{NLO} logarithmic accuracy raises total production cross section by $\approx 12\%$ and significantly reduces scale uncertainty, which gives $\sigma_{\tttt}=13.4^{+1.0}_{-1.8}$ fb. \\
+Typical tree level \acs{SM} \tttt production processes are shown in \autoref{fig:theory:tttt_feynman}. Cross section for \tttt production can be enhanced by many possible \acs{BSM} models, in particular possible production of a heavy neutral resonance boson $X$, decaying to a \ttbar pair, in association with a \ttbar pair in composite Higgs scenarios \textcolor{red}{(citations)} or two-Higgs-doublet-model (\acs{2HDM}).\\
+The \ttX production mode and consequently \tttt signal signature can provide a more sensitive channel for searches by avoiding contamination from the large $gg\rightarrow \ttbar$ \acs{SM} background in an inclusive $X\rightarrow\ttbar$ search.
+
+\begin{figure}[!htbp]
+\centering
+\subfloat[]{
+\includegraphics[width=0.45\linewidth]{fig/theory_tttt.png}}
+\subfloat[]{
+\includegraphics[width=0.45\linewidth]{fig/theory_tttt2.png}}
+\caption[Caption]{\label{fig:theory:tttt_feynman}tree level, mediator particle in (b) can be gluon, neutral gauge boson ($Z/\gamma$) or Higgs \citep{tttt_obs}}
+\end{figure}
+
+\acs{SM} production of \tttt was observed by ATLAS in 2023 in the SSML channel using an integrated luminosity of 140 \fb \citep{tttt_obs}, with an observed (expected) significance level of $6.1\sigma$ ($4.3\sigma$) compared to the background-only hypothesis. The observed cross section is measured to be $\sigma_{\tttt}=22.5^{+6.6}_{-5.5}$ fb, consistent with \acs{SM} prediction within $1.8\sigma$.\\
+\subsection*{Decay modes}
+Due to its mass, the top quark has a very short lifetime of $10^{-24}$s, and consequently decays before it can hadronize. The top quark decays to a $W$ boson and a $b$-quark with a branching ratio of almost $100\%$, and is assumed to be such for the purpose of this analysis. The $W$ boson can subsequently decay hadronically or leptonically, with branching ratios of approximately $68\%$ and $32\%$ respectively, with all lepton flavors having similar ratios assuming lepton universality. This results in many different final states for \tttt decay, which can each be classified into one of three channels: all hadronic decays; exactly one lepton or two opposite-sign leptons (\acs{1LOS}); exactly two same-sign leptons or three or more leptons (\acs{SSML}). The branching ratio for each channel is shown in \autoref{fig:theory:tttt_channels}.\\
+The all hadronic and \acs{1LOS} channels have much larger branching ratios compared to \acs{SSML} channel but suffer heavily from irreducible $gg\rightarrow\ttbar$ background contamination, giving \acs{SSML} channel better sensitivity at the cost of lower statistics. This is also the targeted channel for the analysis in this thesis.
+
+\begin{figure}[!htbp]
+\begin{center}
+\includegraphics[width=0.7\linewidth]{fig/theory_tttt_channels.png}
+\caption{\label{fig:theory:tttt_channels}Caption}
+\end{center}
+\end{figure}
+
+%\subsection*{Higgs-top Yukawa coupling}
+%(show Lagrangian of Higgs-top Yukawa coupling)\\
+%(show dependence of \tttt xsec on Yukawa coupling at LO)
 
 
 %\section{Collider physics}

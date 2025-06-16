@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.20)  12 JUN 2025 02:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.20)  12 JUN 2025 23:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1342,316 +1342,328 @@ LaTeX Warning: Hyper reference `acro:2HDM' on page ix undefined on input line 3
 6.
 
 
+LaTeX Warning: Hyper reference `acro:AF3' on page ix undefined on input line 37
+.
+
+
+LaTeX Warning: Hyper reference `acro:AF3' on page ix undefined on input line 37
+.
+
+
 LaTeX Warning: Hyper reference `acro:ATLAS' on page ix undefined on input line 
-37.
+38.
 
 
 LaTeX Warning: Hyper reference `acro:ATLAS' on page ix undefined on input line 
-37.
+38.
 
 
-LaTeX Warning: Hyper reference `acro:BDT' on page ix undefined on input line 38
+LaTeX Warning: Hyper reference `acro:BDT' on page ix undefined on input line 39
 .
 
 
-LaTeX Warning: Hyper reference `acro:BDT' on page ix undefined on input line 38
+LaTeX Warning: Hyper reference `acro:BDT' on page ix undefined on input line 39
 .
 
 
-LaTeX Warning: Hyper reference `acro:BSM' on page ix undefined on input line 39
+LaTeX Warning: Hyper reference `acro:BSM' on page ix undefined on input line 40
 .
 
 
-LaTeX Warning: Hyper reference `acro:BSM' on page ix undefined on input line 39
+LaTeX Warning: Hyper reference `acro:BSM' on page ix undefined on input line 40
 .
 
 
 LaTeX Warning: Hyper reference `acro:CERN' on page ix undefined on input line 4
-0.
+1.
 
 
 LaTeX Warning: Hyper reference `acro:CERN' on page ix undefined on input line 4
-0.
+1.
 
 
-LaTeX Warning: Hyper reference `acro:CMS' on page ix undefined on input line 41
+LaTeX Warning: Hyper reference `acro:CMS' on page ix undefined on input line 42
 .
 
 
-LaTeX Warning: Hyper reference `acro:CMS' on page ix undefined on input line 41
+LaTeX Warning: Hyper reference `acro:CMS' on page ix undefined on input line 42
 .
-
-
-LaTeX Warning: Hyper reference `acro:CR' on page ix undefined on input line 42.
-
-
-
-LaTeX Warning: Hyper reference `acro:CR' on page ix undefined on input line 42.
-
 
 [9
 
 
 ]
 
-LaTeX Warning: Hyper reference `acro:ECIDS' on page x undefined on input line 4
-3.
+LaTeX Warning: Hyper reference `acro:CR' on page x undefined on input line 43.
+
+
+LaTeX Warning: Hyper reference `acro:CR' on page x undefined on input line 43.
 
 
 LaTeX Warning: Hyper reference `acro:ECIDS' on page x undefined on input line 4
-3.
+4.
 
 
-LaTeX Warning: Hyper reference `acro:EM' on page x undefined on input line 44.
+LaTeX Warning: Hyper reference `acro:ECIDS' on page x undefined on input line 4
+4.
 
 
-LaTeX Warning: Hyper reference `acro:EM' on page x undefined on input line 44.
+LaTeX Warning: Hyper reference `acro:EM' on page x undefined on input line 45.
 
 
-LaTeX Warning: Hyper reference `acro:EW' on page x undefined on input line 45.
+LaTeX Warning: Hyper reference `acro:EM' on page x undefined on input line 45.
 
 
-LaTeX Warning: Hyper reference `acro:EW' on page x undefined on input line 45.
+LaTeX Warning: Hyper reference `acro:EW' on page x undefined on input line 46.
 
 
-LaTeX Warning: Hyper reference `acro:GNN' on page x undefined on input line 46.
+LaTeX Warning: Hyper reference `acro:EW' on page x undefined on input line 46.
 
 
+LaTeX Warning: Hyper reference `acro:FS' on page x undefined on input line 47.
 
-LaTeX Warning: Hyper reference `acro:GNN' on page x undefined on input line 46.
 
+LaTeX Warning: Hyper reference `acro:FS' on page x undefined on input line 47.
 
 
-LaTeX Warning: Hyper reference `acro:GUT' on page x undefined on input line 47.
+LaTeX Warning: Hyper reference `acro:GNN' on page x undefined on input line 48.
 
 
 
-LaTeX Warning: Hyper reference `acro:GUT' on page x undefined on input line 47.
+LaTeX Warning: Hyper reference `acro:GNN' on page x undefined on input line 48.
 
 
 
-LaTeX Warning: Hyper reference `acro:HLT' on page x undefined on input line 48.
+LaTeX Warning: Hyper reference `acro:GUT' on page x undefined on input line 49.
 
 
 
-LaTeX Warning: Hyper reference `acro:HLT' on page x undefined on input line 48.
+LaTeX Warning: Hyper reference `acro:GUT' on page x undefined on input line 49.
 
 
 
-LaTeX Warning: Hyper reference `acro:ID' on page x undefined on input line 49.
+LaTeX Warning: Hyper reference `acro:HLT' on page x undefined on input line 50.
 
 
-LaTeX Warning: Hyper reference `acro:ID' on page x undefined on input line 49.
 
+LaTeX Warning: Hyper reference `acro:HLT' on page x undefined on input line 50.
 
-LaTeX Warning: Hyper reference `acro:JER' on page x undefined on input line 50.
 
 
+LaTeX Warning: Hyper reference `acro:ID' on page x undefined on input line 51.
 
-LaTeX Warning: Hyper reference `acro:JER' on page x undefined on input line 50.
 
+LaTeX Warning: Hyper reference `acro:ID' on page x undefined on input line 51.
 
 
-LaTeX Warning: Hyper reference `acro:JES' on page x undefined on input line 51.
+LaTeX Warning: Hyper reference `acro:JER' on page x undefined on input line 52.
 
 
 
-LaTeX Warning: Hyper reference `acro:JES' on page x undefined on input line 51.
+LaTeX Warning: Hyper reference `acro:JER' on page x undefined on input line 52.
 
 
 
-LaTeX Warning: Hyper reference `acro:JVT' on page x undefined on input line 52.
+LaTeX Warning: Hyper reference `acro:JES' on page x undefined on input line 53.
 
 
 
-LaTeX Warning: Hyper reference `acro:JVT' on page x undefined on input line 52.
+LaTeX Warning: Hyper reference `acro:JES' on page x undefined on input line 53.
 
 
 
-LaTeX Warning: Hyper reference `acro:L1' on page x undefined on input line 53.
+LaTeX Warning: Hyper reference `acro:JVT' on page x undefined on input line 54.
 
 
-LaTeX Warning: Hyper reference `acro:L1' on page x undefined on input line 53.
 
+LaTeX Warning: Hyper reference `acro:JVT' on page x undefined on input line 54.
 
-LaTeX Warning: Hyper reference `acro:LH' on page x undefined on input line 54.
 
 
-LaTeX Warning: Hyper reference `acro:LH' on page x undefined on input line 54.
+LaTeX Warning: Hyper reference `acro:L1' on page x undefined on input line 55.
 
 
-LaTeX Warning: Hyper reference `acro:LLH' on page x undefined on input line 55.
+LaTeX Warning: Hyper reference `acro:L1' on page x undefined on input line 55.
 
 
+LaTeX Warning: Hyper reference `acro:LH' on page x undefined on input line 56.
 
-LaTeX Warning: Hyper reference `acro:LLH' on page x undefined on input line 55.
 
+LaTeX Warning: Hyper reference `acro:LH' on page x undefined on input line 56.
 
 
-LaTeX Warning: Hyper reference `acro:LO' on page x undefined on input line 56.
+LaTeX Warning: Hyper reference `acro:LLH' on page x undefined on input line 57.
 
 
-LaTeX Warning: Hyper reference `acro:LO' on page x undefined on input line 56.
 
+LaTeX Warning: Hyper reference `acro:LLH' on page x undefined on input line 57.
 
-LaTeX Warning: Hyper reference `acro:LAr' on page x undefined on input line 57.
 
 
+LaTeX Warning: Hyper reference `acro:LO' on page x undefined on input line 58.
 
-LaTeX Warning: Hyper reference `acro:LAr' on page x undefined on input line 57.
 
+LaTeX Warning: Hyper reference `acro:LO' on page x undefined on input line 58.
 
 
-LaTeX Warning: Hyper reference `acro:LHC' on page x undefined on input line 58.
+LaTeX Warning: Hyper reference `acro:LAr' on page x undefined on input line 59.
 
 
 
-LaTeX Warning: Hyper reference `acro:LHC' on page x undefined on input line 58.
+LaTeX Warning: Hyper reference `acro:LAr' on page x undefined on input line 59.
 
 
 
-LaTeX Warning: Hyper reference `acro:MET' on page x undefined on input line 59.
+LaTeX Warning: Hyper reference `acro:LHC' on page x undefined on input line 60.
 
 
 
-LaTeX Warning: Hyper reference `acro:MET' on page x undefined on input line 59.
+LaTeX Warning: Hyper reference `acro:LHC' on page x undefined on input line 60.
 
 
 
-LaTeX Warning: Hyper reference `acro:NF' on page x undefined on input line 60.
+LaTeX Warning: Hyper reference `acro:MET' on page x undefined on input line 61.
 
 
-LaTeX Warning: Hyper reference `acro:NF' on page x undefined on input line 60.
 
+LaTeX Warning: Hyper reference `acro:MET' on page x undefined on input line 61.
 
-LaTeX Warning: Hyper reference `acro:NLO' on page x undefined on input line 61.
 
 
+LaTeX Warning: Hyper reference `acro:NF' on page x undefined on input line 62.
 
-LaTeX Warning: Hyper reference `acro:NLO' on page x undefined on input line 61.
 
+LaTeX Warning: Hyper reference `acro:NF' on page x undefined on input line 62.
 
 
-LaTeX Warning: Hyper reference `acro:NNLO' on page x undefined on input line 62
+LaTeX Warning: Hyper reference `acro:NLO' on page x undefined on input line 63.
+
+
+
+LaTeX Warning: Hyper reference `acro:NLO' on page x undefined on input line 63.
+
+
+
+LaTeX Warning: Hyper reference `acro:NNLO' on page x undefined on input line 64
 .
 
 
-LaTeX Warning: Hyper reference `acro:NNLO' on page x undefined on input line 62
+LaTeX Warning: Hyper reference `acro:NNLO' on page x undefined on input line 64
 .
 
 
-LaTeX Warning: Hyper reference `acro:NP' on page x undefined on input line 63.
+LaTeX Warning: Hyper reference `acro:NP' on page x undefined on input line 65.
 
 
-LaTeX Warning: Hyper reference `acro:NP' on page x undefined on input line 63.
+LaTeX Warning: Hyper reference `acro:NP' on page x undefined on input line 65.
 
 
-LaTeX Warning: Hyper reference `acro:OP' on page x undefined on input line 64.
+LaTeX Warning: Hyper reference `acro:OP' on page x undefined on input line 66.
 
 
-LaTeX Warning: Hyper reference `acro:OP' on page x undefined on input line 64.
+LaTeX Warning: Hyper reference `acro:OP' on page x undefined on input line 66.
 
 
-LaTeX Warning: Hyper reference `acro:PS' on page x undefined on input line 65.
+LaTeX Warning: Hyper reference `acro:PS' on page x undefined on input line 67.
 
 
-LaTeX Warning: Hyper reference `acro:PS' on page x undefined on input line 65.
+LaTeX Warning: Hyper reference `acro:PS' on page x undefined on input line 67.
 
 
-LaTeX Warning: Hyper reference `acro:PDF' on page x undefined on input line 66.
-
-
-
-LaTeX Warning: Hyper reference `acro:PDF' on page x undefined on input line 66.
+LaTeX Warning: Hyper reference `acro:PDF' on page x undefined on input line 68.
 
 
 
-LaTeX Warning: Hyper reference `acro:PCBT' on page x undefined on input line 67
+LaTeX Warning: Hyper reference `acro:PDF' on page x undefined on input line 68.
+
+
+
+LaTeX Warning: Hyper reference `acro:PCBT' on page x undefined on input line 69
 .
 
 
-LaTeX Warning: Hyper reference `acro:PCBT' on page x undefined on input line 67
+LaTeX Warning: Hyper reference `acro:PCBT' on page x undefined on input line 69
 .
 
 
-LaTeX Warning: Hyper reference `acro:QED' on page x undefined on input line 68.
+LaTeX Warning: Hyper reference `acro:QED' on page x undefined on input line 70.
 
 
 
-LaTeX Warning: Hyper reference `acro:QED' on page x undefined on input line 68.
-
-
-
-LaTeX Warning: Hyper reference `acro:QCD' on page x undefined on input line 69.
-
-
-
-LaTeX Warning: Hyper reference `acro:QCD' on page x undefined on input line 69.
-
-
-
-LaTeX Warning: Hyper reference `acro:QFT' on page x undefined on input line 70.
-
-
-
-LaTeX Warning: Hyper reference `acro:QFT' on page x undefined on input line 70.
+LaTeX Warning: Hyper reference `acro:QED' on page x undefined on input line 70.
 
 
 [10]
 
-LaTeX Warning: Hyper reference `acro:QmisID' on page xi undefined on input line
- 71.
-
-
-LaTeX Warning: Hyper reference `acro:QmisID' on page xi undefined on input line
- 71.
-
-
-LaTeX Warning: Hyper reference `acro:SF' on page xi undefined on input line 72.
-
-
-
-LaTeX Warning: Hyper reference `acro:SF' on page xi undefined on input line 72.
-
-
-
-LaTeX Warning: Hyper reference `acro:SM' on page xi undefined on input line 73.
-
-
-
-LaTeX Warning: Hyper reference `acro:SM' on page xi undefined on input line 73.
-
-
-
-LaTeX Warning: Hyper reference `acro:SR' on page xi undefined on input line 74.
-
-
-
-LaTeX Warning: Hyper reference `acro:SR' on page xi undefined on input line 74.
-
-
-
-LaTeX Warning: Hyper reference `acro:SSML' on page xi undefined on input line 7
-5.
-
-
-LaTeX Warning: Hyper reference `acro:SSML' on page xi undefined on input line 7
-5.
-
-
-LaTeX Warning: Hyper reference `acro:TDAQ' on page xi undefined on input line 7
-6.
-
-
-LaTeX Warning: Hyper reference `acro:TDAQ' on page xi undefined on input line 7
-6.
-
-
-LaTeX Warning: Hyper reference `acro:VEV' on page xi undefined on input line 77
+LaTeX Warning: Hyper reference `acro:QCD' on page xi undefined on input line 71
 .
 
 
-LaTeX Warning: Hyper reference `acro:VEV' on page xi undefined on input line 77
+LaTeX Warning: Hyper reference `acro:QCD' on page xi undefined on input line 71
+.
+
+
+LaTeX Warning: Hyper reference `acro:QFT' on page xi undefined on input line 72
+.
+
+
+LaTeX Warning: Hyper reference `acro:QFT' on page xi undefined on input line 72
+.
+
+
+LaTeX Warning: Hyper reference `acro:QmisID' on page xi undefined on input line
+ 73.
+
+
+LaTeX Warning: Hyper reference `acro:QmisID' on page xi undefined on input line
+ 73.
+
+
+LaTeX Warning: Hyper reference `acro:SF' on page xi undefined on input line 74.
+
+
+
+LaTeX Warning: Hyper reference `acro:SF' on page xi undefined on input line 74.
+
+
+
+LaTeX Warning: Hyper reference `acro:SM' on page xi undefined on input line 75.
+
+
+
+LaTeX Warning: Hyper reference `acro:SM' on page xi undefined on input line 75.
+
+
+
+LaTeX Warning: Hyper reference `acro:SR' on page xi undefined on input line 76.
+
+
+
+LaTeX Warning: Hyper reference `acro:SR' on page xi undefined on input line 76.
+
+
+
+LaTeX Warning: Hyper reference `acro:SSML' on page xi undefined on input line 7
+7.
+
+
+LaTeX Warning: Hyper reference `acro:SSML' on page xi undefined on input line 7
+7.
+
+
+LaTeX Warning: Hyper reference `acro:TDAQ' on page xi undefined on input line 7
+8.
+
+
+LaTeX Warning: Hyper reference `acro:TDAQ' on page xi undefined on input line 7
+8.
+
+
+LaTeX Warning: Hyper reference `acro:VEV' on page xi undefined on input line 79
+.
+
+
+LaTeX Warning: Hyper reference `acro:VEV' on page xi undefined on input line 79
 .
 
 [11])
@@ -1682,57 +1694,54 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--11
 
  []
 
-<fig/theory_smparticles.pdf, id=532, 305.67198pt x 218.54247pt>
+<fig/theory_smparticles.pdf, id=543, 305.67198pt x 218.54247pt>
 File: fig/theory_smparticles.pdf Graphic file (type pdf)
 <use fig/theory_smparticles.pdf>
 Package pdftex.def Info: fig/theory_smparticles.pdf  used on input line 19.
 (pdftex.def)             Requested size: 469.75502pt x 335.86949pt.
 [3
 
-] [4 <./fig/theory_smparticles.pdf>] [5] [6] [7] [8] [9] [10] [11] [12]
-[13] [14] [15] [16]
-<fig/theory_ttZp.png, id=810, 278.03876pt x 188.705pt>
+] [4 <./fig/theory_smparticles.pdf>] [5] [6]
+<fig/theory_tt_decay.pdf, id=673, 406.51875pt x 298.11375pt>
+File: fig/theory_tt_decay.pdf Graphic file (type pdf)
+<use fig/theory_tt_decay.pdf>
+Package pdftex.def Info: fig/theory_tt_decay.pdf  used on input line 51.
+(pdftex.def)             Requested size: 328.82707pt x 241.14784pt.
+
+
+LaTeX Warning: Citation 'theory:ttH_Hbb' on page 7 undefined on input line 52.
+
+
+LaTeX Warning: Citation 'theory:ttH_Hbb' on page 7 undefined on input line 52.
+
+[7 <./fig/theory_tt_decay.pdf>] [8] [9] [10] [11] [12] [13] [14] [15] [16]
+[17]
+<fig/theory_ttZp.png, id=859, 278.03876pt x 188.705pt>
 File: fig/theory_ttZp.png Graphic file (type png)
 <use fig/theory_ttZp.png>
-Package pdftex.def Info: fig/theory_ttZp.png  used on input line 326.
+Package pdftex.def Info: fig/theory_ttZp.png  used on input line 340.
 (pdftex.def)             Requested size: 155.02pt x 105.21336pt.
-<fig/theory_tjZp.png, id=812, 278.03876pt x 197.73875pt>
+<fig/theory_tjZp.png, id=861, 278.03876pt x 197.73875pt>
 File: fig/theory_tjZp.png Graphic file (type png)
 <use fig/theory_tjZp.png>
-Package pdftex.def Info: fig/theory_tjZp.png  used on input line 328.
+Package pdftex.def Info: fig/theory_tjZp.png  used on input line 342.
 (pdftex.def)             Requested size: 155.02pt x 110.25018pt.
-<fig/theory_tWZp.png, id=813, 278.03876pt x 197.73875pt>
+<fig/theory_tWZp.png, id=862, 278.03876pt x 197.73875pt>
 File: fig/theory_tWZp.png Graphic file (type png)
 <use fig/theory_tWZp.png>
-Package pdftex.def Info: fig/theory_tWZp.png  used on input line 330.
+Package pdftex.def Info: fig/theory_tWZp.png  used on input line 344.
 (pdftex.def)             Requested size: 155.02pt x 110.25018pt.
 
-Overfull \hbox (7.05487pt too wide) in paragraph at lines 326--331
+Overfull \hbox (7.05487pt too wide) in paragraph at lines 340--345
  [][][][][][] 
  []
 
-[17] [18 <./fig/theory_ttZp.png> <./fig/theory_tjZp.png> <./fig/theory_tWZp.png
->]
-<fig/theory_tttt.png, id=854, 483.8075pt x 329.23pt>
-File: fig/theory_tttt.png Graphic file (type png)
-<use fig/theory_tttt.png>
-Package pdftex.def Info: fig/theory_tttt.png  used on input line 351.
-(pdftex.def)             Requested size: 211.38832pt x 143.85188pt.
-<fig/theory_tttt2.png, id=855, 504.88625pt x 329.23pt>
-File: fig/theory_tttt2.png Graphic file (type png)
-<use fig/theory_tttt2.png>
-Package pdftex.def Info: fig/theory_tttt2.png  used on input line 353.
-(pdftex.def)             Requested size: 211.38832pt x 137.84361pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 357--358
-
- []
-
-[19 <./fig/theory_tttt.png> <./fig/theory_tttt2.png>]
-<fig/theory_tttt_channels.png, id=876, 588.1975pt x 462.72874pt>
+[18 <./fig/theory_ttZp.png> <./fig/theory_tjZp.png> <./fig/theory_tWZp.png>]
+[19]
+<fig/theory_tttt_channels.png, id=902, 588.1975pt x 462.72874pt>
 File: fig/theory_tttt_channels.png Graphic file (type png)
 <use fig/theory_tttt_channels.png>
-Package pdftex.def Info: fig/theory_tttt_channels.png  used on input line 364.
+Package pdftex.def Info: fig/theory_tttt_channels.png  used on input line 370.
 (pdftex.def)             Requested size: 328.82707pt x 258.6815pt.
 ) [20 <./fig/theory_tttt_channels.png>]
 Chapter 3.
@@ -1757,45 +1766,87 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--36
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./fig/lhc_hl_lhc.pdf): PDF i
 nclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<fig/lhc_hl_lhc.pdf, id=888, 702.625pt x 394.47375pt>
+<fig/lhc_hl_lhc.pdf, id=913, 702.625pt x 394.47375pt>
 File: fig/lhc_hl_lhc.pdf Graphic file (type pdf)
 <use fig/lhc_hl_lhc.pdf>
 Package pdftex.def Info: fig/lhc_hl_lhc.pdf  used on input line 39.
 (pdftex.def)             Requested size: 469.75502pt x 263.74226pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--49
-
- []
-
-[22 <./fig/lhc_hl_lhc.pdf>]
-<fig/lhc_xsec_Run23.png, id=1558, 2855.66875pt x 2144.01pt>
+<fig/lhc_xsec_Run23.png, id=916, 2855.66875pt x 2144.01pt>
 File: fig/lhc_xsec_Run23.png Graphic file (type png)
 <use fig/lhc_xsec_Run23.png>
-Package pdftex.def Info: fig/lhc_xsec_Run23.png  used on input line 52.
+Package pdftex.def Info: fig/lhc_xsec_Run23.png  used on input line 48.
 (pdftex.def)             Requested size: 469.75502pt x 352.6668pt.
- [23 <./fig/lhc_xsec_Run23.png>] [24]
-Underfull \hbox (badness 10000) in paragraph at lines 105--107
+[22 <./fig/lhc_hl_lhc.pdf>] [23 <./fig/lhc_xsec_Run23.png>] [24] [25]
+<fig/reco_electron.png, id=1601, 770.88pt x 405.515pt>
+File: fig/reco_electron.png Graphic file (type png)
+<use fig/reco_electron.png>
+Package pdftex.def Info: fig/reco_electron.png  used on input line 105.
+(pdftex.def)             Requested size: 469.75502pt x 247.11008pt.
 
- []
-
-[25]
-Underfull \hbox (badness 6859) in paragraph at lines 112--113
+Underfull \hbox (badness 6859) in paragraph at lines 116--117
 []\OT1/cmr/m/n/12 end-cap di-vided into outer wheel
  []
 
-
-Underfull \hbox (badness 6526) in paragraph at lines 125--126
+[26 <./fig/reco_electron.png>]
+Underfull \hbox (badness 6526) in paragraph at lines 129--130
 []\OT1/cmr/m/n/12 tile calorime-ters: steel-plastic
  []
 
-[26] [27] [28]
-Underfull \hbox (badness 10000) in paragraph at lines 193--195
+[27] [28] [29]
+Underfull \hbox (badness 10000) in paragraph at lines 197--199
 
  []
 
-[29]) [30]
+[30]) [31]
 Chapter 4.
-(./chapters/chapter-4.tex [31
+(./chapters/chapter-5.tex
+<fig/reco_topo1.png, id=1633, 438.63875pt x 335.2525pt>
+File: fig/reco_topo1.png Graphic file (type png)
+<use fig/reco_topo1.png>
+Package pdftex.def Info: fig/reco_topo1.png  used on input line 24.
+(pdftex.def)             Requested size: 328.82707pt x 251.3262pt.
+ [32
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 30--33
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--42
+
+ []
+
+[33 <./fig/reco_topo1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 48--52
+
+ []
+
+[34] [35]
+Underfull \hbox (badness 10000) in paragraph at lines 86--92
+
+ []
+
+[36] [37]
+<fig/ftag_gn2.png, id=1680, 1069.9975pt x 284.06125pt>
+File: fig/ftag_gn2.png Graphic file (type png)
+<use fig/ftag_gn2.png>
+Package pdftex.def Info: fig/ftag_gn2.png  used on input line 100.
+(pdftex.def)             Requested size: 469.75502pt x 124.70992pt.
+ [38 <./fig/ftag_gn2.png>] [39]
+Overfull \hbox (1.98268pt too wide) in paragraph at lines 141--146
+\OT1/cmr/m/n/12 topo-log-i-cal clus-ters with barycen-ters falling within a con
+e of ra-dius $^^A\OML/cmm/m/it/12 R \OT1/cmr/m/n/12 = [] =
+ []
+
+[40] [41] [42]
+Underfull \hbox (badness 10000) in paragraph at lines 187--190
+
+ []
+
+[43] [44] [45]) [46] [47]
+Chapter 5.
+(./chapters/chapter-4.tex [48
 
 ]
 Overfull \hbox (3.2514pt too wide) in paragraph at lines 120--120
@@ -1942,76 +1993,7 @@ Overfull \hbox (1.42474pt too wide) in paragraph at lines 120--120
 []|\OT1/cmr/m/sc/10.95 Pythia8| 
  []
 
-) [32] [33]
-Chapter 5.
-(./chapters/chapter-5.tex
-<fig/reco_topo1.png, id=1618, 438.63875pt x 335.2525pt>
-File: fig/reco_topo1.png Graphic file (type png)
-<use fig/reco_topo1.png>
-Package pdftex.def Info: fig/reco_topo1.png  used on input line 24.
-(pdftex.def)             Requested size: 469.75502pt x 359.04402pt.
- [34
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 30--33
-
- []
-
-[35 <./fig/reco_topo1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 35--42
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 48--52
-
- []
-
-[36] [37] [38]
-Underfull \hbox (badness 10000) in paragraph at lines 86--92
-
- []
-
-[39]
-<fig/ftag_gn2.png, id=1664, 1069.9975pt x 284.06125pt>
-File: fig/ftag_gn2.png Graphic file (type png)
-<use fig/ftag_gn2.png>
-Package pdftex.def Info: fig/ftag_gn2.png  used on input line 100.
-(pdftex.def)             Requested size: 469.75502pt x 124.70992pt.
- [40 <./fig/ftag_gn2.png>]
-<fig/reco_electron.png, id=1678, 770.88pt x 405.515pt>
-File: fig/reco_electron.png Graphic file (type png)
-<use fig/reco_electron.png>
-Package pdftex.def Info: fig/reco_electron.png  used on input line 122.
-(pdftex.def)             Requested size: 469.75502pt x 247.11008pt.
- [41] [42 <./fig/reco_electron.png>]
-Overfull \hbox (1.98268pt too wide) in paragraph at lines 146--151
-\OT1/cmr/m/n/12 topo-log-i-cal clus-ters with barycen-ters falling within a con
-e of ra-dius $^^A\OML/cmm/m/it/12 R \OT1/cmr/m/n/12 = [] =
- []
-
-[43]
-<fig/reco_qmisid_ET.png, id=1703, 586.19pt x 567.11874pt>
-File: fig/reco_qmisid_ET.png Graphic file (type png)
-<use fig/reco_qmisid_ET.png>
-Package pdftex.def Info: fig/reco_qmisid_ET.png  used on input line 173.
-(pdftex.def)             Requested size: 234.8775pt x 227.23288pt.
-<fig/reco_qmisid_eta.png, id=1704, 586.19pt x 567.11874pt>
-File: fig/reco_qmisid_eta.png Graphic file (type png)
-<use fig/reco_qmisid_eta.png>
-Package pdftex.def Info: fig/reco_qmisid_eta.png  used on input line 175.
-(pdftex.def)             Requested size: 234.8775pt x 227.23288pt.
-
-Overfull \hbox (7.83324pt too wide) in paragraph at lines 173--176
- [][][][] 
- []
-
-[44] [45 <./fig/reco_qmisid_ET.png> <./fig/reco_qmisid_eta.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 192--195
-
- []
-
-[46] [47] [48]) [49] [50]
+) [49] [50]
 Chapter 6.
 (./chapters/chapter-7.tex
 Overfull \hbox (7.11768pt too wide) in paragraph at lines 13--14
@@ -2025,51 +2007,52 @@ LaTeX Warning: Reference `sec:trigsec' on page 51 undefined on input line 15.
 [51
 
 ] [52] [53]
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
  []
 
 [54]
-Underfull \hbox (badness 10000) in paragraph at lines 78--82
+Underfull \hbox (badness 10000) in paragraph at lines 77--81
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--102
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
 
  []
 
-[55]
-Overfull \hbox (15.04866pt too wide) in paragraph at lines 103--106
+
+Overfull \hbox (15.04866pt too wide) in paragraph at lines 102--105
 \OT1/cmr/m/n/12 con-ver-sion can-di-date and nei-ther as with a ma-te-rial con-
 ver-sion can-di-date ($[][] =
  []
 
-[56] [57] [58] [59] [60]
-Overfull \hbox (16.28302pt too wide) detected at line 229
+[55] [56] [57] [58] [59]
+Overfull \hbox (16.28302pt too wide) detected at line 228
 []
  []
 
+[60]
 
-LaTeX Warning: Citation 'ana:tttt_obs' on page 61 undefined on input line 244.
+LaTeX Warning: Citation 'ana:tttt_obs' on page 61 undefined on input line 243.
 
-[61] [62]
-Overfull \hbox (2.38562pt too wide) in paragraph at lines 257--262
+[61]
+Overfull \hbox (2.38562pt too wide) in paragraph at lines 256--261
 \OT1/cmr/m/n/12 same for both pro-cesses, $[][]$ can be fur-ther split into $[]
 []$ and $[][]$.
  []
 
-[63]
+[62]
 
-LaTeX Warning: Reference `tab:ana:regions' on page 64 undefined on input line 2
-73.
+LaTeX Warning: Reference `tab:ana:regions' on page 63 undefined on input line 2
+72.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--274
+Underfull \hbox (badness 10000) in paragraph at lines 270--273
 
  []
 
-) [64]
+[63]) [64]
 Chapter 7.
 (./chapters/chapter-8.tex
 Underfull \hbox (badness 10000) in paragraph at lines 16--19
@@ -2118,7 +2101,7 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: F76A791D6BB1988FC157CBB8A2982B12;11079.
+(rerunfilecheck)             Checksum: 5C44ECD8E5416ECC50B6A6D907F1F1A2;11365.
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                thesis
@@ -2129,13 +2112,13 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26328 strings out of 478268
- 455673 string characters out of 5846347
- 1164513 words of memory out of 5000000
- 43747 multiletter control sequences out of 15000+600000
+ 26313 strings out of 478268
+ 455275 string characters out of 5846347
+ 1164641 words of memory out of 5000000
+ 43735 multiletter control sequences out of 15000+600000
  490490 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,22n,90p,1865b,1925s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 85i,22n,90p,1865b,1923s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
@@ -2162,10 +2145,10 @@ st/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2022/texmf-dis
 t/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2022/texmf
 -dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2022/texmf-d
 ist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on thesis.pdf (93 pages, 5246076 bytes).
+Output written on thesis.pdf (93 pages, 5071048 bytes).
 PDF statistics:
- 2292 PDF objects out of 2487 (max. 8388607)
- 1547 compressed objects within 16 object streams
+ 2315 PDF objects out of 2487 (max. 8388607)
+ 1571 compressed objects within 16 object streams
  358 named destinations out of 1000 (max. 500000)
- 623 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 624 words of extra memory for PDF output out of 10000 (max. 10000000)
 

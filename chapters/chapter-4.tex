@@ -47,7 +47,7 @@ Triggers used:
 \section{Monte Carlo samples}
 \label{sec:montecarlo}
 Monte Carlo simulated samples are used to estimate signal acceptance before unblinding, profile the physics background for the analysis and to study object optimizations.\\
-Simulated samples for this analysis use are generated from ATLAS' generalized MC20a/d/e samples for Run 2, using full detector simulation (FS) based on Geant4.
+Simulated samples for this analysis use are generated from ATLAS' generalized MC20a/d/e samples for Run 2, using full detector simulation (\acs{FS}) based on Geant4.
 
 \subsection{\ttZp signal samples}
 Run 2 \ttZp sample\\
@@ -56,14 +56,14 @@ generator: \mgamc v.2.8.1p3.atlas9 at LO with \textsc{NNPDF3.1LO} pdf\\
 event: \pythia[v.244p3.rangefix] using \textsc{A14} tune \& \textsc{NNPDF2.3LO} pdf\\
 parameters:
 \begin{itemize}
-\item chirality $\theta$: does not affect the strong production mode for \ttZp, therefore picking default value $\pi/4$ to suppress loop-production of the \Zp resonance
+\item chirality angle $\theta=\pi/4$ as discussed in \autoref{sec:ttZp}
 \item top-$Z^{'}$ coupling $c_t=1$
 \end{itemize}
 resonance width computed with \mgamc to be 4\% of model configuration with these parameters
 
 \subsection{Background samples}
 Run 2 mc20 samples (2015-2018)\\
-(explain most important backgrounds: \tttt \& \ttt, \ttV, \tt
+(explain most important backgrounds: \tttt \& \ttV, \ttbar
 
 \begin{table}[!htbp]
 \small
@@ -77,7 +77,7 @@ Run 2 mc20 samples (2015-2018)\\
 Process    & ME Generator  & ME Order & ME PDF  & PS  & Tune & Sim. \\
 \midrule \bottomrule
 \multicolumn{7}{l}{\textbf{Signals}} \\ \midrule
-\ttZp/$tjZ'$/$tWZ'$ & \mgamc & LO       & NNPDF3.1LO    & \pythia & A14  & FS \\
+\ttZp	   & \mgamc & LO       & NNPDF3.1LO    & \pythia & A14  & FS \\
 \midrule \bottomrule
 \multicolumn{7}{l}{\textbf{\tttt and \ttt}} \\ \midrule
 \tttt      & \mgamc         & NLO      & \nnpdfnlo     & \pythia & A14  & AF3 \\

@@ -295,9 +295,6 @@
     \field{issn}{1029-8479}
     \field{number}{3}
     \field{title}{Fermionic UV completions of composite Higgs models}
-    \verb{url}
-    \verb http://dx.doi.org/10.1007/JHEP03(2014)077
-    \endverb
     \field{volume}{2014}
     \field{journaltitle}{Journal of High Energy Physics}
     \field{month}{03}
@@ -534,33 +531,6 @@
     \field{journaltitle}{Phys. Rev. D}
     \field{year}{2016}
     \warn{\item Invalid format of field 'month'}
-  \endentry
-
-  \entry{tttt_obs}{article}{}
-    \name{author}{1}{}{%
-      {{hash=A}{%
-         family={{ATLAS Collaboration}},
-         familyi={A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{A1}
-    \strng{fullhash}{A1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1140/epjc/s10052-023-11573-0
-    \endverb
-    \verb{eprint}
-    \verb 2303.15061
-    \endverb
-    \field{pages}{496}
-    \field{title}{{Observation of four-top-quark production in the multilepton
-  final state with the ATLAS detector}}
-    \field{volume}{83}
-    \field{journaltitle}{Eur. Phys. J. C}
-    \field{eprinttype}{arXiv}
-    \field{eprintclass}{hep-ex}
-    \field{year}{2023}
   \endentry
 
   \entry{lhc:hl_lhc}{misc}{}
@@ -1748,6 +1718,33 @@
     \field{eprinttype}{arXiv}
     \field{eprintclass}{hep-ex}
     \field{year}{2020}
+  \endentry
+
+  \entry{tttt_obs}{article}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{ATLAS Collaboration}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1140/epjc/s10052-023-11573-0
+    \endverb
+    \verb{eprint}
+    \verb 2303.15061
+    \endverb
+    \field{pages}{496}
+    \field{title}{{Observation of four-top-quark production in the multilepton
+  final state with the ATLAS detector}}
+    \field{volume}{83}
+    \field{journaltitle}{Eur. Phys. J. C}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ex}
+    \field{year}{2023}
   \endentry
 
   \entry{ana:r_par_susy_2021}{article}{}

@@ -2,13 +2,39 @@
 
 \begin{document}
 \vspace{-1\baselineskip}
-\section{Statistical model}
+\section{Statistical analysis}
 \label{sec:stat}
-\subsection{Binned profile likelihood fit}
+This section provides an overview of the statistical methods needed to interpret the collected and simulated data to estimate unknown physics parameters and determine compatibility between data and the analysis hypothesis. For the \acs{BSM} resonance search, the null hypothesis $H_0$ assumes only \acs{SM} background contributions and none from any new resonance in the data.
 
-\subsection{Signal significance}
 
-\subsection{Limit exclusion}
+\subsection{Profile likelihood fit}
+Given a set of observed data points $\mathbf{x}=\left[x_1,x_2,\dots\right]$ and unknown parameters $\bm{\theta}=\left[\theta_1,\theta_2,\dots,\theta_n\right]$, the maximum likelihood method aims to find an estimate $\hat{\bm{\theta}}$ that maximizes the joint probability function $f(\mathbf{x},\bm{\theta})$, or in other words the set of parameters that gives the highest probability of observing the collected data points for a particular model. The function to be maximized for this purpose is the log-likelihood (\acs{LLH}) function $\ln \mathcal{L}(\mathbf{x},\bm{\theta})$ where $\mathcal{L}(\mathbf{x},\bm{\theta}) \equiv \prod_i f(x_i,\bm{\theta})$ is defined as the likelihood (\acs{LH}) function. The \acs{LLH} is maximized when $\partial/\partial\theta_i \left(\ln\mathcal{L}\right)=0$ for each parameter $\theta_i$.\\
+For an usual binned physics analysis, the above variables for the \acs{LH} function $\mathcal{L}$ can be expressed as nuisance parameters (\acs{NP}) $\bm{\theta}$ and number of events for a model $N_i(\mu)$ for the $i^\text{th}$ bin, where $\mu$ is the targeted parameter of interest (\acs{POI}). In this analysis, $N_i$ is assumed to follow a Poisson distribution and depends on the following quantities: the signal strength $\mu$ defined as the ratio of observed to expected cross sections $\sigma_\text{obs}/\sigma_\text{exp}$; nuisance parameters $\bm{\theta}$ which represents the effects of systematic uncertainties, implemented in the \acs{LH} function as Gaussian constraints; and normalization factors (\acs{NF}s) $\bm{\lambda}$ that control the normalization of background components that do not have a well-known cross section. The Poisson probability of observing exactly $N_i$ events for an expected number of event $n_i$ is
+\begin{equation}
+\mathcal{P}(N_i | n_i(\mu,\bm{\lambda})) = \frac{n_i^{N_i}e^{-n_i}}{N_i!}.
+\end{equation}
+The expected Poisson event number in a bin $i$ can be parameterized as
+\begin{equation}
+n_i = \mu s_i(\bm{\theta}) + \sum_j \lambda_j b_{ij}(\bm{\theta}),
+\end{equation}
+where $s_i$ is the number of signal events in bin $i$ of every region, and $b_{ij}$ is the number of events for a certain background source index $j$ in bin $i$. The \acs{LH} function in this analysis can be written as
+\begin{equation}
+\mathcal{L}(\mathbf{N}|\mu,\bm{\theta},\bm{\lambda})=\left(
+\displaystyle\prod_i \mathcal{P}(N_i | n_i)
+\right)\cdot\displaystyle\prod_k\mathcal{G}(\theta_k),
+\end{equation}
+where $\mathcal{G}(\theta_k)$ is the Gaussian constraint for a \acs{NP} $k$. The signal significance $\mu$ and \acs{NF}s $\bm{\lambda}$ are left unconstrained and are fitted simultaneously in the profile \acs{LH} fit. From Neyman-Person lemma \textcolor{red}{citation}, the optimal test statistic for hypothesis testing is a function dependent on the profile \acs{LH} ratio defined as
+\begin{equation}
+q_\mu \equiv -2 \ln \frac{\mathcal{L}(\mu,\hat{\bm{\theta}}_\mu,\hat{\bm{\lambda}}_\mu)}{\mathcal{L}(\hat{\mu},\hat{\bm{\theta}},\hat{\bm{\lambda}})},
+\end{equation}
+where $\hat{\mu}$, $\hat{\bm{\theta}}$ and $\hat{\bm{\lambda}}$ are parameter values that optimally maximizes the \acs{LH} function, and $\hat{\bm{\theta}}_\mu$, $\hat{\bm{\lambda}}_\mu$ are \acs{NP} and \acs{NF} values respectively that maximize the \acs{LH} function for a given $\mu$.
+%
+
+%Signal strength $\mu$ parameterizes $N_i$ as $N_i=\mu s_i+b_i$, where  $s_i$ ($b_i$) is the expected number of signal (background) events for a certain set of $\bm{\theta}$.
+
+%\subsection{Signal significance}
+
+\subsection{Exclusion limits}
 
 
 \section{Fit results}
@@ -25,7 +51,7 @@ Purpose: study the behavior of background estimation using real observed data in
 
 
 
-\section{Limits}
+\subsection*{Limits}
 \label{sec:limits}
 
 

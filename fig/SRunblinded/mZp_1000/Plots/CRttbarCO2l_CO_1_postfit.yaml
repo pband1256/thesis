@@ -1,0 +1,53 @@
+Samples:
+  - Name: ttZp1000
+    Yield: [0.069065665839105256]
+  - Name: tttt
+    Yield: [0.15234830586282061]
+  - Name: ttt
+    Yield: [0.037186126483848864]
+  - Name: ttWW
+    Yield: [0.3364626603623907]
+  - Name: rarettVV
+    Yield: [0.14818832081924507]
+  - Name: ttll_MG_high_mll
+    Yield: [5.4284200143668269]
+  - Name: ttll_MG_low_mll
+    Yield: [0.36953068206965123]
+  - Name: ttH
+    Yield: [3.3452024267636848]
+  - Name: QmisID
+    Yield: [113.69429432569162]
+  - Name: CO
+    Yield: [69.406944194936784]
+  - Name: gstr
+    Yield: [19.483663134697636]
+  - Name: HFe
+    Yield: [10.545091880914724]
+  - Name: HFm
+    Yield: [13.701837756703648]
+  - Name: light
+    Yield: [3.5084683691110126]
+  - Name: otherfake
+    Yield: [37.176398149405216]
+  - Name: singleTop
+    Yield: [3.9415630432090478]
+  - Name: Diboson
+    Yield: [8.2635103633976748]
+  - Name: triboson
+    Yield: [0.069402304910605853]
+  - Name: vh
+    Yield: [1.0146205916958596e-06]
+  - Name: t#bar{t}W^{+}
+    Yield: [12.143782143014361]
+  - Name: t#bar{t}W^{-}
+    Yield: [6.5671572982894784]
+Total:
+  - Yield: [308.38851818146998]
+    UncertaintyUp: [17.374934906054619]
+    UncertaintyDown: [-17.374934906054619]
+Data:
+  - Yield: [309]
+Figure:
+  - BinEdges: [0, 1]
+    XaxisLabel: 1
+    YaxisLabel: ""

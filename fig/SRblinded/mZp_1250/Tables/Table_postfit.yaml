@@ -1,0 +1,910 @@
+- Region: CRttbarCO2l_CO_1
+  Samples:
+    - Sample: tttt
+      Yield: 0.14227253883331631
+      Error: 0.027397649396809602
+    - Sample: ttt
+      Yield: 0.037054108747444678
+      Error: 0.01114283786270198
+    - Sample: ttWW
+      Yield: 0.36278129389160607
+      Error: 0.1762835638311516
+    - Sample: rarettVV
+      Yield: 0.14409701334365546
+      Error: 0.072936952758572232
+    - Sample: ttll_MG_high_mll
+      Yield: 5.343701025713866
+      Error: 2.1178823833303859
+    - Sample: ttll_MG_low_mll
+      Yield: 0.36376357753862298
+      Error: 0.14417132786042564
+    - Sample: ttH
+      Yield: 3.3332473275349868
+      Error: 0.33504593667152605
+    - Sample: QmisID
+      Yield: 113.71646794461483
+      Error: 2.3305026801320423
+    - Sample: CO
+      Yield: 69.205065030376701
+      Error: 19.1881764998653
+    - Sample: gstr
+      Yield: 19.352932908899803
+      Error: 3.9224534165581617
+    - Sample: HFe
+      Yield: 10.444495386139726
+      Error: 3.3378003872854056
+    - Sample: HFm
+      Yield: 13.624241718360953
+      Error: 2.0870972280237674
+    - Sample: light
+      Yield: 3.5091526201640866
+      Error: 0.071916493135083082
+    - Sample: otherfake
+      Yield: 37.183648603708065
+      Error: 0.76204083976857007
+    - Sample: singleTop
+      Yield: 4.0354340152251007
+      Error: 1.2445876645506377
+    - Sample: Diboson
+      Yield: 8.3791882045754651
+      Error: 2.1601425842396096
+    - Sample: triboson
+      Yield: 0.069415840332683179
+      Error: 0.0014226066361622131
+    - Sample: vh
+      Yield: 9.8660809524038143e-07
+      Error: 4.9938708904504183e-07
+    - Sample: t#bar{t}W^{+}
+      Yield: 12.110134407749177
+      Error: 1.5728630469352283
+    - Sample: t#bar{t}W^{-}
+      Yield: 6.5426916655917804
+      Error: 1.4698768905604953
+    - Sample: ttZp1250
+      Yield: 0.00044720539626097412
+      Error: .nan
+    - Sample: Total
+      Yield: 307.90023342334615
+      Error: 17.348338352956965
+    - Data: data
+      Yield: 309
+- Region: CRttbarCO2l_gstr_1
+  Samples:
+    - Sample: tttt
+      Yield: 0.0048686543437164538
+      Error: 0.0015299017885916464
+    - Sample: ttt
+      Yield: 0.0014108424346490323
+      Error: 0.00042758029009783616
+    - Sample: ttWW
+      Yield: 0.010983412687938567
+      Error: 0.0053529173656142607
+    - Sample: rarettVV
+      Yield: 0.007827576204080108
+      Error: 0.0039730507114039935
+    - Sample: ttll_MG_high_mll
+      Yield: 0.25767973964958496
+      Error: 0.24189936769878576
+    - Sample: ttll_MG_low_mll
+      Yield: 0.021900813590009758
+      Error: 0.020559602267204748
+    - Sample: ttH
+      Yield: 0.2232538554601958
+      Error: 0.11424152958435076
+    - Sample: QmisID
+      Yield: 1.5785164142104524
+      Error: 0.067613266541471928
+    - Sample: CO
+      Yield: 3.5002431934584357
+      Error: 1.0120656503750762
+    - Sample: gstr
+      Yield: 45.550434290875806
+      Error: 8.7056372400111126
+    - Sample: HFe
+      Yield: 3.9845784969076159
+      Error: 1.2835038721189593
+    - Sample: HFm
+      Yield: 1.809687761271987
+      Error: 0.28542218387827561
+    - Sample: light
+      Yield: 1.4867463001484278
+      Error: 0.063682438121343887
+    - Sample: otherfake
+      Yield: 10.369599415577964
+      Error: 0.44416547265645878
+    - Sample: singleTop
+      Yield: 0.11303063160553223
+      Error: 0.035115388553042498
+    - Sample: Diboson
+      Yield: 0.15722874963079508
+      Error: 0.059486241526089258
+    - Sample: triboson
+      Yield: 0.0032210194066482831
+      Error: 0.00013796729746766412
+    - Sample: vh
+      Yield: 9.8715957154046339e-07
+      Error: 5.0105357466002639e-07
+    - Sample: t#bar{t}W^{+}
+      Yield: 0.22811369495708839
+      Error: 0.030936806350945503
+    - Sample: t#bar{t}W^{-}
+      Yield: 0.14353276066149293
+      Error: 0.032617285160854347
+    - Sample: ttZp1250
+      Yield: 3.209365694826813e-05
+      Error: .nan
+    - Sample: Total
+      Yield: 69.452890703898916
+      Error: 8.2798411323961503
+    - Data: data
+      Yield: 70
+- Region: CR1b3le_lep_2_pt
+  Samples:
+    - Sample: tttt
+      Yield: 0.0025269996647086933
+      Error: 0.002900900419361791
+    - Sample: ttt
+      Yield: 0.0025973967391252901
+      Error: 0.00088790423583312279
+    - Sample: ttWW
+      Yield: 0.069977946355426729
+      Error: 0.036715358603396357
+    - Sample: rarettVV
+      Yield: 0.013612171736588831
+      Error: 0.0068992800099242418
+    - Sample: ttll_MG_high_mll
+      Yield: 2.2715131571689877
+      Error: 0.53146338114103198
+    - Sample: ttll_MG_low_mll
+      Yield: 0.10548039089209682
+      Error: 0.044161201507208238
+    - Sample: ttH
+      Yield: 1.7165172007912091
+      Error: 0.17706436389066299
+    - Sample: QmisID
+      Yield: 2.0011998803386594e-06
+      Error: 7.9510248146681875e-08
+    - Sample: CO
+      Yield: 3.2053777248361279
+      Error: 0.96952241719946874
+    - Sample: gstr
+      Yield: 4.2811497528961402
+      Error: 0.8745987779575447
+    - Sample: HFe
+      Yield: 36.548228653983031
+      Error: 11.374400710779442
+    - Sample: HFm
+      Yield: 24.706677788914465
+      Error: 3.8937903931220359
+    - Sample: light
+      Yield: 0.98876567762646983
+      Error: 0.62294276240194169
+    - Sample: otherfake
+      Yield: 4.3715627312529
+      Error: 0.7553434517560671
+    - Sample: singleTop
+      Yield: 4.8452820265085386
+      Error: 1.4973654590091907
+    - Sample: Diboson
+      Yield: 11.121979854229151
+      Error: 1.7646349603696505
+    - Sample: triboson
+      Yield: 0.31248239032071212
+      Error: 0.011608199524595998
+    - Sample: vh
+      Yield: 0.31586501695333463
+      Error: 0.1765692611817834
+    - Sample: t#bar{t}W^{+}
+      Yield: 4.9994510349047587
+      Error: 0.72718649636587107
+    - Sample: t#bar{t}W^{-}
+      Yield: 2.8719516712202617
+      Error: 0.66448402438870258
+    - Sample: ttZp1250
+      Yield: 5.8924798926750381e-06
+      Error: .nan
+    - Sample: Total
+      Yield: 102.75100748067382
+      Error: 9.3236007609967722
+    - Data: data
+      Yield: 104
+- Region: CR1b3lm_lep_2_pt
+  Samples:
+    - Sample: tttt
+      Yield: 0.0060316813342673383
+      Error: 0.0049208090542376499
+    - Sample: ttt
+      Yield: 0.0068225418161443722
+      Error: 0.0020535841552907397
+    - Sample: ttWW
+      Yield: 0.13319972023976984
+      Error: 0.064745450984659392
+    - Sample: rarettVV
+      Yield: 0.032496551299618336
+      Error: 0.016454677747693828
+    - Sample: ttll_MG_high_mll
+      Yield: 4.9480830610401352
+      Error: 1.7748593238891635
+    - Sample: ttll_MG_low_mll
+      Yield: 0.21422649451023218
+      Error: 0.076100728004457233
+    - Sample: ttH
+      Yield: 3.5122307321564632
+      Error: 0.084193838398520099
+    - Sample: QmisID
+      Yield: 1.9896312445725149e-06
+      Error: 5.6078973628400651e-08
+    - Sample: CO
+      Yield: 1.5843405886013997
+      Error: 0.65910601463378826
+    - Sample: gstr
+      Yield: 1.4702920861863455
+      Error: 0.33254245515144282
+    - Sample: HFe
+      Yield: 12.192201195866193
+      Error: 3.9262124154672966
+    - Sample: HFm
+      Yield: 103.86249824314854
+      Error: 15.238294996046989
+    - Sample: light
+      Yield: 0.40966507785421363
+      Error: 0.29520491414344563
+    - Sample: otherfake
+      Yield: 6.1251401544155435
+      Error: 0.14698124069624791
+    - Sample: singleTop
+      Yield: 9.4728679021469322
+      Error: 2.920440805569283
+    - Sample: Diboson
+      Yield: 18.154755759873005
+      Error: 2.0789734262891044
+    - Sample: triboson
+      Yield: 0.48100535673160499
+      Error: 0.012326245779598604
+    - Sample: vh
+      Yield: 0.10916767035041947
+      Error: 0.22609548320932751
+    - Sample: t#bar{t}W^{+}
+      Yield: 10.310333612926406
+      Error: 1.4879698630778857
+    - Sample: t#bar{t}W^{-}
+      Yield: 5.1963130801302109
+      Error: 1.2037023720390247
+    - Sample: ttZp1250
+      Yield: 9.4044651511691218e-06
+      Error: .nan
+    - Sample: Total
+      Yield: 178.22168290472385
+      Error: 12.626102509209746
+    - Data: data
+      Yield: 176
+- Region: CRttW2l_plus_nJets
+  Samples:
+    - Sample: tttt
+      Yield: 1.3729996905671069
+      Error: 0.26393524897071968
+    - Sample: ttt
+      Yield: 0.38752956271844896
+      Error: 0.11639312748458681
+    - Sample: ttWW
+      Yield: 2.6322934459912757
+      Error: 1.2785037360952585
+    - Sample: rarettVV
+      Yield: 1.2373694998135156
+      Error: 0.62599047831980581
+    - Sample: ttll_MG_high_mll
+      Yield: 39.568705857320026
+      Error: 12.500732240975966
+    - Sample: ttll_MG_low_mll
+      Yield: 2.6114948588450684
+      Error: 0.82746904685408296
+    - Sample: ttH
+      Yield: 39.167673414792972
+      Error: 3.8852060267497097
+    - Sample: QmisID
+      Yield: 18.451183403076239
+      Error: 0.22076823686005839
+    - Sample: CO
+      Yield: 2.7244939872987075
+      Error: 1.0784860576139237
+    - Sample: gstr
+      Yield: 5.932192691551589
+      Error: 1.3368247855589359
+    - Sample: HFe
+      Yield: 16.730364041971701
+      Error: 5.3327516748417789
+    - Sample: HFm
+      Yield: 59.0681729068382
+      Error: 8.9931397586210409
+    - Sample: light
+      Yield: 2.7173452297636818
+      Error: 0.03203880558019627
+    - Sample: otherfake
+      Yield: 27.263797165148048
+      Error: 0.31210849743216151
+    - Sample: singleTop
+      Yield: 19.182037080855238
+      Error: 5.9066509620787402
+    - Sample: Diboson
+      Yield: 10.303270556578573
+      Error: 3.0161735872812447
+    - Sample: triboson
+      Yield: 0.088108694929655285
+      Error: 0.00097729001230006159
+    - Sample: vh
+      Yield: 2.9503714289949506e-06
+      Error: 1.4927869308175678e-06
+    - Sample: t#bar{t}W^{+}
+      Yield: 204.09310737817637
+      Error: 25.687227909229875
+    - Sample: t#bar{t}W^{-}
+      Yield: 0
+      Error: 0
+    - Sample: ttZp1250
+      Yield: 0.00202275361639061
+      Error: .nan
+    - Sample: Total
+      Yield: 453.53416517022424
+      Error: 18.890662810206397
+    - Data: data
+      Yield: 450
+- Region: CRttW2l_minus_nJets
+  Samples:
+    - Sample: tttt
+      Yield: 1.3598380203721294
+      Error: 0.26157960064171165
+    - Sample: ttt
+      Yield: 0.33517182896366032
+      Error: 0.10070360800700044
+    - Sample: ttWW
+      Yield: 2.4866903685764368
+      Error: 1.2078506450708533
+    - Sample: rarettVV
+      Yield: 0.76884368807198045
+      Error: 0.38899090054797753
+    - Sample: ttll_MG_high_mll
+      Yield: 38.041655096468119
+      Error: 10.781670312295027
+    - Sample: ttll_MG_low_mll
+      Yield: 2.453589911780599
+      Error: 0.69387973303286932
+    - Sample: ttH
+      Yield: 39.155046213665848
+      Error: 3.8834713702713044
+    - Sample: QmisID
+      Yield: 17.500733924471145
+      Error: 0.2689735102103511
+    - Sample: CO
+      Yield: 2.2117917393001716
+      Error: 0.89164670961234038
+    - Sample: gstr
+      Yield: 5.7939121526562039
+      Error: 1.3059649022103266
+    - Sample: HFe
+      Yield: 17.388755139454741
+      Error: 5.5471887446929813
+    - Sample: HFm
+      Yield: 64.965930022658767
+      Error: 9.9013785609362763
+    - Sample: light
+      Yield: 0.9477466200563277
+      Error: 0.015781819949435543
+    - Sample: otherfake
+      Yield: 24.042845742845572
+      Error: 0.33938104206392061
+    - Sample: singleTop
+      Yield: 12.218741719613451
+      Error: 3.7641389839242363
+    - Sample: Diboson
+      Yield: 7.8310554561144903
+      Error: 2.2324040735788926
+    - Sample: triboson
+      Yield: 0.08182539898729467
+      Error: 0.0011472229205972948
+    - Sample: vh
+      Yield: 0.28742179618025854
+      Error: 0.42851880380993368
+    - Sample: t#bar{t}W^{+}
+      Yield: 0
+      Error: 0
+    - Sample: t#bar{t}W^{-}
+      Yield: 101.37193391017377
+      Error: 22.341681598102927
+    - Sample: ttZp1250
+      Yield: 0.0021429725706347026
+      Error: .nan
+    - Sample: Total
+      Yield: 339.24567172298157
+      Error: 16.183342500099705
+    - Data: data
+      Yield: 341
+- Region: CR1bplus_nJets
+  Samples:
+    - Sample: tttt
+      Yield: 1.8811556042070916
+      Error: 0.36336100163237278
+    - Sample: ttt
+      Yield: 0.30417840825953446
+      Error: 0.09137642076399928
+    - Sample: ttWW
+      Yield: 6.2054091387364894
+      Error: 3.014828442150522
+    - Sample: rarettVV
+      Yield: 1.5722461988060383
+      Error: 0.79540189077454093
+    - Sample: ttll_MG_high_mll
+      Yield: 36.945190106121288
+      Error: 12.581523718341108
+    - Sample: ttll_MG_low_mll
+      Yield: 1.833096429542221
+      Error: 0.6359401294389323
+    - Sample: ttH
+      Yield: 34.097410052742262
+      Error: 3.3817652544393884
+    - Sample: QmisID
+      Yield: 34.037657980852678
+      Error: 0.37123120664083648
+    - Sample: CO
+      Yield: 11.126740871320107
+      Error: 4.1142622292825415
+    - Sample: gstr
+      Yield: 12.169231097735542
+      Error: 2.4489332075472503
+    - Sample: HFe
+      Yield: 48.561430618261632
+      Error: 15.467811016129925
+    - Sample: HFm
+      Yield: 87.230973442695273
+      Error: 13.27514064930859
+    - Sample: light
+      Yield: 15.115877249278578
+      Error: 0.16479501063299468
+    - Sample: otherfake
+      Yield: 14.203189170547139
+      Error: 0.16626518571841759
+    - Sample: singleTop
+      Yield: 18.701193072006109
+      Error: 5.75700877271876
+    - Sample: Diboson
+      Yield: 73.990853475172699
+      Error: 20.530265009799749
+    - Sample: triboson
+      Yield: 1.3625108474975955
+      Error: 0.014898365470860292
+    - Sample: vh
+      Yield: 0.36325914253231611
+      Error: 0.33145998042834146
+    - Sample: t#bar{t}W^{+}
+      Yield: 138.22071592544046
+      Error: 17.341185216711253
+    - Sample: t#bar{t}W^{-}
+      Yield: 0
+      Error: 0
+    - Sample: ttZp1250
+      Yield: 0.0055781650166607105
+      Error: .nan
+    - Sample: Total
+      Yield: 537.92789699677166
+      Error: 17.501995173042527
+    - Data: data
+      Yield: 540
+- Region: CR1bminus_nJets
+  Samples:
+    - Sample: tttt
+      Yield: 1.8650725551990446
+      Error: 0.35917878639916728
+    - Sample: ttt
+      Yield: 0.27752435502092249
+      Error: 0.083362007205402447
+    - Sample: ttWW
+      Yield: 6.3703049512609722
+      Error: 3.0931755644988925
+    - Sample: rarettVV
+      Yield: 1.0129928810389111
+      Error: 0.51249487092078772
+    - Sample: ttll_MG_high_mll
+      Yield: 35.822227804593467
+      Error: 11.454508092171523
+    - Sample: ttll_MG_low_mll
+      Yield: 1.9261535442018376
+      Error: 0.62380821662722952
+    - Sample: ttH
+      Yield: 33.640234047392056
+      Error: 0.45114690651458339
+    - Sample: QmisID
+      Yield: 36.733875001044154
+      Error: 0.47083028436355762
+    - Sample: CO
+      Yield: 8.1877494869509988
+      Error: 3.0923453363188251
+    - Sample: gstr
+      Yield: 9.6265676102831605
+      Error: 1.9389140152190527
+    - Sample: HFe
+      Yield: 49.096650185653502
+      Error: 15.626853809946073
+    - Sample: HFm
+      Yield: 89.675610703777835
+      Error: 13.657361647956774
+    - Sample: light
+      Yield: 9.5458819794501455
+      Error: 0.1189352943417243
+    - Sample: otherfake
+      Yield: 12.054956513331975
+      Error: 0.14777453740463403
+    - Sample: singleTop
+      Yield: 13.438994037438393
+      Error: 4.138222670800908
+    - Sample: Diboson
+      Yield: 51.009273918171552
+      Error: 13.949085237933449
+    - Sample: triboson
+      Yield: 1.0230314017141011
+      Error: 0.012606804731951353
+    - Sample: vh
+      Yield: 0.30219976667798043
+      Error: 0.72590363389343793
+    - Sample: t#bar{t}W^{+}
+      Yield: 0
+      Error: 0
+    - Sample: t#bar{t}W^{-}
+      Yield: 68.571058042601805
+      Error: 14.744135279013529
+    - Sample: ttZp1250
+      Yield: 0.0056289372112658127
+      Error: .nan
+    - Sample: Total
+      Yield: 430.18598772301402
+      Error: 14.295901985953535
+    - Data: data
+      Yield: 428
+- Region: SR4b_HT_all
+  Samples:
+    - Sample: tttt
+      Yield: 13.534580308125044
+      Error: 3.3805185845664791
+    - Sample: ttt
+      Yield: 0.66036968070280433
+      Error: 0.28541506642271297
+    - Sample: ttWW
+      Yield: 0.30965159162540146
+      Error: 0.1644611053553631
+    - Sample: rarettVV
+      Yield: 0.58755361473510836
+      Error: 0.3700293149207598
+    - Sample: ttll_MG_high_mll
+      Yield: 1.8296905129534917
+      Error: 0.42487217845390368
+    - Sample: ttll_MG_low_mll
+      Yield: 0.11018587621456324
+      Error: 0.030742018794424772
+    - Sample: ttH
+      Yield: 2.2146708845299132
+      Error: 0.48779578159020365
+    - Sample: QmisID
+      Yield: 1.3266712370478331
+      Error: 0.03038901120066646
+    - Sample: CO
+      Yield: 0.38714274182556729
+      Error: 0.11660887961695858
+    - Sample: gstr
+      Yield: 0.80491852515087714
+      Error: 0.16270522573661464
+    - Sample: HFe
+      Yield: 0.087342134988678183
+      Error: 0.15192921537546542
+    - Sample: HFm
+      Yield: 0.33737341171819446
+      Error: 0.14808516962239252
+    - Sample: light
+      Yield: 0.3187395892601248
+      Error: 0.0057439540987684837
+    - Sample: otherfake
+      Yield: 0.8739354882469792
+      Error: 0.013235378376832392
+    - Sample: singleTop
+      Yield: 0.34251057512158978
+      Error: 0.14279100873431644
+    - Sample: Diboson
+      Yield: 0.11704996956194549
+      Error: 0.066154357497877084
+    - Sample: triboson
+      Yield: 0.00085873691456527196
+      Error: 1.4478097344430481e-05
+    - Sample: vh
+      Yield: 1.9723209835238248e-06
+      Error: 9.9786308905519801e-07
+    - Sample: t#bar{t}W^{+}
+      Yield: 3.0429720368280293
+      Error: 0.98246545064550306
+    - Sample: t#bar{t}W^{-}
+      Yield: 1.1694801069997447
+      Error: 0.38811794914324044
+    - Sample: ttZp1250
+      Yield: 0.056016376839652812
+      Error: .nan
+    - Sample: Total
+      Yield: 28.111715371711092
+      Error: 3.894872904649183
+    - Data: data
+      Yield: 51
+- Region: SR3b3l4l_HT_all
+  Samples:
+    - Sample: tttt
+      Yield: 3.9984355096341355
+      Error: 0.77152014793872326
+    - Sample: ttt
+      Yield: 0.24845148395594291
+      Error: 0.074852938497671592
+    - Sample: ttWW
+      Yield: 0.24540255924349183
+      Error: 0.12385377772709032
+    - Sample: rarettVV
+      Yield: 0.13117570135702933
+      Error: 0.074542596450045864
+    - Sample: ttll_MG_high_mll
+      Yield: 2.6684931868947883
+      Error: 0.4433607227135532
+    - Sample: ttll_MG_low_mll
+      Yield: 0.02291234613968289
+      Error: 0.026034720007120916
+    - Sample: ttH
+      Yield: 2.0497211650724916
+      Error: 0.3480867911814513
+    - Sample: QmisID
+      Yield: 1.9999915839787881e-06
+      Error: 5.0531122930520032e-08
+    - Sample: CO
+      Yield: 0.42662620198620538
+      Error: 0.37143437274041269
+    - Sample: gstr
+      Yield: 0.39398403510313496
+      Error: 0.15230701610768516
+    - Sample: HFe
+      Yield: 0.38551099651015808
+      Error: 0.12328014180011833
+    - Sample: HFm
+      Yield: 0.46568948736328453
+      Error: 0.091412453649091133
+    - Sample: light
+      Yield: 0.029535431048012054
+      Error: 0.00079385301620977806
+    - Sample: otherfake
+      Yield: 0.41153792283138274
+      Error: 0.01378266763233244
+    - Sample: singleTop
+      Yield: 0.26051352406816458
+      Error: 0.10178776965213665
+    - Sample: Diboson
+      Yield: 0.093343061976631891
+      Error: 0.049366874431875749
+    - Sample: triboson
+      Yield: 0.012204189103393197
+      Error: 0.005314121026699278
+    - Sample: vh
+      Yield: 1.9723133282713214e-06
+      Error: 9.9869502596129655e-07
+    - Sample: t#bar{t}W^{+}
+      Yield: 1.1880176377034131
+      Error: 0.23099386356106097
+    - Sample: t#bar{t}W^{-}
+      Yield: 0.46341751874286741
+      Error: 0.1459676607372426
+    - Sample: ttZp1250
+      Yield: 0.015050192069083512
+      Error: .nan
+    - Sample: Total
+      Yield: 13.510026123108204
+      Error: 1.2835323639397356
+    - Data: data
+      Yield: 14
+- Region: SR3b2l_HT_all
+  Samples:
+    - Sample: tttt
+      Yield: 13.838164898684861
+      Error: 2.6529623903766502
+    - Sample: ttt
+      Yield: 1.2394374884921464
+      Error: 0.37229574030906948
+    - Sample: ttWW
+      Yield: 1.9723928196308671
+      Error: 0.95794608042238982
+    - Sample: rarettVV
+      Yield: 1.0125317199489903
+      Error: 0.5829103821253544
+    - Sample: ttll_MG_high_mll
+      Yield: 9.8829852227247557
+      Error: 1.1844735656959819
+    - Sample: ttll_MG_low_mll
+      Yield: 0.4246638371256492
+      Error: 0.066014128953335582
+    - Sample: ttH
+      Yield: 12.695096054140546
+      Error: 1.2695059242789233
+    - Sample: QmisID
+      Yield: 6.9775257260749752
+      Error: 0.1142642593945724
+    - Sample: CO
+      Yield: 4.1530678472054747
+      Error: 1.2492184639850594
+    - Sample: gstr
+      Yield: 4.1621617344752551
+      Error: 0.83983071671654108
+    - Sample: HFe
+      Yield: 3.1988153975112068
+      Error: 1.0206135905352467
+    - Sample: HFm
+      Yield: 5.8200369707612145
+      Error: 0.89397723121697803
+    - Sample: light
+      Yield: 1.9657316371773441
+      Error: 0.035186628248146494
+    - Sample: otherfake
+      Yield: 2.3118599680042062
+      Error: 0.26334302600491005
+    - Sample: singleTop
+      Yield: 1.9508657084149896
+      Error: 0.65190392518710882
+    - Sample: Diboson
+      Yield: 0.69657120624437419
+      Error: 0.34878063252987201
+    - Sample: triboson
+      Yield: 0.008245962137759872
+      Error: 0.00086090696702712931
+    - Sample: vh
+      Yield: 3.9446360680123797e-06
+      Error: 1.9955253576516917e-06
+    - Sample: t#bar{t}W^{+}
+      Yield: 18.119165758534912
+      Error: 3.2035219373886767
+    - Sample: t#bar{t}W^{-}
+      Yield: 9.6214672277224409
+      Error: 2.2894895202111685
+    - Sample: ttZp1250
+      Yield: 0.051076525885134366
+      Error: .nan
+    - Sample: Total
+      Yield: 100.10186765553317
+      Error: 4.9607308071551435
+    - Data: data
+      Yield: 94
+- Region: SR2b3l4l_HT_all
+  Samples:
+    - Sample: tttt
+      Yield: 2.2683437948659568
+      Error: 0.43590894248597728
+    - Sample: ttt
+      Yield: 0.1866998632332991
+      Error: 0.056113907319130601
+    - Sample: ttWW
+      Yield: 1.6657842913611911
+      Error: 0.8089327024434827
+    - Sample: rarettVV
+      Yield: 0.33954892765894445
+      Error: 0.17182394582784538
+    - Sample: ttll_MG_high_mll
+      Yield: 12.959758672652946
+      Error: 2.9630290718418166
+    - Sample: ttll_MG_low_mll
+      Yield: 0.060559922116198796
+      Error: 0.024698959337085508
+    - Sample: ttH
+      Yield: 9.596949632457088
+      Error: 0.96075490089692572
+    - Sample: QmisID
+      Yield: 0.0030686453030370426
+      Error: 7.1584465351538714e-05
+    - Sample: CO
+      Yield: 1.2760431682683824
+      Error: 0.38421684781881876
+    - Sample: gstr
+      Yield: 1.4792463923267754
+      Error: 0.29848456413920665
+    - Sample: HFe
+      Yield: 0.42293129973611376
+      Error: 0.1560345184969654
+    - Sample: HFm
+      Yield: 0.52441966221116798
+      Error: 0.14169250775530931
+    - Sample: light
+      Yield: 0.79727381975574785
+      Error: 0.014622461317231527
+    - Sample: otherfake
+      Yield: 1.4233132382812215
+      Error: 0.14705426582768247
+    - Sample: singleTop
+      Yield: 1.5088420814040544
+      Error: 0.46489682181786346
+    - Sample: Diboson
+      Yield: 0.92665505033291717
+      Error: 0.46467103678350197
+    - Sample: triboson
+      Yield: 0.044100684803775166
+      Error: 0.00076101657445697721
+    - Sample: vh
+      Yield: 2.9584813270090525e-06
+      Error: 1.4971314205289186e-06
+    - Sample: t#bar{t}W^{+}
+      Yield: 5.1589050155958578
+      Error: 0.90637649211721971
+    - Sample: t#bar{t}W^{-}
+      Yield: 2.6772875919501473
+      Error: 0.63181071854464743
+    - Sample: ttZp1250
+      Yield: 0.008336877328437426
+      Error: .nan
+    - Sample: Total
+      Yield: 43.32807159012458
+      Error: 2.6262694513609195
+    - Data: data
+      Yield: 40
+- Region: SR2b2l_HT_all
+  Samples:
+    - Sample: tttt
+      Yield: 8.636511359842828
+      Error: 1.6550542853780472
+    - Sample: ttt
+      Yield: 0.99236764835626334
+      Error: 0.29785889297698259
+    - Sample: ttWW
+      Yield: 8.8354028505577098
+      Error: 4.2898679020548691
+    - Sample: rarettVV
+      Yield: 2.2114421254925984
+      Error: 1.1186014414674179
+    - Sample: ttll_MG_high_mll
+      Yield: 40.149950433282321
+      Error: 9.9734388531244864
+    - Sample: ttll_MG_low_mll
+      Yield: 2.5282694356495989
+      Error: 0.63075437506623022
+    - Sample: ttH
+      Yield: 54.424417469688493
+      Error: 5.3788329978319727
+    - Sample: QmisID
+      Yield: 31.998302885895814
+      Error: 0.27877552188260629
+    - Sample: CO
+      Yield: 19.242806262829475
+      Error: 5.7811968115343229
+    - Sample: gstr
+      Yield: 18.447949958926507
+      Error: 3.710241594229776
+    - Sample: HFe
+      Yield: 10.918441952233588
+      Error: 3.4795439794829539
+    - Sample: HFm
+      Yield: 22.179777694679373
+      Error: 3.380666920267323
+    - Sample: light
+      Yield: 10.361451771982725
+      Error: 0.091899337104754661
+    - Sample: otherfake
+      Yield: 19.877501407613213
+      Error: 0.20444898538536238
+    - Sample: singleTop
+      Yield: 8.7759143956681775
+      Error: 2.7012405886154474
+    - Sample: Diboson
+      Yield: 5.4279250431326647
+      Error: 2.5418748506832931
+    - Sample: triboson
+      Yield: 0.080003730543025675
+      Error: 0.00066447730515100723
+    - Sample: vh
+      Yield: 3.9446610067168913e-06
+      Error: 1.9952561919969249e-06
+    - Sample: t#bar{t}W^{+}
+      Yield: 84.444707418228631
+      Error: 13.977624032554333
+    - Sample: t#bar{t}W^{-}
+      Yield: 46.054285864129454
+      Error: 10.450861830375267
+    - Sample: ttZp1250
+      Yield: 0.028782639269680055
+      Error: .nan
+    - Sample: Total
+      Yield: 395.61621629266318
+      Error: 15.886553227320103
+    - Data: data
+      Yield: 405

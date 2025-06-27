@@ -1,0 +1,5 @@
+=== INFO::TRExFit::GetSignificance: Using mixed Data/Asimov dataset in the limit estimate
+=== INFO::Common::ProcessSignificanceOutput: Printing results of the asymptotic significance estimate
+=== INFO::Common::ProcessSignificanceOutput: Expected p-value mu = 1 (median)     : 0.000000, error: 0.000000
+=== INFO::Common::ProcessSignificanceOutput: 
+=== INFO::Common::ProcessSignificanceOutput: Expected significance mu = 1 (median): 5.121332, error: -0.000001

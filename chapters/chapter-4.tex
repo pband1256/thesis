@@ -47,23 +47,7 @@ Triggers used:
 \section{Monte Carlo samples}
 \label{sec:montecarlo}
 Monte Carlo simulated samples are used to estimate signal acceptance before unblinding, profile the physics background for the analysis and to study object optimizations.\\
-Simulated samples for this analysis use are generated from ATLAS' generalized MC20a/d/e samples for Run 2, using full detector simulation (\acs{FS}) based on Geant4.
-
-\subsection{\ttZp signal samples}
-Run 2 \ttZp sample\\
-samples: 6 samples for each mass point from $[1, 1.25, 1.5, 2, 2.5, 3]$ TeV\\
-generator: \mgamc v.2.8.1p3.atlas9 at LO with \textsc{NNPDF3.1LO} pdf\\
-event: \pythia[v.244p3.rangefix] using \textsc{A14} tune \& \textsc{NNPDF2.3LO} pdf\\
-parameters:
-\begin{itemize}
-\item chirality angle $\theta=\pi/4$ as discussed in \autoref{sec:ttZp}
-\item top-$Z^{'}$ coupling $c_t=1$
-\end{itemize}
-resonance width computed with \mgamc to be 4\% of model configuration with these parameters
-
-\subsection{Background samples}
-Run 2 mc20 samples (2015-2018)\\
-(explain most important backgrounds: \tttt \& \ttV, \ttbar
+Simulated samples for this analysis use are generated from ATLAS' generalized MC20a/d/e samples for Run 2, using full detector simulation (\acs{FS})  and fast simulation (\acs{AF3}) to simulate detector response.
 
 \begin{table}[!htbp]
 \small
@@ -74,24 +58,25 @@ Run 2 mc20 samples (2015-2018)\\
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{p{2.8cm} p{4.5cm} p{3.0cm} p{4.3cm} p{1.5cm} p{1.7cm} p{1.2cm}}
 \toprule 
-Process    & ME Generator  & ME Order & ME PDF  & PS  & Tune & Sim. \\
+Process    & \acs{ME} Generator  & \acs{ME} Order & \acs{ME} \acs{PDF}  & \acs{PS}  & Tune & Sim. \\
 \midrule \bottomrule
 \multicolumn{7}{l}{\textbf{Signals}} \\ \midrule
-\ttZp	   & \mgamc & LO       & NNPDF3.1LO    & \pythia & A14  & FS \\
+\ttZp	   & \mgamc			& LO       & \nnpdfonelo    & \pythia & A14  & FS \\
 \midrule \bottomrule
 \multicolumn{7}{l}{\textbf{\tttt and \ttt}} \\ \midrule
 \tttt      & \mgamc         & NLO      & \nnpdfnlo     & \pythia & A14  & AF3 \\
-           & \mgamc         & NLO      & MMHT2014LO    & \herwigseven & H7-UE-MMHT & AF3 \\
-           & \sherpa        & NLO      & NNPDF3.0 NNLO & \herwigseven & \sherpa  & FS \\
+           & \mgamc         & NLO      & \mmhtlo       & \herwigseven & H7-UE-MMHT & AF3 \\
+           & \sherpa        & NLO      & \nnpdfnnlo	   & \herwigseven & \sherpa  & FS \\
 \ttt       & \mgamc         & LO       & \nnpdftwo     & \pythia & A14  & AF3 \\
 \midrule \bottomrule
 \multicolumn{7}{l}{\textbf{\ttV}} \\ \midrule
-\ttH       & \powhegbox~v2  & NLO      & \nnpdfnlo (mc20) & \pythia & A14  & FS \\
-           &                &          & PDF4LHC21 (mc23) &         &      & AF3 \\
+\ttH       & \powhegbox~v2  & NLO      & \nnpdfnlo 	   & \pythia & A14  & FS \\
            & \powhegbox~v2  & NLO      & \nnpdfnlo     & \herwigseven & H7.2-Default & FS \\
-\ttZ       & \mgamc         & NLO      & NNPDF3.0 NNLO & \pythia & A14  & FS \\
-\ttW       & \sherpa        & NLO      & NNPDF3.0 NNLO & \sherpa & \sherpa  & FS \\
-           & \sherpa        & LO       & NNPDF3.0 NNLO & \sherpa & \sherpa  & FS \\
+$\ttbar(Z/\gamma^*)$
+		   & \mgamc         & NLO      & \nnpdfnlo     & \pythia & A14  & FS \\
+           & \sherpa        & NLO      & \nnpdfnnlo    & \sherpa & \sherpa  & FS \\
+\ttW       & \sherpa        & NLO      & \nnpdfnnlo    & \sherpa & \sherpa  & FS \\
+           & \sherpa        & LO       & \nnpdfnnlo    & \sherpa & \sherpa  & FS \\
 \midrule \bottomrule
 \multicolumn{7}{l}{\textbf{\ttbar and Single-Top}} \\ \midrule
 \ttbar     & \powhegbox~v2  & NLO      & \nnpdfnlo     & \pythia & A14  & FS \\
@@ -102,23 +87,34 @@ $tWZ$      & \mgamc         & NLO      & \nnpdfnlo     & \pythia & A14  & FS \\
 \tZ        & \mgamc         & LO       & \nnpdfnlo4f   & \pythia & A14  & FS \\
 \midrule \bottomrule
 \multicolumn{7}{l}{\textbf{\ttVV}} \\ \midrule
-\ttWW      & \mgamc (mc20)  & LO       & \nnpdfnlo     & \pythia & A14  & FS \\
-           & \mg (mc23)     &          &               &         &      & FS \\
+\ttWW      & \mgamc			& LO       & \nnpdfnlo     & \pythia & A14  & FS \\
 \ttWZ      & \mg            & LO       & \nnpdfnlo     & \pythia & A14  & AF3 \\
 \ttHH      & \mg            & LO       & \nnpdfnlo     & \pythia & A14  & AF3 \\
 \ttWH      & \mg            & LO       & \nnpdfnlo     & \pythia & A14  & AF3 \\
 \ttZZ      & \mg            & LO       & \nnpdfnlo     & \pythia & A14  & AF3 \\
 \midrule \bottomrule
 \multicolumn{7}{l}{\textbf{$V(VV)$+jets and $VH$}} \\ \midrule
-$V$+jets   & \sherpa        & NLO      & NNPDF3.0 NNLO & \sherpa & \sherpa & FS \\
-$VV$+jets  & \sherpa        & NLO      & NNPDF3.0 NNLO & \sherpa & \sherpa & FS \\
-           &                & LO ($gg\to VV$) &       &         &      & FS \\
-$VVV$+jets & \sherpa        & NLO      & NNPDF3.0 NNLO & \sherpa & \sherpa & FS \\
-$VH$       & \powhegbox~v2  & NLO      & NNPDF3.0 AZNLO & \pythia & A14  & FS \\
+$V$+jets   & \sherpa        & NLO      & \nnpdfnnlo    & \sherpa & \sherpa & FS \\
+$VV$+jets  & \sherpa        & NLO      & \nnpdfnnlo    & \sherpa & \sherpa & FS \\
+           &                & LO ($gg\to VV$) &        &         &         & FS \\
+$VVV$+jets & \sherpa        & NLO      & \nnpdfnnlo	   & \sherpa & \sherpa & FS \\
+$VH$       & \powhegbox~v2  & NLO      & \nnpdfaznlo   & \pythia & A14     & FS \\
 \midrule \bottomrule
 \end{tabular}%
 } % End resizebox
 \end{table}
 
+\subsection{\ttZp signal samples}
+Signal \ttZp samples were generated based on the simplified top-philic resonance model in \autoref{sec:ttZp} where a color singlet vector resonance couples strongly to only top and antitop. Six $Z'$ mass points were utilized for the generation of the signal sample: 1000, 1250, 1500, 2000, 2500 and 3000 GeV. From \autoref{sec:ttZp}, the top-$Z'$ coupling $c_t$ is chosen to be 1 for a narrow resonance peak, and the chirality angle $\theta$ is chosen to be $\pi/4$ to suppress loop production of $Z'$. The samples were then generated with \mgamc v.3.5.0 \citep{Alwall:2014hca} at \acs{LO} with the \nnpdfonelo \citep{Ball:2014uwa} \acs{PDF} set interfaced with \pythia \citep{Sjostrand:2014zea} using A14 tune and \nnpdftwo \acs{PDF} set for parton showering and hadronization. The resonance width is calculated to be $4\%$ for $c_t=1$. \\
+\textcolor{red}{plots: \HT, nJets, parameter comparison, interference, $m_{\ttbar}$ invariant mass}
+
+\subsection{Background samples}
+
+\subsubsection*{\acs{SM} \tttt background}
+Nominal \acs{SM} \tttt sample was generated with \mgamc \citep{Alwall:2014hca} at \acs{NLO} in \acs{QCD} with the \nnpdfnlo \citep{Ball:2014uwa} \acs{PDF} set and interfaced with \pythia.230 \citep{Sjostrand:2014zea} using A14 tune \citep{ATL-PHYS-PUB-2014-021}. Decays for top quarks are simulated \acs{LO} with \madspin \citep{Frixione:2007zp, Artoisenet:2012st} to preserve spin information, while decays for $b$- and $c$-hadrons are simulated with \evtgen v1.6.0 \citep{Lange:2001uf}. The renormalization and factorization scales $\mu_R$ and $\mu_F$ are set to $\sqrt{m^2+\pT^2}/4$, which represents the sum of transverse mass of all particles generated from the \acs{ME} calculation \citep{Frederix:2017wme}. The ATLAS detector response was simulated with \acs{AF3}. Additional auxiliary \tttt samples are also generated to evaluate the impact of generator and \acs{PS} uncertainties as shown in \ref{tab:MC}.
+\subsubsection*{\ttW background}
+Nominal \ttW sample was generated using \sherpa v2.2.10 \citep{Bothmann:2019yzt} at \acs{NLO} in \acs{QCD} with the \nnpdfnnlo \citep{Ball:2014uwa} \acs{PDF} with up to one extra parton at \acs{NLO} and two at \acs{LO}, which are matched and merged with \sherpa \acs{PS} based on Catani-Seymour dipole factorization \citep{Schumann:2007mg} using the MEPS@NLO prescription \citep{Hoeche:2011fd, Hoeche:2012yf, Catani:2001cc, Hoeche:2009rj} and a merging scale of 30 GeV. Higher-order \acs{ME} corrections are provided in \acs{QCD} by the OpenLoops 2 library \citep{Cascioli:2011va, Denner:2016kdg, Buccioni:2019sur} and in \acs{EW} from $\mathcal{O}(\alpha^3)+\mathcal{O}(\alpha^2_S\alpha^2)$ (LO3 \& NLO2) via two sets of internal event weights. An alternative sample with only \acs{EW} corrections at \acs{LO} from $\mathcal{O}(\alpha_S\alpha^3)$ (NLO3) diagrams were also simulated with the same settings.
+\subsubsection*{$\ttbar(Z/\gamma^*)$ background}
+Nominal $\ttbar(Z/\gamma^*)$ samples were generated separately for different ranges of dilepton invariant mass $m_{\ell\ell}$ to account for on-shell and off-shell $Z/\gamma^*$ production. Sample for $m_{\ell\ell}$ between 1 and 5 GeV was produced using \mgamc \citep{Alwall:2014hca} at \acs{NLO} with the \nnpdfnlo \citep{Ball:2014uwa} \acs{PDF} set, interfaced with \pythia.230 \citep{Sjostrand:2014zea} using A14 tune \citep{ATL-PHYS-PUB-2014-021} and \nnpdftwo \acs{PDF} set. Sample for $m_{\ell\ell} < 5$ GeV was produced with \sherpa v2.2.10 \citep{Bothmann:2019yzt} at \acs{NLO} using \nnpdfnnlo \acs{PDF} set. To account for generator uncertainty, an alternative $m_{\ell\ell}>5$ GeV sample was generated with identical settings to the low $m_{\ell\ell}$ sample. The ATLAS detector response was simulated with full detector simulation (\acs{FS}).
 
 \end{document}

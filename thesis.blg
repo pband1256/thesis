@@ -17,7 +17,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 11440 items from 5000.
+Reallocated field_info (elt_size=4) to 13680 items from 5000.
 Database file #1: thesis-blx.bib
 Database file #2: bib/citations.bib
 Database file #3: bib/ANA-EXOT-2022-44-INT1.bib
@@ -30,49 +30,48 @@ Database file #5: bib/ATLAS-useful.bib
 Database file #6: bib/CMS.bib
 Database file #7: bib/ConfNotes.bib
 Database file #8: bib/PubNotes.bib
-Warning--I didn't find a database entry for "ana:tttt_obs"
 Biblatex version: 3.17
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 45 entries,
+You've used 62 entries,
             6399 wiz_defined-function locations,
-            1504 strings with 20287 characters,
-and the built_in function-call counts, 402015 in all, are:
-= -- 33922
-> -- 5241
-< -- 977
-+ -- 12503
-- -- 2285
-* -- 28420
-:= -- 48350
+            1629 strings with 23988 characters,
+and the built_in function-call counts, 572270 in all, are:
+= -- 48562
+> -- 6951
+< -- 1320
++ -- 17915
+- -- 2965
+* -- 41116
+:= -- 69361
 add.period$ -- 0
-call.type$ -- 45
-change.case$ -- 471
-chr.to.int$ -- 109
-cite$ -- 88
-duplicate$ -- 42011
-empty$ -- 34715
-format.name$ -- 3290
-if$ -- 79102
+call.type$ -- 62
+change.case$ -- 591
+chr.to.int$ -- 85
+cite$ -- 122
+duplicate$ -- 60582
+empty$ -- 49011
+format.name$ -- 4728
+if$ -- 112366
 int.to.chr$ -- 0
-int.to.str$ -- 140
+int.to.str$ -- 181
 missing$ -- 0
-newline$ -- 1766
-num.names$ -- 1982
-pop$ -- 16385
+newline$ -- 2537
+num.names$ -- 2649
+pop$ -- 22891
 preamble$ -- 1
-purify$ -- 819
+purify$ -- 1098
 quote$ -- 0
-skip$ -- 7815
+skip$ -- 10641
 stack$ -- 0
-substring$ -- 64535
-swap$ -- 6976
-text.length$ -- 972
+substring$ -- 92148
+swap$ -- 9919
+text.length$ -- 1387
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 1514
+type$ -- 2092
 warning$ -- 0
-while$ -- 5858
+while$ -- 8512
 width$ -- 0
-write$ -- 1722
+write$ -- 2476
 (There was 1 error message)

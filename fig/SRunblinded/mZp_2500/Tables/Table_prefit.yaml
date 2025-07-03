@@ -2,618 +2,618 @@
   Samples:
     - Sample: tttt
       Yield: 0.14230831451803788
-      Error: 0.028611227830377044
+      Error: 0.02861141066054464
     - Sample: ttt
       Yield: 0.037060931525099754
-      Error: 0.011144284440041103
+      Error: 0.011144316275055043
     - Sample: ttWW
       Yield: 0.35428369161043427
-      Error: 0.17729111400806216
+      Error: 0.17729129687715922
     - Sample: rarettVV
       Yield: 0.14605294041150865
-      Error: 0.073088005806889025
+      Error: 0.073088081194410293
     - Sample: ttll_MG_high_mll
       Yield: 6.6029159899919199
-      Error: 2.8494877766827176
+      Error: 2.8494917287982751
     - Sample: ttll_MG_low_mll
       Yield: 0.44948254611335953
-      Error: 0.19397415065155346
+      Error: 0.19397441968526008
     - Sample: ttH
       Yield: 3.3324766493483748
-      Error: 0.34019839616646363
+      Error: 0.34020682799520263
     - Sample: QmisID
       Yield: 113.66491429000759
-      Error: 2.3335976039758606
+      Error: 2.335027218886438
     - Sample: CO
       Yield: 70.489631315268326
-      Error: 7.7308224515326343
+      Error: 7.730988465759232
     - Sample: gstr
       Yield: 19.996242224398085
-      Error: 0.41053286526323163
+      Error: 0.41078436702362708
     - Sample: HFe
       Yield: 15.290331175281384
-      Error: 0.31391815510981225
+      Error: 0.31411046850372415
     - Sample: HFm
       Yield: 14.55062477587321
-      Error: 0.29873161234868917
+      Error: 0.29891462212147424
     - Sample: light
       Yield: 3.5075617367554304
-      Error: 0.072011998740489691
+      Error: 0.072056114927001147
     - Sample: otherfake
       Yield: 37.166791300524089
-      Error: 0.76305283532860813
+      Error: 0.76352029883177863
     - Sample: singleTop
       Yield: 4.2023469823031556
-      Error: 1.2636528052409415
+      Error: 1.2636564150200067
     - Sample: Diboson
       Yield: 9.4754734639985188
-      Error: 3.8163072719917013
+      Error: 3.8163133489093277
     - Sample: triboson
       Yield: 0.069384370482084873
-      Error: 0.0014244958677156194
+      Error: 0.0014253685462481541
     - Sample: vh
       Yield: 9.9999999999999995e-07
-      Error: 5.0042132394569615e-07
+      Error: 5.0042184011141695e-07
     - Sample: t#bar{t}W^{+}
       Yield: 6.2389000859422747
-      Error: 0.12808774266836043
+      Error: 0.12816621212961987
     - Sample: t#bar{t}W^{-}
       Yield: 3.5277472715105493
-      Error: 0.072426417876189975
+      Error: 0.072470787945279058
     - Sample: ttZp2500
-      Yield: 0.20924833203033755
-      Error: 0.0042959730301302679
+      Yield: 0.013434631266037783
+      Error: 0.00027598868021720506
     - Sample: Total
-      Yield: 309.45377938789375
-      Error: 11.114902794261702
+      Yield: 309.25796568712946
+      Error: 11.114828214930599
     - Data: data
       Yield: 309
 - Region: CRttbarCO2l_gstr_1
   Samples:
     - Sample: tttt
       Yield: 0.0048400708280434829
-      Error: 0.001542707339345307
+      Error: 0.0015427128939677038
     - Sample: ttt
       Yield: 0.0014103139015546821
-      Error: 0.00042739641649938243
+      Error: 0.00042739811879611921
     - Sample: ttWW
       Yield: 0.010720150727573208
-      Error: 0.0053797604500261361
+      Error: 0.0053797682640361688
     - Sample: rarettVV
       Yield: 0.0079293930077233288
-      Error: 0.0039792570067082051
+      Error: 0.0039792627865109422
     - Sample: ttll_MG_high_mll
       Yield: 0.42995910979341395
-      Error: 0.3390757646893845
+      Error: 0.3390759641204763
     - Sample: ttll_MG_low_mll
       Yield: 0.036543246774920685
-      Error: 0.028818855240426679
+      Error: 0.028818872190549231
     - Sample: ttH
       Yield: 0.23608885107004493
-      Error: 0.11893848341263591
+      Error: 0.11893865483350094
     - Sample: QmisID
       Yield: 1.5769193519343485
-      Error: 0.067635713077971449
+      Error: 0.06764916037989932
     - Sample: CO
       Yield: 3.5632220894636863
-      Error: 0.41318543949325609
+      Error: 0.41319667959655709
     - Sample: gstr
       Yield: 47.038280077597364
-      Error: 2.0175208143061027
+      Error: 2.01792193688323
     - Sample: HFe
       Yield: 5.8300077256334717
-      Error: 0.25005510224071337
+      Error: 0.25010481808320817
     - Sample: HFm
       Yield: 1.9316581215739976
-      Error: 0.08285082830345758
+      Error: 0.082867300667722965
     - Sample: light
       Yield: 1.485242086186046
-      Error: 0.063703579684897926
+      Error: 0.063716245201840271
     - Sample: otherfake
       Yield: 10.359107984576145
-      Error: 0.44431292857752069
+      Error: 0.44440126667331459
     - Sample: singleTop
       Yield: 0.11764002996284226
-      Error: 0.035650876863351472
+      Error: 0.035651018858859636
     - Sample: Diboson
       Yield: 0.17196961890618903
-      Error: 0.08292327022723682
+      Error: 0.08292340068265748
     - Sample: triboson
       Yield: 0.0032177605437447069
-      Error: 0.0001380131004311471
+      Error: 0.0001380405401334437
     - Sample: vh
       Yield: 9.9999999999999995e-07
-      Error: 5.0183626953946657e-07
+      Error: 5.0183699844806419e-07
     - Sample: t#bar{t}W^{+}
       Yield: 0.1341802371244529
-      Error: 0.0057551300944790051
+      Error: 0.0057562743268451816
     - Sample: t#bar{t}W^{-}
       Yield: 0.090523322820735955
-      Error: 0.0038826395792895263
+      Error: 0.0038834115239371608
     - Sample: ttZp2500
-      Yield: 0.015008299553673714
-      Error: 0.00064372159626003775
+      Yield: 0.00034003840547158277
+      Error: 7.0937523153821359e-05
     - Sample: Total
-      Yield: 73.044468841979963
-      Error: 3.1811736771672798
+      Yield: 73.029800580831761
+      Error: 3.181167404763936
     - Data: data
       Yield: 70
 - Region: CR1b3le_lep_2_pt
   Samples:
     - Sample: tttt
       Yield: 0.0024973455814389666
-      Error: 0.0028891351195976947
+      Error: 0.0028891357860866898
     - Sample: ttt
       Yield: 0.0025995349755868293
-      Error: 0.0008886409649666926
+      Error: 0.00088864134988356723
     - Sample: ttWW
       Yield: 0.068500303053723871
-      Error: 0.036846288399049992
+      Error: 0.036846305572703388
     - Sample: rarettVV
       Yield: 0.013790162084132678
-      Error: 0.0069107730945898501
+      Error: 0.0069107754764271816
     - Sample: ttll_MG_high_mll
       Yield: 2.5478569938766484
-      Error: 0.69385364469032362
+      Error: 0.69385423364261434
     - Sample: ttll_MG_low_mll
       Yield: 0.11972122983319468
-      Error: 0.053319898790454817
+      Error: 0.053319901980713069
     - Sample: ttH
       Yield: 1.7149680071965001
-      Error: 0.17999258594736869
+      Error: 0.17999332815963845
     - Sample: QmisID
       Yield: 1.9999999999999999e-06
-      Error: 8.2000509506518119e-08
+      Error: 8.2010353663314281e-08
     - Sample: CO
       Yield: 3.2904133083962899
-      Error: 0.10397868718402506
+      Error: 0.10398231521293348
     - Sample: gstr
       Yield: 4.4199170842459665
-      Error: 0.13934346828452354
+      Error: 0.13934683511005974
     - Sample: HFe
       Yield: 53.452483604473301
-      Error: 1.7408066098066088
+      Error: 1.7408151572574257
     - Sample: HFm
       Yield: 26.362817675157004
-      Error: 0.84048124711668037
+      Error: 0.84049115950795938
     - Sample: light
       Yield: 0.98933175281980845
-      Error: 0.62147149439198501
+      Error: 0.62147153102615338
     - Sample: otherfake
       Yield: 4.3609378292008714
-      Error: 0.75611442158184239
+      Error: 0.75611571843590875
     - Sample: singleTop
       Yield: 5.0426006068276914
-      Error: 1.5215266406136159
+      Error: 1.5215275999166902
     - Sample: Diboson
       Yield: 11.337777117969864
-      Error: 1.8132326648310899
+      Error: 1.813237101906324
     - Sample: triboson
       Yield: 0.31225970493021404
-      Error: 0.011928418298342031
+      Error: 0.011929715745882674
     - Sample: vh
       Yield: 0.31993363556198406
-      Error: 0.17723215009318172
+      Error: 0.17723215009318175
     - Sample: t#bar{t}W^{+}
       Yield: 4.1028324869425425
-      Error: 0.1527434830419912
+      Error: 0.1527545610338481
     - Sample: t#bar{t}W^{-}
       Yield: 2.5714423240447175
-      Error: 0.092851890181110203
+      Error: 0.092859864872407813
     - Sample: ttZp2500
-      Yield: 0.002736492642511803
-      Error: 0.0041243605091181171
+      Yield: 0
+      Error: 0
     - Sample: Total
-      Yield: 121.035419199814
-      Error: 4.6491508726046638
+      Yield: 121.03268270717149
+      Error: 4.6488775662875925
     - Data: data
       Yield: 104
 - Region: CR1b3lm_lep_2_pt
   Samples:
     - Sample: tttt
       Yield: 0.0061671362407276931
-      Error: 0.0051334774721309836
+      Error: 0.005133477887554974
     - Sample: ttt
       Yield: 0.0068442772349523485
-      Error: 0.0020601808045489895
+      Error: 0.0020601815599390642
     - Sample: ttWW
       Yield: 0.13050710241366867
-      Error: 0.065334219259854276
+      Error: 0.065334229062419868
     - Sample: rarettVV
       Yield: 0.033075695420294746
-      Error: 0.016560206843280471
+      Error: 0.016560210364209925
     - Sample: ttll_MG_high_mll
       Yield: 6.0003903852055176
-      Error: 2.3847588384320249
+      Error: 2.3847593159731715
     - Sample: ttll_MG_low_mll
       Yield: 0.25894953514621377
-      Error: 0.10207128690468713
+      Error: 0.10207129752274832
     - Sample: ttH
       Yield: 3.5173938016143107
-      Error: 0.084763261612459562
+      Error: 0.084766038292787588
     - Sample: QmisID
       Yield: 1.9999999999999999e-06
-      Error: 5.7506902747955029e-08
+      Error: 5.7512783694708975e-08
     - Sample: CO
       Yield: 1.6616566606774228
-      Error: 0.35820661506846319
+      Error: 0.35820722036949199
     - Sample: gstr
       Yield: 1.5265101351523862
-      Error: 0.16012344110219284
+      Error: 0.16012388021084364
     - Sample: HFe
       Yield: 17.840965663915366
-      Error: 0.45753782187756681
+      Error: 0.45753864920556453
     - Sample: HFm
       Yield: 110.93238444792166
-      Error: 2.7743483937607065
+      Error: 2.7743638616372541
     - Sample: light
       Yield: 0.40449649924041214
-      Error: 0.29037930391480266
+      Error: 0.29037930348077867
     - Sample: otherfake
       Yield: 6.1316930808614103
-      Error: 0.14779344061609337
+      Error: 0.14779718328185643
     - Sample: singleTop
       Yield: 9.8915268218977737
-      Error: 2.9772612057978836
+      Error: 2.9772621643162149
     - Sample: Diboson
       Yield: 18.524003805185238
-      Error: 2.1327941428707202
+      Error: 2.1327984885181626
     - Sample: triboson
       Yield: 0.48279387636782356
-      Error: 0.012544101131598104
+      Error: 0.012545085306208379
     - Sample: vh
       Yield: 0.12283588852994905
-      Error: 0.26351102303973767
+      Error: 0.26351104244958373
     - Sample: t#bar{t}W^{+}
       Yield: 8.4757898300462102
-      Error: 0.23218873188688552
+      Error: 0.23220299787669743
     - Sample: t#bar{t}W^{-}
       Yield: 4.6621413851288391
-      Error: 0.12724312060073803
+      Error: 0.12724999267809384
     - Sample: ttZp2500
-      Yield: 0.0044148569699980177
-      Error: 0.0021925223166580333
+      Yield: 0.00025631379246206275
+      Error: 0.00014282081230515659
     - Sample: Total
-      Yield: 190.61454288517015
-      Error: 6.4097798042651331
+      Yield: 190.61038434199264
+      Error: 6.4098060595885205
     - Data: data
       Yield: 176
 - Region: CRttW2l_plus_nJets
   Samples:
     - Sample: tttt
       Yield: 1.3784476335750608
-      Error: 0.27671929677799273
+      Error: 0.2767257257282878
     - Sample: ttt
       Yield: 0.38868102587905801
-      Error: 0.11673800883696507
+      Error: 0.11673879584902859
     - Sample: ttWW
       Yield: 2.5756397331763825
-      Error: 1.2882403870553898
+      Error: 1.2882427137189347
     - Sample: rarettVV
       Yield: 1.2564606221338601
-      Error: 0.62841941376295285
+      Error: 0.62842040872428651
     - Sample: ttll_MG_high_mll
       Yield: 46.771106358060003
-      Error: 16.703490564527787
+      Error: 16.703527966634837
     - Sample: ttll_MG_low_mll
       Yield: 3.0883443791542984
-      Error: 1.1057563325844937
+      Error: 1.1057584789287307
     - Sample: ttH
       Yield: 39.244120686061073
-      Error: 3.9559957054709369
+      Error: 3.956164520866797
     - Sample: QmisID
       Yield: 18.453528789043634
-      Error: 0.22168574115280834
+      Error: 0.22193367179188239
     - Sample: CO
       Yield: 2.8389441846892431
-      Error: 0.50174741146851931
+      Error: 0.50175285379694345
     - Sample: gstr
       Yield: 6.1563763271842076
-      Error: 0.63295117097508735
+      Error: 0.63297717579300039
     - Sample: HFe
       Yield: 24.527732644195552
-      Error: 0.28244145382006985
+      Error: 0.28309931563197438
     - Sample: HFm
       Yield: 63.191923788103594
-      Error: 0.73690163654549301
+      Error: 0.73857067126342324
     - Sample: light
       Yield: 2.7213570624840244
-      Error: 0.032498924240254509
+      Error: 0.032568103920130237
     - Sample: otherfake
       Yield: 27.293114053519826
-      Error: 0.31577558547617451
+      Error: 0.3165113512522793
     - Sample: singleTop
       Yield: 19.988140015531172
-      Error: 6.000670388854151
+      Error: 6.0006832206835448
     - Sample: Diboson
       Yield: 11.799602115605781
-      Error: 4.9999692955562489
+      Error: 4.9999745780184748
     - Sample: triboson
       Yield: 0.088126316207591274
-      Error: 0.00098302338615840947
+      Error: 0.00098488408503878168
     - Sample: vh
       Yield: 3.0000000000000001e-06
-      Error: 1.5006716482043217e-06
+      Error: 1.5006755488907599e-06
     - Sample: t#bar{t}W^{+}
       Yield: 97.092858959923404
-      Error: 1.5165100695834759
+      Error: 1.5177505177255886
     - Sample: t#bar{t}W^{-}
       Yield: 0
       Error: 0
     - Sample: ttZp2500
-      Yield: 0.94821838101646239
-      Error: 0.012663624246142322
+      Yield: 0.054736924976871819
+      Error: 0.00073166444030911646
     - Sample: Total
-      Yield: 369.80272607554417
-      Error: 20.342109845358337
+      Yield: 368.90924461950459
+      Error: 20.341585856859442
     - Data: data
       Yield: 450
 - Region: CRttW2l_minus_nJets
   Samples:
     - Sample: tttt
       Yield: 1.3630244172447115
-      Error: 0.27387474412324769
+      Error: 0.27388413204663259
     - Sample: ttt
       Yield: 0.33576105934628442
-      Error: 0.10088460857665367
+      Error: 0.10088572888714224
     - Sample: ttWW
       Yield: 2.430202331037969
-      Error: 1.2155789202123295
+      Error: 1.2155819769430649
     - Sample: rarettVV
       Yield: 0.78013929719800212
-      Error: 0.39023999545502153
+      Error: 0.39024115220034766
     - Sample: ttll_MG_high_mll
       Yield: 44.063938289724689
-      Error: 14.313554475135602
+      Error: 14.313627536191042
     - Sample: ttll_MG_low_mll
       Yield: 2.8400397358265512
-      Error: 0.92072199500841956
+      Error: 0.92072619990314553
     - Sample: ttH
       Yield: 39.183828157538294
-      Error: 3.9616784026563399
+      Error: 3.961961026874834
     - Sample: QmisID
       Yield: 17.468385210157553
-      Error: 0.27069336638946134
+      Error: 0.2710785153870347
     - Sample: CO
       Yield: 2.3081673022548475
-      Error: 0.43166083554087736
+      Error: 0.4316682397569423
     - Sample: gstr
       Yield: 6.0014273215153766
-      Error: 0.61788887541726023
+      Error: 0.6179227944093596
     - Sample: HFe
       Yield: 25.463915871318584
-      Error: 0.3755304712504583
+      Error: 0.37656164810308751
     - Sample: HFm
       Yield: 69.401922163087789
-      Error: 1.0015962691985563
+      Error: 1.0043128132007324
     - Sample: light
       Yield: 0.94757670969408148
-      Error: 0.016158793501144679
+      Error: 0.01620524390605186
     - Sample: otherfake
       Yield: 24.033198040767278
-      Error: 0.34357118150226162
+      Error: 0.34443449880364124
     - Sample: singleTop
       Yield: 12.716550099162378
-      Error: 3.8192119412765817
+      Error: 3.8192288400358558
     - Sample: Diboson
       Yield: 8.952842315462572
-      Error: 3.7493446936670813
+      Error: 3.7493530274679481
     - Sample: triboson
       Yield: 0.081743199112177325
-      Error: 0.0011544405393408988
+      Error: 0.001156725687983042
     - Sample: vh
       Yield: 0.31743135848079218
-      Error: 0.47763469027865196
+      Error: 0.4776350671905526
     - Sample: t#bar{t}W^{+}
       Yield: 0
       Error: 0
     - Sample: t#bar{t}W^{-}
       Yield: 52.57376991687881
-      Error: 1.0588253276680686
+      Error: 1.0599836692934279
     - Sample: ttZp2500
-      Yield: 1.004431080010447
-      Error: 0.01581912981425615
+      Yield: 0.056801712072636908
+      Error: 0.0009087471963805582
     - Sample: Total
-      Yield: 312.26829387581921
-      Error: 17.26936605819737
+      Yield: 311.32066450788142
+      Error: 17.26877005262066
     - Data: data
       Yield: 341
 - Region: CR1bplus_nJets
   Samples:
     - Sample: tttt
       Yield: 1.8793515017632183
-      Error: 0.37971098699445127
+      Error: 0.38002046489070274
     - Sample: ttt
       Yield: 0.30361989759704766
-      Error: 0.091217234988160895
+      Error: 0.091223971728772946
     - Sample: ttWW
       Yield: 6.0518286458651156
-      Error: 3.0272258992254417
+      Error: 3.027285197021985
     - Sample: rarettVV
       Yield: 1.5914747674781113
-      Error: 0.79600863478059702
+      Error: 0.79601760342683014
     - Sample: ttll_MG_high_mll
       Yield: 44.234003549043329
-      Error: 16.856585927411185
+      Error: 16.856715359267842
     - Sample: ttll_MG_low_mll
       Yield: 2.203952984520551
-      Error: 0.85217486276357701
+      Error: 0.85217832187354614
     - Sample: ttH
       Yield: 34.026395327047148
-      Error: 3.4349623031425995
+      Error: 3.4361779577203473
     - Sample: QmisID
       Yield: 34.008827096937331
-      Error: 0.37618673132395664
+      Error: 0.37745399982787603
     - Sample: CO
       Yield: 11.552569833508013
-      Error: 1.5959965229485804
+      Error: 1.5960652343872863
     - Sample: gstr
       Yield: 12.58688557866363
-      Error: 0.13762205794147983
+      Error: 0.13827161883049732
     - Sample: HFe
       Yield: 71.143297484748743
-      Error: 0.78375395813030968
+      Error: 0.78857632166816305
     - Sample: HFm
       Yield: 93.10200564947462
-      Error: 1.0247801155290706
+      Error: 1.0305564805594014
     - Sample: light
       Yield: 15.127641388640496
-      Error: 0.16914127210799831
+      Error: 0.17047338772475165
     - Sample: otherfake
       Yield: 14.168455704208895
-      Error: 0.17021395215749713
+      Error: 0.17206297275170584
     - Sample: singleTop
       Yield: 19.494625775550205
-      Error: 5.852642585275734
+      Error: 5.8526664396673507
     - Sample: Diboson
       Yield: 88.362143072406795
-      Error: 37.288048571970975
+      Error: 37.288139828305077
     - Sample: triboson
       Yield: 1.3626145192369357
-      Error: 0.015178848216632894
+      Error: 0.015257582910009122
     - Sample: vh
       Yield: 0.40811596569258574
-      Error: 0.37080277264984102
+      Error: 0.37080377819673216
     - Sample: t#bar{t}W^{+}
       Yield: 40.079624132516898
-      Error: 0.73290975544970793
+      Error: 0.73360791545514392
     - Sample: t#bar{t}W^{-}
       Yield: 0
       Error: 0
     - Sample: ttZp2500
-      Yield: 2.6247565507423665
-      Error: 0.10362301128441026
+      Yield: 0.14466861093364644
+      Error: 0.0052798596062432809
     - Sample: Total
-      Yield: 494.31218942564209
-      Error: 42.378257813628373
+      Yield: 491.83210148583333
+      Error: 42.376688900158825
     - Data: data
       Yield: 540
 - Region: CR1bminus_nJets
   Samples:
     - Sample: tttt
       Yield: 1.8801564096420003
-      Error: 0.37824001107088556
+      Error: 0.37838407516312006
     - Sample: ttt
       Yield: 0.27869792012120997
-      Error: 0.083720147845366008
+      Error: 0.083724575224532305
     - Sample: ttWW
       Yield: 6.2415507878262231
-      Error: 3.1221214935977266
+      Error: 3.1221742850863134
     - Sample: rarettVV
       Yield: 1.0294802429403103
-      Error: 0.51493188939794177
+      Error: 0.51493741322238373
     - Sample: ttll_MG_high_mll
       Yield: 42.432702868427441
-      Error: 15.298072491005222
+      Error: 15.298194179300282
     - Sample: ttll_MG_low_mll
       Yield: 2.2884769478515072
-      Error: 0.83517710150645386
+      Error: 0.83519208707333248
     - Sample: ttH
       Yield: 33.726203379852336
-      Error: 0.46725253345474355
+      Error: 0.47453634550588608
     - Sample: QmisID
       Yield: 36.759888079667284
-      Error: 0.47924007296479498
+      Error: 0.48054080565748358
     - Sample: CO
       Yield: 8.5364956182114735
-      Error: 1.2842732331946678
+      Error: 1.2843529075731401
     - Sample: gstr
       Yield: 9.9880982526723887
-      Error: 0.1390170770903921
+      Error: 0.14144552007095595
     - Sample: HFe
       Yield: 72.007272097230825
-      Error: 0.88629540681066232
+      Error: 0.89225606462941531
     - Sample: HFm
       Yield: 95.938917136873769
-      Error: 1.1866029465880286
+      Error: 1.1952435923675608
     - Sample: light
       Yield: 9.5567083084432252
-      Error: 0.12129453680045969
+      Error: 0.12211776635988737
     - Sample: otherfake
       Yield: 12.052524547133245
-      Error: 0.1504182269905916
+      Error: 0.15140763631823714
     - Sample: singleTop
       Yield: 14.018689009794835
-      Error: 4.2094646072747333
+      Error: 4.2094964997124293
     - Sample: Diboson
       Yield: 60.663180103035479
-      Error: 25.276225732401471
+      Error: 25.276301013096703
     - Sample: triboson
       Yield: 1.0241314130590342
-      Error: 0.012839939220610873
+      Error: 0.012889168505024858
     - Sample: vh
       Yield: 0.29768358484870311
-      Error: 0.72888068719176269
+      Error: 0.72888075167676081
     - Sample: t#bar{t}W^{+}
       Yield: 0
       Error: 0
     - Sample: t#bar{t}W^{-}
       Yield: 21.7765340174427
-      Error: 0.45415185507825562
+      Error: 0.45470537649907111
     - Sample: ttZp2500
-      Yield: 2.6653217054491729
-      Error: 0.079797570853232164
+      Yield: 0.13768572492686898
+      Error: 0.0042515526590178191
     - Sample: Total
-      Yield: 433.16271243052324
-      Error: 30.929148527409414
+      Yield: 430.63507645000095
+      Error: 30.928059164022066
     - Data: data
       Yield: 428
 - Region: SR4b_HT_all
   Samples:
     - Sample: tttt
       Yield: 13.583769870362264
-      Error: 3.6233416971705554
+      Error: 3.6296904229652838
     - Sample: ttt
       Yield: 0.66083430363951157
-      Error: 0.28575770572737802
+      Error: 0.28597007235022176
     - Sample: ttWW
       Yield: 0.30256863319487981
-      Error: 0.16473001810137941
+      Error: 0.16479510489826071
     - Sample: rarettVV
       Yield: 0.59588877573745491
-      Error: 0.37291767591884128
+      Error: 0.37306896086558877
     - Sample: ttll_MG_high_mll
       Yield: 1.8368026067684124
-      Error: 0.42867650998275547
+      Error: 0.42991308510827614
     - Sample: ttll_MG_low_mll
       Yield: 0.11042859018064494
-      Error: 0.030876757791983764
+      Error: 0.030933890055980764
     - Sample: ttH
       Yield: 2.2153521033236268
-      Error: 0.49132857240580197
+      Error: 0.49302696625840192
     - Sample: QmisID
       Yield: 1.3266697750980483
-      Error: 0.030565897740598258
+      Error: 0.040312283624345316
     - Sample: CO
       Yield: 0.39788374887851191
-      Error: 0.0086492004721362477
+      Error: 0.011464276680895339
     - Sample: gstr
       Yield: 0.83205113834873012
-      Error: 0.018737626531412244
+      Error: 0.02475669739891765
     - Sample: HFe
       Yield: 0.12805786810056705
-      Error: 0.21919958305078135
+      Error: 0.2192092844554808
     - Sample: HFm
       Yield: 0.35848509272828188
-      Error: 0.1492019070998746
+      Error: 0.14931192281391636
     - Sample: light
       Yield: 0.31873955250390124
-      Error: 0.0057752337997319658
+      Error: 0.0078631402345050085
     - Sample: otherfake
       Yield: 0.87393594487828485
-      Error: 0.013300300393874131
+      Error: 0.018997080746687687
     - Sample: singleTop
       Yield: 0.35720889379581833
-      Error: 0.14705254813639285
+      Error: 0.14715889279187389
     - Sample: Diboson
       Yield: 0.1557887170732391
-      Error: 0.1077237054315438
+      Error: 0.1077525853273517
     - Sample: triboson
       Yield: 0.0008587370298898324
-      Error: 1.455445399643763e-05
+      Error: 2.0121396553806776e-05
     - Sample: vh
       Yield: 1.9999999999999999e-06
-      Error: 1.0005167430884663e-06
+      Error: 1.0010168074920043e-06
     - Sample: t#bar{t}W^{+}
       Yield: 0
       Error: 0
@@ -621,69 +621,69 @@
       Yield: 0
       Error: 0
     - Sample: ttZp2500
-      Yield: 26.222118157695299
-      Error: 0.27775251998014444
+      Yield: 1.4377577461773232
+      Error: 0.027261866674218045
     - Sample: Total
-      Yield: 50.277444509337357
-      Error: 3.7956733884039009
+      Yield: 25.493084097819384
+      Error: 3.7850261288946658
     - Data: data
       Yield: 51
 - Region: SR3b3l4l_HT_all
   Samples:
     - Sample: tttt
       Yield: 4.0012711409637083
-      Error: 0.80722360370789503
+      Error: 0.8124152885374436
     - Sample: ttt
       Yield: 0.24861089243312817
-      Error: 0.074910555238430931
+      Error: 0.075118465309258087
     - Sample: ttWW
       Yield: 0.2397748556799377
-      Error: 0.12439405586669898
+      Error: 0.12452082125781749
     - Sample: rarettVV
       Yield: 0.13302849626457144
-      Error: 0.074974911688968512
+      Error: 0.07503436010116607
     - Sample: ttll_MG_high_mll
       Yield: 2.6787661963393412
-      Error: 0.45081935625915526
+      Error: 0.45480516293669276
     - Sample: ttll_MG_low_mll
       Yield: 0.023487178788527491
-      Error: 0.027037656022310098
+      Error: 0.027042809416437542
     - Sample: ttH
       Yield: 2.0502897124594579
-      Error: 0.35179332327838259
+      Error: 0.35477072456507358
     - Sample: QmisID
       Yield: 1.9999999999999999e-06
-      Error: 5.0806788633549216e-08
+      Error: 6.9148710519110666e-08
     - Sample: CO
       Yield: 0.44155268648394463
-      Error: 0.36416264837941137
+      Error: 0.36432025964629089
     - Sample: gstr
       Yield: 0.40305832570075822
-      Error: 0.13701497065300305
+      Error: 0.13764176612980661
     - Sample: HFe
       Yield: 0.5646310112915689
-      Error: 0.016685286697766182
+      Error: 0.020923030330931684
     - Sample: HFm
       Yield: 0.4976442099396719
-      Error: 0.06201581690357879
+      Error: 0.063058212774769501
     - Sample: light
       Yield: 0.029535608260129909
-      Error: 0.000795239134262777
+      Error: 0.0013717811212837999
     - Sample: otherfake
       Yield: 0.41153925746859898
-      Error: 0.013877217701695903
+      Error: 0.016806411107649237
     - Sample: singleTop
       Yield: 0.27099469191769349
-      Error: 0.10450296739213469
+      Error: 0.10467865927372454
     - Sample: Diboson
       Yield: 0.12434656380544132
-      Error: 0.082147465329065777
+      Error: 0.082200101911781787
     - Sample: triboson
       Yield: 0.012068208216946862
-      Error: 0.0053473045260412216
+      Error: 0.0053543594310702641
     - Sample: vh
       Yield: 1.9999999999999999e-06
-      Error: 1.0012898330509775e-06
+      Error: 1.0023879209998772e-06
     - Sample: t#bar{t}W^{+}
       Yield: 0
       Error: 0
@@ -691,69 +691,69 @@
       Yield: 0
       Error: 0
     - Sample: ttZp2500
-      Yield: 7.0452459214323451
-      Error: 0.16117932890773903
+      Yield: 0.38356957346898701
+      Error: 0.014220734792682189
     - Sample: Total
-      Yield: 19.175848957445769
-      Error: 1.1700053527221774
+      Yield: 12.514172609482412
+      Error: 1.1582887321305819
     - Data: data
       Yield: 14
 - Region: SR3b2l_HT_all
   Samples:
     - Sample: tttt
       Yield: 13.84794409296401
-      Error: 2.7771093882880922
+      Error: 2.7799118717030922
     - Sample: ttt
       Yield: 1.2402294896330803
-      Error: 0.37260589649118492
+      Error: 0.37275094144383863
     - Sample: ttWW
       Yield: 1.927068933644899
-      Error: 0.96398898826580948
+      Error: 0.96413689249719292
     - Sample: rarettVV
       Yield: 1.026836370452729
-      Error: 0.58652631682684198
+      Error: 0.58658498757044564
     - Sample: ttll_MG_high_mll
       Yield: 9.9207480916457413
-      Error: 1.2063501362131368
+      Error: 1.2088129709882147
     - Sample: ttll_MG_low_mll
       Yield: 0.42629667549307027
-      Error: 0.067063202348157394
+      Error: 0.067194342421091791
     - Sample: ttH
       Yield: 12.697927342237483
-      Error: 1.2923755281598501
+      Error: 1.2961939628654828
     - Sample: QmisID
       Yield: 6.9775340003852317
-      Error: 0.11620069571149773
+      Error: 0.12958720505848603
     - Sample: CO
       Yield: 4.268300824579593
-      Error: 0.070544902502053322
+      Error: 0.079090744897817256
     - Sample: gstr
       Yield: 4.3024694987367829
-      Error: 0.085679752856853461
+      Error: 0.091985381501654431
     - Sample: HFe
       Yield: 4.6850663483259058
-      Error: 0.09806126161211412
+      Error: 0.1047569254452962
     - Sample: HFm
       Yield: 6.2185926065468227
-      Error: 0.14894227472327315
+      Error: 0.15697229103224419
     - Sample: light
       Yield: 1.9657337780129565
-      Error: 0.035862885217893062
+      Error: 0.039371255546024636
     - Sample: otherfake
       Yield: 2.3165128538430784
-      Error: 0.26311271441101824
+      Error: 0.26407077373698468
     - Sample: singleTop
       Yield: 2.0325689818221759
-      Error: 0.6651096343435261
+      Error: 0.66537620763324212
     - Sample: Diboson
       Yield: 0.9286748400585364
-      Error: 0.59146838063567508
+      Error: 0.59152281701749831
     - Sample: triboson
       Yield: 0.0082334823240645619
-      Error: 0.00085161050891712495
+      Error: 0.00085775801497385063
     - Sample: vh
       Yield: 3.9999999999999998e-06
-      Error: 2.0007751252331728e-06
+      Error: 2.0011509275636822e-06
     - Sample: t#bar{t}W^{+}
       Yield: 0
       Error: 0
@@ -761,69 +761,69 @@
       Yield: 0
       Error: 0
     - Sample: ttZp2500
-      Yield: 23.909719817588169
-      Error: 0.31103236540796575
+      Yield: 1.2867156870566783
+      Error: 0.025178566280930653
     - Sample: Total
-      Yield: 98.700462028294325
-      Error: 3.9466046514229958
+      Yield: 76.077457897762827
+      Error: 3.9221030547069895
     - Data: data
       Yield: 94
 - Region: SR2b3l4l_HT_all
   Samples:
     - Sample: tttt
       Yield: 2.2699445948763861
-      Error: 0.45572131126505816
+      Error: 0.45597789487669793
     - Sample: ttt
       Yield: 0.18681901344273644
-      Error: 0.056150655346552267
+      Error: 0.05616250014579368
     - Sample: ttWW
       Yield: 1.627504816887607
-      Error: 0.8142316434311857
+      Error: 0.81431800626529038
     - Sample: rarettVV
       Yield: 0.34431410946677748
-      Error: 0.17227080045248155
+      Error: 0.17228432101306779
     - Sample: ttll_MG_high_mll
       Yield: 14.528243769104277
-      Error: 3.8978281887160455
+      Error: 3.8987819741560767
     - Sample: ttll_MG_low_mll
       Yield: 0.067095696554900469
-      Error: 0.029005562527836336
+      Error: 0.029010430570019112
     - Sample: ttH
       Yield: 9.5990851633557721
-      Error: 0.97852687941022343
+      Error: 0.98010161040310706
     - Sample: QmisID
       Yield: 0.0030686507206964964
-      Error: 7.1871056206904355e-05
+      Error: 8.2174562238685882e-05
     - Sample: CO
       Yield: 1.3114477160945994
-      Error: 0.02758379402280647
+      Error: 0.028692783437014691
     - Sample: gstr
       Yield: 1.5291116514714711
-      Error: 0.028630922384490172
+      Error: 0.030207729353135843
     - Sample: HFe
       Yield: 0.62058490610451844
-      Error: 0.11203403706047019
+      Error: 0.11210008923972287
     - Sample: HFm
       Yield: 0.5592984627068176
-      Error: 0.1262251093494757
+      Error: 0.12629462187749019
     - Sample: light
       Yield: 0.79727442577792573
-      Error: 0.014719517170944791
+      Error: 0.015840122260829547
     - Sample: otherfake
       Yield: 1.4233188477489691
-      Error: 0.14724760355560992
+      Error: 0.14749394164336299
     - Sample: singleTop
       Yield: 1.5719641221892551
-      Error: 0.47245555285549817
+      Error: 0.4725688910240774
     - Sample: Diboson
       Yield: 1.255759376016129
-      Error: 0.81328584781166469
+      Error: 0.81333705122621036
     - Sample: triboson
       Yield: 0.044100727149319098
-      Error: 0.00076460349396141158
+      Error: 0.00084940738520938159
     - Sample: vh
       Yield: 3.0000000000000001e-06
-      Error: 1.5010281213152898e-06
+      Error: 1.5011403991625427e-06
     - Sample: t#bar{t}W^{+}
       Yield: 0
       Error: 0
@@ -831,69 +831,69 @@
       Yield: 0
       Error: 0
     - Sample: ttZp2500
-      Yield: 3.9026160678645838
-      Error: 0.071607444632641848
+      Yield: 0.2036734793733565
+      Error: 0.0042275912724148712
     - Sample: Total
-      Yield: 41.641555117532747
-      Error: 4.3114464797427887
+      Yield: 37.942612529041511
+      Error: 4.3090675318713769
     - Data: data
       Yield: 40
 - Region: SR2b2l_HT_all
   Samples:
     - Sample: tttt
       Yield: 8.6425592344944171
-      Error: 1.7301076236528621
+      Error: 1.7302004779993163
     - Sample: ttt
       Yield: 0.99299554670032708
-      Error: 0.29803493306826084
+      Error: 0.29804064513977974
     - Sample: ttWW
       Yield: 8.6323204822130233
-      Error: 4.3167574613500088
+      Error: 4.3168012846053978
     - Sample: rarettVV
       Yield: 2.2424649987438676
-      Error: 1.1214114032934666
+      Error: 1.121419494442208
     - Sample: ttll_MG_high_mll
       Yield: 45.554845200964756
-      Error: 13.15802729965225
+      Error: 13.158251036353255
     - Sample: ttll_MG_low_mll
       Yield: 2.8704894780234911
-      Error: 0.83237137329467437
+      Error: 0.83238540359678148
     - Sample: ttH
       Yield: 54.436228628814703
-      Error: 5.471319005906742
+      Error: 5.4720756680921561
     - Sample: QmisID
       Yield: 31.998145172123238
-      Error: 0.28126655029125319
+      Error: 0.28819696086291025
     - Sample: CO
       Yield: 19.776599975414399
-      Error: 0.19515414394976796
+      Error: 0.19802932155436015
     - Sample: gstr
       Yield: 19.069723274517344
-      Error: 0.18875344895611024
+      Error: 0.19151503880093845
     - Sample: HFe
       Yield: 15.991334404626151
-      Error: 0.17419224212610018
+      Error: 0.17611601027646379
     - Sample: HFm
       Yield: 23.698513246683824
-      Error: 0.26503632432237695
+      Error: 0.26776735657123274
     - Sample: light
       Yield: 10.361401470815618
-      Error: 0.092853360559107437
+      Error: 0.095089055757754656
     - Sample: otherfake
       Yield: 19.877396925415919
-      Error: 0.20723978362620793
+      Error: 0.20981653121764687
     - Sample: singleTop
       Yield: 9.1430018194180587
-      Error: 2.7441984235439465
+      Error: 2.7442494261900272
     - Sample: Diboson
       Yield: 7.3932831788540287
-      Error: 4.6008484963904444
+      Error: 4.6008748706652316
     - Sample: triboson
       Yield: 0.080003357670839714
-      Error: 0.00066935297736520939
+      Error: 0.0006930020363412544
     - Sample: vh
       Yield: 3.9999999999999998e-06
-      Error: 2.0002678982176777e-06
+      Error: 2.0002919063797289e-06
     - Sample: t#bar{t}W^{+}
       Yield: 0
       Error: 0
@@ -901,10 +901,10 @@
       Yield: 0
       Error: 0
     - Sample: ttZp2500
-      Yield: 13.473512478769564
-      Error: 0.11721976896346373
+      Yield: 0.71128435520349553
+      Error: 0.0067672120978433973
     - Sample: Total
-      Yield: 294.23482287426356
-      Error: 16.870478788567787
+      Yield: 281.47259475069745
+      Error: 16.866258275053728
     - Data: data
       Yield: 405

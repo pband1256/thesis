@@ -1,50 +1,50 @@
 Samples:
   - Name: ttZp1500
-    Yield: [0.0023182651446269262]
+    Yield: [0.069083588579812644]
   - Name: tttt
-    Yield: [0.13992800153308094]
+    Yield: [0.15243378292833759]
   - Name: ttt
-    Yield: [0.036911194762576691]
+    Yield: [0.037193898492839085]
   - Name: ttWW
-    Yield: [0.33675162433071049]
+    Yield: [0.33654658838263984]
   - Name: rarettVV
-    Yield: [0.13853687717058236]
+    Yield: [0.1482742145974256]
   - Name: ttll_MG_high_mll
-    Yield: [5.047873006534874]
+    Yield: [5.443749216307932]
   - Name: ttll_MG_low_mll
-    Yield: [0.34362557616562528]
+    Yield: [0.37057419204748793]
   - Name: ttH
-    Yield: [3.3561174038899475]
+    Yield: [3.3456681721707318]
   - Name: QmisID
-    Yield: [113.68303973604522]
+    Yield: [113.69410471768843]
   - Name: CO
-    Yield: [69.612392521589001]
+    Yield: [69.392960942980707]
   - Name: gstr
-    Yield: [19.356414054164087]
+    Yield: [19.486587948683031]
   - Name: HFe
-    Yield: [10.990034656383465]
+    Yield: [10.546856676206897]
   - Name: HFm
-    Yield: [13.086573944654065]
+    Yield: [13.698642225832137]
   - Name: light
-    Yield: [3.1287522500835232]
+    Yield: [3.5084625180374327]
   - Name: otherfake
-    Yield: [37.172718060547773]
+    Yield: [37.176336150316693]
   - Name: singleTop
-    Yield: [3.9624620381205533]
+    Yield: [3.940613571491058]
   - Name: Diboson
-    Yield: [9.2522582536108047]
+    Yield: [8.2575092036321731]
   - Name: triboson
-    Yield: [0.069395434781661255]
+    Yield: [0.069402189168364534]
   - Name: vh
-    Yield: [9.4853877491442781e-07]
+    Yield: [1.0152086919966036e-06]
   - Name: t#bar{t}W^{+}
-    Yield: [12.189574498924683]
+    Yield: [12.140740201012862]
   - Name: t#bar{t}W^{-}
-    Yield: [6.716008845526102]
+    Yield: [6.5665693846966029]
 Total:
-  - Yield: [308.62168719250172]
-    UncertaintyUp: [17.376883592978373]
-    UncertaintyDown: [-17.376883592978373]
+  - Yield: [308.38231039846227]
+    UncertaintyUp: [17.375965902147335]
+    UncertaintyDown: [-17.375965902147335]
 Data:
   - Yield: [309]
 Figure:

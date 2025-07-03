@@ -3,62 +3,47 @@
 \begin{document}
 \vspace{-1\baselineskip}
 
-Reconstruction software reconstructs basic objects from signals collected from the event: interaction vertices, tracks, topological clusters of energy deposits\\
-These quantities then used to reconstruct physics objects i.e. particles (electron, muon), jets, MET
+Activity within the \acs{ATLAS} detector are recorded as raw electronic signals, which can be utilized by \acs{ATLAS} reconstruction software to derive physics objects for analysis. This chapter describes the reconstruction and identification of basic objects (e.g. interaction vertices, tracks, topological clusters of energy deposits) and subsequently of complex physics objects i.e. particles and particle signatures.
 
 \section{Primary reconstruction}
 \label{sec:primaryreco}
 
-\subsection{Topological clusters}
-\label{sec:topocluster}
-\citep{reco:topocluster}\citep{reco:topocluster_2}\\
-Topological cluster (topo-cluster): Clusters of topologically connected cell signals in the calorimeter at the EM scale. This scale does not consider loss of signal from hadrons. Singular hits without hits from neighboring cells are considered noise.\\
-Done in an effort to extract signal while minimizing electronic effects and physical fluctuations. 
-Used to reconstruct hadronic objects and particles decaying hadronically i.e. $\tau$ leptons\\
-Signal hits with significance above a cell signal significance level $\varsigma_\mathrm{cell}^\mathrm{EM}$ are seeded in as part of a proto-cluster. Neighboring cells satisfying a cluster growth threshold are collected into the cluster.\\
-Two clusters are merged if a cell is matched to both\\
-If a cluster has two or more local signal maxima satisfying $E_\mathrm{cell}^\mathrm{EM}>500$ MeV, the cluster is split accordingly.\\
-The process continues iteratively until all cells with significant signal efficiency have been matched to a cluster.\\
-\begin{figure}[!htbp]
-\begin{center}
-\includegraphics[width=0.7\linewidth]{fig/reco_topo1.png}
-\caption{\label{fig:reco:topo1}}
-\end{center}
-\end{figure}
-
 \subsection{Tracks}
-\citep{reco:track}\\
-Charged particles deposit energy in different layers of the inner detector and muon spectrometer\\
-ID reco software: inside-out and outside-in algorithms\\
-\begin{itemize}
 
-\item Inside-out: \citep{reco:io}\\
-Starts with seeded hits in the silicon detector in pixel \& SCT\\
-Loosely matched to an EM cluster to form a track candidate\\
-Hits are added to form a track candidate using a pattern recognition algorithm based on a Kalman filter formalism \citep{reco:kalman}\\
-Track candidates are then fitted with a $\chi^2$ filter \citep{reco:track_chi2} and loosely matched to a fixed-sized EM cluster. Successfully matched track candidates are re-fitted with a Gaussian-sum filter (GSF) \citep{reco:track_gsf}\\
-This is followed by a track scoring strategy to resolve fake tracks \& hit ambiguity between different tracks \citep{reco:track_ambiguity}\\
-Extend to TRT to form final tracks, filtered by threshold $\pT > 400$ MeV.\\
-\item Outside-in: \citep{reco:oi}\\
-Reverse, starts with segments in TRT extending inward to silicon hits in pixel \& SCT\\
-Targeting secondary tracks (decays/interactions of primary particles) or long-lived particles
-\end{itemize}
+Charged particles traveling through the ATLAS detector deposit energy in different layers of the \acs{ID} and \acs{MS}. The \acs{ID} track reconstruction software consists of two algorithm chains: inside-out and outside-in track reconstruction \citep{reco:track,reco:io,reco:oi}.
+
+The inside-out algorithm is primarily used for the reconstruction of primary particles i.e. particles directly produced from $pp$ collisions or decay products of short-lived particles. The process starts by forming space points from seeded hits in the silicon detectors within the pixel \& \acs{SCT} detectors. Hits further away from the interaction vertex are added to the track candidate using a combinatorial Kalman filter \citep{reco:kalman} pattern recognition algorithm. Track candidates are then fitted with a \acs{chi2} filter \citep{reco:track_chi2} and loosely matched to a fixed-sized \acs{EM} cluster. Successfully matched track candidates are re-fitted with a Gaussian-sum filter (GSF) \citep{reco:track_gsf}, followed by a track scoring strategy to resolve fake tracks \& hit ambiguity between different tracks \citep{reco:track_ambiguity}. The track candidate is then extended to the \acs{TRT} to form final tracks satisfying $\pT > 400$ MeV. The outside-in algorithm handles secondary tracks mainly produced from long-lives particles or decays of primary particles by back-tracking from \acs{TRT} segments, which are then extended inward to match silicon hits in the pixel and \acs{SCT} detectors to form track reconstruction objects.
+% ms track reconstruction? \citep{reco:muon_ID2}
 
 \subsection{Vertices}
-Vertices: interaction or decay point\\
-Primary vertex: pp interaction point\\
-%Secondary vertex: secondary interaction or decay long-lived particle\\
-Important for reconstruction of the hard scattering pp interaction, resulting trajectories and kinematic information of the event\\
-\begin{itemize}
-\item Vertex finding:\\
-Uses the z-position of a track as input\\
-Vertices require to have at least 2 tracks\\
-Iterative $\chi^2$ algorithm evaluate track-vertex compatibility, using the track as new seed for another vertex if large discrepancy
-\item Vertex fitting:\\
-Adaptive multi-vertex fitter (AVF) algorithm assigns weights that depend on the track-vertex compatibility to each track to measure the probability of the track being an outlier vs inlier.\\
-Vertex is then estimated by iteratively minimizing an objective function of these weights
-\end{itemize}
 
+Vertices represent the point of interaction or decay for particles within the ATLAS detector. Primary vertices (\acs{PV}s) are defined as the point of collision for hard-scattering $pp$ interactions, while secondary or displaced vertices result from particle decays occurring at a distance from its production point. 
+
+Reconstruction of \acs{PV}s is crucial to accurately profile the kinematic information of an event and form a basis for subsequent reconstruction procedures. Primary vertex reconstruction occurs in two stages: vertex finding and vertex fitting \citep{reco:vertex_primary}. The vertex finding algorithm uses the spatial coordinates of reconstructed tracks to form the seed for a vertex candidate. An adaptive vertex fitting algorithm \citep{reco:vertex_fitting} then iteratively evaluates track-vertex compatibility to estimate a new best vertex position. Less compatible tracks are down-weighted in each subsequent iteration, and incompatible tracks are removed and can be used for another vertex seed; the process is repeated until no further \acs{PV} can be found. All reconstructed vertices without at least two matched tracks are considered invalid and discarded.
+
+Secondary vertex reconstruction uses the Secondary Vertex Finder (SVF) algorithm \citep{reco:vertex_secondary} which is primarily designed to reconstruct $b$- and $c$-hadrons for flavor tagging purposes. The SVF aims to reconstruct one secondary vertex per jet and only considers tracks that are matched to a two-track vertex and contained within a \pT-dependent cone around the jet axis. The tracks are then used to reconstruct a secondary vertex candidate using an iterative process similar to the \acs{PV} vertex fitting procedure.
+
+\subsection{Topological clusters}
+\label{sec:topocluster}
+%\citep{reco:topocluster_2}\\
+%Used to reconstruct hadronic objects and particles decaying hadronically i.e. $\tau$ leptons\\
+
+One of the main basic reconstruction objects is a topological cluster (topo-cluster) \citep{reco:topocluster}, primarily used to reconstruct hadron- and jet-related objects in an effort to extract signal while minimizing electronic effects and physical fluctuations. Topo-clusters also allow for recovery of energy lost through bremsstrahlung or photon conversions.
+
+ATLAS dynamic topological cell clustering algorithms make use of clusters of spatially related cell signals in the calorimeter at the \acs{EM} scale as basis for reconstruction, while individual cell signals without hits from neighboring cells are considered noise and discarded.
+Cells with signal-to-noise ratio $\varsigma_\mathrm{cell}^\mathrm{EM}$ passing a primary seed threshold are seeded in as part of a proto-cluster. Neighboring cells satisfying a cluster growth threshold are collected into the proto-cluster. If a cell is matched to two proto-clusters, the clusters are merged. Two or more local signal maxima in a cluster satisfying $E_\mathrm{cell}^\mathrm{EM}>500$ MeV suggest the presence of multiple particles in close proximity, and the cluster is split accordingly to maintain good resolution of the energy flow. The process continues iteratively until all cells with $\varsigma_\mathrm{cell}^\mathrm{EM}$ above a principal cell filter level have been matched to a cluster.
+
+\begin{figure}[!htbp]
+\centering
+\subfloat[Cells passing primary seed threshold]{
+\includegraphics[width=0.5\linewidth]{fig/reco_topo1.png}}
+\subfloat[Cells passing cluster growth threshold]{
+\includegraphics[width=0.5\linewidth]{fig/reco_topo2.png}}
+
+\subfloat[Final reconstructed topo-clusters]{
+\includegraphics[width=0.5\linewidth]{fig/reco_topo3.png}}
+\caption[Stages of topo-cluster formation corresponding to each threshold. In (a), proto-clusters are seeded from cells with adequate signal significance $\varsigma_\mathrm{cell}^\mathrm{EM}$. The clusters are further merged and split in (b) according to a predefined cluster growth threshold. The process stops in (c) when all sufficiently significant signal hits have been matched to a cluster.]{\label{fig:reco:topo1} Stages of topo-cluster formation corresponding to each threshold. In (a), proto-clusters are seeded from cells with adequate signal significance $\varsigma_\mathrm{cell}^\mathrm{EM}$. The clusters are further merged and split in (b) following a predefined cluster growth threshold. The process stops in (c) when all sufficiently significant signal hits have been matched to a cluster \citep{reco:topocluster}.}
+\end{figure}
 
 \section{Jets}
 - Quarks, gluons \& other non-color-neutral hadrons cannot be observed individually due to QCD color confinement\\

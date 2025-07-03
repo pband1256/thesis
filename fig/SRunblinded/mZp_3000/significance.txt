@@ -1,6 +1,0 @@
-=== INFO::Common::ProcessSignificanceOutput: Printing results of the asymptotic significance estimate
-=== INFO::Common::ProcessSignificanceOutput: Expected p-value mu = 1 (median)     : 0.000001, error: 0.000000
-=== INFO::Common::ProcessSignificanceOutput: Observed p-value (median)            : 0.045262, error: 0.000001
-=== INFO::Common::ProcessSignificanceOutput:
-=== INFO::Common::ProcessSignificanceOutput: Expected significance mu = 1 (median): 4.879589, error: -0.000004
-=== INFO::Common::ProcessSignificanceOutput: Observed significance (median)       : 1.692639, error: -0.000009

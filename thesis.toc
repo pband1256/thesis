@@ -26,17 +26,17 @@
 \contentsline {subsection}{\numberline {3.2.6}Trigger \& data acquisition}{29}{subsection.3.2.6}%
 \contentsline {chapter}{\numberline {Chapter 4.}\negthickspace \negthickspace Particle Reconstruction \& Identification}{31}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Primary reconstruction}{31}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Topological clusters}{31}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Tracks}{32}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Vertices}{33}{subsection.4.1.3}%
-\contentsline {section}{\numberline {4.2}Jets}{34}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Flavor tagging}{35}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.1.1}Tracks}{31}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Vertices}{32}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Topological clusters}{33}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}Jets}{35}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Flavor tagging}{36}{subsection.4.2.1}%
 \contentsline {section}{\numberline {4.3}Leptons}{38}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Electrons}{38}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Muons}{41}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}Missing transverse momentum}{43}{section.4.4}%
+\contentsline {subsection}{\numberline {4.3.1}Electrons}{39}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Muons}{42}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Missing transverse momentum}{44}{section.4.4}%
 \contentsline {section}{\numberline {4.5}Overlap removal}{45}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Object definition}{45}{section.4.6}%
+\contentsline {section}{\numberline {4.6}Object definition}{46}{section.4.6}%
 \contentsline {chapter}{\numberline {Chapter 5.}\negthickspace \negthickspace Data \& Simulated Samples}{47}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Data samples}{47}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Monte Carlo samples}{48}{section.5.2}%
@@ -48,7 +48,7 @@
 \contentsline {subsection}{\numberline {6.2.1}Signal regions}{54}{subsection.6.2.1}%
 \contentsline {subsection}{\numberline {6.2.2}Control regions}{55}{subsection.6.2.2}%
 \contentsline {subsection}{\numberline {6.2.3}Validation regions}{57}{subsection.6.2.3}%
-\contentsline {section}{\numberline {6.3}Background estimation}{59}{section.6.3}%
+\contentsline {section}{\numberline {6.3}Background estimation}{57}{section.6.3}%
 \contentsline {subsection}{\numberline {6.3.1}Template fitting for fake/non-prompt estimation}{59}{subsection.6.3.1}%
 \contentsline {subsection}{\numberline {6.3.2}Charge misidentification data-driven estimation}{60}{subsection.6.3.2}%
 \contentsline {subsection}{\numberline {6.3.3}\ensuremath {t\bar {t}W}\xspace background data-driven estimation}{62}{subsection.6.3.3}%

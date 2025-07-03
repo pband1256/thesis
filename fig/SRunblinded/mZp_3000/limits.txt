@@ -1,7 +1,0 @@
-=== INFO::Common::ProcessLimitOutput: Printing results of the asymptotic limit estimate
-=== INFO::Common::ProcessLimitOutput: Expected limit (median): 0.400932, worst case error: 0.031514
-=== INFO::Common::ProcessLimitOutput: Expected limit (-1 sig): 0.285342, worst case error: 0.004677
-=== INFO::Common::ProcessLimitOutput: Expected limit ( 1 sig): 0.568404, worst case error: -0.022893
-=== INFO::Common::ProcessLimitOutput: Expected limit (-2 sig): 0.210992, worst case error: 0.002798
-=== INFO::Common::ProcessLimitOutput: Expected limit ( 2 sig): 0.780942, worst case error: 0.072537
-=== INFO::Common::ProcessLimitOutput: Observed limit         : 0.672569, worst case error: 0.059776

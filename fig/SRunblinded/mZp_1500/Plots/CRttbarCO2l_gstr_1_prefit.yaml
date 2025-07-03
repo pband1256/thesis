@@ -1,6 +1,6 @@
 Samples:
   - Name: ttZp1500
-    Yield: [0.015008299553673714]
+    Yield: [0.0038528353841657632]
   - Name: tttt
     Yield: [0.0048400708280434829]
   - Name: ttt
@@ -42,9 +42,9 @@ Samples:
   - Name: t#bar{t}W^{-}
     Yield: [0.090523322820735955]
 Total:
-  - Yield: [73.044468841979963]
-    UncertaintyUp: [3.1467957838095417]
-    UncertaintyDown: [-3.1467957838095417]
+  - Yield: [73.033313377810458]
+    UncertaintyUp: [3.181168323322058]
+    UncertaintyDown: [-3.181168323322058]
 Data:
   - Yield: [70]
 Figure:

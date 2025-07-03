@@ -14869,8 +14869,8 @@ In Region : CRttbarCO2l_gstr_1
  --->>  MUON_SAGITTA_PTEXTRA      is dropped
  --->>  MUON_SAGITTA_RESBIAS      is dropped
  --->>  MUON_SCALE      is dropped
- --->>  EG_RESOLUTION_ALL      is dropped
- --->>  EG_SCALE_ALL      is dropped
+ --->>  EG_RESOLUTION_ALL      is norm only
+ --->>  EG_SCALE_ALL      is norm only
  --->>  EL_EFF_TriggerEff_TOTAL      is dropped
  --->>  EL_EFF_Trigger_TOTAL      is dropped
  --->>  PRW_DATASF      is dropped
@@ -22220,7 +22220,7 @@ In Region : CR1b3le_lep_2_pt
  --->>  ttW_minus_10j_truthgbb_4b      is not present
  --->>  CO_ShapeSyst_simple      is not present
  --->>  Gstr_ShapeSyst_simple      is not present
- --->>  ttZp_syst_varRF      is dropped
+ --->>  ttZp_syst_varRF      has bad norm
  --->>  tttt_syst_varRF      is not present
  --->>  ttt_syst_varRF      is not present
  --->>  ttH_syst_varRF      is not present
@@ -22238,128 +22238,128 @@ In Region : CR1b3le_lep_2_pt
  --->>  ttZ_low_mll_syst_MUR1_MUF05      is not present
  --->>  ttZ_low_mll_syst_MUR1_MUF2      is not present
  --->>  ttZ_low_mll_syst_MUR2_MUF1      is not present
- --->>  JET_BJES_Response      is norm only
- --->>  JET_EffectiveNP_Detector1      is dropped
- --->>  JET_EffectiveNP_Detector2      is dropped
- --->>  JET_EffectiveNP_Mixed1      is dropped
- --->>  JET_EffectiveNP_Mixed2      is dropped
- --->>  JET_EffectiveNP_Mixed3      is dropped
- --->>  JET_EffectiveNP_Modelling1      is dropped
- --->>  JET_EffectiveNP_Modelling2      is dropped
- --->>  JET_EffectiveNP_Modelling3      is dropped
- --->>  JET_EffectiveNP_Modelling4      is dropped
- --->>  JET_EffectiveNP_Statistical1      is dropped
- --->>  JET_EffectiveNP_Statistical2      is dropped
- --->>  JET_EffectiveNP_Statistical3      is dropped
- --->>  JET_EffectiveNP_Statistical4      is dropped
- --->>  JET_EffectiveNP_Statistical5      is dropped
- --->>  JET_EffectiveNP_Statistical6      is dropped
- --->>  JET_EtaIntercalibration_Modelling      is norm only
- --->>  JET_EtaIntercalibration_NonClosure_PreRec      is norm only
- --->>  JET_EtaIntercalibration_TotalStat      is dropped
- --->>  JET_Flavor_Composition_Bkg      is dropped
- --->>  JET_Flavor_Composition_Sig      is dropped
- --->>  JET_Flavor_Response      is dropped
- --->>  JET_InSitu_NonClosure_PreRec      is norm only
- --->>  JET_JERUnc_Noise_PreRec      is norm only
- --->>  JET_JERUnc_Noise_PreRec_PseudoData      is dropped
- --->>  JET_JERUnc_mc20vsmc21_MC20_PreRec      is dropped
+ --->>  JET_BJES_Response      has bad norm
+ --->>  JET_EffectiveNP_Detector1      has bad norm
+ --->>  JET_EffectiveNP_Detector2      has bad norm
+ --->>  JET_EffectiveNP_Mixed1      has bad norm
+ --->>  JET_EffectiveNP_Mixed2      has bad norm
+ --->>  JET_EffectiveNP_Mixed3      has bad norm
+ --->>  JET_EffectiveNP_Modelling1      has bad norm
+ --->>  JET_EffectiveNP_Modelling2      has bad norm
+ --->>  JET_EffectiveNP_Modelling3      has bad norm
+ --->>  JET_EffectiveNP_Modelling4      has bad norm
+ --->>  JET_EffectiveNP_Statistical1      has bad norm
+ --->>  JET_EffectiveNP_Statistical2      has bad norm
+ --->>  JET_EffectiveNP_Statistical3      has bad norm
+ --->>  JET_EffectiveNP_Statistical4      has bad norm
+ --->>  JET_EffectiveNP_Statistical5      has bad norm
+ --->>  JET_EffectiveNP_Statistical6      has bad norm
+ --->>  JET_EtaIntercalibration_Modelling      has bad norm
+ --->>  JET_EtaIntercalibration_NonClosure_PreRec      has bad norm
+ --->>  JET_EtaIntercalibration_TotalStat      has bad norm
+ --->>  JET_Flavor_Composition_Bkg      has bad norm
+ --->>  JET_Flavor_Composition_Sig      has bad norm
+ --->>  JET_Flavor_Response      has bad norm
+ --->>  JET_InSitu_NonClosure_PreRec      has bad norm
+ --->>  JET_JERUnc_Noise_PreRec      has bad norm
+ --->>  JET_JERUnc_Noise_PreRec_PseudoData      has bad norm
+ --->>  JET_JERUnc_mc20vsmc21_MC20_PreRec      has bad norm
  --->>  JET_JERUnc_mc20vsmc21_AF3_PreRec      is not present
- --->>  JET_JERUnc_mc20vsmc21_MC20_PreRec_PseudoData      is dropped
+ --->>  JET_JERUnc_mc20vsmc21_MC20_PreRec_PseudoData      has bad norm
  --->>  JET_JERUnc_mc20vsmc21_AF3_PreRec_PseudoData      is not present
- --->>  JET_JER_DataVsMC_MC16      is dropped
- --->>  JET_JER_DataVsMC_MC16_PseudoData      is dropped
- --->>  JET_JER_EffectiveNP_1      is dropped
- --->>  JET_JER_EffectiveNP_1_PseudoData      is dropped
- --->>  JET_JER_EffectiveNP_2      is norm only
- --->>  JET_JER_EffectiveNP_2_PseudoData      is dropped
- --->>  JET_JER_EffectiveNP_3      is dropped
- --->>  JET_JER_EffectiveNP_3_PseudoData      is dropped
- --->>  JET_JER_EffectiveNP_4      is norm only
- --->>  JET_JER_EffectiveNP_4_PseudoData      is dropped
- --->>  JET_JER_EffectiveNP_5      is dropped
- --->>  JET_JER_EffectiveNP_5_PseudoData      is dropped
- --->>  JET_JER_EffectiveNP_6      is dropped
- --->>  JET_JER_EffectiveNP_6_PseudoData      is dropped
- --->>  JET_JER_EffectiveNP_7      is dropped
- --->>  JET_JER_EffectiveNP_7_PseudoData      is dropped
- --->>  JET_JER_EffectiveNP_8      is dropped
- --->>  JET_JER_EffectiveNP_8_PseudoData      is dropped
- --->>  JET_JER_EffectiveNP_9      is dropped
- --->>  JET_JER_EffectiveNP_9_PseudoData      is dropped
- --->>  JET_JER_EffectiveNP_10      is dropped
- --->>  JET_JER_EffectiveNP_10_PseudoData      is dropped
- --->>  JET_JER_EffectiveNP_11      is dropped
- --->>  JET_JER_EffectiveNP_11_PseudoData      is dropped
- --->>  JET_JER_EffectiveNP_12restTerm      is dropped
- --->>  JET_JER_EffectiveNP_12restTerm_PseudoData      is dropped
- --->>  JET_JESUnc_Noise_PreRec      is dropped
- --->>  JET_JESUnc_VertexingAlg_PreRec      is norm only
- --->>  JET_JESUnc_mc20vsmc21_MC20_PreRec      is dropped
+ --->>  JET_JER_DataVsMC_MC16      has bad norm
+ --->>  JET_JER_DataVsMC_MC16_PseudoData      has bad norm
+ --->>  JET_JER_EffectiveNP_1      has bad norm
+ --->>  JET_JER_EffectiveNP_1_PseudoData      has bad norm
+ --->>  JET_JER_EffectiveNP_2      has bad norm
+ --->>  JET_JER_EffectiveNP_2_PseudoData      has bad norm
+ --->>  JET_JER_EffectiveNP_3      has bad norm
+ --->>  JET_JER_EffectiveNP_3_PseudoData      has bad norm
+ --->>  JET_JER_EffectiveNP_4      has bad norm
+ --->>  JET_JER_EffectiveNP_4_PseudoData      has bad norm
+ --->>  JET_JER_EffectiveNP_5      has bad norm
+ --->>  JET_JER_EffectiveNP_5_PseudoData      has bad norm
+ --->>  JET_JER_EffectiveNP_6      has bad norm
+ --->>  JET_JER_EffectiveNP_6_PseudoData      has bad norm
+ --->>  JET_JER_EffectiveNP_7      has bad norm
+ --->>  JET_JER_EffectiveNP_7_PseudoData      has bad norm
+ --->>  JET_JER_EffectiveNP_8      has bad norm
+ --->>  JET_JER_EffectiveNP_8_PseudoData      has bad norm
+ --->>  JET_JER_EffectiveNP_9      has bad norm
+ --->>  JET_JER_EffectiveNP_9_PseudoData      has bad norm
+ --->>  JET_JER_EffectiveNP_10      has bad norm
+ --->>  JET_JER_EffectiveNP_10_PseudoData      has bad norm
+ --->>  JET_JER_EffectiveNP_11      has bad norm
+ --->>  JET_JER_EffectiveNP_11_PseudoData      has bad norm
+ --->>  JET_JER_EffectiveNP_12restTerm      has bad norm
+ --->>  JET_JER_EffectiveNP_12restTerm_PseudoData      has bad norm
+ --->>  JET_JESUnc_Noise_PreRec      has bad norm
+ --->>  JET_JESUnc_VertexingAlg_PreRec      has bad norm
+ --->>  JET_JESUnc_mc20vsmc21_MC20_PreRec      has bad norm
  --->>  JET_JESUnc_mc20vsmc21_AF3_PreRec      is not present
- --->>  JET_NNJvtEfficiency      is dropped
- --->>  JET_Pileup_OffsetMu      is dropped
- --->>  JET_Pileup_OffsetNPV      is dropped
- --->>  JET_Pileup_PtTerm      is dropped
- --->>  JET_Pileup_RhoTopology      is norm only
- --->>  JET_PunchThrough_MC16      is dropped
- --->>  JET_RelativeNonClosure_MC20      is dropped
+ --->>  JET_NNJvtEfficiency      has bad norm
+ --->>  JET_Pileup_OffsetMu      has bad norm
+ --->>  JET_Pileup_OffsetNPV      has bad norm
+ --->>  JET_Pileup_PtTerm      has bad norm
+ --->>  JET_Pileup_RhoTopology      has bad norm
+ --->>  JET_PunchThrough_MC16      has bad norm
+ --->>  JET_RelativeNonClosure_MC20      has bad norm
  --->>  JET_RelativeNonClosure_AF3      is not present
- --->>  JET_SingleParticle_HighPt      is dropped
- --->>  MUON_CB      is dropped
- --->>  MUON_EFF_ISO_STAT      is dropped
- --->>  MUON_EFF_ISO_SYS      is dropped
- --->>  MUON_EFF_RECO_STAT      is dropped
- --->>  MUON_EFF_RECO_STAT_LOWPT      is dropped
- --->>  MUON_EFF_RECO_SYS      is dropped
- --->>  MUON_EFF_RECO_SYS_LOWPT      is dropped
- --->>  MUON_EFF_TTVA_STAT      is dropped
- --->>  MUON_EFF_TTVA_SYS      is dropped
- --->>  MUON_EFF_TrigStatUncertainty      is dropped
- --->>  MUON_EFF_TrigSystUncertainty      is dropped
- --->>  MUON_SAGITTA_DATASTAT      is dropped
- --->>  MUON_SAGITTA_GLOBAL      is dropped
- --->>  MUON_SAGITTA_PTEXTRA      is dropped
- --->>  MUON_SAGITTA_RESBIAS      is dropped
- --->>  MUON_SCALE      is dropped
- --->>  EG_RESOLUTION_ALL      is dropped
- --->>  EG_SCALE_ALL      is dropped
- --->>  EL_EFF_TriggerEff_TOTAL      is dropped
- --->>  EL_EFF_Trigger_TOTAL      is dropped
- --->>  PRW_DATASF      is norm only
- --->>  FT_EFF_Eigen_B_0__1      is dropped
- --->>  FT_EFF_Eigen_B_1__1      is dropped
- --->>  FT_EFF_Eigen_B_2__1      is dropped
- --->>  FT_EFF_Eigen_B_3__1      is dropped
- --->>  FT_EFF_Eigen_B_4__1      is dropped
- --->>  FT_EFF_Eigen_B_5__1      is dropped
- --->>  FT_EFF_Eigen_B_6__1      is dropped
- --->>  FT_EFF_Eigen_B_7__1      is dropped
- --->>  FT_EFF_Eigen_B_8__1      is dropped
- --->>  FT_EFF_Eigen_B_9__1      is dropped
- --->>  FT_EFF_Eigen_B_10__1      is dropped
- --->>  FT_EFF_Eigen_C_0__1      is dropped
- --->>  FT_EFF_Eigen_C_1__1      is dropped
- --->>  FT_EFF_Eigen_C_2__1      is dropped
- --->>  FT_EFF_Eigen_C_3__1      is dropped
- --->>  FT_EFF_Eigen_C_4__1      is dropped
- --->>  FT_EFF_Eigen_C_5__1      is dropped
- --->>  FT_EFF_Eigen_C_6__1      is dropped
- --->>  FT_EFF_Eigen_C_7__1      is dropped
- --->>  FT_EFF_Eigen_C_8__1      is dropped
- --->>  FT_EFF_Eigen_C_9__1      is dropped
- --->>  FT_EFF_Eigen_C_10__1      is dropped
- --->>  FT_EFF_Eigen_Light_0__1      is dropped
- --->>  FT_EFF_Eigen_Light_1__1      is dropped
- --->>  FT_EFF_Eigen_Light_2__1      is dropped
- --->>  FT_EFF_Eigen_Light_3__1      is dropped
- --->>  FT_EFF_Eigen_Light_4__1      is dropped
- --->>  FT_EFF_Eigen_Light_5__1      is dropped
- --->>  FT_EFF_Eigen_Light_6__1      is dropped
- --->>  FT_EFF_Eigen_Light_7__1      is dropped
- --->>  FT_EFF_Eigen_Light_8__1      is dropped
- --->>  FT_EFF_Eigen_Light_9__1      is dropped
- --->>  FT_EFF_Eigen_Light_10__1      is dropped
+ --->>  JET_SingleParticle_HighPt      has bad norm
+ --->>  MUON_CB      has bad norm
+ --->>  MUON_EFF_ISO_STAT      has bad norm
+ --->>  MUON_EFF_ISO_SYS      has bad norm
+ --->>  MUON_EFF_RECO_STAT      has bad norm
+ --->>  MUON_EFF_RECO_STAT_LOWPT      has bad norm
+ --->>  MUON_EFF_RECO_SYS      has bad norm
+ --->>  MUON_EFF_RECO_SYS_LOWPT      has bad norm
+ --->>  MUON_EFF_TTVA_STAT      has bad norm
+ --->>  MUON_EFF_TTVA_SYS      has bad norm
+ --->>  MUON_EFF_TrigStatUncertainty      has bad norm
+ --->>  MUON_EFF_TrigSystUncertainty      has bad norm
+ --->>  MUON_SAGITTA_DATASTAT      has bad norm
+ --->>  MUON_SAGITTA_GLOBAL      has bad norm
+ --->>  MUON_SAGITTA_PTEXTRA      has bad norm
+ --->>  MUON_SAGITTA_RESBIAS      has bad norm
+ --->>  MUON_SCALE      has bad norm
+ --->>  EG_RESOLUTION_ALL      has bad norm
+ --->>  EG_SCALE_ALL      has bad norm
+ --->>  EL_EFF_TriggerEff_TOTAL      has bad norm
+ --->>  EL_EFF_Trigger_TOTAL      has bad norm
+ --->>  PRW_DATASF      has bad norm
+ --->>  FT_EFF_Eigen_B_0__1      has bad norm
+ --->>  FT_EFF_Eigen_B_1__1      has bad norm
+ --->>  FT_EFF_Eigen_B_2__1      has bad norm
+ --->>  FT_EFF_Eigen_B_3__1      has bad norm
+ --->>  FT_EFF_Eigen_B_4__1      has bad norm
+ --->>  FT_EFF_Eigen_B_5__1      has bad norm
+ --->>  FT_EFF_Eigen_B_6__1      has bad norm
+ --->>  FT_EFF_Eigen_B_7__1      has bad norm
+ --->>  FT_EFF_Eigen_B_8__1      has bad norm
+ --->>  FT_EFF_Eigen_B_9__1      has bad norm
+ --->>  FT_EFF_Eigen_B_10__1      has bad norm
+ --->>  FT_EFF_Eigen_C_0__1      has bad norm
+ --->>  FT_EFF_Eigen_C_1__1      has bad norm
+ --->>  FT_EFF_Eigen_C_2__1      has bad norm
+ --->>  FT_EFF_Eigen_C_3__1      has bad norm
+ --->>  FT_EFF_Eigen_C_4__1      has bad norm
+ --->>  FT_EFF_Eigen_C_5__1      has bad norm
+ --->>  FT_EFF_Eigen_C_6__1      has bad norm
+ --->>  FT_EFF_Eigen_C_7__1      has bad norm
+ --->>  FT_EFF_Eigen_C_8__1      has bad norm
+ --->>  FT_EFF_Eigen_C_9__1      has bad norm
+ --->>  FT_EFF_Eigen_C_10__1      has bad norm
+ --->>  FT_EFF_Eigen_Light_0__1      has bad norm
+ --->>  FT_EFF_Eigen_Light_1__1      has bad norm
+ --->>  FT_EFF_Eigen_Light_2__1      has bad norm
+ --->>  FT_EFF_Eigen_Light_3__1      has bad norm
+ --->>  FT_EFF_Eigen_Light_4__1      has bad norm
+ --->>  FT_EFF_Eigen_Light_5__1      has bad norm
+ --->>  FT_EFF_Eigen_Light_6__1      has bad norm
+ --->>  FT_EFF_Eigen_Light_7__1      has bad norm
+ --->>  FT_EFF_Eigen_Light_8__1      has bad norm
+ --->>  FT_EFF_Eigen_Light_9__1      has bad norm
+ --->>  FT_EFF_Eigen_Light_10__1      has bad norm
 In Region : CR1b3lm_lep_2_pt
  -> In Sample : tttt
  --->>  tttt_Xsec      is norm only
@@ -29714,21 +29714,21 @@ In Region : CR1b3lm_lep_2_pt
  --->>  JET_Flavor_Composition_Sig      is dropped
  --->>  JET_Flavor_Response      is dropped
  --->>  JET_InSitu_NonClosure_PreRec      is dropped
- --->>  JET_JERUnc_Noise_PreRec      is dropped
+ --->>  JET_JERUnc_Noise_PreRec      is norm only
  --->>  JET_JERUnc_Noise_PreRec_PseudoData      is norm only
  --->>  JET_JERUnc_mc20vsmc21_MC20_PreRec      is dropped
  --->>  JET_JERUnc_mc20vsmc21_AF3_PreRec      is not present
  --->>  JET_JERUnc_mc20vsmc21_MC20_PreRec_PseudoData      is dropped
  --->>  JET_JERUnc_mc20vsmc21_AF3_PreRec_PseudoData      is not present
  --->>  JET_JER_DataVsMC_MC16      is dropped
- --->>  JET_JER_DataVsMC_MC16_PseudoData      is norm only
+ --->>  JET_JER_DataVsMC_MC16_PseudoData      is dropped
  --->>  JET_JER_EffectiveNP_1      is dropped
  --->>  JET_JER_EffectiveNP_1_PseudoData      is dropped
- --->>  JET_JER_EffectiveNP_2      is dropped
- --->>  JET_JER_EffectiveNP_2_PseudoData      is norm only
+ --->>  JET_JER_EffectiveNP_2      is norm only
+ --->>  JET_JER_EffectiveNP_2_PseudoData      is dropped
  --->>  JET_JER_EffectiveNP_3      is dropped
  --->>  JET_JER_EffectiveNP_3_PseudoData      is dropped
- --->>  JET_JER_EffectiveNP_4      is dropped
+ --->>  JET_JER_EffectiveNP_4      is norm only
  --->>  JET_JER_EffectiveNP_4_PseudoData      is dropped
  --->>  JET_JER_EffectiveNP_5      is dropped
  --->>  JET_JER_EffectiveNP_5_PseudoData      is dropped
@@ -29750,7 +29750,7 @@ In Region : CR1b3lm_lep_2_pt
  --->>  JET_JESUnc_VertexingAlg_PreRec      is dropped
  --->>  JET_JESUnc_mc20vsmc21_MC20_PreRec      is dropped
  --->>  JET_JESUnc_mc20vsmc21_AF3_PreRec      is not present
- --->>  JET_NNJvtEfficiency      is dropped
+ --->>  JET_NNJvtEfficiency      is kept
  --->>  JET_Pileup_OffsetMu      is dropped
  --->>  JET_Pileup_OffsetNPV      is dropped
  --->>  JET_Pileup_PtTerm      is dropped
@@ -29782,7 +29782,7 @@ In Region : CR1b3lm_lep_2_pt
  --->>  PRW_DATASF      is dropped
  --->>  FT_EFF_Eigen_B_0__1      is dropped
  --->>  FT_EFF_Eigen_B_1__1      is dropped
- --->>  FT_EFF_Eigen_B_2__1      is dropped
+ --->>  FT_EFF_Eigen_B_2__1      is norm only
  --->>  FT_EFF_Eigen_B_3__1      is dropped
  --->>  FT_EFF_Eigen_B_4__1      is dropped
  --->>  FT_EFF_Eigen_B_5__1      is dropped

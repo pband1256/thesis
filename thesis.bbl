@@ -17,6 +17,28 @@
 \endgroup
 
 \datalist[entry]{none/global//global/global}
+  \entry{PERF-2007-01}{article}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{ATLAS Collaboration}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1088/1748-0221/3/08/S08003
+    \endverb
+    \field{pages}{S08003}
+    \field{title}{{The ATLAS Experiment at the CERN Large Hadron Collider}}
+    \field{volume}{3}
+    \field{journaltitle}{JINST}
+    \field{eprintclass}{hep-ex}
+    \field{year}{2008}
+  \endentry
+
   \entry{theory:smparticles}{misc}{}
     \name{author}{2}{}{%
       {{hash=BC}{%
@@ -608,57 +630,6 @@
     \field{year}{2019}
   \endentry
 
-  \entry{reco:topocluster}{article}{}
-    \name{author}{1}{}{%
-      {{hash=A}{%
-         family={{ATLAS Collaboration}},
-         familyi={A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{A1}
-    \strng{fullhash}{A1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1140/epjc/s10052-017-5004-5
-    \endverb
-    \verb{eprint}
-    \verb 1603.02934
-    \endverb
-    \field{pages}{490}
-    \field{title}{{Topological cell clustering in the ATLAS calorimeters and
-  its performance in LHC Run~1}}
-    \field{volume}{77}
-    \field{journaltitle}{Eur. Phys. J. C}
-    \field{eprinttype}{arXiv}
-    \field{eprintclass}{hep-ex}
-    \field{year}{2017}
-  \endentry
-
-  \entry{reco:topocluster_2}{booklet}{}
-    \true{moreauthor}
-    \true{morelabelname}
-    \name{author}{1}{}{%
-      {{hash=LW}{%
-         family={Lampl},
-         familyi={L\bibinitperiod},
-         given={Walter},
-         giveni={W\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{LW+1}
-    \strng{fullhash}{LW+1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{howpublished}{{ATL-LARG-PUB-2008-002}}
-    \field{title}{{Calorimeter clustering algorithms: description and
-  performance}}
-    \verb{url}
-    \verb https://cds.cern.ch/record/1099735
-    \endverb
-    \field{year}{2008}
-  \endentry
-
   \entry{reco:track}{article}{}
     \name{author}{1}{}{%
       {{hash=A}{%
@@ -742,6 +713,41 @@
     }
     \field{type}{techreport}
     \field{year}{2007}
+  \endentry
+
+  \entry{reco:oi}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SA}{%
+         family={Salzburger},
+         familyi={S\bibinitperiod},
+         given={Andreas},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=obotAC}{%
+         prefix={on\bibnamedelima behalf of\bibnamedelima the},
+         prefixi={o\bibinitperiod\bibinitdelim b\bibinitperiod\bibinitdelim
+  o\bibinitperiod\bibinitdelim t\bibinitperiod},
+         family={ATLAS\bibnamedelima Collaboration},
+         familyi={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IOP Publishing}%
+    }
+    \strng{namehash}{SAACobot1}
+    \strng{fullhash}{SAACobot1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1088/1742-6596/664/7/072042
+    \endverb
+    \field{number}{7}
+    \field{pages}{072042}
+    \field{title}{{Optimisation of the ATLAS Track Reconstruction Software for
+  Run-2}}
+    \field{volume}{664}
+    \field{journaltitle}{Journal of Physics: Conference Series}
+    \field{year}{2015}
   \endentry
 
   \entry{reco:kalman}{article}{}
@@ -892,39 +898,150 @@
     \field{year}{1998}
   \endentry
 
-  \entry{reco:oi}{article}{}
-    \name{author}{2}{}{%
-      {{hash=SA}{%
-         family={Salzburger},
-         familyi={S\bibinitperiod},
-         given={Andreas},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=obotAC}{%
-         prefix={on\bibnamedelima behalf of\bibnamedelima the},
-         prefixi={o\bibinitperiod\bibinitdelim b\bibinitperiod\bibinitdelim
-  o\bibinitperiod\bibinitdelim t\bibinitperiod},
-         family={ATLAS\bibnamedelima Collaboration},
-         familyi={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+  \entry{reco:vertex_primary}{article}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{ATLAS Collaboration}},
+         familyi={A\bibinitperiod},
       }}%
     }
-    \list{publisher}{1}{%
-      {IOP Publishing}%
-    }
-    \strng{namehash}{SAACobot1}
-    \strng{fullhash}{SAACobot1}
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
-    \verb 10.1088/1742-6596/664/7/072042
+    \verb 10.1140/epjc/s10052-017-4887-5
     \endverb
-    \field{number}{7}
-    \field{pages}{072042}
-    \field{title}{{Optimisation of the ATLAS Track Reconstruction Software for
-  Run-2}}
-    \field{volume}{664}
-    \field{journaltitle}{Journal of Physics: Conference Series}
-    \field{year}{2015}
+    \verb{eprint}
+    \verb 1611.10235
+    \endverb
+    \field{pages}{332}
+    \field{title}{{Reconstruction of primary vertices at the ATLAS experiment
+  in Run~1 proton--proton collisions at the LHC}}
+    \field{volume}{77}
+    \field{journaltitle}{Eur. Phys. J. C}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{physics.ins-det}
+    \field{year}{2017}
+  \endentry
+
+  \entry{reco:vertex_fitting}{article}{}
+    \name{author}{3}{}{%
+      {{hash=WW}{%
+         family={Waltenberger},
+         familyi={W\bibinitperiod},
+         given={Wolfgang},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=FR}{%
+         family={Fr{\"u}hwirth},
+         familyi={F\bibinitperiod},
+         given={Rudolf},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=VP}{%
+         family={Vanlaer},
+         familyi={V\bibinitperiod},
+         given={Pascal},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WWFRVP1}
+    \strng{fullhash}{WWFRVP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Vertex fitting frequently has to deal with both mis-associated tracks and
+  mis-measured track errors. A robust, adaptive method is presented that is
+  able to cope with contaminated data. The method is formulated as an iterative
+  re-weighted Kalman filter. Annealing is introduced to avoid local minima in
+  the optimization. For the initialization of the adaptive filter a robust
+  algorithm is presented that turns out to perform well in a wide range of
+  applications. The tuning of the annealing schedule and of the cut-off
+  parameter is described using simulated data from the CMS experiment. Finally,
+  the adaptive property of the method is illustrated in two examples.%
+    }
+    \verb{doi}
+    \verb 10.1088/0954-3899/34/12/N01
+    \endverb
+    \field{number}{12}
+    \field{pages}{N343}
+    \field{title}{Adaptive vertex fitting}
+    \field{volume}{34}
+    \field{journaltitle}{Journal of Physics G: Nuclear and Particle Physics}
+    \field{year}{2007}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{reco:vertex_secondary}{booklet}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{ATLAS Collaboration}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{{ATL-PHYS-PUB-2017-011}}
+    \field{title}{{Secondary vertex finding for jet flavour identification with
+  the ATLAS detector}}
+    \verb{url}
+    \verb https://cds.cern.ch/record/2270366
+    \endverb
+    \field{year}{2017}
+  \endentry
+
+  \entry{reco:topocluster_2}{booklet}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{1}{}{%
+      {{hash=LW}{%
+         family={Lampl},
+         familyi={L\bibinitperiod},
+         given={Walter},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LW+1}
+    \strng{fullhash}{LW+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{{ATL-LARG-PUB-2008-002}}
+    \field{title}{{Calorimeter clustering algorithms: description and
+  performance}}
+    \verb{url}
+    \verb https://cds.cern.ch/record/1099735
+    \endverb
+    \field{year}{2008}
+  \endentry
+
+  \entry{reco:topocluster}{article}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{ATLAS Collaboration}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1140/epjc/s10052-017-5004-5
+    \endverb
+    \verb{eprint}
+    \verb 1603.02934
+    \endverb
+    \field{pages}{490}
+    \field{title}{{Topological cell clustering in the ATLAS calorimeters and
+  its performance in LHC Run~1}}
+    \field{volume}{77}
+    \field{journaltitle}{Eur. Phys. J. C}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ex}
+    \field{year}{2017}
   \endentry
 
   \entry{ftag:calib}{article}{}

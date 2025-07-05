@@ -993,30 +993,6 @@
     \field{year}{2017}
   \endentry
 
-  \entry{reco:topocluster_2}{booklet}{}
-    \true{moreauthor}
-    \true{morelabelname}
-    \name{author}{1}{}{%
-      {{hash=LW}{%
-         family={Lampl},
-         familyi={L\bibinitperiod},
-         given={Walter},
-         giveni={W\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{LW+1}
-    \strng{fullhash}{LW+1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{howpublished}{{ATL-LARG-PUB-2008-002}}
-    \field{title}{{Calorimeter clustering algorithms: description and
-  performance}}
-    \verb{url}
-    \verb https://cds.cern.ch/record/1099735
-    \endverb
-    \field{year}{2008}
-  \endentry
-
   \entry{reco:topocluster}{article}{}
     \name{author}{1}{}{%
       {{hash=A}{%
@@ -1044,6 +1020,232 @@
     \field{year}{2017}
   \endentry
 
+  \entry{reco:jet_pflow}{article}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{ATLAS Collaboration}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1140/epjc/s10052-017-5031-2
+    \endverb
+    \verb{eprint}
+    \verb 1703.10485
+    \endverb
+    \field{pages}{466}
+    \field{title}{{Jet reconstruction and performance using particle flow with
+  the ATLAS Detector}}
+    \field{volume}{77}
+    \field{journaltitle}{Eur. Phys. J. C}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ex}
+    \field{year}{2017}
+  \endentry
+
+  \entry{reco:jet_antikt}{article}{}
+    \name{author}{3}{}{%
+      {{hash=CM}{%
+         family={Cacciari},
+         familyi={C\bibinitperiod},
+         given={Matteo},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SGP}{%
+         family={Salam},
+         familyi={S\bibinitperiod},
+         given={Gavin\bibnamedelima P.},
+         giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=SG}{%
+         family={Soyez},
+         familyi={S\bibinitperiod},
+         given={Gregory},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CMSGPSG1}
+    \strng{fullhash}{CMSGPSG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The kt and Cambridge/Aachen inclusive jet finding algorithms for
+  hadron-hadron collisions can be seen as belonging to a broader class of
+  sequential recombination jet algorithms, parametrised by the power of the
+  energy scale in the distance measure. We examine some properties of a new
+  member of this class, for which the power is negative. This ``anti-kt''
+  algorithm essentially behaves like an idealised cone algorithm, in that jets
+  with only soft fragmentation are conical, active and passive areas are equal,
+  the area anomalous dimensions are zero, the non-global logarithms are those
+  of a rigid boundary and the Milan factor is universal. None of these
+  properties hold for existing sequential recombination algorithms, nor for
+  cone algorithms with split-merge steps, such as SISCone. They are however the
+  identifying characteristics of the collinear unsafe plain ``iterative cone''
+  algorithm, for which the anti-kt algorithm provides a natural, fast, infrared
+  and collinear safe replacement.%
+    }
+    \verb{doi}
+    \verb 10.1088/1126-6708/2008/04/063
+    \endverb
+    \field{number}{04}
+    \field{pages}{063}
+    \field{title}{The anti-kt jet clustering algorithm}
+    \field{volume}{2008}
+    \field{journaltitle}{Journal of High Energy Physics}
+    \field{year}{2008}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{reco:jet_jer}{article}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{ATLAS Collaboration}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1140/epjc/s10052-021-09402-3
+    \endverb
+    \verb{eprint}
+    \verb 2007.02645
+    \endverb
+    \field{pages}{689}
+    \field{title}{{Jet energy scale and resolution measured in proton--proton
+  collisions at \(\sqrt{s} = 13\,\text{TeV}\) with the ATLAS detector}}
+    \field{volume}{81}
+    \field{journaltitle}{Eur. Phys. J. C}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ex}
+    \field{year}{2021}
+  \endentry
+
+  \entry{reco:jet_jes}{article}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{ATLAS Collaboration}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevD.96.072002
+    \endverb
+    \verb{eprint}
+    \verb 1703.09665
+    \endverb
+    \field{pages}{072002}
+    \field{title}{{Jet energy scale measurements and their systematic
+  uncertainties in proton--proton collisions at \(\sqrt{s} = 13\,\text{TeV}\)
+  with the ATLAS detector}}
+    \field{volume}{96}
+    \field{journaltitle}{Phys. Rev. D}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ex}
+    \field{year}{2017}
+  \endentry
+
+  \entry{ftag:gn2}{report}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{ATLAS Collaboration}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{eprint}
+    \verb 2505.19689
+    \endverb
+    \field{note}{Submitted to: Nature Communications}
+    \field{title}{{Transforming jet flavour tagging at ATLAS}}
+    \list{location}{1}{%
+      {Geneva}%
+    }
+    \list{institution}{1}{%
+      {CERN}%
+    }
+    \field{type}{techreport}
+    \field{eprinttype}{arXiv}
+    \field{year}{2025}
+  \endentry
+
+  \entry{ftag:transformer}{misc}{}
+    \name{author}{8}{}{%
+      {{hash=VA}{%
+         family={Vaswani},
+         familyi={V\bibinitperiod},
+         given={Ashish},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SN}{%
+         family={Shazeer},
+         familyi={S\bibinitperiod},
+         given={Noam},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=PN}{%
+         family={Parmar},
+         familyi={P\bibinitperiod},
+         given={Niki},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=UJ}{%
+         family={Uszkoreit},
+         familyi={U\bibinitperiod},
+         given={Jakob},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=JL}{%
+         family={Jones},
+         familyi={J\bibinitperiod},
+         given={Llion},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Gomez},
+         familyi={G\bibinitperiod},
+         given={Aidan},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KL}{%
+         family={Kaiser},
+         familyi={K\bibinitperiod},
+         given={Lukasz},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=PI}{%
+         family={Polosukhin},
+         familyi={P\bibinitperiod},
+         given={Illia},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{VA+1}
+    \strng{fullhash}{VASNPNUJJLGAKLPI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{eprint}
+    \verb 1706.03762
+    \endverb
+    \field{title}{Attention Is All You Need}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.CL}
+    \field{year}{2023}
+  \endentry
+
   \entry{ftag:calib}{article}{}
     \name{author}{1}{}{%
       {{hash=A}{%
@@ -1069,525 +1271,6 @@
     \field{eprinttype}{arXiv}
     \field{eprintclass}{hep-ex}
     \field{year}{2018}
-  \endentry
-
-  \entry{ftag:gn1}{booklet}{}
-    \name{author}{1}{}{%
-      {{hash=A}{%
-         family={{ATLAS Collaboration}},
-         familyi={A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{A1}
-    \strng{fullhash}{A1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{howpublished}{{ATL-PHYS-PUB-2022-027}}
-    \field{title}{{Graph Neural Network Jet Flavour Tagging with the ATLAS
-  Detector}}
-    \verb{url}
-    \verb https://cds.cern.ch/record/2811135
-    \endverb
-    \field{year}{2022}
-  \endentry
-
-  \entry{ftag:gn1.1}{report}{}
-    \name{author}{1}{}{%
-      {{hash=DA}{%
-         family={Duperrin},
-         familyi={D\bibinitperiod},
-         given={Arnaud},
-         giveni={A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{DA1}
-    \strng{fullhash}{DA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{eprint}
-    \verb 2306.04415
-    \endverb
-    \field{note}{Presented at DIS2023, Michigan State University, USA}
-    \field{title}{{Flavour tagging with graph neural networks with the ATLAS
-  detector}}
-    \verb{url}
-    \verb https://cds.cern.ch/record/2860610
-    \endverb
-    \list{location}{1}{%
-      {Geneva}%
-    }
-    \list{institution}{1}{%
-      {CERN}%
-    }
-    \field{type}{techreport}
-    \field{eprinttype}{arXiv}
-    \field{eprintclass}{hep-ex}
-    \field{year}{2023}
-  \endentry
-
-  \entry{ftag:gn2}{report}{}
-    \name{author}{74}{}{%
-      {{hash=VSS}{%
-         family={Van\bibnamedelima Stroud},
-         familyi={V\bibinitperiod\bibinitdelim S\bibinitperiod},
-         given={Samuel},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=DA}{%
-         family={Duperrin},
-         familyi={D\bibinitperiod},
-         given={Arnaud},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=WY}{%
-         family={Wang},
-         familyi={W\bibinitperiod},
-         given={Yinmiao},
-         giveni={Y\bibinitperiod},
-      }}%
-      {{hash=FA}{%
-         family={Froch},
-         familyi={F\bibinitperiod},
-         given={Alexander},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=CJE}{%
-         family={Crosby},
-         familyi={C\bibinitperiod},
-         given={Jacob\bibnamedelima Edwin},
-         giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
-      }}%
-      {{hash=GS}{%
-         family={Ganguly},
-         familyi={G\bibinitperiod},
-         given={Sanmay},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=VV}{%
-         family={Vecchio},
-         familyi={V\bibinitperiod},
-         given={Valentina},
-         giveni={V\bibinitperiod},
-      }}%
-      {{hash=WJM}{%
-         family={Wagner},
-         familyi={W\bibinitperiod},
-         given={Johannes\bibnamedelima Michael},
-         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
-      }}%
-      {{hash=PNI}{%
-         family={Pond},
-         familyi={P\bibinitperiod},
-         given={Nikita\bibnamedelima Ivvan},
-         giveni={N\bibinitperiod\bibinitdelim I\bibinitperiod},
-      }}%
-      {{hash=GD}{%
-         family={Guest},
-         familyi={G\bibinitperiod},
-         given={Dan},
-         giveni={D\bibinitperiod},
-      }}%
-      {{hash=LB}{%
-         family={Liu},
-         familyi={L\bibinitperiod},
-         given={Bingxuan},
-         giveni={B\bibinitperiod},
-      }}%
-      {{hash=DBFA}{%
-         family={Di\bibnamedelima Bello},
-         familyi={D\bibinitperiod\bibinitdelim B\bibinitperiod},
-         given={Francesco\bibnamedelima Armando},
-         giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-      {{hash=GP}{%
-         family={Gadow},
-         familyi={G\bibinitperiod},
-         given={Philipp},
-         giveni={P\bibinitperiod},
-      }}%
-      {{hash=HNM}{%
-         family={Hartman},
-         familyi={H\bibinitperiod},
-         given={Nicole\bibnamedelima Michelle},
-         giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod},
-      }}%
-      {{hash=BJ}{%
-         family={Barr},
-         familyi={B\bibinitperiod},
-         given={Jackson},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=KN}{%
-         family={Kumari},
-         familyi={K\bibinitperiod},
-         given={Neelam},
-         giveni={N\bibinitperiod},
-      }}%
-      {{hash=KM}{%
-         family={Kagan},
-         familyi={K\bibinitperiod},
-         given={Michael},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=BAM}{%
-         family={Burger},
-         familyi={B\bibinitperiod},
-         given={Angela\bibnamedelima Maria},
-         giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
-      }}%
-      {{hash=BG}{%
-         family={Brianti},
-         familyi={B\bibinitperiod},
-         given={Greta},
-         giveni={G\bibinitperiod},
-      }}%
-      {{hash=GS}{%
-         family={Goswami},
-         familyi={G\bibinitperiod},
-         given={Soumyananda},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=MT}{%
-         family={Maurin},
-         familyi={M\bibinitperiod},
-         given={Theo},
-         giveni={T\bibinitperiod},
-      }}%
-      {{hash=KD}{%
-         family={Kobylianskii},
-         familyi={K\bibinitperiod},
-         given={Dmitrii},
-         giveni={D\bibinitperiod},
-      }}%
-      {{hash=DM}{%
-         family={Draguet},
-         familyi={D\bibinitperiod},
-         given={Maxence},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=BJC}{%
-         family={Burzynski},
-         familyi={B\bibinitperiod},
-         given={Jackson\bibnamedelima Carl},
-         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
-      }}%
-      {{hash=KN}{%
-         family={Kakati},
-         familyi={K\bibinitperiod},
-         given={Nilotpal},
-         giveni={N\bibinitperiod},
-      }}%
-      {{hash=STP}{%
-         family={Scanlon},
-         familyi={S\bibinitperiod},
-         given={Timothy\bibnamedelima Paul},
-         giveni={T\bibinitperiod\bibinitdelim P\bibinitperiod},
-      }}%
-      {{hash=DB}{%
-         family={Dong},
-         familyi={D\bibinitperiod},
-         given={Binbin},
-         giveni={B\bibinitperiod},
-      }}%
-      {{hash=XL}{%
-         family={Xia},
-         familyi={X\bibinitperiod},
-         given={Ligang},
-         giveni={L\bibinitperiod},
-      }}%
-      {{hash=FZ}{%
-         family={Feng},
-         familyi={F\bibinitperiod},
-         given={Zhuoran},
-         giveni={Z\bibinitperiod},
-      }}%
-      {{hash=LW}{%
-         family={Leinonen},
-         familyi={L\bibinitperiod},
-         given={Waltteri},
-         giveni={W\bibinitperiod},
-      }}%
-      {{hash=LM}{%
-         family={Leigh},
-         familyi={L\bibinitperiod},
-         given={Matthew},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=FG}{%
-         family={Facini},
-         familyi={F\bibinitperiod},
-         given={Gabriel},
-         giveni={G\bibinitperiod},
-      }}%
-      {{hash=BD}{%
-         family={Biswas},
-         familyi={B\bibinitperiod},
-         given={Diptaparna},
-         giveni={D\bibinitperiod},
-      }}%
-      {{hash=GE}{%
-         family={Gross},
-         familyi={G\bibinitperiod},
-         given={Eilam},
-         giveni={E\bibinitperiod},
-      }}%
-      {{hash=RS}{%
-         family={Rettie},
-         familyi={R\bibinitperiod},
-         given={Sebastien},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=SJ}{%
-         family={Shlomi},
-         familyi={S\bibinitperiod},
-         given={Jonathan},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=TL}{%
-         family={Toffolin},
-         familyi={T\bibinitperiod},
-         given={Leonardo},
-         giveni={L\bibinitperiod},
-      }}%
-      {{hash=GH}{%
-         family={Gray},
-         familyi={G\bibinitperiod},
-         given={Heather},
-         giveni={H\bibinitperiod},
-      }}%
-      {{hash=PSL}{%
-         family={Pereira\bibnamedelima Sanchez},
-         familyi={P\bibinitperiod\bibinitdelim S\bibinitperiod},
-         given={Laura},
-         giveni={L\bibinitperiod},
-      }}%
-      {{hash=DM}{%
-         family={D'Andrea},
-         familyi={D\bibinitperiod},
-         given={Michele},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=BR}{%
-         family={Bouquet},
-         familyi={B\bibinitperiod},
-         given={Romain},
-         giveni={R\bibinitperiod},
-      }}%
-      {{hash=WZ}{%
-         family={Wu},
-         familyi={W\bibinitperiod},
-         given={Zhibo},
-         giveni={Z\bibinitperiod},
-      }}%
-      {{hash=JW}{%
-         family={Jang},
-         familyi={J\bibinitperiod},
-         given={Wonho},
-         giveni={W\bibinitperiod},
-      }}%
-      {{hash=MT}{%
-         family={Masubuchi},
-         familyi={M\bibinitperiod},
-         given={Tatsuya},
-         giveni={T\bibinitperiod},
-      }}%
-      {{hash=EY}{%
-         family={Enari},
-         familyi={E\bibinitperiod},
-         given={Yuji},
-         giveni={Y\bibinitperiod},
-      }}%
-      {{hash=ME}{%
-         family={Mazzeo},
-         familyi={M\bibinitperiod},
-         given={Elena},
-         giveni={E\bibinitperiod},
-      }}%
-      {{hash=SL}{%
-         family={Santi},
-         familyi={S\bibinitperiod},
-         given={Lorenzo},
-         giveni={L\bibinitperiod},
-      }}%
-      {{hash=YY}{%
-         family={Yu},
-         familyi={Y\bibinitperiod},
-         given={Yi},
-         giveni={Y\bibinitperiod},
-      }}%
-      {{hash=LQ}{%
-         family={Liu},
-         familyi={L\bibinitperiod},
-         given={Qibin},
-         giveni={Q\bibinitperiod},
-      }}%
-      {{hash=MA}{%
-         family={Mehta},
-         familyi={M\bibinitperiod},
-         given={Andrew},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=SBT}{%
-         family={Saifuddin},
-         familyi={S\bibinitperiod},
-         given={Burhani\bibnamedelima Taher},
-         giveni={B\bibinitperiod\bibinitdelim T\bibinitperiod},
-      }}%
-      {{hash=HJ}{%
-         family={Hessler},
-         familyi={H\bibinitperiod},
-         given={Johannes},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=RN}{%
-         family={Rompotis},
-         familyi={R\bibinitperiod},
-         given={Nikolaos},
-         giveni={N\bibinitperiod},
-      }}%
-      {{hash=RZ}{%
-         family={Rokavec},
-         familyi={R\bibinitperiod},
-         given={Zoja},
-         giveni={Z\bibinitperiod},
-      }}%
-      {{hash=MM}{%
-         family={Muskinja},
-         familyi={M\bibinitperiod},
-         given={Miha},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=HV}{%
-         family={Homsak},
-         familyi={H\bibinitperiod},
-         given={Vid},
-         giveni={V\bibinitperiod},
-      }}%
-      {{hash=LS}{%
-         family={Lin},
-         familyi={L\bibinitperiod},
-         given={Storm},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=MS}{%
-         family={Mohiuddin},
-         familyi={M\bibinitperiod},
-         given={Saad},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=BAM}{%
-         family={Burger},
-         familyi={B\bibinitperiod},
-         given={Angela\bibnamedelima Maria},
-         giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
-      }}%
-      {{hash=PG}{%
-         family={Piacquadio},
-         familyi={P\bibinitperiod},
-         given={Giacinto},
-         giveni={G\bibinitperiod},
-      }}%
-      {{hash=TL}{%
-         family={Toffolin},
-         familyi={T\bibinitperiod},
-         given={Leonardo},
-         giveni={L\bibinitperiod},
-      }}%
-      {{hash=WT}{%
-         family={Wang},
-         familyi={W\bibinitperiod},
-         given={Tianao},
-         giveni={T\bibinitperiod},
-      }}%
-      {{hash=TM}{%
-         family={Tanasini},
-         familyi={T\bibinitperiod},
-         given={Martino},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=MB}{%
-         family={Moser},
-         familyi={M\bibinitperiod},
-         given={Brian},
-         giveni={B\bibinitperiod},
-      }}%
-      {{hash=DTB}{%
-         family={Dingley},
-         familyi={D\bibinitperiod},
-         given={Thomas\bibnamedelima Benjamin},
-         giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod},
-      }}%
-      {{hash=FJ}{%
-         family={Frost},
-         familyi={F\bibinitperiod},
-         given={James},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=GLG}{%
-         family={Gagnon},
-         familyi={G\bibinitperiod},
-         given={Louis-Guillaume},
-         giveni={L\bibinithyphendelim G\bibinitperiod},
-      }}%
-      {{hash=SC}{%
-         family={Schiavi},
-         familyi={S\bibinitperiod},
-         given={Carlo},
-         giveni={C\bibinitperiod},
-      }}%
-      {{hash=DL}{%
-         family={Derin},
-         familyi={D\bibinitperiod},
-         given={Lucio},
-         giveni={L\bibinitperiod},
-      }}%
-      {{hash=LWS}{%
-         family={Lai},
-         familyi={L\bibinitperiod},
-         given={Wei\bibnamedelima Sheng},
-         giveni={W\bibinitperiod\bibinitdelim S\bibinitperiod},
-      }}%
-      {{hash=DV}{%
-         family={Dao},
-         familyi={D\bibinitperiod},
-         given={Valerio},
-         giveni={V\bibinitperiod},
-      }}%
-      {{hash=HTB}{%
-         family={Huffman},
-         familyi={H\bibinitperiod},
-         given={Todd\bibnamedelima Brian},
-         giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod},
-      }}%
-      {{hash=SN}{%
-         family={Soybelman},
-         familyi={S\bibinitperiod},
-         given={Nathalie},
-         giveni={N\bibinitperiod},
-      }}%
-      {{hash=GM}{%
-         family={Guth},
-         familyi={G\bibinitperiod},
-         given={Manuel},
-         giveni={M\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{VSS+1}
-  \strng{fullhash}{VSSDAWYFACJEGSVVWJMPNIGDLBDBFAGPHNMBJKNKMBAMBGGSMTKDDMBJCKNSTPDBXLFZLWLMFGBDGERSSJTLGHPSLDMBRWZJWMTEYMESLYYLQMASBTHJRNRZMMHVLSMSBAMPGTLWTTMMBDTBFJGLGSCDLLWSDVHTBSNGM1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{title}{{FTAG Run-3 Algorithms Performance}}
-    \verb{url}
-    \verb https://cds.cern.ch/record/2872884
-    \endverb
-    \list{location}{1}{%
-      {Geneva}%
-    }
-    \list{institution}{1}{%
-      {CERN}%
-    }
-    \field{type}{techreport}
-    \field{year}{2023}
   \endentry
 
   \entry{reco:electron_meas}{article}{}

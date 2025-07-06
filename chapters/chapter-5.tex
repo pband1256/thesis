@@ -106,6 +106,7 @@ Due to imperfect description of detector response and physics modeling effects i
 Lepton reconstruction in ATLAS involves electron and muon reconstruction since tau decays quickly, and depending on decay mode can be reconstructed using either jets or light leptons.  Leptons can be classified into two categories: prompt leptons resulting from heavy particle decays and non-prompt leptons resulting from detector or reconstruction effects, or from heavy-flavor hadron decays.
 
 \subsection{Electrons}
+\label{sec:electron}
 %- \citep{reco:electron_meas}\\
 Electrons leave energy signature in the detector by interacting with the detector materials and losing energy in the form of bremsstrahlung photons. A bremsstrahlung photon can produce an electron-positron pair which can itself deposit signals in the detector, creating a cascade of particles that can leave multiple of either tracks in the \acs{ID} or \acs{EM} showers in the calorimeters, all of which are considered part of the same \acs{EM} topo-cluster. Electron signal signature has three characteristic components: localized energy deposits in the calorimeters, multiple tracks in the \acs{ID} and compatibility between the above tracks and energy clusters in the $\eta \times \phi$ plane \citep{reco:electron_id}. Electron reconstruction in ATLAS follows these steps accordingly.
 %- Electron path through the detector is shown in \autoref{fig:reco:electron}
@@ -177,7 +178,7 @@ Reconstructed muons are further filtered by identification criteria to select fo
 %\end{figure}
 
 \subsubsection*{Muon isolation}
-Muons from heavy particle decays are often produced in an isolated manner compared to muons from semileptonic decays, and is therefore an important tool for background rejection in many physics analyses. Muon isolation strategies are similar to that of electron in \autoref{sec:eiso}, with track-based and calorimeter-based isolation variables. Seven isolation \acs{OP}s are defined using either or both types of isolation variables \citep{reco:muon_ID}.
+Muons from heavy particle decays are often produced in an isolated manner compared to muons from semileptonic decays, and is therefore an important tool for background rejection in many physics analyses. Muon isolation strategies are similar to that of electron in section \ref{sec:eiso}, with track-based and calorimeter-based isolation variables. Seven isolation \acs{OP}s are defined using either or both types of isolation variables \citep{reco:muon_ID}.
 
 \section{Missing transverse momentum}
 \label{sec:met}
@@ -263,7 +264,7 @@ Isolation
 	& \textit{Tight\_VarRad} 	& \textit{PflowTight\_VarRad}	& \\
 \midrule
 Track-vertex assoc.\vphantom{$\frac{1}{p}$} & & & \\
-\hspace{3mm} $|d_0^{\mathrm{BL}}(\sigma)|$ 
+\hspace{3mm} $|d_0^{\text{BL}}(\sigma)|$ 
 	& $<5$ 		& $<3$ 		& \\
 \hspace{3mm} $|\Delta z_0^{\mathrm{BL}}\sin\theta|$ [mm]
 	& $<0.5$ 	& $<0.5$ 	& \\

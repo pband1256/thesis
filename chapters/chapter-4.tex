@@ -5,14 +5,11 @@
 
 \section{Data samples}
 \label{sec:data}
-LHC Run 2 data collected at $\sqrt{s}=13$ TeV between 2015-2018\\
-luminosity 140 $\text{fb}^{-1}$ \\
-(include uncertainty for Run 2 only)
+Data samples used in this analysis were collected by the \acs{ATLAS} detector during Run 2 data-taking campaign between 2015-2018. The samples contain $pp$ collisions at center-of-mass energy of $\sqrt{s}=13$ TeV with 25 ns bunch-spacing, which corresponds to an integrated luminosity of 140 \fb with uncertainty of 1.7\% and data quality efficiency of 95.6\% \citep{sample:data}. The \acs{HLT} trigger strategy is similar to that of previous \tttt observation analysis \citep{tttt_obs} and include single lepton and dilepton triggers. Calibration for di-muon and electron-muon triggers were not ready for the samples used in this analysis, and are therefore not included. Events are also required to contain at least one lepton matched to the corresponding object firing the trigger. Triggers used are summarized in \autoref{tab:ana:trigger}.
 
-Triggers used:
 \begin{table}[!ht]
 \centering
-\caption{\label{tab:ana:trigger}Caption}%
+\caption{\label{tab:ana:trigger}Summary of all \acs{HLT} triggers used in this analysis. Events are required to pass at least one trigger.}%
 \begin{tabular}{p{9cm}|cccc}
 \toprule\toprule
 \multicolumn{1}{c|}{\multirow{ 2}{*}{Trigger}}	& \multicolumn{4}{c}{Data period} \\
@@ -46,15 +43,14 @@ Triggers used:
 
 \section{Monte Carlo samples}
 \label{sec:montecarlo}
-Monte Carlo simulated samples are used to estimate signal acceptance before unblinding, profile the physics background for the analysis and to study object optimizations.\\
-Simulated samples for this analysis use are generated from ATLAS' generalized MC20a/d/e samples for Run 2, using full detector simulation (\acs{FS})  and fast simulation (\acs{AF3}) to simulate detector response.
+Monte Carlo simulated samples are used to estimate signal acceptance before unblinding, profile the physics background for the analysis and to study object optimizations. Simulated samples for this analysis use are generated from ATLAS generalized MC20a/d/e samples for Run 2, using full detector simulation (\acs{FS}) and fast simulation (\acs{AF3}) to simulate detector response. \acs{MC} samples used and simulation processes are summarized in \autoref{tab:MC}
 
 \begin{table}[!htbp]
 \small
 \setlength{\tabcolsep}{3pt} % Reduce column spacing
 \renewcommand{\arraystretch}{1.2} % Adjust row spacing
 \centering
-\caption{\label{tab:MC}Summary of all Monte-Carlo samples used in this analysis.}
+\caption{\label{tab:MC}Summary of all Monte-Carlo samples used in this analysis. $V$ refers to an \acs{EW} ($W^\pm$/$Z$/$\gamma^*$) or Higgs boson. Matrix element (\acs{ME}) order refers to the order in \acs{QCD} of the perturbative calculation. Tune refers to the underlying-event tune of the parton shower (\acs{PS}) generator.}
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{p{2.8cm} p{4.5cm} p{3.0cm} p{4.3cm} p{1.5cm} p{1.7cm} p{1.2cm}}
 \toprule 
@@ -105,8 +101,8 @@ $VH$       & \powhegbox~v2  & NLO      & \nnpdfaznlo   & \pythia & A14     & FS 
 \end{table}
 
 \subsection{\ttZp signal samples}
-Signal \ttZp samples were generated based on the simplified top-philic resonance model in \autoref{sec:ttZp} where a color singlet vector resonance couples strongly to only top and antitop. Six $Z'$ mass points were utilized for the generation of the signal sample: 1000, 1250, 1500, 2000, 2500 and 3000 GeV. From \autoref{sec:ttZp}, the top-$Z'$ coupling $c_t$ is chosen to be 1 for a narrow resonance peak, and the chirality angle $\theta$ is chosen to be $\pi/4$ to suppress loop production of $Z'$. The samples were then generated with \mgamc v.3.5.0 \citep{Alwall:2014hca} at \acs{LO} with the \nnpdfonelo \citep{Ball:2014uwa} \acs{PDF} set interfaced with \pythia \citep{Sjostrand:2014zea} using A14 tune and \nnpdftwo \acs{PDF} set for parton showering and hadronization. The resonance width is calculated to be $4\%$ for $c_t=1$. \\
-\textcolor{red}{plots: \HT, nJets, parameter comparison, interference, $m_{\ttbar}$ invariant mass}
+Signal \ttZp samples were generated based on the simplified top-philic resonance model in section \ref{sec:ttZp} where a color singlet vector resonance couples strongly to only top and antitop. Six $Z'$ mass points were utilized for the generation of the signal sample: 1000, 1250, 1500, 2000, 2500 and 3000 GeV. The top-$Z'$ coupling $c_t$ is chosen to be 1 for a narrow resonance peak, and the chirality angle $\theta$ is chosen to be $\pi/4$ to suppress loop production of $Z'$. The samples were then generated with \mgamc v.3.5.0 \citep{Alwall:2014hca} at \acs{LO} with the \nnpdfonelo \citep{Ball:2014uwa} \acs{PDF} set interfaced with \pythia \citep{Sjostrand:2014zea} using A14 tune and \nnpdftwo \acs{PDF} set for parton showering and hadronization. The resonance width is calculated to be $4\%$ for $c_t=1$. \\
+%\textcolor{red}{plots: \HT, nJets, parameter comparison, interference, $m_{\ttbar}$ invariant mass}
 
 \subsection{Background samples}
 

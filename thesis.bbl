@@ -1273,33 +1273,6 @@
     \field{year}{2018}
   \endentry
 
-  \entry{reco:electron_meas}{article}{}
-    \name{author}{1}{}{%
-      {{hash=A}{%
-         family={{ATLAS Collaboration}},
-         familyi={A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{A1}
-    \strng{fullhash}{A1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1088/1748-0221/14/12/P12006
-    \endverb
-    \verb{eprint}
-    \verb 1908.00005
-    \endverb
-    \field{pages}{P12006}
-    \field{title}{{Electron and photon performance measurements with the ATLAS
-  detector using the 2015--2017 LHC proton--proton collision data}}
-    \field{volume}{14}
-    \field{journaltitle}{JINST}
-    \field{eprinttype}{arXiv}
-    \field{eprintclass}{hep-ex}
-    \field{year}{2019}
-  \endentry
-
   \entry{reco:qmisid_cnn}{booklet}{}
     \name{author}{1}{}{%
       {{hash=A}{%
@@ -1423,7 +1396,7 @@
     \field{year}{2018}
   \endentry
 
-  \entry{reco:overlap}{article}{}
+  \entry{sample:data}{article}{}
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
@@ -1435,21 +1408,46 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
-    \verb 10.1140/epjc/s10052-021-09878-z
+    \verb 10.1088/1748-0221/15/04/P04003
     \endverb
     \verb{eprint}
-    \verb 2109.00925
+    \verb 1911.04632
     \endverb
-    \field{pages}{105}
-    \field{title}{{Observation of electroweak production of two jets in
-  association with an isolated photon and missing transverse momentum, and
-  search for a Higgs boson decaying into invisible particles at
-  \(13\,\text{TeV}\) with the ATLAS detector}}
-    \field{volume}{82}
+    \field{pages}{P04003}
+    \field{title}{{ATLAS data quality operations and performance for 2015--2018
+  data-taking}}
+    \field{volume}{15}
+    \field{journaltitle}{JINST}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{physics.ins-det}
+    \field{year}{2020}
+  \endentry
+
+  \entry{tttt_obs}{article}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{ATLAS Collaboration}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1140/epjc/s10052-023-11573-0
+    \endverb
+    \verb{eprint}
+    \verb 2303.15061
+    \endverb
+    \field{pages}{496}
+    \field{title}{{Observation of four-top-quark production in the multilepton
+  final state with the ATLAS detector}}
+    \field{volume}{83}
     \field{journaltitle}{Eur. Phys. J. C}
     \field{eprinttype}{arXiv}
     \field{eprintclass}{hep-ex}
-    \field{year}{2022}
+    \field{year}{2023}
   \endentry
 
   \entry{Alwall:2014hca}{article}{}
@@ -2274,6 +2272,34 @@
     \field{year}{2024}
   \endentry
 
+  \entry{EXOT-2016-16}{article}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{ATLAS Collaboration}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/JHEP12(2018)039
+    \endverb
+    \verb{eprint}
+    \verb 1807.11883
+    \endverb
+    \field{pages}{039}
+    \field{title}{{Search for new phenomena in events with same-charge leptons
+  and \(b\)-jets in \(pp\) collisions at \(\sqrt{s} = 13\,\text{TeV}\) with the
+  ATLAS detector}}
+    \field{volume}{12}
+    \field{journaltitle}{JHEP}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ex}
+    \field{year}{2018}
+  \endentry
+
   \entry{tttt_evidence}{article}{}
     \name{author}{1}{}{%
       {{hash=A}{%
@@ -2300,33 +2326,6 @@
     \field{eprinttype}{arXiv}
     \field{eprintclass}{hep-ex}
     \field{year}{2020}
-  \endentry
-
-  \entry{tttt_obs}{article}{}
-    \name{author}{1}{}{%
-      {{hash=A}{%
-         family={{ATLAS Collaboration}},
-         familyi={A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{A1}
-    \strng{fullhash}{A1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1140/epjc/s10052-023-11573-0
-    \endverb
-    \verb{eprint}
-    \verb 2303.15061
-    \endverb
-    \field{pages}{496}
-    \field{title}{{Observation of four-top-quark production in the multilepton
-  final state with the ATLAS detector}}
-    \field{volume}{83}
-    \field{journaltitle}{Eur. Phys. J. C}
-    \field{eprinttype}{arXiv}
-    \field{eprintclass}{hep-ex}
-    \field{year}{2023}
   \endentry
 
   \entry{ana:r_par_susy_2021}{article}{}

@@ -4,15 +4,15 @@
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{19}{subfigure.3.1}%
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{19}{subfigure.3.2}%
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{19}{subfigure.3.3}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Caption\relax }}{20}{figure.caption.9}%
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Caption}}{23}{figure.caption.10}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Caption}}{26}{figure.caption.11}%
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Stages of topo-cluster formation corresponding to each threshold. In (a), proto-clusters are seeded from cells with adequate signal significance $\varsigma _\mathrm {cell}^\mathrm {EM}$. The clusters are further merged and split in (b) according to a predefined cluster growth threshold. The process stops in (c) when all sufficiently significant signal hits have been matched to a cluster.}}{34}{figure.caption.12}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Cells passing primary seed threshold}}}{34}{subfigure.1.1}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Cells passing cluster growth threshold}}}{34}{subfigure.1.2}%
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Final reconstructed topo-clusters}}}{34}{subfigure.1.3}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Jet energy scale calibration sequence for EM-scale jets.}}{36}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Caption\relax }}{21}{figure.caption.9}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Caption}}{24}{figure.caption.10}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Caption}}{27}{figure.caption.11}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Stages of topo-cluster formation corresponding to each threshold. In (a), proto-clusters are seeded from cells with adequate signal significance $\varsigma _\mathrm {cell}^\mathrm {EM}$. The clusters are further merged and split in (b) according to a predefined cluster growth threshold. The process stops in (c) when all sufficiently significant signal hits have been matched to a cluster.}}{35}{figure.caption.12}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Cells passing primary seed threshold}}}{35}{subfigure.1.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Cells passing cluster growth threshold}}}{35}{subfigure.1.2}%
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Final reconstructed topo-clusters}}}{35}{subfigure.1.3}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Jet energy scale calibration sequence for EM-scale jets.}}{37}{figure.caption.13}%
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Overview of the GN2 architecture. The number of jet and track features are represented by $n_\text {jf}$ and $n_\text {tf}$ respectively. The global jet representation and track embeddings output by the Transformer encoder are used as inputs for three task-specific networks.}}{38}{figure.caption.14}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces The $c$-, light- and $\tau $-jet rejection rate as a function of $b$-tagging efficiency for GN2 and DL1d using (a) jets in the \ensuremath {t\bar {t}}\xspace sample, and (b) jets in the $Z'$ sample. The performance ratios of GN2 to DL1d are shown in the bottom panels.}}{39}{figure.caption.15}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\ensuremath {t\bar {t}}\xspace sample}}}{39}{subfigure.4.1}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$Z'$ sample}}}{39}{subfigure.4.2}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces The $c$-, light- and $\tau $-jet rejection rate as a function of $b$-tagging efficiency for GN2 and DL1d using (a) jets in the \ensuremath {t\bar {t}}\xspace sample, and (b) jets in the $Z'$ sample. The performance ratios of GN2 to DL1d are shown in the bottom panels.}}{40}{figure.caption.15}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\ensuremath {t\bar {t}}\xspace sample}}}{40}{subfigure.4.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$Z'$ sample}}}{40}{subfigure.4.2}%

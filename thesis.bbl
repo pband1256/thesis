@@ -39,6 +39,35 @@
     \field{year}{2008}
   \endentry
 
+  \entry{theory:SM}{book}{}
+    \name{author}{1}{}{%
+      {{hash=PDH}{%
+         family={Perkins},
+         familyi={P\bibinitperiod},
+         given={Donald\bibnamedelima H.},
+         giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Cambridge University Press}%
+    }
+    \strng{namehash}{PDH1}
+    \strng{fullhash}{PDH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1017/CBO9780511809040
+    \endverb
+    \field{edition}{4th}
+    \field{isbn}{9780521621960}
+    \field{title}{Introduction to High Energy Physics}
+    \list{location}{1}{%
+      {Cambridge, UK}%
+    }
+    \field{month}{04}
+    \field{year}{2000}
+  \endentry
+
   \entry{theory:smparticles}{misc}{}
     \name{author}{2}{}{%
       {{hash=BC}{%
@@ -65,6 +94,293 @@
     \field{urlday}{02}
     \field{urlmonth}{06}
     \field{urlyear}{2025}
+  \endentry
+
+  \entry{theory:gellmann}{book}{}
+    \name{author}{1}{}{%
+      {{hash=GH}{%
+         family={Georgi},
+         familyi={G\bibinitperiod},
+         given={Howard},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {CRC Press}%
+    }
+    \strng{namehash}{GH1}
+    \strng{fullhash}{GH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1201/9780429499210
+    \endverb
+    \field{edition}{2nd}
+    \field{isbn}{9780429499210}
+    \field{title}{Lie Algebras in Particle Physics: from Isospin to Unified
+  Theories}
+    \field{year}{2000}
+  \endentry
+
+  \entry{PDG}{article}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{1}{}{%
+      {{hash=NS}{%
+         family={Navas},
+         familyi={N\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{NS+1}
+    \strng{fullhash}{NS+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevD.110.030001
+    \endverb
+    \field{number}{3}
+    \field{pages}{030001}
+    \field{title}{{Review of particle physics}}
+    \field{volume}{110}
+    \field{journaltitle}{Phys. Rev. D}
+    \field{year}{2024}
+  \endentry
+
+  \entry{theory:top_coupling}{article}{}
+    \name{author}{2}{}{%
+      {{hash=CM}{%
+         family={Cristinziani},
+         familyi={C\bibinitperiod},
+         given={Markus},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=MM}{%
+         family={Mulders},
+         familyi={M\bibinitperiod},
+         given={Martijn},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CMMM1}
+    \strng{fullhash}{CMMM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1088/1361-6471/44/6/063001
+    \endverb
+    \verb{eprint}
+    \verb 1606.00327
+    \endverb
+    \field{number}{6}
+    \field{pages}{063001}
+    \field{title}{Top-quark physics at the Large Hadron Collider}
+    \field{volume}{44}
+    \field{journaltitle}{Journal of Physics G: Nuclear and Particle Physics}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ex}
+    \field{year}{2017}
+  \endentry
+
+  \entry{theory:top_exotics}{article}{}
+    \name{author}{2}{}{%
+      {{hash=dlTFH}{%
+         prefix={de\bibnamedelima la},
+         prefixi={d\bibinitperiod\bibinitdelim l\bibinitperiod},
+         family={TorreTrisha\bibnamedelima Farooque},
+         familyi={T\bibinitperiod\bibinitdelim F\bibinitperiod},
+         given={Hector},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=FT}{%
+         family={Farooque},
+         familyi={F\bibinitperiod},
+         given={Trisha},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TFHdlFT1}
+    \strng{fullhash}{TFHdlFT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.3390/sym14030444
+    \endverb
+    \field{number}{3}
+    \field{pages}{444}
+    \field{title}{{Looking beyond the Standard Model with Third Generation
+  Quarks at the LHC}}
+    \field{volume}{14}
+    \field{journaltitle}{Symmetry}
+    \field{year}{2022}
+  \endentry
+
+  \entry{theory:top_exotics2}{article}{}
+    \name{author}{5}{}{%
+      {{hash=CQH}{%
+         family={Cao},
+         familyi={C\bibinitperiod},
+         given={Qing-Hong},
+         giveni={Q\bibinithyphendelim H\bibinitperiod},
+      }}%
+      {{hash=FJN}{%
+         family={Fu},
+         familyi={F\bibinitperiod},
+         given={Jun-Ning},
+         giveni={J\bibinithyphendelim N\bibinitperiod},
+      }}%
+      {{hash=LY}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Yandong},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=WXH}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Xiao-Hu},
+         giveni={X\bibinithyphendelim H\bibinitperiod},
+      }}%
+      {{hash=ZR}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Rui},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CQH+1}
+    \strng{fullhash}{CQHFJNLYWXHZR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1088/1674-1137/ac0c6f
+    \endverb
+    \verb{eprint}
+    \verb 2105.03372
+    \endverb
+    \field{number}{9}
+    \field{pages}{093107}
+    \field{title}{Probing Top‑philic New Physics via Four‑Top‑Quark
+  Production}
+    \field{volume}{45}
+    \field{journaltitle}{Chinese Physics C}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{year}{2021}
+  \endentry
+
+  \entry{theory:top_exotics3}{article}{}
+    \name{author}{7}{}{%
+      {{hash=BH}{%
+         family={Beauchesne},
+         familyi={B\bibinitperiod},
+         given={Hugues},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=CC}{%
+         family={Cazzaniga},
+         familyi={C\bibinitperiod},
+         given={Cesare},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=dCA}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={Cosa},
+         familyi={C\bibinitperiod},
+         given={Annapaola},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=DC}{%
+         family={Doglioni},
+         familyi={D\bibinitperiod},
+         given={Caterina},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=FT}{%
+         family={Fitschen},
+         familyi={F\bibinitperiod},
+         given={Tobias},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=GdCG}{%
+         prefix={Grilli\bibnamedelima di},
+         prefixi={G\bibinitperiod\bibinitdelim d\bibinitperiod},
+         family={Cortona},
+         familyi={C\bibinitperiod},
+         given={Giovanni},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=ZZ}{%
+         family={Zhou},
+         familyi={Z\bibinitperiod},
+         given={Ziyuan},
+         giveni={Z\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BH+1}
+    \strng{fullhash}{BHCCCAdDCFTCGGdZZ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1140/epjc/s10052-020-7732-1
+    \endverb
+    \verb{eprint}
+    \verb 1908.11619
+    \endverb
+    \field{number}{5}
+    \field{pages}{485}
+    \field{title}{A case study about BSM vector resonances with direct
+  couplings to the third quark generation}
+    \field{volume}{80}
+    \field{journaltitle}{European Physical Journal C}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{year}{2020}
+  \endentry
+
+  \entry{theory:top_exotics4}{article}{}
+    \name{author}{3}{}{%
+      {{hash=MF}{%
+         family={Maltoni},
+         familyi={M\bibinitperiod},
+         given={Fabio},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=PD}{%
+         family={Pagani},
+         familyi={P\bibinitperiod},
+         given={Davide},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=TS}{%
+         family={Tentori},
+         familyi={T\bibinitperiod},
+         given={Simone},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MFPDTS1}
+    \strng{fullhash}{MFPDTS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/JHEP09(2024)098
+    \endverb
+    \verb{eprint}
+    \verb 2406.06694
+    \endverb
+    \field{number}{9}
+    \field{pages}{098}
+    \field{title}{Top‑quark pair production as a probe of light top‑philic
+  scalars and anomalous Higgs interactions}
+    \field{volume}{2024}
+    \field{journaltitle}{Journal of High Energy Physics}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{month}{09}
+    \field{year}{2024}
   \endentry
 
   \entry{theory:ttH_Hbb}{article}{}
@@ -95,6 +411,131 @@
     \field{year}{2019}
   \endentry
 
+  \entry{theory:qft}{book}{}
+    \name{author}{2}{}{%
+      {{hash=PME}{%
+         family={Peskin},
+         familyi={P\bibinitperiod},
+         given={Michael\bibnamedelima E.},
+         giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=SDV}{%
+         family={Schroeder},
+         familyi={S\bibinitperiod},
+         given={Daniel\bibnamedelima V.},
+         giveni={D\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Addison–Wesley}%
+    }
+    \strng{namehash}{PMESDV1}
+    \strng{fullhash}{PMESDV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{edition}{1st}
+    \field{isbn}{978-0-201-50397-5}
+    \field{title}{An Introduction to Quantum Field Theory}
+    \list{location}{1}{%
+      {Reading, MA, USA}%
+    }
+    \field{year}{1995}
+  \endentry
+
+  \entry{theory:symmetry}{article}{}
+    \name{author}{1}{}{%
+      {{hash=GDJ}{%
+         family={Gross},
+         familyi={G\bibinitperiod},
+         given={David\bibnamedelima J.},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GDJ1}
+    \strng{fullhash}{GDJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1073/pnas.93.25.14256
+    \endverb
+    \field{number}{25}
+    \field{pages}{14256\bibrangedash 14259}
+    \field{title}{The role of symmetry in fundamental physics}
+    \field{volume}{93}
+    \field{journaltitle}{Proceedings of the National Academy of Sciences of the
+  United States of America}
+    \field{month}{12}
+    \field{year}{1996}
+  \endentry
+
+  \entry{theory:yangmills}{article}{}
+    \name{author}{2}{}{%
+      {{hash=YC}{%
+         family={Yang},
+         familyi={Y\bibinitperiod},
+         given={Chen},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=MR}{%
+         family={Mills},
+         familyi={M\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{YCMR1}
+    \strng{fullhash}{YCMR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRev.96.191
+    \endverb
+    \field{issue}{1}
+    \field{pages}{191\bibrangedash 195}
+    \field{title}{Conservation of Isotopic Spin and Isotopic Gauge Invariance}
+    \field{volume}{96}
+    \field{journaltitle}{Phys. Rev.}
+    \field{year}{1954}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{theory:yangmills2}{article}{}
+    \name{author}{2}{}{%
+      {{hash=MA}{%
+         family={Milsted},
+         familyi={M\bibinitperiod},
+         given={Ashley},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=OTJ}{%
+         family={Osborne},
+         familyi={O\bibinitperiod},
+         given={Tobias\bibnamedelima J.},
+         giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{MAOTJ1}
+    \strng{fullhash}{MAOTJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevD.98.014505
+    \endverb
+    \field{issue}{1}
+    \field{pages}{014505}
+    \field{title}{Quantum Yang-Mills theory: An overview of a program}
+    \field{volume}{98}
+    \field{journaltitle}{Phys. Rev. D}
+    \field{year}{2018}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{theory:ew}{inproceedings}{}
     \name{author}{1}{}{%
       {{hash=PA}{%
@@ -118,6 +559,43 @@
     \field{eprintclass}{hep-ex}
     \field{month}{02}
     \field{year}{2005}
+  \endentry
+
+  \entry{theory:ew_scale}{article}{}
+    \name{author}{2}{}{%
+      {{hash=DP}{%
+         family={Dev},
+         familyi={D\bibinitperiod},
+         given={P. S. Bhupal},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={Pilaftsis},
+         familyi={P\bibinitperiod},
+         given={Apostolos},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DPPA1}
+    \strng{fullhash}{DPPA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/JHEP09(2020)012
+    \endverb
+    \verb{eprint}
+    \verb 2002.05174
+    \endverb
+    \field{number}{9}
+    \field{pages}{012}
+    \field{title}{High-temperature electroweak symmetry non-restoration from
+  new fermions and implications for baryogenesis}
+    \field{volume}{2020}
+    \field{journaltitle}{Journal of High Energy Physics}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{month}{09}
+    \field{year}{2020}
   \endentry
 
   \entry{theory:higgs1}{article}{}
@@ -261,6 +739,68 @@
     \field{year}{2012}
   \endentry
 
+  \entry{theory:higgs_pot}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=RJ}{%
+         family={Riebesell},
+         familyi={R\bibinitperiod},
+         given={Janosh},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RJ1}
+    \strng{fullhash}{RJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{Higgs Potential}}
+    \verb{url}
+    \verb https://tikz.net/higgs-potential/
+    \endverb
+    \field{urlday}{07}
+    \field{urlmonth}{07}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{theory:nambu_goldstone}{article}{}
+    \name{author}{3}{}{%
+      {{hash=GJ}{%
+         family={Goldstone},
+         familyi={G\bibinitperiod},
+         given={Jeffrey},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Salam},
+         familyi={S\bibinitperiod},
+         given={Abdus},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=WS}{%
+         family={Weinberg},
+         familyi={W\bibinitperiod},
+         given={Steven},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{GJSAWS1}
+    \strng{fullhash}{GJSAWS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRev.127.965
+    \endverb
+    \field{issue}{3}
+    \field{pages}{965\bibrangedash 970}
+    \field{title}{Broken Symmetries}
+    \field{volume}{127}
+    \field{journaltitle}{Phys. Rev.}
+    \field{year}{1962}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{theory:higgs_physics}{inproceedings}{}
     \name{author}{1}{}{%
       {{hash=EJ}{%
@@ -286,6 +826,174 @@
     \field{eprinttype}{arXiv}
     \field{eprintclass}{hep-ph}
     \field{year}{2015}
+  \endentry
+
+  \entry{theory:Zp_U1p}{article}{}
+    \name{author}{1}{}{%
+      {{hash=CC}{%
+         family={Collaboration},
+         familyi={C\bibinitperiod},
+         given={CDF},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{CC1}
+    \strng{fullhash}{CC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevLett.99.171802
+    \endverb
+    \verb{eprint}
+    \verb 0707.2524
+    \endverb
+    \field{issue}{17}
+    \field{pages}{171802}
+    \field{title}{Search for New Physics in High-Mass Electron-Positron Events
+  in $p\overline{p}$ Collisions at $\sqrt{s}=1.96\text{ }\text{ }\mathrm{TeV}$}
+    \field{volume}{99}
+    \field{journaltitle}{Phys. Rev. Lett.}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ex}
+    \field{year}{2007}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{theory:little_higgs}{article}{}
+    \name{author}{3}{}{%
+      {{hash=AHN}{%
+         family={Arkani-Hamed},
+         familyi={A\bibinithyphendelim H\bibinitperiod},
+         given={Nima},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=CAG}{%
+         family={Cohen},
+         familyi={C\bibinitperiod},
+         given={Andrew\bibnamedelima G.},
+         giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=GH}{%
+         family={Georgi},
+         familyi={G\bibinitperiod},
+         given={Howard},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AHNCAGGH1}
+    \strng{fullhash}{AHNCAGGH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/S0370-2693(01)00774-2
+    \endverb
+    \verb{eprint}
+    \verb hep-ph/0105239
+    \endverb
+    \field{number}{1-2}
+    \field{pages}{232\bibrangedash 240}
+    \field{title}{Electroweak symmetry breaking from dimensional
+  deconstruction}
+    \field{volume}{513}
+    \field{journaltitle}{Physics Letters B}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{month}{07}
+    \field{year}{2001}
+  \endentry
+
+  \entry{theory:little_higgs2}{article}{}
+    \name{author}{4}{}{%
+      {{hash=HT}{%
+         family={Han},
+         familyi={H\bibinitperiod},
+         given={Tao},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=LHE}{%
+         family={Logan},
+         familyi={L\bibinitperiod},
+         given={Heather\bibnamedelima E.},
+         giveni={H\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=MB}{%
+         family={McElrath},
+         familyi={M\bibinitperiod},
+         given={Bob},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=WLT}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Lian-Tao},
+         giveni={L\bibinithyphendelim T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{HT+1}
+    \strng{fullhash}{HTLHEMBWLT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevD.67.095004
+    \endverb
+    \verb{eprint}
+    \verb hep-ph/0301040
+    \endverb
+    \field{issue}{9}
+    \field{pages}{095004}
+    \field{title}{Phenomenology of the little Higgs model}
+    \field{volume}{67}
+    \field{journaltitle}{Phys. Rev. D}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{year}{2003}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{theory:fcnc}{article}{}
+    \name{author}{2}{}{%
+      {{hash=LP}{%
+         family={Langacker},
+         familyi={L\bibinitperiod},
+         given={Paul},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Pl\"umacher},
+         familyi={P\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{LPPM1}
+    \strng{fullhash}{LPPM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevD.62.013006
+    \endverb
+    \verb{eprint}
+    \verb hep-ph/0001204
+    \endverb
+    \field{issue}{1}
+    \field{pages}{013006}
+    \field{title}{Flavor changing effects in theories with a heavy
+  ${Z}^{\ensuremath{'}}$ boson with family nonuniversal couplings}
+    \field{volume}{62}
+    \field{journaltitle}{Phys. Rev. D}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{year}{2000}
+    \warn{\item Invalid format of field 'month'}
   \endentry
 
   \entry{theory:Zp}{article}{}
@@ -466,6 +1174,87 @@
     \field{year}{2005}
   \endentry
 
+  \entry{theory:ttZp_1los}{article}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{ATLAS Collaboration}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1140/epjc/s10052-023-12318-9
+    \endverb
+    \verb{eprint}
+    \verb 2304.01678
+    \endverb
+    \field{pages}{157}
+    \field{title}{{Search for top-philic heavy resonances in \(pp\) collisions
+  at \(\sqrt{s} = 13\,\text{TeV}\) with the ATLAS detector}}
+    \field{volume}{84}
+    \field{journaltitle}{Eur. Phys. J. C}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ex}
+    \field{year}{2024}
+  \endentry
+
+  \entry{tttt_obs}{article}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{ATLAS Collaboration}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1140/epjc/s10052-023-11573-0
+    \endverb
+    \verb{eprint}
+    \verb 2303.15061
+    \endverb
+    \field{pages}{496}
+    \field{title}{{Observation of four-top-quark production in the multilepton
+  final state with the ATLAS detector}}
+    \field{volume}{83}
+    \field{journaltitle}{Eur. Phys. J. C}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ex}
+    \field{year}{2023}
+  \endentry
+
+  \entry{tttt_obs_cms}{article}{}
+    \name{author}{1}{}{%
+      {{hash=C}{%
+         family={{CMS Collaboration}},
+         familyi={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{C1}
+    \strng{fullhash}{C1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.physletb.2023.138290
+    \endverb
+    \verb{eprint}
+    \verb 2305.13439
+    \endverb
+    \field{pages}{138290}
+    \field{title}{Observation of four top quark production in proton–proton
+  collisions at $\sqrt{s}=13$ TeV}
+    \field{volume}{847}
+    \field{journaltitle}{Physics Letters B}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ex}
+    \field{year}{2023}
+  \endentry
+
   \entry{theory:ttZp}{article}{}
     \name{author}{5}{}{%
       {{hash=GN}{%
@@ -503,35 +1292,21 @@
     \strng{fullhash}{GNKKPJCPSCWJC1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{abstract}{%
-    We investigate the collider phenomenology of a color-singlet vector
-  resonance, which couples to the heaviest quarks, the top quarks, but very
-  weakly to the rest of the fermions in the Standard Model. We find that the
-  dominant production of such a resonance does not appear at the tree level ---
-  it rather occurs at the one-loop level in association with an extra jet.
-  Signatures like {\$}{\$} t{\backslash}overline{\{}t{\}} {\$}{\$}plus jets
-  readily emerge as a result of the subsequent decay of the resonance into a
-  pair of top quarks. Without the additional jet, the resonance can still be
-  produced off-shell, which gives a sizeable contribution at low masses. The
-  lower top quark multiplicity of the loop induced resonance production
-  facilitates its reconstruction as compared to the tree level production that
-  gives rise to more exotic signatures involving three or even four top quarks
-  in the final state. For all these cases, we discuss the constraints on the
-  resonance production stemming from recent experimental measurements in the
-  top quark sector. We find that the top-philic vector resonance remains
-  largely unconstrained for the majority of the parameter space, although this
-  will be scrutinized closely in the Run 2 phase of the LHC.%
-    }
     \verb{doi}
     \verb 10.1007/JHEP04(2015)029
+    \endverb
+    \verb{eprint}
+    \verb 1410.6099
     \endverb
     \field{issn}{1029-8479}
     \field{number}{4}
     \field{pages}{29}
-    \field{title}{{Model-independent production of a top-philic resonance at
-  the LHC}}
+    \field{title}{Model-independent production of a top-philic resonance at the
+  LHC}
     \field{volume}{2015}
     \field{journaltitle}{Journal of High Energy Physics}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
     \field{year}{2015}
     \warn{\item Invalid format of field 'month'}
   \endentry
@@ -573,14 +1348,193 @@
     \verb{doi}
     \verb 10.1103/PhysRevD.94.035023
     \endverb
+    \verb{eprint}
+    \verb 1604.07421
+    \endverb
     \field{issue}{3}
     \field{pages}{035023}
     \field{title}{{Probing TeV scale top-philic resonances with boosted
   top-tagging at the high luminosity LHC}}
     \field{volume}{94}
     \field{journaltitle}{Phys. Rev. D}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
     \field{year}{2016}
     \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Branco:2011iw}{article}{}
+    \name{author}{6}{}{%
+      {{hash=BGC}{%
+         family={Branco},
+         familyi={B\bibinitperiod},
+         given={G.\bibnamedelima C.},
+         giveni={G\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=FPM}{%
+         family={Ferreira},
+         familyi={F\bibinitperiod},
+         given={P.\bibnamedelima M.},
+         giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=LL}{%
+         family={Lavoura},
+         familyi={L\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=RMN}{%
+         family={Rebelo},
+         familyi={R\bibinitperiod},
+         given={M.\bibnamedelima N.},
+         giveni={M\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Sher},
+         familyi={S\bibinitperiod},
+         given={Marc},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SJP}{%
+         family={Silva},
+         familyi={S\bibinitperiod},
+         given={Joao\bibnamedelima P.},
+         giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BGC+1}
+    \strng{fullhash}{BGCFPMLLRMNSMSJP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.physrep.2012.02.002
+    \endverb
+    \verb{eprint}
+    \verb 1106.0034
+    \endverb
+    \field{pages}{1\bibrangedash 102}
+    \field{title}{{Theory and phenomenology of two-Higgs-doublet models}}
+    \field{volume}{516}
+    \field{journaltitle}{Phys. Rept.}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{year}{2012}
+  \endentry
+
+  \entry{PhysRevD.93.075038}{article}{}
+    \name{author}{4}{}{%
+      {{hash=GS}{%
+         family={Gori},
+         familyi={G\bibinitperiod},
+         given={Stefania},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=KIW}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={Ian-Woo},
+         giveni={I\bibinithyphendelim W\bibinitperiod},
+      }}%
+      {{hash=SNR}{%
+         family={Shah},
+         familyi={S\bibinitperiod},
+         given={Nausheen\bibnamedelima R.},
+         giveni={N\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=ZKM}{%
+         family={Zurek},
+         familyi={Z\bibinitperiod},
+         given={Kathryn\bibnamedelima M.},
+         giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{GS+1}
+    \strng{fullhash}{GSKIWSNRZKM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevD.93.075038
+    \endverb
+    \field{issue}{7}
+    \field{pages}{075038}
+    \field{title}{Closing the wedge: Search strategies for extended Higgs
+  sectors with heavy flavor final states}
+    \verb{url}
+    \verb https://link.aps.org/doi/10.1103/PhysRevD.93.075038
+    \endverb
+    \field{volume}{93}
+    \field{journaltitle}{Phys. Rev. D}
+    \field{year}{2016}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{higgscomp}{article}{}
+    \name{author}{2}{}{%
+      {{hash=DPSB}{%
+         family={Dev},
+         familyi={D\bibinitperiod},
+         given={P.\bibnamedelima S.\bibnamedelima Bhupal},
+         giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim
+  B\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={Pilaftsis},
+         familyi={P\bibinitperiod},
+         given={Apostolos},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DPSBPA1}
+    \strng{fullhash}{DPSBPA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/JHEP12(2014)024
+    \endverb
+    \verb{eprint}
+    \verb 1408.3405
+    \endverb
+    \field{number}{12}
+    \field{pages}{024}
+    \field{title}{Maximally symmetric two Higgs doublet model with natural
+  Standard Model alignment}
+    \field{volume}{2014}
+    \field{journaltitle}{Journal of High Energy Physics}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{month}{12}
+    \field{year}{2014}
+  \endentry
+
+  \entry{Sabatini:2784150}{report}{}
+    \name{author}{1}{}{%
+      {{hash=SP}{%
+         family={Sabatini},
+         familyi={S\bibinitperiod},
+         given={Paolo},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SP1}
+    \strng{fullhash}{SP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{Evidence for four-top-quarks production with the ATLAS
+  detector at the Large Hadron Collider}}
+    \verb{url}
+    \verb https://cds.cern.ch/record/2784150
+    \endverb
+    \list{location}{1}{%
+      {Geneva}%
+    }
+    \list{institution}{1}{%
+      {CERN}%
+    }
+    \field{type}{techreport}
+    \field{year}{2021}
   \endentry
 
   \entry{ATL-PHYS-PUB-2023-039}{booklet}{}
@@ -993,6 +1947,33 @@
     \field{year}{2017}
   \endentry
 
+  \entry{reco:pileup}{article}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{ATLAS Collaboration}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1140/epjc/s10052-016-4395-z
+    \endverb
+    \verb{eprint}
+    \verb 1510.03823
+    \endverb
+    \field{pages}{581}
+    \field{title}{{Performance of pile-up mitigation techniques for jets in
+  \(pp\) collisions at \(\sqrt{s} = 8\,\text{TeV}\) using the ATLAS detector}}
+    \field{volume}{76}
+    \field{journaltitle}{Eur. Phys. J. C}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ex}
+    \field{year}{2016}
+  \endentry
+
   \entry{reco:topocluster}{article}{}
     \name{author}{1}{}{%
       {{hash=A}{%
@@ -1396,7 +2377,7 @@
     \field{year}{2018}
   \endentry
 
-  \entry{sample:data}{article}{}
+  \entry{DAPR-2021-01}{article}{}
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
@@ -1408,41 +2389,14 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
-    \verb 10.1088/1748-0221/15/04/P04003
+    \verb 10.1140/epjc/s10052-023-11747-w
     \endverb
     \verb{eprint}
-    \verb 1911.04632
+    \verb 2212.09379
     \endverb
-    \field{pages}{P04003}
-    \field{title}{{ATLAS data quality operations and performance for 2015--2018
-  data-taking}}
-    \field{volume}{15}
-    \field{journaltitle}{JINST}
-    \field{eprinttype}{arXiv}
-    \field{eprintclass}{physics.ins-det}
-    \field{year}{2020}
-  \endentry
-
-  \entry{tttt_obs}{article}{}
-    \name{author}{1}{}{%
-      {{hash=A}{%
-         family={{ATLAS Collaboration}},
-         familyi={A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{A1}
-    \strng{fullhash}{A1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1140/epjc/s10052-023-11573-0
-    \endverb
-    \verb{eprint}
-    \verb 2303.15061
-    \endverb
-    \field{pages}{496}
-    \field{title}{{Observation of four-top-quark production in the multilepton
-  final state with the ATLAS detector}}
+    \field{pages}{982}
+    \field{title}{{Luminosity determination in \(pp\) collisions at \(\sqrt{s}
+  = 13\,\text{TeV}\) using the ATLAS detector at the LHC}}
     \field{volume}{83}
     \field{journaltitle}{Eur. Phys. J. C}
     \field{eprinttype}{arXiv}
@@ -2224,6 +3178,33 @@
     \field{year}{2019}
   \endentry
 
+  \entry{sample:data}{article}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{ATLAS Collaboration}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1088/1748-0221/15/04/P04003
+    \endverb
+    \verb{eprint}
+    \verb 1911.04632
+    \endverb
+    \field{pages}{P04003}
+    \field{title}{{ATLAS data quality operations and performance for 2015--2018
+  data-taking}}
+    \field{volume}{15}
+    \field{journaltitle}{JINST}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{physics.ins-det}
+    \field{year}{2020}
+  \endentry
+
   \entry{bg:ttH_ttW_ML}{booklet}{}
     \name{author}{1}{}{%
       {{hash=A}{%
@@ -2400,6 +3381,223 @@
     \field{eprinttype}{arXiv}
     \field{eprintclass}{hep-ph}
     \field{year}{2012}
+  \endentry
+
+  \entry{LUCID2}{article}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{1}{}{%
+      {{hash=AG}{%
+         family={Avoni},
+         familyi={A\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AG+1}
+    \strng{fullhash}{AG+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1088/1748-0221/13/07/P07017
+    \endverb
+    \field{number}{07}
+    \field{pages}{P07017}
+    \field{title}{The new LUCID-2 detector for luminosity measurement and
+  monitoring in ATLAS}
+    \field{volume}{13}
+    \field{journaltitle}{JINST}
+    \field{year}{2018}
+  \endentry
+
+  \entry{syst:jvt_calib}{booklet}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{ATLAS Collaboration}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{{ATL-PHYS-PUB-2014-001}}
+    \field{title}{{Tagging and suppression of pileup jets}}
+    \verb{url}
+    \verb https://cds.cern.ch/record/1643929
+    \endverb
+    \field{year}{2014}
+  \endentry
+
+  \entry{TOPQ-2017-12}{article}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{ATLAS Collaboration}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/JHEP04(2019)046
+    \endverb
+    \verb{eprint}
+    \verb 1811.12113
+    \endverb
+    \field{pages}{046}
+    \field{title}{{Measurements of inclusive and differential fiducial
+  cross-sections of \(t\bar{t}\) production with additional heavy-flavour jets
+  in proton--proton collisions at \(\sqrt{s} = 13\,\text{TeV}\) with the ATLAS
+  detector}}
+    \field{volume}{04}
+    \field{journaltitle}{JHEP}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ex}
+    \field{year}{2019}
+  \endentry
+
+  \entry{deFlorian:2016spz}{article}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{1}{}{%
+      {{hash=dFD}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={Florian},
+         familyi={F\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FDd+1}
+    \strng{fullhash}{FDd+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.23731/CYRM-2017-002
+    \endverb
+    \verb{eprint}
+    \verb 1610.07922
+    \endverb
+    \field{pages}{1\bibrangedash 869}
+    \field{title}{{Handbook of LHC Higgs Cross Sections: 4. Deciphering the
+  Nature of the Higgs Sector}}
+    \field{volume}{2}
+    \field{journaltitle}{CERN Yellow Rep. Monogr.}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{year}{2017}
+  \endentry
+
+  \entry{ATLAS-CONF-2017-052}{booklet}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{ATLAS Collaboration}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{{ATLAS-CONF-2017-052}}
+    \field{title}{{Measurement of the production cross-section of a single top
+  quark in association with a \(Z\) boson in proton--proton collisions at
+  \(13~\text{TeV}\) with the ATLAS detector}}
+    \verb{url}
+    \verb https://cds.cern.ch/record/2273868
+    \endverb
+    \field{year}{2017}
+  \endentry
+
+  \entry{Demartin_2017}{article}{}
+    \name{author}{5}{}{%
+      {{hash=DF}{%
+         family={Demartin},
+         familyi={D\bibinitperiod},
+         given={Federico},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=MB}{%
+         family={Maier},
+         familyi={M\bibinitperiod},
+         given={Benedikt},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=MF}{%
+         family={Maltoni},
+         familyi={M\bibinitperiod},
+         given={Fabio},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=MK}{%
+         family={Mawatari},
+         familyi={M\bibinitperiod},
+         given={Kentarou},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=ZM}{%
+         family={Zaro},
+         familyi={Z\bibinitperiod},
+         given={Marco},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {Springer Science}%
+      {Business Media {LLC}}%
+    }
+    \strng{namehash}{DF+1}
+    \strng{fullhash}{DFMBMFMKZM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1140/epjc/s10052-017-4601-7
+    \endverb
+    \verb{eprint}
+    \verb 1607.05862
+    \endverb
+    \field{number}{1}
+    \field{title}{$tWH$ associated production at the {LHC}}
+    \verb{url}
+    \verb https://doi.org/10.1140/epjc/s10052-017-4601-7
+    \endverb
+    \field{volume}{77}
+    \field{journaltitle}{EPJC}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{year}{2017}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{STDM-2018-03}{article}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{ATLAS Collaboration}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1140/epjc/s10052-019-7027-6
+    \endverb
+    \verb{eprint}
+    \verb 1902.05759
+    \endverb
+    \field{pages}{535}
+    \field{title}{{Measurement of \(W^{\pm}Z\) production cross sections and
+  gauge boson polarisation in \(pp\) collisions at \(\sqrt{s} =
+  13\,\text{TeV}\) with the ATLAS detector}}
+    \field{volume}{79}
+    \field{journaltitle}{Eur. Phys. J. C}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ex}
+    \field{year}{2019}
   \endentry
 \enddatalist
 \endinput

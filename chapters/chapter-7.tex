@@ -22,7 +22,7 @@ Additional selections are applied based on the lepton flavors present. In the SS
 
 \subsection{Object definition}
 \label{sec:objdef}
-\autoref{tab:obj_sel} shows the selections used in this analysis. Each selection comes with associated calibration scale factors to account for discrepancies between data and \acs{MC} simulation, and are applied multiplicatively to \acs{MC} event weights.
+\autoref{tab:obj_sel} shows the selections used in this analysis. Each selection comes with associated calibration scale factors (\acs{SF}s) to account for discrepancies between data and \acs{MC} simulation, and are applied multiplicatively to \acs{MC} event weights.
 
 \begin{table}[!htp]
 \centering
@@ -170,7 +170,7 @@ A data-driven method was employed in a similar manner to the \acs{SM} \tttt obse
 Events in \CRttWpm are required to contain at least two $b$-tagged jets similar to the SR to determine the \ttW normalization within an SR-related phase space. Orthogonality with SR is ensured by requiring $\HT<500$ GeV or $N_\mathrm{jets}<6$ when $N_b=2$, and $\HT<500$ GeV when $N_b\geq 3$. Events in \CRonebpm are required to have $\HT>500$ GeV and at least four jets to encompass events with high $N_\mathrm{jets}$, which can be used to determine the \ttW jet multiplicity spectrum for fitting $a_{0,1}$. The selection criteria also include exactly one $b$-tagged jet to maintain orthogonality with the \acs{SR}.
 
 \subsubsection*{Fake/non-prompt background CRs}
-Selection for fake/non-prompt \acs{CR}s are determined using the \verb|DFCommonAddAmbiguity| (DFCAA) variable for reconstructed leptons.\\
+Selection for fake/non-prompt \acs{CR}s are determined using the \verb|DFCommonAddAmbiguity| (DFCAA) variable for reconstructed leptons.
 
 \begin{table}[!htbp]
 \centering
@@ -218,17 +218,20 @@ Template fitting method is a semi-data-driven approach \citep{bg:ttH_ttW_ML} tha
 
 \subsection{Charge misidentification data-driven estimation}
 \label{sec:qmisid}
-The $ee$ and $e\mu$ channels in the \acs{SS2L} region are contaminated with opposite-sign (\acs{OS}) dilepton events with one misidentified charge. Charge misidentification largely affects electrons due to muons' precise curvature information using \acs{ID} and \acs{MS} measurements and low bremsstrahlung rate. The charge flip rates are significant at higher \pT and varies with $|\eta|$ which is proportional to the amount of detector material the electron interacted with, and are estimated in this analysis using a data-driven method \citep{EXOT-2016-16}. The charge flip probability $\epsilon$ is estimated using a sample of $Z\rightarrow ee$ events with additional constraints on the invariant mass $m_{ee}$ to be within 10 GeV of the $Z$-boson mass. The $Z$-boson mass window is defined to be within $4\sigma$ to include most events within the peak, and is determined by fitting the $m_{ee}$ spectrum of the two leading electrons to a Breit-Wigner function, resulting in a range of $[65.57, 113.49]$ for SS events and $[71.81, 109.89]$ for \acs{OS} events. Background contamination near the peak is assumed to be uniform and subtracted using a sideband method. Since the $Z$-boson decay products consist of a pair of opposite-sign electrons, all same-sign electron pairs are considered affected by charge misidentification.
+The $ee$ and $e\mu$ channels in the \acs{SS2L} region are contaminated with opposite-sign (\acs{OS}) dilepton events with one misidentified charge. Charge misidentification (\acs{QmisID}) largely affects electrons due to muons' precise curvature information using \acs{ID} and \acs{MS} measurements and low bremsstrahlung rate. The charge flip rates are significant at higher \pT and varies with $|\eta|$ which is proportional to the amount of detector material the electron interacted with.
 
-Let $N_{ij}^\mathrm{SS}$ be the number of events with \acs{SS} electrons with the leading electron in the $i^\mathrm{th}$ 2D bin in $(\pT,|\eta|)$ and the sub-leading electron in the $j^\mathrm{th}$ bin. Assuming the charge flip probabilities of electrons in an event are uncorrelated, $N_{ij}^\mathrm{SS}$ can be estimated as
+The charge flip probability $\epsilon$ is estimated in this analysis with a data-driven method \citep{EXOT-2016-16} using a sample of $Z\rightarrow e^+e^-$ events with additional constraints on the invariant mass $m_{ee}$ to be within 10 GeV of the $Z$-boson mass. The $Z$-boson mass window is defined to be within $4\sigma$ to include most events within the peak, and is determined by fitting the $m_{ee}$ spectrum of the two leading electrons to a Breit-Wigner function, resulting in a range of $[65.57, 113.49]$ for SS events and $[71.81, 109.89]$ for \acs{OS} events. Background contamination near the peak is assumed to be uniform and subtracted using a sideband method. Since the $Z$-boson decay products consist of a pair of opposite-sign electrons, all same-sign electron pairs are considered affected by charge misidentification.
+
+Let $N_{ij}^\mathrm{SS}$ be the number of events with \acs{SS} electrons with the leading electron in the $i^\mathrm{th}$ 2D bin in $(\pT,|\eta|)$ and the sub-leading electron in the $j^\mathrm{th}$ bin. Assuming the \acs{QmisID} probabilities of electrons in an event are uncorrelated, $N_{ij}^\mathrm{SS}$ can be estimated as
 
 \begin{equation}
 N_{ij}^\mathrm{SS} = N_{ij}^\mathrm{tot} (\epsilon_i(1-\epsilon_j) + \epsilon_j(1-\epsilon_i),
 \end{equation}
 
-where $N_{ij}^\mathrm{tot}$ is the total number of events in the $i^\mathrm{th}$ and $j^\mathrm{th}$ bin regardless of charge, and $\epsilon_{i(j)}$ is the charge flip rate in the $i^\mathrm{th}$($j^\mathrm{th}$) bin. Assuming $N_{ij}^\mathrm{SS}$ follows a Poisson distribution around the expectation value $\bar{N}_{ij}^\mathrm{SS}$, the charge flip rate $\epsilon$ can be estimated by minimizing a negative-LLH function parameterized in \pT and $|\eta|$,
+where $N_{ij}^\mathrm{tot}$ is the total number of events in the $i^\mathrm{th}$ and $j^\mathrm{th}$ bin regardless of charge, and $\epsilon_{i(j)}$ is the \acs{QmisID} rate in the $i^\mathrm{th}$($j^\mathrm{th}$) bin. Assuming $N_{ij}^\mathrm{SS}$ follows a Poisson distribution around the expectation value $\bar{N}_{ij}^\mathrm{SS}$, the $(i,n)^\text{th}$ rate $\epsilon$ can be estimated by minimizing a negative-\acs{LLH} function parameterized in \pT and $|\eta|$,
 
 \begin{equation}
+\label{eq:qmisid_llh}
 \begin{aligned}
 -\ln (\mathcal{L}(\epsilon | N_\mathrm{SS})) 
 &= -\ln \mathlarger{\prod}_{ij} \frac{(N_{ij}^\mathrm{tot})^{N_{ij}^\mathrm{SS}} \cdot e^{N_{ij}^\mathrm{tot}}}{N_{ij}^\mathrm{SS}!} \\
@@ -239,10 +242,23 @@ N_{ij}^\mathrm{tot}( \epsilon_i(1-\epsilon_j)+\epsilon_j(1-\epsilon_i) ) \right]
 \end{aligned}
 \end{equation}
 
-The charge flip rate is then calculated separately for \acs{SR} and \acs{CR}s with different electron definitions (e.g. \acs{CR} Low $m_{\gamma^{*}}$, \acs{CR} Mat. Conv., \acs{CR} \ttWpm) using events satisfying 2LSS kinematic selections but contains OS electrons after applying region-specific lepton selections and \acs{ECIDS}. The following weight is applied to \acs{OS} events to correct for misidentified \acs{SS} events within the region,
+The \acs{QmisID} rates are then calculated separately for \acs{SR} and \acs{CR}s with different electron definitions i.e. \acs{CR} Low $m_{\gamma^{*}}$, \acs{CR} Mat. Conv., \acs{CR} \ttWpm, using events from data after applying region-specific lepton selections and \acs{ECIDS}. The events are required to satisfy \acs{SS2L} kinematic selections but contains \acs{OS} electrons. The following weight is applied to \acs{OS} events to correct for misidentified \acs{SS} events within the region,
 \begin{equation}
 w = \frac{\epsilon_i+\epsilon_j-2\epsilon_i\epsilon_j}{1-\epsilon_i-\epsilon_j+2\epsilon_i\epsilon_j}.
 \end{equation}
+The \acs{QmisID} rates calculated for \acs{SR} and \acs{CR} \ttW are shown in \autoref{fig:ana:qmisid}
+
+\begin{figure}[!htb]
+\centering
+\subfloat[\acs{SR}]{
+\includegraphics[width=0.5\linewidth]{fig/ana_qmisID_SR_etabins2D.pdf}}
+\subfloat[\acs{CR} \ttW]{
+\includegraphics[width=0.5\linewidth]{fig/ana_qmisID_ttW_etabins2D.pdf}}
+\caption{\label{fig:ana:qmisid}Charge flip rate calculated for \acs{SR} and \acs{CR} \ttW in bins of $|\eta|$ and \pT.}
+\end{figure}
+
+The \acs{QmisID} rates obtained after applying $w$ contain a dependency on jet multiplicity and are underestimated at higher $N_\text{jets}$. This dependency affect the \acs{SR} which require events with $\geq 6$ jets, and is corrected by applying a correction factor $\text{SF}_{i,n} = \epsilon_{i,n}/\epsilon_{i,N}$ where $N$ is the inclusive bin containing all $N_\text{jets}$ and $\epsilon_{i,n}$ is the \acs{QmisID} rate obtained from \autoref{eq:qmisid_llh} in the $(i,n)^\text{th}$ 2D bin in $(\pT, N_\text{jets})$. Jet multiplicity and consequently the obtained \acs{SF}s are assumed to be independent of $|\eta|$.
+
 
 
 

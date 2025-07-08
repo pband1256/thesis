@@ -1,18 +1,23 @@
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Caption}}{4}{figure.caption.6}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Caption}}{7}{figure.caption.7}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Caption}}{19}{figure.caption.8}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{19}{subfigure.3.1}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{19}{subfigure.3.2}%
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{19}{subfigure.3.3}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Caption\relax }}{21}{figure.caption.9}%
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Caption}}{24}{figure.caption.10}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Caption}}{27}{figure.caption.11}%
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Stages of topo-cluster formation corresponding to each threshold. In (a), proto-clusters are seeded from cells with adequate signal significance $\varsigma _\mathrm {cell}^\mathrm {EM}$. The clusters are further merged and split in (b) according to a predefined cluster growth threshold. The process stops in (c) when all sufficiently significant signal hits have been matched to a cluster.}}{35}{figure.caption.12}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Cells passing primary seed threshold}}}{35}{subfigure.1.1}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Cells passing cluster growth threshold}}}{35}{subfigure.1.2}%
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Final reconstructed topo-clusters}}}{35}{subfigure.1.3}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Jet energy scale calibration sequence for EM-scale jets.}}{37}{figure.caption.13}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Overview of the GN2 architecture. The number of jet and track features are represented by $n_\text {jf}$ and $n_\text {tf}$ respectively. The global jet representation and track embeddings output by the Transformer encoder are used as inputs for three task-specific networks.}}{38}{figure.caption.14}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces The $c$-, light- and $\tau $-jet rejection rate as a function of $b$-tagging efficiency for GN2 and DL1d using (a) jets in the \ensuremath {t\bar {t}}\xspace sample, and (b) jets in the $Z'$ sample. The performance ratios of GN2 to DL1d are shown in the bottom panels.}}{40}{figure.caption.15}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\ensuremath {t\bar {t}}\xspace sample}}}{40}{subfigure.4.1}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$Z'$ sample}}}{40}{subfigure.4.2}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Particles within the SM and their properties.}}{4}{figure.caption.6}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Feynman diagram for \ensuremath {t\bar {t}}\xspace production and subsequent decay processes. Top quark decays into a $W$-boson and $b$-quark, and $W$-boson can decay to a $q\bar {q}$ or a $\ell \nu _\ell $ pair.}}{6}{figure.caption.7}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Illustration of a common representation of the Higgs potential. Before SSB, the ground state $\phi (0)$ is located at A which is symmetric with respect to the potential. A perturbation to this state fixes the ground state energy $|\phi (0)|^2$ to a particular value at B, "spontaneously" breaking the symmetry and degeneracy in $|\phi (0)|^2$.}}{13}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Feynman diagrams for tree level $Z'$ production in association with (a) \ensuremath {t\bar {t}}\xspace , (b) $tj$ (light quark) and (c) $tW$, decaying to final states containing (a) \ensuremath {t\bar {t}t\bar {t}}\xspace or (b)(c) \ensuremath {t\bar {t}t}\xspace .}}{17}{figure.caption.9}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\ensuremath {t\bar {t}Z'}\xspace }}}{17}{subfigure.4.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$tjZ'$}}}{17}{subfigure.4.2}%
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$tWZ'$}}}{17}{subfigure.4.3}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Branching ratios for \ensuremath {t\bar {t}t\bar {t}}\xspace decay. The same-sign dilepton and multilepton channels together forms the SSML channel.}}{19}{figure.caption.10}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Caption}}{22}{figure.caption.11}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Caption}}{24}{figure.caption.12}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Stages of topo-cluster formation corresponding to each threshold. In (a), proto-clusters are seeded from cells with adequate signal significance $\varsigma _\mathrm {cell}^\mathrm {EM}$. The clusters are further merged and split in (b) according to a predefined cluster growth threshold. The process stops in (c) when all sufficiently significant signal hits have been matched to a cluster.}}{33}{figure.caption.13}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Cells passing primary seed threshold}}}{33}{subfigure.1.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Cells passing cluster growth threshold}}}{33}{subfigure.1.2}%
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Final reconstructed topo-clusters}}}{33}{subfigure.1.3}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Jet energy scale calibration sequence for EM-scale jets.}}{35}{figure.caption.14}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Overview of the GN2 architecture. The number of jet and track features are represented by $n_\text {jf}$ and $n_\text {tf}$ respectively. The global jet representation and track embeddings output by the Transformer encoder are used as inputs for three task-specific networks.}}{36}{figure.caption.15}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces The $c$-, light- and $\tau $-jet rejection rate as a function of $b$-tagging efficiency for GN2 and DL1d using (a) jets in the \ensuremath {t\bar {t}}\xspace sample, and (b) jets in the $Z'$ sample. The performance ratios of GN2 to DL1d are shown in the bottom panels.}}{38}{figure.caption.16}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\ensuremath {t\bar {t}}\xspace sample}}}{38}{subfigure.4.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$Z'$ sample}}}{38}{subfigure.4.2}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Charge flip rate calculated for \acs {SR} and \acs {CR} \ensuremath {t\bar {t}W}\xspace in bins of $|\eta |$ and \ensuremath {p_\mathrm {T}}\xspace .\relax }}{61}{figure.caption.24}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\acs {SR}}}}{61}{subfigure.1.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\acs {CR} \ensuremath {t\bar {t}W}\xspace }}}{61}{subfigure.1.2}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Combined \acs {QmisID} uncertainty rate for \acs {SR} in bins of $|\eta |$ and \ensuremath {p_\mathrm {T}}\xspace .\relax }}{72}{figure.caption.27}%

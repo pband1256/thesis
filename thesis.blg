@@ -17,14 +17,14 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 14520 items from 5000.
+Reallocated field_info (elt_size=4) to 19280 items from 5000.
 Database file #1: thesis-blx.bib
 Database file #2: bib/citations.bib
 Database file #3: bib/ANA-EXOT-2022-44-INT1.bib
 Database file #4: bib/ATLAS.bib
-Repeated entry---line 18324 of file bib/ATLAS.bib
- : @article{theory:ttZp
- :                     ,
+Repeated entry---line 19668 of file bib/ATLAS.bib
+ : @article{LUCID2
+ :                ,
 I'm skipping whatever remains of this entry
 Database file #5: bib/ATLAS-useful.bib
 Database file #6: bib/CMS.bib
@@ -33,45 +33,45 @@ Database file #8: bib/PubNotes.bib
 Biblatex version: 3.17
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 68 entries,
+You've used 102 entries,
             6399 wiz_defined-function locations,
-            1662 strings with 25013 characters,
-and the built_in function-call counts, 468832 in all, are:
-= -- 36548
-> -- 7019
-< -- 1424
-+ -- 13208
-- -- 2846
-* -- 33283
-:= -- 52815
+            1901 strings with 30277 characters,
+and the built_in function-call counts, 718614 in all, are:
+= -- 56327
+> -- 10916
+< -- 2407
++ -- 20051
+- -- 4421
+* -- 51061
+:= -- 79989
 add.period$ -- 0
-call.type$ -- 68
-change.case$ -- 621
-chr.to.int$ -- 87
-cite$ -- 134
-duplicate$ -- 50130
-empty$ -- 42071
-format.name$ -- 4370
-if$ -- 94309
+call.type$ -- 102
+change.case$ -- 1170
+chr.to.int$ -- 155
+cite$ -- 202
+duplicate$ -- 75837
+empty$ -- 64502
+format.name$ -- 6508
+if$ -- 145144
 int.to.chr$ -- 0
-int.to.str$ -- 203
+int.to.str$ -- 302
 missing$ -- 0
-newline$ -- 2313
-num.names$ -- 2897
-pop$ -- 23560
+newline$ -- 3500
+num.names$ -- 4579
+pop$ -- 35368
 preamble$ -- 1
-purify$ -- 1026
+purify$ -- 1769
 quote$ -- 0
-skip$ -- 11303
+skip$ -- 17613
 stack$ -- 0
-substring$ -- 66317
-swap$ -- 9792
-text.length$ -- 1443
+substring$ -- 102804
+swap$ -- 15149
+text.length$ -- 2178
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 2297
+type$ -- 3452
 warning$ -- 0
-while$ -- 6500
+while$ -- 9707
 width$ -- 0
-write$ -- 2246
+write$ -- 3399
 (There was 1 error message)

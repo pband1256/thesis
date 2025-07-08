@@ -24,7 +24,7 @@ Reconstruction of \acs{PV}s is crucial to accurately profile the kinematic infor
 Secondary vertex reconstruction uses the Secondary Vertex Finder (SVF) algorithm \citep{reco:vertex_secondary} which is primarily designed to reconstruct $b$- and $c$-hadrons for flavor tagging purposes. The SVF aims to reconstruct one secondary vertex per jet and only considers tracks that are matched to a two-track vertex and contained within a \pT-dependent cone around the jet axis. The tracks are then used to reconstruct a secondary vertex candidate using an iterative process similar to the \acs{PV} vertex fitting procedure.
 
 \subsubsection*{Pile-up}
-At high luminosities, multiple interactions can be associated with one bunch crossing, resulting in many \acs{PV}s. The effect is called pile-up, and usually result from soft \acs{QCD} interactions. Pile-up can be categorized into two types: in-time pile-up, stemming from additional $pp$ collisions in the same bunch crossing that is not the hard-scatter process; out-of-time pile-up, resulting from leftover energy deposits in the calorimeters from other bunch crossings.
+At high luminosities, multiple interactions can be associated with one bunch crossing, resulting in many \acs{PV}s. The effect is called pile-up, and usually result from soft \acs{QCD} interactions. Pile-up can be categorized into two types: in-time pile-up, stemming from additional $pp$ collisions in the same bunch crossing that is not the hard-scatter process; out-of-time pile-up, resulting from leftover energy deposits in the calorimeters from other bunch crossings \citep{reco:pileup}.
 % Pile-up jets are usually from soft interactions and can be distinguished with JVT algorithm using tracking information from the ID.
 
 \subsection{Topological clusters}
@@ -55,7 +55,8 @@ The ATLAS jet reconstruction pipeline is largely carried out using a particle fl
 
 The main components of the anti-$k_t$ algorithm involve the distance $d_{ij}$ between two jet candidates $i$ and $j$, and the distance $d_{iB}$ between the harder jet candidate of the two (defined as $i$) and the beamline $B$. If $d_{ij} < d_{iB}$, then the two jet candidates are combined and returned to the pool of candidates; otherwise, jet candidate $i$ is considered a jet and removed from the pool. The distance $d_{ij}$ is inversely proportional to a predefined radius parameter $\Delta R$ in order to control reconstruction quality for small-$R$ and large-$R$ jets. This analysis uses $\Delta R=0.4$ to better handle heavily collimated small-$R$ jets resulting from parton showers.
 
-The anti-$k_t$ jets so far have only been reconstructed at the \acs{EM} level and need to be calibrated to match the energy scale of jets reconstructed at particle level. This is done via a \acs{MC}-based jet energy scale (\acs{JES}) calibration sequence, along with further calibrations to account for pile-up effects and energy leakage. The full \acs{JES} calibration sequence is shown in \autoref{fig:reco:jet_jes_calib}. All calibration except origin correction are applied to the jet's four-momentum i.e. jet \pT, energy and mass. Additionally, a jet energy resolution (\acs{JER}) \citep{reco:jet_jer} step is carried out in a similar manner to \acs{JES} calibration to match the resolution of jets in dijet events.\\
+The anti-$k_t$ jets so far have only been reconstructed at the \acs{EM} level and need to be calibrated to match the energy scale of jets reconstructed at particle level. This is done via a \acs{MC}-based jet energy scale (\acs{JES}) calibration sequence, along with further calibrations to account for pile-up effects and energy leakage. The full \acs{JES} calibration sequence is shown in \autoref{fig:reco:jet_jes_calib}. All calibration except origin correction are applied to the jet's four-momentum i.e. jet \pT, energy and mass. Afterwards, a jet energy resolution (\acs{JER}) \citep{reco:jet_jer} calibration step is carried out in a similar manner to \acs{JES} to match the resolution of jets in dijet events.
+To further suppress pile-up effects, a neural-network based jet vertex tagger (\acs{NNJvt}) discriminant was developed based on the previous jet vertex tagger (\acs{JVT}) algorithm \citep{reco:pileup} and applied to low-\pT reconstructed jets.
 
 \begin{figure}[!htbp]
 \begin{center}
@@ -63,6 +64,7 @@ The anti-$k_t$ jets so far have only been reconstructed at the \acs{EM} level an
 \caption[Jet energy scale calibration sequence for EM-scale jets.]{\label{fig:reco:jet_jes_calib}Jet energy scale calibration sequence for \acs{EM}-scale jets \citep{reco:jet_jes}.}
 \end{center}
 \end{figure}
+
 
 \subsection{Flavor tagging}
 \label{sec:ftag}
@@ -88,7 +90,7 @@ where $p_x$ is the probability of the jet being an $x$-jet as predicted by GN2, 
 
 Simulated \acs{SM} \ttbar and \acs{BSM} $Z'$ events from $pp$ collisions were used as training and evaluation samples. In order to minimize bias, both $b$- and light-jet samples are re-sampled to match $c$-jet distributions. \autoref{fig:ftag:gn2_beff} shows the performance of GN2 compared to the previous convolutional neural network-based standard $b$-tagging algorithm DL1d, in terms of $c$-, light- and $\tau$-jet rejection as a function of $b$-tagging efficiency. The network gives a factor of 1.5-4 improvement in experimental applications compared to DL1d \citep{ftag:gn2}, without dependence on the choice of MC event generator or inputs from low-level flavor tagging algorithm.
 
-\begin{figure}[!htp]
+\begin{figure}[!htb]
 \centering
 \subfloat[\ttbar sample]{
 \includegraphics[width=0.5\linewidth]{fig/reco_ftag_gn2_ttbar.png}}
@@ -99,7 +101,7 @@ Simulated \acs{SM} \ttbar and \acs{BSM} $Z'$ events from $pp$ collisions were us
 
 \subsubsection*{Efficiency calibration}
 % \citep{ftag:gn1}\\
-Due to imperfect description of detector response and physics modeling effects in simulation, the $b$-tagging efficiency predicted by \acs{MC} simulation $\varepsilon_b^\mathrm{sim}$ requires a correction factor to match the efficiency measured in collision data $\varepsilon_b^\mathrm{data}$. The correction scale factors (\acs{SF}) are defined as $\mathrm{SF}=\varepsilon_b^\mathrm{data}/\varepsilon_b^\mathrm{sim}$ and are determined by data-to-\acs{MC} calibration using samples enriched in dileptonic \ttbar decays \citep{ftag:calib}. The resulting \acs{SF}s are applied to \acs{MC} simulated jets individually.
+Due to imperfect description of detector response and physics modeling effects in simulation, the $b$-tagging efficiency predicted by \acs{MC} simulation $\varepsilon_b^\mathrm{sim}$ requires a correction factor to match the efficiency measured in collision data $\varepsilon_b^\mathrm{data}$. The correction scale factors (\acs{SF}s) are defined as $\mathrm{SF}=\varepsilon_b^\mathrm{data}/\varepsilon_b^\mathrm{sim}$ and are determined by data-to-\acs{MC} calibration using samples enriched in dileptonic \ttbar decays \citep{ftag:calib}. The resulting \acs{SF}s are applied to \acs{MC} simulated jets individually.
 
 
 \section{Leptons}
@@ -235,43 +237,6 @@ Muon		& Jet		& $\Delta R < \min(0.4, 0.04+10 \text{GeV/\ensuremath{p_\mathrm{T}^
 \bottomrule
 \end{tabular}
 \end{table}
-
-\section{Object definition}
-\label{sec:objdef}
-\autoref{tab:obj_sel} shows the selections used in this analysis. Each selection comes with associated calibration scale factors to account for discrepancies between data and \acs{MC} simulation, and are applied multiplicatively to \acs{MC} event weights.
-
-\begin{table}[!htp]
-\centering
-\caption{\label{tab:obj_sel}Summary of object selection criteria used in this analysis .}%
-\begin{tabular}{l|cccc}
-\toprule\toprule
-Selection			& Electrons	& Muons		& Jets	\\
-\midrule
-\midrule
-\multirow{ 2}{*}{\pT [GeV]}
-	& $>15$ 					& $>15$ 	& $>20$ \\
-	& $\pT (l_0)>28$ & & &  \\
-\midrule
-\multirow{ 2}{*}{$|\eta|$}
-	& $1.52\leq|\eta|<2.47$ 	& $<2.5$ 	& $<2.5$ \\
-	& $<1.37$ & & &  \\
-\midrule
-\multirow{ 2}{*}{Identification}
-	& \textit{TightLH} 			& \textit{Medium} & NNJvt \textit{FixedEffPt} \\
-	& pass \acs{ECIDS} ($ee$/$e\mu$) & 	& ($\pT<60$, $|\eta|<2.4$) \\
-\midrule
-Isolation
-	& \textit{Tight\_VarRad} 	& \textit{PflowTight\_VarRad}	& \\
-\midrule
-Track-vertex assoc.\vphantom{$\frac{1}{p}$} & & & \\
-\hspace{3mm} $|d_0^{\text{BL}}(\sigma)|$ 
-	& $<5$ 		& $<3$ 		& \\
-\hspace{3mm} $|\Delta z_0^{\mathrm{BL}}\sin\theta|$ [mm]
-	& $<0.5$ 	& $<0.5$ 	& \\
-\bottomrule\bottomrule
-\end{tabular}
-\end{table}
-
 
 
 

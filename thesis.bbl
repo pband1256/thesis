@@ -17,7 +17,7 @@
 \endgroup
 
 \datalist[entry]{none/global//global/global}
-  \entry{PERF-2007-01}{article}{}
+  \entry{atlas}{article}{}
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
@@ -1537,6 +1537,404 @@
     \field{year}{2021}
   \endentry
 
+  \entry{Evans:2008zzb}{article}{}
+    \name{author}{2}{}{%
+      {{hash=EL}{%
+         family={Evans},
+         familyi={E\bibinitperiod},
+         given={Lyndon},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=BP}{%
+         family={Bryant},
+         familyi={B\bibinitperiod},
+         given={Philip},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ELBP1}
+    \strng{fullhash}{ELBP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1088/1748-0221/3/08/S08001
+    \endverb
+    \field{pages}{S08001}
+    \field{title}{{LHC Machine}}
+    \field{volume}{3}
+    \field{journaltitle}{JINST}
+    \field{year}{2008}
+  \endentry
+
+  \entry{cms}{article}{}
+    \name{author}{1}{}{%
+      {{hash=C}{%
+         family={{CMS Collaboration}},
+         familyi={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{C1}
+    \strng{fullhash}{C1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1088/1748-0221/3/08/S08004
+    \endverb
+    \field{pages}{S08004}
+    \field{title}{{The CMS Experiment at the CERN LHC}}
+    \field{volume}{3}
+    \field{journaltitle}{JINST}
+    \field{year}{2008}
+  \endentry
+
+  \entry{alice}{article}{}
+    \name{author}{1}{}{%
+      {{hash=CTA}{%
+         family={Collaboration},
+         familyi={C\bibinitperiod},
+         given={The\bibnamedelima ALICE},
+         giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CTA1}
+    \strng{fullhash}{CTA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1088/1748-0221/3/08/S08002
+    \endverb
+    \field{pages}{S08002}
+    \field{title}{The ALICE experiment at the CERN LHC}
+    \field{volume}{3}
+    \field{journaltitle}{JINST}
+    \field{year}{2008}
+  \endentry
+
+  \entry{lhcb}{article}{}
+    \name{author}{1}{}{%
+      {{hash=CTL}{%
+         family={Collaboration},
+         familyi={C\bibinitperiod},
+         given={The\bibnamedelima LHCb},
+         giveni={T\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CTL1}
+    \strng{fullhash}{CTL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1088/1748-0221/3/08/S08005
+    \endverb
+    \field{pages}{S08005}
+    \field{title}{The LHCb Detector at the LHC}
+    \field{volume}{3}
+    \field{journaltitle}{JINST}
+    \field{year}{2008}
+  \endentry
+
+  \entry{awake}{article}{}
+    \name{author}{1}{}{%
+      {{hash=GEea}{%
+         family={Gschwendtner},
+         familyi={G\bibinitperiod},
+         given={Elena et\bibnamedelima al.},
+         giveni={E\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim
+  a\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GEea1}
+    \strng{fullhash}{GEea1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.nima.2016.02.026
+    \endverb
+    \verb{eprint}
+    \verb 1512.05498
+    \endverb
+    \field{pages}{76\bibrangedash 82}
+    \field{title}{AWAKE, The Advanced Proton Driven Plasma Wakefield
+  Acceleration Experiment at CERN}
+    \field{volume}{829}
+    \field{journaltitle}{Nuclear Instruments and Methods in Physics Research
+  Section A}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{physics.acc-ph}
+    \field{year}{2016}
+  \endentry
+
+  \entry{faser}{article}{}
+    \name{author}{4}{}{%
+      {{hash=FJL}{%
+         family={Feng},
+         familyi={F\bibinitperiod},
+         given={Jonathan\bibnamedelima L.},
+         giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=GI}{%
+         family={Galon},
+         familyi={G\bibinitperiod},
+         given={Iftah},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=KF}{%
+         family={Kling},
+         familyi={K\bibinitperiod},
+         given={Felix},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=TS}{%
+         family={Trojanowski},
+         familyi={T\bibinitperiod},
+         given={Sebastian},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{FJL+1}
+    \strng{fullhash}{FJLGIKFTS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevD.97.035001
+    \endverb
+    \verb{eprint}
+    \verb 1708.09389
+    \endverb
+    \field{issue}{3}
+    \field{pages}{035001}
+    \field{title}{ForwArd Search ExpeRiment at the LHC}
+    \field{volume}{97}
+    \field{journaltitle}{Phys. Rev. D}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{year}{2018}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{katrin}{article}{}
+    \name{author}{1}{}{%
+      {{hash=cTK}{%
+         family={collaboration},
+         familyi={c\bibinitperiod},
+         given={The\bibnamedelima KATRIN},
+         giveni={T\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {JINST}%
+    }
+    \strng{namehash}{cTK1}
+    \strng{fullhash}{cTK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1088/1748-0221/16/08/T08015
+    \endverb
+    \verb{eprint}
+    \verb 2103.04755
+    \endverb
+    \field{number}{08}
+    \field{pages}{T08015}
+    \field{title}{The design, construction, and commissioning of the KATRIN
+  experiment}
+    \field{volume}{16}
+    \field{journaltitle}{Journal of Instrumentation}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{physics.ins-det}
+    \field{year}{2021}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{fig:lhc_map}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=LE}{%
+         family={Lopienska},
+         familyi={L\bibinitperiod},
+         given={Ewa},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LE1}
+    \strng{fullhash}{LE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{General Photo}
+    \field{title}{{The CERN accelerator complex, layout in 2022}}
+    \verb{url}
+    \verb https://cds.cern.ch/record/2800984
+    \endverb
+    \field{year}{2022}
+    \field{urlday}{08}
+    \field{urlmonth}{07}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{lhc:hl_lhc}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=H}{%
+         family={{High Luminosity LHC Project Organization}},
+         familyi={H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{H1}
+    \strng{fullhash}{H1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{The HL-LHC project}}
+    \verb{url}
+    \verb https://hilumilhc.web.cern.ch/content/hl-lhc-project
+    \endverb
+    \field{year}{2025}
+    \field{urlday}{11}
+    \field{urlmonth}{06}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{PERF-2010-01}{article}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{ATLAS Collaboration}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/JHEP09(2010)056
+    \endverb
+    \verb{eprint}
+    \verb 1005.5254
+    \endverb
+    \field{pages}{056}
+    \field{title}{{Performance of the ATLAS detector using first collision
+  data}}
+    \field{volume}{09}
+    \field{journaltitle}{JHEP}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ex}
+    \field{year}{2010}
+  \endentry
+
+  \entry{DAPR-2021-01}{article}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{ATLAS Collaboration}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1140/epjc/s10052-023-11747-w
+    \endverb
+    \verb{eprint}
+    \verb 2212.09379
+    \endverb
+    \field{pages}{982}
+    \field{title}{{Luminosity determination in \(pp\) collisions at \(\sqrt{s}
+  = 13\,\text{TeV}\) using the ATLAS detector at the LHC}}
+    \field{volume}{83}
+    \field{journaltitle}{Eur. Phys. J. C}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ex}
+    \field{year}{2023}
+  \endentry
+
+  \entry{theory:hard_process}{article}{}
+    \name{author}{3}{}{%
+      {{hash=BJM}{%
+         family={Butterworth},
+         familyi={B\bibinitperiod},
+         given={Jonathan\bibnamedelima M},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=DG}{%
+         family={Dissertori},
+         familyi={D\bibinitperiod},
+         given={Guenther},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=SGP}{%
+         family={Salam},
+         familyi={S\bibinitperiod},
+         given={Gavin\bibnamedelima P},
+         giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BJMDGSGP1}
+    \strng{fullhash}{BJMDGSGP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1146/annurev-nucl-102711-094913
+    \endverb
+    \verb{eprint}
+    \verb 1202.0583
+    \endverb
+    \field{pages}{387\bibrangedash 405}
+    \field{title}{{Hard Processes in Proton-Proton Collisions at the Large
+  Hadron Collider}}
+    \field{volume}{62}
+    \field{journaltitle}{Annu. Rev. Nucl. Part. Sci.}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ex}
+    \field{year}{2012}
+  \endentry
+
+  \entry{theory:hard_process2}{article}{}
+    \name{author}{3}{}{%
+      {{hash=CJ}{%
+         family={Campbell},
+         familyi={C\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=HJ}{%
+         family={Huston},
+         familyi={H\bibinitperiod},
+         given={Joey},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SWJ}{%
+         family={Stirling},
+         familyi={S\bibinitperiod},
+         given={W.\bibnamedelima James},
+         giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IOP Publishing}%
+    }
+    \strng{namehash}{CJHJSWJ1}
+    \strng{fullhash}{CJHJSWJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1088/0034-4885/70/1/R02
+    \endverb
+    \verb{eprint}
+    \verb hep-ph/0611148
+    \endverb
+    \field{number}{1}
+    \field{pages}{89}
+    \field{title}{Hard interactions of quarks and gluons: a primer for LHC
+  physics}
+    \field{volume}{70}
+    \field{journaltitle}{Reports on Progress in Physics}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ex}
+    \field{year}{2006}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{ATL-PHYS-PUB-2023-039}{booklet}{}
     \name{author}{1}{}{%
       {{hash=A}{%
@@ -1556,7 +1954,83 @@
     \field{year}{2023}
   \endentry
 
-  \entry{reco:electron_id}{article}{}
+  \entry{lhc:atlas_detector}{misc}{}
+    \name{author}{2}{}{%
+      {{hash=PJ}{%
+         family={Pequenao},
+         familyi={P\bibinitperiod},
+         given={Joao},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SP}{%
+         family={Schaffner},
+         familyi={S\bibinitperiod},
+         given={Paul},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PJSP1}
+    \strng{fullhash}{PJSP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{How ATLAS detects particles: diagram of particle paths in
+  the detector}}
+    \verb{url}
+    \verb https://cds.cern.ch/record/1505342
+    \endverb
+    \field{year}{2013}
+    \field{urlday}{08}
+    \field{urlmonth}{07}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{lhc:atlas_id}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=PJ}{%
+         family={Pequenao},
+         familyi={P\bibinitperiod},
+         given={Joao},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PJ1}
+    \strng{fullhash}{PJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{Computer generated image of the ATLAS inner detector}}
+    \verb{url}
+    \verb https://cds.cern.ch/record/1095926
+    \endverb
+    \field{year}{2008}
+    \field{urlday}{08}
+    \field{urlmonth}{07}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{lhc:atlas_calo}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=PJ}{%
+         family={Pequenao},
+         familyi={P\bibinitperiod},
+         given={Joao},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PJ1}
+    \strng{fullhash}{PJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{Computer Generated image of the ATLAS calorimeter}}
+    \verb{url}
+    \verb https://cds.cern.ch/record/1095927
+    \endverb
+    \field{year}{2008}
+    \field{urlday}{08}
+    \field{urlmonth}{07}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{lhc:atlas_trigger}{article}{}
     \name{author}{1}{}{%
       {{hash=A}{%
          family={{ATLAS Collaboration}},
@@ -1568,20 +2042,18 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
-    \verb 10.1140/epjc/s10052-019-7140-6
+    \verb 10.1088/1748-0221/15/10/P10004
     \endverb
     \verb{eprint}
-    \verb 1902.04655
+    \verb 2007.12539
     \endverb
-    \field{pages}{639}
-    \field{title}{{Electron reconstruction and identification in the ATLAS
-  experiment using the 2015 and 2016 LHC proton--proton collision data at
-  \(\sqrt{s} = 13\,\text{TeV}\)}}
-    \field{volume}{79}
-    \field{journaltitle}{Eur. Phys. J. C}
+    \field{pages}{P10004}
+    \field{title}{{Operation of the ATLAS trigger system in Run~2}}
+    \field{volume}{15}
+    \field{journaltitle}{JINST}
     \field{eprinttype}{arXiv}
     \field{eprintclass}{physics.ins-det}
-    \field{year}{2019}
+    \field{year}{2020}
   \endentry
 
   \entry{reco:track}{article}{}
@@ -2053,32 +2525,19 @@
     \strng{fullhash}{CMSGPSG1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{abstract}{%
-    The kt and Cambridge/Aachen inclusive jet finding algorithms for
-  hadron-hadron collisions can be seen as belonging to a broader class of
-  sequential recombination jet algorithms, parametrised by the power of the
-  energy scale in the distance measure. We examine some properties of a new
-  member of this class, for which the power is negative. This ``anti-kt''
-  algorithm essentially behaves like an idealised cone algorithm, in that jets
-  with only soft fragmentation are conical, active and passive areas are equal,
-  the area anomalous dimensions are zero, the non-global logarithms are those
-  of a rigid boundary and the Milan factor is universal. None of these
-  properties hold for existing sequential recombination algorithms, nor for
-  cone algorithms with split-merge steps, such as SISCone. They are however the
-  identifying characteristics of the collinear unsafe plain ``iterative cone''
-  algorithm, for which the anti-kt algorithm provides a natural, fast, infrared
-  and collinear safe replacement.%
-    }
     \verb{doi}
     \verb 10.1088/1126-6708/2008/04/063
     \endverb
-    \field{number}{04}
+    \verb{eprint}
+    \verb 0802.1189
+    \endverb
     \field{pages}{063}
-    \field{title}{The anti-kt jet clustering algorithm}
-    \field{volume}{2008}
-    \field{journaltitle}{Journal of High Energy Physics}
+    \field{title}{{The anti-\(k_{t}\) jet clustering algorithm}}
+    \field{volume}{04}
+    \field{journaltitle}{JHEP}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
     \field{year}{2008}
-    \warn{\item Invalid format of field 'month'}
   \endentry
 
   \entry{reco:jet_jer}{article}{}
@@ -2254,6 +2713,34 @@
     \field{year}{2018}
   \endentry
 
+  \entry{reco:electron_id}{article}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{ATLAS Collaboration}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1140/epjc/s10052-019-7140-6
+    \endverb
+    \verb{eprint}
+    \verb 1902.04655
+    \endverb
+    \field{pages}{639}
+    \field{title}{{Electron reconstruction and identification in the ATLAS
+  experiment using the 2015 and 2016 LHC proton--proton collision data at
+  \(\sqrt{s} = 13\,\text{TeV}\)}}
+    \field{volume}{79}
+    \field{journaltitle}{Eur. Phys. J. C}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{physics.ins-det}
+    \field{year}{2019}
+  \endentry
+
   \entry{reco:qmisid_cnn}{booklet}{}
     \name{author}{1}{}{%
       {{hash=A}{%
@@ -2375,33 +2862,6 @@
     \verb https://cds.cern.ch/record/2625233
     \endverb
     \field{year}{2018}
-  \endentry
-
-  \entry{DAPR-2021-01}{article}{}
-    \name{author}{1}{}{%
-      {{hash=A}{%
-         family={{ATLAS Collaboration}},
-         familyi={A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{A1}
-    \strng{fullhash}{A1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1140/epjc/s10052-023-11747-w
-    \endverb
-    \verb{eprint}
-    \verb 2212.09379
-    \endverb
-    \field{pages}{982}
-    \field{title}{{Luminosity determination in \(pp\) collisions at \(\sqrt{s}
-  = 13\,\text{TeV}\) using the ATLAS detector at the LHC}}
-    \field{volume}{83}
-    \field{journaltitle}{Eur. Phys. J. C}
-    \field{eprinttype}{arXiv}
-    \field{eprintclass}{hep-ex}
-    \field{year}{2023}
   \endentry
 
   \entry{Alwall:2014hca}{article}{}

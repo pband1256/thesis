@@ -26,7 +26,7 @@ Additional selections are applied based on the lepton flavors present. In the SS
 
 \begin{table}[!htp]
 \centering
-\caption{\label{tab:obj_sel}Summary of object selection criteria used in this analysis.}%
+\caption{\label{tab:obj_sel}Summary of object selection criteria used in this analysis. $\ell_0$ refers to the leading lepton in the event.}%
 \begin{tabular}{l|cccc}
 \toprule\toprule
 Selection			& Electrons	& Muons		& Jets	\\
@@ -34,7 +34,7 @@ Selection			& Electrons	& Muons		& Jets	\\
 \midrule
 \multirow{ 2}{*}{\pT [GeV]}
 	& $>15$ 					& $>15$ 	& $>20$ \\
-	& $\pT (l_0)>28$ & & &  \\
+	& $\pT (\ell_0)>28$ & & &  \\
 \midrule
 \multirow{ 2}{*}{$|\eta|$}
 	& $1.52\leq|\eta|<2.47$ 	& $<2.5$ 	& $<2.5$ \\
@@ -265,7 +265,7 @@ The \acs{QmisID} rates obtained after applying $w$ contain a dependency on jet m
 \subsection{\ttW background data-driven estimation}
 \label{sec:ttW_BG}
 %- \ttW represents a major source of irreducible background contamination in SM and BSM analyses with \tttt final states.\\
-Previously, \ttW background in \tttt final state analysis was handled by assigning large ad-hoc systematic uncertainties to \ttW events with 7 or more jets \citep{tttt_evidence}. A semi-data-driven method \citep{ana:r_par_susy_2021} was shown to be effective in the SM \tttt observation analysis \citep{tttt_obs} by improving \ttW modeling, especially in the showering step and switching \ttW systematic uncertainties from predominantly modeling to statistical.
+Previously, the \ttW background in \tttt final state analysis was handled by assigning large ad-hoc systematic uncertainties to \ttW events with 7 or more jets \citep{tttt_evidence}. A semi-data-driven method \citep{ana:r_par_susy_2021} was shown to be effective in the SM \tttt observation analysis \citep{tttt_obs} by improving \ttW modeling, especially in the showering step and switching \ttW systematic uncertainties from predominantly modeling to statistical.
 
 The data-driven method applies correction factors obtained from a fitted function parameterized in $N_\mathrm{jets}$ to \ttW \acs{MC} kinematic distibutions. The \acs{QCD} scaling patterns \citep{bg:qcd_scaling} can be represented by ratio of successive exclusive jet cross-sections
 \begin{equation}
@@ -291,7 +291,7 @@ To account for the asymmetry in \ttWplus and \ttWminus cross-sections, $\mathrm{
 \label{eq:ttWdd}
 \mathrm{NF}_{\ttW(j')} = \left(\mathrm{NF}_{\ttWplus(N_\mathrm{jets}=4)} + \mathrm{NF}_{\ttWminus(N_\mathrm{jets}=4)}\right) \times \mathlarger{\prod}_{j=4}^{j'-1} \left( a_0 + \frac{a_1}{1+(j-4)} \right).
 \end{equation}
-The normalization is calculated and applied separately for each sub-sample of \ttWplus and \ttWminus in a $N_\mathrm{jets}$ bin for $4\leq N_\mathrm{jets}<10$. Due to small contributions in the \acs{CR}s, events with $N_\mathrm{jets}<4$ and $N_\mathrm{jets}\geq 10$ are not normalized with this scheme. Instead, $N_\mathrm{jets}<4$ events are fitted by propagating normalization in the 4-jet bin without additional shape correction. The correction factor for \ttW events with $N_\mathrm{jets}\geq 10$ is obtained by summing up the overflow from $N_\mathrm{jets}=10$ to $N_\mathrm{jets}=12$, described as $\sum_{j'=10}^{12} \prod_{j=4}^{j'-1}\left(a_0+\frac{a_1}{1+(j-4)}\right)$. Events with $N_\mathrm{jets}\geq 13$ are negligible and are not included in the sum.
+The normalization is calculated and applied separately for each sub-sample of \ttWplus and \ttWminus in a $N_\mathrm{jets}$ bin for $4\leq N_\mathrm{jets}<10$. Due to small contributions in the \acs{CR}s, events with $N_\mathrm{jets}<4$ and $N_\mathrm{jets}\geq 10$ are not normalized with this scheme. Instead, $N_\mathrm{jets}<4$ events are fitted by propagating the normalization in the 4-jet bin without additional shape correction. The correction factor for \ttW events with $N_\mathrm{jets}\geq 10$ is obtained by summing up the overflow from $N_\mathrm{jets}=10$ to $N_\mathrm{jets}=12$, described as $\sum_{j'=10}^{12} \prod_{j=4}^{j'-1}\left(a_0+\frac{a_1}{1+(j-4)}\right)$. Events with $N_\mathrm{jets}\geq 13$ are negligible and are not included in the sum.
 
 The four regions, \CRttWpm and \CRonebpm, are constructed to fit $\mathrm{NF}_{\ttWpm(N_\mathrm{jets}=4))}$ and the scaling parameters $a_{0(1)}$, as well as validating the parameterization. Assuming the $N_\mathrm{jets}$ distribution of \ttW is similar across bins of $N_{b\text{-jets}}$, a fitted $N_\mathrm{jets}$ distribution in \CRonebpm can be used to describe the \ttW parameterization at higher $N_\mathrm{jets}$.
 %Validating the \ttW parameterization makes use of the unique charge asymmetry in \ttW production not present in other background or signal processes. The number of events with all negatively charged leptons is subtracted from that of events with all positively charged leptons, which cancels out charge symmetric events and leaves the \ttW background. Validation is done via a statistical-only (stat-only) fit to the \ttW MC prediction in \CRonebpm.

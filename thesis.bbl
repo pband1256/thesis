@@ -17,6 +17,66 @@
 \endgroup
 
 \datalist[entry]{none/global//global/global}
+  \entry{intro:sm}{article}{}
+    \name{author}{1}{}{%
+      {{hash=WS}{%
+         family={Weinberg},
+         familyi={W\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {Springer Science}%
+      {Business Media LLC}%
+    }
+    \strng{namehash}{WS1}
+    \strng{fullhash}{WS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1140/epjc/s2004-01761-1
+    \endverb
+    \verb{eprint}
+    \verb hep-ph/0401010
+    \endverb
+    \field{issn}{1434-6052}
+    \field{number}{1}
+    \field{pages}{5–13}
+    \field{title}{The making of the Standard Model}
+    \field{volume}{34}
+    \field{journaltitle}{The European Physical Journal C}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{month}{05}
+    \field{year}{2004}
+  \endentry
+
+  \entry{intro:griffiths}{book}{}
+    \name{author}{1}{}{%
+      {{hash=GDJ}{%
+         family={Griffiths},
+         familyi={G\bibinitperiod},
+         given={David\bibnamedelima J.},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Wiley-VCH}%
+    }
+    \strng{namehash}{GDJ1}
+    \strng{fullhash}{GDJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{edition}{2nd}
+    \field{isbn}{978-3-527-40601-2}
+    \field{title}{Introduction to Elementary Particles}
+    \list{location}{1}{%
+      {Weinheim}%
+    }
+    \field{year}{2008}
+  \endentry
+
   \entry{theory:yangmills}{article}{}
     \name{author}{2}{}{%
       {{hash=YC}{%
@@ -172,6 +232,481 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
+  \entry{intro:gluon}{article}{}
+    \name{author}{57}{}{%
+      {{hash=BDP}{%
+         family={Barber},
+         familyi={B\bibinitperiod},
+         given={D.\bibnamedelima P.},
+         giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=BU}{%
+         family={Becker},
+         familyi={B\bibinitperiod},
+         given={U.},
+         giveni={U\bibinitperiod},
+      }}%
+      {{hash=BH}{%
+         family={Benda},
+         familyi={B\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=BA}{%
+         family={Boehm},
+         familyi={B\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BJG}{%
+         family={Branson},
+         familyi={B\bibinitperiod},
+         given={J.\bibnamedelima G.},
+         giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Bron},
+         familyi={B\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=BD}{%
+         family={Buikman},
+         familyi={B\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Burger},
+         familyi={B\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=CCC}{%
+         family={Chang},
+         familyi={C\bibinitperiod},
+         given={C.\bibnamedelima C.},
+         giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=CHS}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={H.\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=CM}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=CCP}{%
+         family={Cheng},
+         familyi={C\bibinitperiod},
+         given={C.\bibnamedelima P.},
+         giveni={C\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=CYS}{%
+         family={Chu},
+         familyi={C\bibinitperiod},
+         given={Y.\bibnamedelima S.},
+         giveni={Y\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=CR}{%
+         family={Clare},
+         familyi={C\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=DP}{%
+         family={Duinker},
+         familyi={D\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=FGY}{%
+         family={Fang},
+         familyi={F\bibinitperiod},
+         given={G.\bibnamedelima Y.},
+         giveni={G\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=FH}{%
+         family={Fesefeldt},
+         familyi={F\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=FD}{%
+         family={Fong},
+         familyi={F\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=FM}{%
+         family={Fukushima},
+         familyi={F\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=GJC}{%
+         family={Guo},
+         familyi={G\bibinitperiod},
+         given={J.\bibnamedelima C.},
+         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=HA}{%
+         family={Hariri},
+         familyi={H\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=HG}{%
+         family={Herten},
+         familyi={H\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=HMC}{%
+         family={Ho},
+         familyi={H\bibinitperiod},
+         given={M.\bibnamedelima C.},
+         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=HHK}{%
+         family={Hsu},
+         familyi={H\bibinitperiod},
+         given={H.\bibnamedelima K.},
+         giveni={H\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=HTT}{%
+         family={Hsu},
+         familyi={H\bibinitperiod},
+         given={T.\bibnamedelima T.},
+         giveni={T\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=KRW}{%
+         family={Kadel},
+         familyi={K\bibinitperiod},
+         given={R.\bibnamedelima W.},
+         giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=KW}{%
+         family={Krenz},
+         familyi={K\bibinitperiod},
+         given={W.},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=LQZ}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Q.\bibnamedelima Z.},
+         giveni={Q\bibinitperiod\bibinitdelim Z\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={Lu},
+         familyi={L\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=LD}{%
+         family={Luckey},
+         familyi={L\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=MDA}{%
+         family={Ma},
+         familyi={M\bibinitperiod},
+         given={D.\bibnamedelima A.},
+         giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=MCM}{%
+         family={Ma},
+         familyi={M\bibinitperiod},
+         given={C.\bibnamedelima M.},
+         giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=MGGG}{%
+         family={Massaro},
+         familyi={M\bibinitperiod},
+         given={G.\bibnamedelima G.\bibnamedelima G.},
+         giveni={G\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim
+  G\bibinitperiod},
+      }}%
+      {{hash=MT}{%
+         family={Matsuda},
+         familyi={M\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=NH}{%
+         family={Newman},
+         familyi={N\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=PJ}{%
+         family={Paradiso},
+         familyi={P\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=PFP}{%
+         family={Poschmann},
+         familyi={P\bibinitperiod},
+         given={F.\bibnamedelima P.},
+         giveni={F\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=RJP}{%
+         family={Revol},
+         familyi={R\bibinitperiod},
+         given={J.\bibnamedelima P.},
+         giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=RM}{%
+         family={Rohde},
+         familyi={R\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RH}{%
+         family={Rykaczewski},
+         familyi={R\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=SK}{%
+         family={Sinram},
+         familyi={S\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=THW}{%
+         family={Tang},
+         familyi={T\bibinitperiod},
+         given={H.\bibnamedelima W.},
+         giveni={H\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=TLG}{%
+         family={Tang},
+         familyi={T\bibinitperiod},
+         given={L.\bibnamedelima G.},
+         giveni={L\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=TSCC}{%
+         family={Ting},
+         familyi={T\bibinitperiod},
+         given={Samuel C.\bibnamedelima C.},
+         giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim
+  C\bibinitperiod},
+      }}%
+      {{hash=TKL}{%
+         family={Tung},
+         familyi={T\bibinitperiod},
+         given={K.\bibnamedelima L.},
+         giveni={K\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=VF}{%
+         family={Vannucci},
+         familyi={V\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=WXR}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={X.\bibnamedelima R.},
+         giveni={X\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=WPS}{%
+         family={Wei},
+         familyi={W\bibinitperiod},
+         given={P.\bibnamedelima S.},
+         giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=WM}{%
+         family={White},
+         familyi={W\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=WGH}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={G.\bibnamedelima H.},
+         giveni={G\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=WTW}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={T.\bibnamedelima W.},
+         giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=XJP}{%
+         family={Xi},
+         familyi={X\bibinitperiod},
+         given={J.\bibnamedelima P.},
+         giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=YPC}{%
+         family={Yang},
+         familyi={Y\bibinitperiod},
+         given={P.\bibnamedelima C.},
+         giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=YXH}{%
+         family={Yu},
+         familyi={Y\bibinitperiod},
+         given={X.\bibnamedelima H.},
+         giveni={X\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=ZNL}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={N.\bibnamedelima L.},
+         giveni={N\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=ZRY}{%
+         family={Zhu},
+         familyi={Z\bibinitperiod},
+         given={R.\bibnamedelima Y.},
+         giveni={R\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{BDP+1}
+  \strng{fullhash}{BDPBUBHBABJGBJBDBJCCCCHSCMCCPCYSCRDPFGYFHFDFMGJCHAHGHMCHHKHTTKRWKWLJLQZLMLDMDAMCMMGGGMTNHPJPFPRJPRMRHSKTHWTLGTSCCTKLVFWXRWPSWMWGHWTWXJPYPCYXHZNLZRY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevLett.43.830
+    \endverb
+    \field{issue}{12}
+    \field{pages}{830\bibrangedash 833}
+    \field{title}{Discovery of Three-Jet Events and a Test of Quantum
+  Chromodynamics at PETRA}
+    \field{volume}{43}
+    \field{journaltitle}{Phys. Rev. Lett.}
+    \field{year}{1979}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{intro:W_obs}{article}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{1}{}{%
+      {{hash=AG}{%
+         family={Arnison},
+         familyi={A\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AG+1}
+    \strng{fullhash}{AG+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/0370-2693(83)91177-2
+    \endverb
+    \field{pages}{103\bibrangedash 116}
+    \field{title}{{Experimental Observation of Isolated Large Transverse Energy
+  Electrons with Associated Missing Energy at $\sqrt{s}= 540$ GeV}}
+    \field{volume}{122}
+    \field{journaltitle}{Phys. Lett. B}
+    \field{year}{1983}
+  \endentry
+
+  \entry{intro:Z_obs}{article}{}
+    \name{author}{2}{}{%
+      {{hash=AG}{%
+         family={Arnison},
+         familyi={A\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=i}{%
+         family={ithers},
+         familyi={i\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AGi1}
+    \strng{fullhash}{AGi1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/0370-2693(83)90188-0
+    \endverb
+    \field{pages}{398\bibrangedash 410}
+    \field{title}{{Experimental Observation of Lepton Pairs of Invariant Mass
+  Around 95 \(\text{GeV}/c^2\) at the CERN SPS Collider}}
+    \field{volume}{126}
+    \field{journaltitle}{Phys. Lett. B}
+    \field{year}{1983}
+  \endentry
+
+  \entry{intro:top_cdf}{article}{}
+    \name{author}{1}{}{%
+      {{hash=C}{%
+         family={{CDF Collaboration}},
+         familyi={C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{C1}
+    \strng{fullhash}{C1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevLett.74.2626
+    \endverb
+    \field{issue}{14}
+    \field{pages}{2626\bibrangedash 2631}
+    \field{title}{Observation of Top Quark Production in
+  $\overline{\mathit{p}}\mathit{p}$ Collisions with the Collider Detector at
+  Fermilab}
+    \field{volume}{74}
+    \field{journaltitle}{Phys. Rev. Lett.}
+    \field{year}{1995}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{intro:top_d0}{article}{}
+    \name{author}{1}{}{%
+      {{hash=D}{%
+         family={{D{\O} Collaboration}},
+         familyi={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{D1}
+    \strng{fullhash}{D1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevLett.74.2632
+    \endverb
+    \field{issue}{14}
+    \field{pages}{2632\bibrangedash 2637}
+    \field{title}{Observation of the Top Quark}
+    \field{volume}{74}
+    \field{journaltitle}{Phys. Rev. Lett.}
+    \field{year}{1995}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{theory:higgs_atlas}{article}{}
     \name{author}{1}{}{%
       {{hash=A}{%
@@ -179,8 +714,8 @@
          familyi={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{A1}
-    \strng{fullhash}{A1}
+    \strng{namehash}{A2}
+    \strng{fullhash}{A2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
@@ -206,8 +741,8 @@
          familyi={C\bibinitperiod},
       }}%
     }
-    \strng{namehash}{C1}
-    \strng{fullhash}{C1}
+    \strng{namehash}{C2}
+    \strng{fullhash}{C2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
@@ -224,6 +759,32 @@
     \field{eprinttype}{arXiv}
     \field{eprintclass}{hep-ex}
     \field{year}{2012}
+  \endentry
+
+  \entry{PDG}{article}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{1}{}{%
+      {{hash=NS}{%
+         family={Navas},
+         familyi={N\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{NS+1}
+    \strng{fullhash}{NS+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevD.110.030001
+    \endverb
+    \field{number}{3}
+    \field{pages}{030001}
+    \field{title}{{Review of particle physics}}
+    \field{volume}{110}
+    \field{journaltitle}{Phys. Rev. D}
+    \field{year}{2024}
   \endentry
 
   \entry{theory:top_coupling}{article}{}
@@ -261,6 +822,115 @@
     \field{year}{2017}
   \endentry
 
+  \entry{TOPQ-2018-39}{article}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{ATLAS and CMS Collaborations}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/JHEP07(2023)213
+    \endverb
+    \verb{eprint}
+    \verb 2205.13830
+    \endverb
+    \field{pages}{213}
+    \field{title}{{Combination of inclusive top-quark pair production
+  cross-section measurements using ATLAS and CMS data at \(\sqrt{s} = 7\) and
+  \(8\,\text{TeV}\)}}
+    \field{volume}{07}
+    \field{journaltitle}{JHEP}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ex}
+    \field{year}{2023}
+  \endentry
+
+  \entry{Degrande_2011}{article}{}
+    \name{author}{5}{}{%
+      {{hash=DC}{%
+         family={Degrande},
+         familyi={D\bibinitperiod},
+         given={Céline},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=GJM}{%
+         family={Gérard},
+         familyi={G\bibinitperiod},
+         given={Jean-Marc},
+         giveni={J\bibinithyphendelim M\bibinitperiod},
+      }}%
+      {{hash=GC}{%
+         family={Grojean},
+         familyi={G\bibinitperiod},
+         given={Christophe},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=MF}{%
+         family={Maltoni},
+         familyi={M\bibinitperiod},
+         given={Fabio},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=SG}{%
+         family={Servant},
+         familyi={S\bibinitperiod},
+         given={Géraldine},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {Springer Science}%
+      {Business Media LLC}%
+    }
+    \strng{namehash}{DC+1}
+    \strng{fullhash}{DCGJMGCMFSG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/jhep03(2011)125
+    \endverb
+    \verb{eprint}
+    \verb 1010.6304
+    \endverb
+    \field{issn}{1029-8479}
+    \field{number}{3}
+    \field{title}{Non-resonant new physics in top pair production at hadron
+  colliders}
+    \field{volume}{2011}
+    \field{journaltitle}{Journal of High Energy Physics}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{month}{03}
+    \field{year}{2011}
+  \endentry
+
+  \entry{atlas}{article}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{ATLAS Collaboration}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A2}
+    \strng{fullhash}{A2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1088/1748-0221/3/08/S08003
+    \endverb
+    \field{pages}{S08003}
+    \field{title}{{The ATLAS Experiment at the CERN Large Hadron Collider}}
+    \field{volume}{3}
+    \field{journaltitle}{JINST}
+    \field{eprintclass}{hep-ex}
+    \field{year}{2008}
+  \endentry
+
   \entry{theory:ttZp_1los}{article}{}
     \name{author}{1}{}{%
       {{hash=A}{%
@@ -268,8 +938,8 @@
          familyi={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{A1}
-    \strng{fullhash}{A1}
+    \strng{namehash}{A2}
+    \strng{fullhash}{A2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
@@ -288,6 +958,685 @@
     \field{year}{2024}
   \endentry
 
+  \entry{Nilles:1983ge}{article}{}
+    \name{author}{1}{}{%
+      {{hash=NHP}{%
+         family={Nilles},
+         familyi={N\bibinitperiod},
+         given={Hans\bibnamedelima Peter},
+         giveni={H\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{NHP1}
+    \strng{fullhash}{NHP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/0370-1573(84)90008-5
+    \endverb
+    \field{pages}{1\bibrangedash 162}
+    \field{title}{{Supersymmetry, Supergravity and Particle Physics}}
+    \field{volume}{110}
+    \field{journaltitle}{Phys. Rept.}
+    \field{year}{1984}
+  \endentry
+
+  \entry{Farrar:1978xj}{article}{}
+    \name{author}{2}{}{%
+      {{hash=FGR}{%
+         family={Farrar},
+         familyi={F\bibinitperiod},
+         given={Glennys\bibnamedelima R.},
+         giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=FP}{%
+         family={Fayet},
+         familyi={F\bibinitperiod},
+         given={Pierre},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FGRFP1}
+    \strng{fullhash}{FGRFP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/0370-2693(78)90858-4
+    \endverb
+    \field{pages}{575\bibrangedash 579}
+    \field{title}{{Phenomenology of the Production, Decay, and Detection of New
+  Hadronic States Associated with Supersymmetry}}
+    \field{volume}{76}
+    \field{journaltitle}{Phys. Lett. B}
+    \field{year}{1978}
+  \endentry
+
+  \entry{Plehn_2009}{article}{}
+    \name{author}{2}{}{%
+      {{hash=PT}{%
+         family={Plehn},
+         familyi={P\bibinitperiod},
+         given={Tilman},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=TTMP}{%
+         family={Tait},
+         familyi={T\bibinitperiod},
+         given={Tim M\bibnamedelima P},
+         giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim
+  P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IOP Publishing}%
+    }
+    \strng{namehash}{PTTTMP1}
+    \strng{fullhash}{PTTTMP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1088/0954-3899/36/7/075001
+    \endverb
+    \verb{eprint}
+    \verb 0810.3919
+    \endverb
+    \field{number}{7}
+    \field{pages}{075001}
+    \field{title}{Seeking sgluons}
+    \field{volume}{36}
+    \field{journaltitle}{Journal of Physics G: Nuclear and Particle Physics}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{year}{2009}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Calvet_2013}{article}{}
+    \name{author}{4}{}{%
+      {{hash=CS}{%
+         family={Calvet},
+         familyi={C\bibinitperiod},
+         given={Samuel},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=FB}{%
+         family={Fuks},
+         familyi={F\bibinitperiod},
+         given={Benjamin},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=GP}{%
+         family={Gris},
+         familyi={G\bibinitperiod},
+         given={Philippe},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=VL}{%
+         family={Valéry},
+         familyi={V\bibinitperiod},
+         given={Loïc},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {Springer Science}%
+      {Business Media LLC}%
+    }
+    \strng{namehash}{CS+1}
+    \strng{fullhash}{CSFBGPVL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/jhep04(2013)043
+    \endverb
+    \verb{eprint}
+    \verb 1212.3360
+    \endverb
+    \field{issn}{1029-8479}
+    \field{number}{4}
+    \field{title}{Searching for sgluons in multitop events at a center-of-mass
+  energy of 8 TeV}
+    \field{volume}{2013}
+    \field{journaltitle}{Journal of High Energy Physics}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{month}{04}
+    \field{year}{2013}
+  \endentry
+
+  \entry{Pomarol_2008}{article}{}
+    \name{author}{2}{}{%
+      {{hash=PA}{%
+         family={Pomarol},
+         familyi={P\bibinitperiod},
+         given={Alex},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Serra},
+         familyi={S\bibinitperiod},
+         given={Javi},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society (APS)}%
+    }
+    \strng{namehash}{PASJ1}
+    \strng{fullhash}{PASJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/physrevd.78.074026
+    \endverb
+    \verb{eprint}
+    \verb 0806.3247
+    \endverb
+    \field{issn}{1550-2368}
+    \field{number}{7}
+    \field{title}{Top quark compositeness: Feasibility and implications}
+    \field{volume}{78}
+    \field{journaltitle}{Physical Review D}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{month}{10}
+    \field{year}{2008}
+  \endentry
+
+  \entry{Kumar_2009}{article}{}
+    \name{author}{3}{}{%
+      {{hash=KK}{%
+         family={Kumar},
+         familyi={K\bibinitperiod},
+         given={Kunal},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=TTM}{%
+         family={Tait},
+         familyi={T\bibinitperiod},
+         given={Tim\bibnamedelima M.P},
+         giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=VMR}{%
+         family={Vega-Morales},
+         familyi={V\bibinithyphendelim M\bibinitperiod},
+         given={Roberto},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {Springer Science}%
+      {Business Media LLC}%
+    }
+    \strng{namehash}{KKTTMVMR1}
+    \strng{fullhash}{KKTTMVMR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1088/1126-6708/2009/05/022
+    \endverb
+    \verb{eprint}
+    \verb 0901.3808
+    \endverb
+    \field{issn}{1029-8479}
+    \field{number}{05}
+    \field{pages}{022–022}
+    \field{title}{Manifestations of top compositeness at colliders}
+    \field{volume}{2009}
+    \field{journaltitle}{Journal of High Energy Physics}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{month}{05}
+    \field{year}{2009}
+  \endentry
+
+  \entry{Banelli_2021}{article}{}
+    \name{author}{5}{}{%
+      {{hash=BG}{%
+         family={Banelli},
+         familyi={B\bibinitperiod},
+         given={Giovanni},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=SE}{%
+         family={Salvioni},
+         familyi={S\bibinitperiod},
+         given={Ennio},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Serra},
+         familyi={S\bibinitperiod},
+         given={Javi},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=TT}{%
+         family={Theil},
+         familyi={T\bibinitperiod},
+         given={Tobias},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=WA}{%
+         family={Weiler},
+         familyi={W\bibinitperiod},
+         given={Andreas},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {Springer Science}%
+      {Business Media LLC}%
+    }
+    \strng{namehash}{BG+1}
+    \strng{fullhash}{BGSESJTTWA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/jhep02(2021)043
+    \endverb
+    \verb{eprint}
+    \verb 2010.05915
+    \endverb
+    \field{issn}{1029-8479}
+    \field{number}{2}
+    \field{title}{The present and future of four top operators}
+    \field{volume}{2021}
+    \field{journaltitle}{Journal of High Energy Physics}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{month}{02}
+    \field{year}{2021}
+  \endentry
+
+  \entry{Aoude_2022}{article}{}
+    \name{author}{4}{}{%
+      {{hash=AR}{%
+         family={Aoude},
+         familyi={A\bibinitperiod},
+         given={Rafael},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=EFH}{%
+         family={El\bibnamedelima Faham},
+         familyi={E\bibinitperiod\bibinitdelim F\bibinitperiod},
+         given={Hesham},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=MF}{%
+         family={Maltoni},
+         familyi={M\bibinitperiod},
+         given={Fabio},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=VE}{%
+         family={Vryonidou},
+         familyi={V\bibinitperiod},
+         given={Eleni},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {Springer Science}%
+      {Business Media LLC}%
+    }
+    \strng{namehash}{AR+1}
+    \strng{fullhash}{AREFHMFVE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/jhep10(2022)163
+    \endverb
+    \verb{eprint}
+    \verb 2208.04962
+    \endverb
+    \field{issn}{1029-8479}
+    \field{number}{10}
+    \field{title}{Complete SMEFT predictions for four top quark production at
+  hadron colliders}
+    \field{volume}{2022}
+    \field{journaltitle}{Journal of High Energy Physics}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{month}{10}
+    \field{year}{2022}
+  \endentry
+
+  \entry{Zhang_2018}{article}{}
+    \name{author}{1}{}{%
+      {{hash=ZC}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Cen},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IOP Publishing}%
+    }
+    \strng{namehash}{ZC1}
+    \strng{fullhash}{ZC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1088/1674-1137/42/2/023104
+    \endverb
+    \verb{eprint}
+    \verb 1708.05928
+    \endverb
+    \field{issn}{1674-1137}
+    \field{number}{2}
+    \field{pages}{023104}
+    \field{title}{Constraining \(qqtt\) operators from four-top production: a
+  case for enhanced EFT sensitivity}
+    \field{volume}{42}
+    \field{journaltitle}{Chinese Physics C}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{month}{02}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Darm__2021}{article}{}
+    \name{author}{3}{}{%
+      {{hash=DL}{%
+         family={Darm{\'e}},
+         familyi={D\bibinitperiod},
+         given={Luc},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=FB}{%
+         family={Fuks},
+         familyi={F\bibinitperiod},
+         given={Benjamin},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=MF}{%
+         family={Maltoni},
+         familyi={M\bibinitperiod},
+         given={Fabio},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {Springer Science}%
+      {Business Media LLC}%
+    }
+    \strng{namehash}{DLFBMF1}
+    \strng{fullhash}{DLFBMF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/jhep09(2021)143
+    \endverb
+    \verb{eprint}
+    \verb 2104.09512
+    \endverb
+    \field{issn}{1029-8479}
+    \field{number}{9}
+    \field{title}{Top-philic heavy resonances in four-top final states and
+  their EFT interpretation}
+    \field{volume}{2021}
+    \field{journaltitle}{Journal of High Energy Physics}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{month}{09}
+    \field{year}{2021}
+  \endentry
+
+  \entry{Craig:2015jba}{article}{}
+    \name{author}{5}{}{%
+      {{hash=CN}{%
+         family={Craig},
+         familyi={C\bibinitperiod},
+         given={Nathaniel},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=DF}{%
+         family={D'Eramo},
+         familyi={D\bibinitperiod},
+         given={Francesco},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=DP}{%
+         family={Draper},
+         familyi={D\bibinitperiod},
+         given={Patrick},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=TS}{%
+         family={Thomas},
+         familyi={T\bibinitperiod},
+         given={Scott},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=ZH}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Hao},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CN+1}
+    \strng{fullhash}{CNDFDPTSZH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/JHEP06(2015)137
+    \endverb
+    \verb{eprint}
+    \verb 1504.04630
+    \endverb
+    \field{pages}{137}
+    \field{title}{{The Hunt for the Rest of the Higgs Bosons}}
+    \field{volume}{06}
+    \field{journaltitle}{JHEP}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Craig_2017}{article}{}
+    \name{author}{5}{}{%
+      {{hash=CN}{%
+         family={Craig},
+         familyi={C\bibinitperiod},
+         given={Nathaniel},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=HJ}{%
+         family={Hajer},
+         familyi={H\bibinitperiod},
+         given={Jan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=LYY}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Ying-Ying},
+         giveni={Y\bibinithyphendelim Y\bibinitperiod},
+      }}%
+      {{hash=LT}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Tao},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=ZH}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Hao},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {Springer Science}%
+      {Business Media LLC}%
+    }
+    \strng{namehash}{CN+1}
+    \strng{fullhash}{CNHJLYYLTZH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/jhep01(2017)018
+    \endverb
+    \verb{eprint}
+    \verb 1605.08744
+    \endverb
+    \field{issn}{1029-8479}
+    \field{number}{1}
+    \field{title}{Heavy Higgs bosons at low tan \(\beta\): from the LHC to 100
+  TeV}
+    \field{volume}{2017}
+    \field{journaltitle}{Journal of High Energy Physics}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{month}{01}
+    \field{year}{2017}
+  \endentry
+
+  \entry{Branco:2011iw}{article}{}
+    \name{author}{6}{}{%
+      {{hash=BGC}{%
+         family={Branco},
+         familyi={B\bibinitperiod},
+         given={G.\bibnamedelima C.},
+         giveni={G\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=FPM}{%
+         family={Ferreira},
+         familyi={F\bibinitperiod},
+         given={P.\bibnamedelima M.},
+         giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=LL}{%
+         family={Lavoura},
+         familyi={L\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=RMN}{%
+         family={Rebelo},
+         familyi={R\bibinitperiod},
+         given={M.\bibnamedelima N.},
+         giveni={M\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Sher},
+         familyi={S\bibinitperiod},
+         given={Marc},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SJP}{%
+         family={Silva},
+         familyi={S\bibinitperiod},
+         given={Joao\bibnamedelima P.},
+         giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BGC+1}
+    \strng{fullhash}{BGCFPMLLRMNSMSJP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.physrep.2012.02.002
+    \endverb
+    \verb{eprint}
+    \verb 1106.0034
+    \endverb
+    \field{pages}{1\bibrangedash 102}
+    \field{title}{{Theory and phenomenology of two-Higgs-doublet models}}
+    \field{volume}{516}
+    \field{journaltitle}{Phys. Rept.}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{year}{2012}
+  \endentry
+
+  \entry{PhysRevD.93.075038}{article}{}
+    \name{author}{4}{}{%
+      {{hash=GS}{%
+         family={Gori},
+         familyi={G\bibinitperiod},
+         given={Stefania},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=KIW}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={Ian-Woo},
+         giveni={I\bibinithyphendelim W\bibinitperiod},
+      }}%
+      {{hash=SNR}{%
+         family={Shah},
+         familyi={S\bibinitperiod},
+         given={Nausheen\bibnamedelima R.},
+         giveni={N\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=ZKM}{%
+         family={Zurek},
+         familyi={Z\bibinitperiod},
+         given={Kathryn\bibnamedelima M.},
+         giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{GS+1}
+    \strng{fullhash}{GSKIWSNRZKM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevD.93.075038
+    \endverb
+    \field{issue}{7}
+    \field{pages}{075038}
+    \field{title}{Closing the wedge: Search strategies for extended Higgs
+  sectors with heavy flavor final states}
+    \field{volume}{93}
+    \field{journaltitle}{Phys. Rev. D}
+    \field{year}{2016}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{higgscomp}{article}{}
+    \name{author}{2}{}{%
+      {{hash=DPSB}{%
+         family={Dev},
+         familyi={D\bibinitperiod},
+         given={P.\bibnamedelima S.\bibnamedelima Bhupal},
+         giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim
+  B\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={Pilaftsis},
+         familyi={P\bibinitperiod},
+         given={Apostolos},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DPSBPA1}
+    \strng{fullhash}{DPSBPA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/JHEP12(2014)024
+    \endverb
+    \verb{eprint}
+    \verb 1408.3405
+    \endverb
+    \field{number}{12}
+    \field{pages}{024}
+    \field{title}{Maximally symmetric two Higgs doublet model with natural
+  Standard Model alignment}
+    \field{volume}{2014}
+    \field{journaltitle}{Journal of High Energy Physics}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{month}{12}
+    \field{year}{2014}
+  \endentry
+
   \entry{tttt_obs}{article}{}
     \name{author}{1}{}{%
       {{hash=A}{%
@@ -295,8 +1644,8 @@
          familyi={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{A1}
-    \strng{fullhash}{A1}
+    \strng{namehash}{A2}
+    \strng{fullhash}{A2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
@@ -378,8 +1727,8 @@
          familyi={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{A1}
-    \strng{fullhash}{A1}
+    \strng{namehash}{A2}
+    \strng{fullhash}{A2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
@@ -482,39 +1831,13 @@
     \field{year}{2000}
   \endentry
 
-  \entry{PDG}{article}{}
-    \true{moreauthor}
-    \true{morelabelname}
-    \name{author}{1}{}{%
-      {{hash=NS}{%
-         family={Navas},
-         familyi={N\bibinitperiod},
-         given={S.},
-         giveni={S\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{NS+1}
-    \strng{fullhash}{NS+1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1103/PhysRevD.110.030001
-    \endverb
-    \field{number}{3}
-    \field{pages}{030001}
-    \field{title}{{Review of particle physics}}
-    \field{volume}{110}
-    \field{journaltitle}{Phys. Rev. D}
-    \field{year}{2024}
-  \endentry
-
   \entry{theory:top_exotics}{article}{}
     \name{author}{2}{}{%
-      {{hash=dlTFH}{%
+      {{hash=dlTH}{%
          prefix={de\bibnamedelima la},
          prefixi={d\bibinitperiod\bibinitdelim l\bibinitperiod},
-         family={TorreTrisha\bibnamedelima Farooque},
-         familyi={T\bibinitperiod\bibinitdelim F\bibinitperiod},
+         family={Torre},
+         familyi={T\bibinitperiod},
          given={Hector},
          giveni={H\bibinitperiod},
       }}%
@@ -525,8 +1848,8 @@
          giveni={T\bibinitperiod},
       }}%
     }
-    \strng{namehash}{TFHdlFT1}
-    \strng{fullhash}{TFHdlFT1}
+    \strng{namehash}{THdlFT1}
+    \strng{fullhash}{THdlFT1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
@@ -698,7 +2021,7 @@
     \endverb
     \field{number}{9}
     \field{pages}{098}
-    \field{title}{Top‑quark pair production as a probe of light top‑philic
+    \field{title}{Top-quark pair production as a probe of light top-philic
   scalars and anomalous Higgs interactions}
     \field{volume}{2024}
     \field{journaltitle}{Journal of High Energy Physics}
@@ -715,8 +2038,8 @@
          familyi={C\bibinitperiod},
       }}%
     }
-    \strng{namehash}{C1}
-    \strng{fullhash}{C1}
+    \strng{namehash}{C2}
+    \strng{fullhash}{C2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
@@ -776,8 +2099,8 @@
          giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
       }}%
     }
-    \strng{namehash}{GDJ1}
-    \strng{fullhash}{GDJ1}
+    \strng{namehash}{GDJ2}
+    \strng{fullhash}{GDJ2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
@@ -946,18 +2269,16 @@
 
   \entry{theory:Zp_U1p}{article}{}
     \name{author}{1}{}{%
-      {{hash=CC}{%
-         family={Collaboration},
+      {{hash=C}{%
+         family={{CDF Collaboration}},
          familyi={C\bibinitperiod},
-         given={CDF},
-         giveni={C\bibinitperiod},
       }}%
     }
     \list{publisher}{1}{%
       {American Physical Society}%
     }
-    \strng{namehash}{CC1}
-    \strng{fullhash}{CC1}
+    \strng{namehash}{C1}
+    \strng{fullhash}{C1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
@@ -976,6 +2297,41 @@
     \field{eprintclass}{hep-ex}
     \field{year}{2007}
     \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{theory:Zp_U1p_ee}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BM}{%
+         family={Battaglia},
+         familyi={B\bibinitperiod},
+         given={Marco},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SG}{%
+         family={Servant},
+         familyi={S\bibinitperiod},
+         given={Geraldine},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BMSG1}
+    \strng{fullhash}{BMSG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1393/ncc/i2010-10611-4
+    \endverb
+    \verb{eprint}
+    \verb 1005.4632
+    \endverb
+    \field{pages}{203\bibrangedash 208}
+    \field{title}{{Four-top production and \(t\bar{t}+\)missing energy events
+  at multi TeV \(e^+e^-\) colliders}}
+    \field{volume}{033N2}
+    \field{journaltitle}{Nuovo Cim. C}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ex}
+    \field{year}{2010}
   \endentry
 
   \entry{theory:little_higgs}{article}{}
@@ -1102,8 +2458,8 @@
     \endverb
     \field{issue}{1}
     \field{pages}{013006}
-    \field{title}{Flavor changing effects in theories with a heavy
-  ${Z}^{\ensuremath{'}}$ boson with family nonuniversal couplings}
+    \field{title}{Flavor changing effects in theories with a heavy $Z'$ boson
+  with family nonuniversal couplings}
     \field{volume}{62}
     \field{journaltitle}{Phys. Rev. D}
     \field{eprinttype}{arXiv}
@@ -1132,12 +2488,137 @@
     \verb 0801.1345
     \endverb
     \field{pages}{1199\bibrangedash 1228}
-    \field{title}{{The Physics of Heavy $Z^\prime$ Gauge Bosons}}
+    \field{title}{{The Physics of Heavy $Z'$ Gauge Bosons}}
     \field{volume}{81}
     \field{journaltitle}{Rev. Mod. Phys.}
     \field{eprinttype}{arXiv}
     \field{eprintclass}{hep-ph}
     \field{year}{2009}
+  \endentry
+
+  \entry{theory:ttZp_LHC}{article}{}
+    \name{author}{4}{}{%
+      {{hash=KJH}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={Jeong\bibnamedelima Han},
+         giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=KK}{%
+         family={Kong},
+         familyi={K\bibinitperiod},
+         given={Kyoungchul},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=LSJ}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={Seung\bibnamedelima J.},
+         giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=MG}{%
+         family={Mohlabeng},
+         familyi={M\bibinitperiod},
+         given={Gopolang},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{KJH+1}
+    \strng{fullhash}{KJHKKLSJMG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevD.94.035023
+    \endverb
+    \verb{eprint}
+    \verb 1604.07421
+    \endverb
+    \field{issue}{3}
+    \field{pages}{035023}
+    \field{title}{{Probing TeV scale top-philic resonances with boosted
+  top-tagging at the high luminosity LHC}}
+    \field{volume}{94}
+    \field{journaltitle}{Phys. Rev. D}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{year}{2016}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{theory:Zp_topphilic}{article}{}
+    \name{author}{3}{}{%
+      {{hash=FPJ}{%
+         family={Fox},
+         familyi={F\bibinitperiod},
+         given={Patrick\bibnamedelima J.},
+         giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=LI}{%
+         family={Low},
+         familyi={L\bibinitperiod},
+         given={Ian},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=ZY}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Yue},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {Springer Science}%
+      {Business Media LLC}%
+    }
+    \strng{namehash}{FPJLIZY1}
+    \strng{fullhash}{FPJLIZY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/jhep03(2018)074
+    \endverb
+    \verb{eprint}
+    \verb 1801.03505
+    \endverb
+    \field{issn}{1029-8479}
+    \field{number}{3}
+    \field{title}{Top-philic \(Z'\) forces at the LHC}
+    \field{volume}{2018}
+    \field{journaltitle}{Journal of High Energy Physics}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{month}{03}
+    \field{year}{2018}
+  \endentry
+
+  \entry{tttt_obs_cms}{article}{}
+    \name{author}{1}{}{%
+      {{hash=C}{%
+         family={{CMS Collaboration}},
+         familyi={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{C2}
+    \strng{fullhash}{C2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.physletb.2023.138290
+    \endverb
+    \verb{eprint}
+    \verb 2305.13439
+    \endverb
+    \field{pages}{138290}
+    \field{title}{Observation of four top quark production in proton-proton
+  collisions at \(\sqrt{s}=13\) TeV}
+    \field{volume}{847}
+    \field{journaltitle}{Physics Letters B}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ex}
+    \field{year}{2023}
   \endentry
 
   \entry{Ferretti:2013kya}{article}{}
@@ -1204,317 +2685,6 @@
     \field{year}{2017}
   \endentry
 
-  \entry{Agashe:2003zs}{article}{}
-    \name{author}{4}{}{%
-      {{hash=AK}{%
-         family={Agashe},
-         familyi={A\bibinitperiod},
-         given={Kaustubh},
-         giveni={K\bibinitperiod},
-      }}%
-      {{hash=DA}{%
-         family={Delgado},
-         familyi={D\bibinitperiod},
-         given={Antonio},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=MMJ}{%
-         family={May},
-         familyi={M\bibinitperiod},
-         given={Michael\bibnamedelima J.},
-         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
-      {{hash=SR}{%
-         family={Sundrum},
-         familyi={S\bibinitperiod},
-         given={Raman},
-         giveni={R\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{AK+1}
-    \strng{fullhash}{AKDAMMJSR1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1088/1126-6708/2003/08/050
-    \endverb
-    \verb{eprint}
-    \verb hep-ph/0308036
-    \endverb
-    \field{pages}{050}
-    \field{title}{{RS1, custodial isospin and precision tests}}
-    \field{volume}{08}
-    \field{journaltitle}{JHEP}
-    \field{eprinttype}{arXiv}
-    \field{eprintclass}{hep-ph}
-    \field{year}{2003}
-  \endentry
-
-  \entry{Agashe:2004rs}{article}{}
-    \name{author}{3}{}{%
-      {{hash=AK}{%
-         family={Agashe},
-         familyi={A\bibinitperiod},
-         given={Kaustubh},
-         giveni={K\bibinitperiod},
-      }}%
-      {{hash=CR}{%
-         family={Contino},
-         familyi={C\bibinitperiod},
-         given={Roberto},
-         giveni={R\bibinitperiod},
-      }}%
-      {{hash=PA}{%
-         family={Pomarol},
-         familyi={P\bibinitperiod},
-         given={Alex},
-         giveni={A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{AKCRPA1}
-    \strng{fullhash}{AKCRPA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1016/j.nuclphysb.2005.04.035
-    \endverb
-    \verb{eprint}
-    \verb hep-ph/0412089
-    \endverb
-    \field{pages}{165\bibrangedash 187}
-    \field{title}{{The Minimal composite Higgs model}}
-    \field{volume}{B719}
-    \field{journaltitle}{Nucl. Phys.}
-    \field{eprinttype}{arXiv}
-    \field{eprintclass}{hep-ph}
-    \field{year}{2005}
-  \endentry
-
-  \entry{tttt_obs_cms}{article}{}
-    \name{author}{1}{}{%
-      {{hash=C}{%
-         family={{CMS Collaboration}},
-         familyi={C\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{C1}
-    \strng{fullhash}{C1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1016/j.physletb.2023.138290
-    \endverb
-    \verb{eprint}
-    \verb 2305.13439
-    \endverb
-    \field{pages}{138290}
-    \field{title}{Observation of four top quark production in proton–proton
-  collisions at $\sqrt{s}=13$ TeV}
-    \field{volume}{847}
-    \field{journaltitle}{Physics Letters B}
-    \field{eprinttype}{arXiv}
-    \field{eprintclass}{hep-ex}
-    \field{year}{2023}
-  \endentry
-
-  \entry{theory:ttZp_LHC}{article}{}
-    \name{author}{4}{}{%
-      {{hash=KJH}{%
-         family={Kim},
-         familyi={K\bibinitperiod},
-         given={Jeong\bibnamedelima Han},
-         giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
-      }}%
-      {{hash=KK}{%
-         family={Kong},
-         familyi={K\bibinitperiod},
-         given={Kyoungchul},
-         giveni={K\bibinitperiod},
-      }}%
-      {{hash=LSJ}{%
-         family={Lee},
-         familyi={L\bibinitperiod},
-         given={Seung\bibnamedelima J.},
-         giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
-      {{hash=MG}{%
-         family={Mohlabeng},
-         familyi={M\bibinitperiod},
-         given={Gopolang},
-         giveni={G\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {American Physical Society}%
-    }
-    \strng{namehash}{KJH+1}
-    \strng{fullhash}{KJHKKLSJMG1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1103/PhysRevD.94.035023
-    \endverb
-    \verb{eprint}
-    \verb 1604.07421
-    \endverb
-    \field{issue}{3}
-    \field{pages}{035023}
-    \field{title}{{Probing TeV scale top-philic resonances with boosted
-  top-tagging at the high luminosity LHC}}
-    \field{volume}{94}
-    \field{journaltitle}{Phys. Rev. D}
-    \field{eprinttype}{arXiv}
-    \field{eprintclass}{hep-ph}
-    \field{year}{2016}
-    \warn{\item Invalid format of field 'month'}
-  \endentry
-
-  \entry{Branco:2011iw}{article}{}
-    \name{author}{6}{}{%
-      {{hash=BGC}{%
-         family={Branco},
-         familyi={B\bibinitperiod},
-         given={G.\bibnamedelima C.},
-         giveni={G\bibinitperiod\bibinitdelim C\bibinitperiod},
-      }}%
-      {{hash=FPM}{%
-         family={Ferreira},
-         familyi={F\bibinitperiod},
-         given={P.\bibnamedelima M.},
-         giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod},
-      }}%
-      {{hash=LL}{%
-         family={Lavoura},
-         familyi={L\bibinitperiod},
-         given={L.},
-         giveni={L\bibinitperiod},
-      }}%
-      {{hash=RMN}{%
-         family={Rebelo},
-         familyi={R\bibinitperiod},
-         given={M.\bibnamedelima N.},
-         giveni={M\bibinitperiod\bibinitdelim N\bibinitperiod},
-      }}%
-      {{hash=SM}{%
-         family={Sher},
-         familyi={S\bibinitperiod},
-         given={Marc},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=SJP}{%
-         family={Silva},
-         familyi={S\bibinitperiod},
-         given={Joao\bibnamedelima P.},
-         giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{BGC+1}
-    \strng{fullhash}{BGCFPMLLRMNSMSJP1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1016/j.physrep.2012.02.002
-    \endverb
-    \verb{eprint}
-    \verb 1106.0034
-    \endverb
-    \field{pages}{1\bibrangedash 102}
-    \field{title}{{Theory and phenomenology of two-Higgs-doublet models}}
-    \field{volume}{516}
-    \field{journaltitle}{Phys. Rept.}
-    \field{eprinttype}{arXiv}
-    \field{eprintclass}{hep-ph}
-    \field{year}{2012}
-  \endentry
-
-  \entry{PhysRevD.93.075038}{article}{}
-    \name{author}{4}{}{%
-      {{hash=GS}{%
-         family={Gori},
-         familyi={G\bibinitperiod},
-         given={Stefania},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=KIW}{%
-         family={Kim},
-         familyi={K\bibinitperiod},
-         given={Ian-Woo},
-         giveni={I\bibinithyphendelim W\bibinitperiod},
-      }}%
-      {{hash=SNR}{%
-         family={Shah},
-         familyi={S\bibinitperiod},
-         given={Nausheen\bibnamedelima R.},
-         giveni={N\bibinitperiod\bibinitdelim R\bibinitperiod},
-      }}%
-      {{hash=ZKM}{%
-         family={Zurek},
-         familyi={Z\bibinitperiod},
-         given={Kathryn\bibnamedelima M.},
-         giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {American Physical Society}%
-    }
-    \strng{namehash}{GS+1}
-    \strng{fullhash}{GSKIWSNRZKM1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1103/PhysRevD.93.075038
-    \endverb
-    \field{issue}{7}
-    \field{pages}{075038}
-    \field{title}{Closing the wedge: Search strategies for extended Higgs
-  sectors with heavy flavor final states}
-    \verb{url}
-    \verb https://link.aps.org/doi/10.1103/PhysRevD.93.075038
-    \endverb
-    \field{volume}{93}
-    \field{journaltitle}{Phys. Rev. D}
-    \field{year}{2016}
-    \warn{\item Invalid format of field 'month'}
-  \endentry
-
-  \entry{higgscomp}{article}{}
-    \name{author}{2}{}{%
-      {{hash=DPSB}{%
-         family={Dev},
-         familyi={D\bibinitperiod},
-         given={P.\bibnamedelima S.\bibnamedelima Bhupal},
-         giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim
-  B\bibinitperiod},
-      }}%
-      {{hash=PA}{%
-         family={Pilaftsis},
-         familyi={P\bibinitperiod},
-         given={Apostolos},
-         giveni={A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{DPSBPA1}
-    \strng{fullhash}{DPSBPA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1007/JHEP12(2014)024
-    \endverb
-    \verb{eprint}
-    \verb 1408.3405
-    \endverb
-    \field{number}{12}
-    \field{pages}{024}
-    \field{title}{Maximally symmetric two Higgs doublet model with natural
-  Standard Model alignment}
-    \field{volume}{2014}
-    \field{journaltitle}{Journal of High Energy Physics}
-    \field{eprinttype}{arXiv}
-    \field{eprintclass}{hep-ph}
-    \field{month}{12}
-    \field{year}{2014}
-  \endentry
-
   \entry{Sabatini:2784150}{report}{}
     \name{author}{1}{}{%
       {{hash=SP}{%
@@ -1572,28 +2742,6 @@
     \field{year}{2008}
   \endentry
 
-  \entry{atlas}{article}{}
-    \name{author}{1}{}{%
-      {{hash=A}{%
-         family={{ATLAS Collaboration}},
-         familyi={A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{A1}
-    \strng{fullhash}{A1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1088/1748-0221/3/08/S08003
-    \endverb
-    \field{pages}{S08003}
-    \field{title}{{The ATLAS Experiment at the CERN Large Hadron Collider}}
-    \field{volume}{3}
-    \field{journaltitle}{JINST}
-    \field{eprintclass}{hep-ex}
-    \field{year}{2008}
-  \endentry
-
   \entry{cms}{article}{}
     \name{author}{1}{}{%
       {{hash=C}{%
@@ -1601,8 +2749,8 @@
          familyi={C\bibinitperiod},
       }}%
     }
-    \strng{namehash}{C1}
-    \strng{fullhash}{C1}
+    \strng{namehash}{C2}
+    \strng{fullhash}{C2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
@@ -1617,15 +2765,13 @@
 
   \entry{alice}{article}{}
     \name{author}{1}{}{%
-      {{hash=CTA}{%
-         family={Collaboration},
-         familyi={C\bibinitperiod},
-         given={The\bibnamedelima ALICE},
-         giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+      {{hash=T}{%
+         family={{The ALICE Collaboration}},
+         familyi={T\bibinitperiod},
       }}%
     }
-    \strng{namehash}{CTA1}
-    \strng{fullhash}{CTA1}
+    \strng{namehash}{T1}
+    \strng{fullhash}{T1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
@@ -1640,15 +2786,13 @@
 
   \entry{lhcb}{article}{}
     \name{author}{1}{}{%
-      {{hash=CTL}{%
-         family={Collaboration},
-         familyi={C\bibinitperiod},
-         given={The\bibnamedelima LHCb},
-         giveni={T\bibinitperiod\bibinitdelim L\bibinitperiod},
+      {{hash=T}{%
+         family={{The LHCb Collaboration}},
+         familyi={T\bibinitperiod},
       }}%
     }
-    \strng{namehash}{CTL1}
-    \strng{fullhash}{CTL1}
+    \strng{namehash}{T3}
+    \strng{fullhash}{T3}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
@@ -1745,18 +2889,16 @@
 
   \entry{katrin}{article}{}
     \name{author}{1}{}{%
-      {{hash=cTK}{%
-         family={collaboration},
-         familyi={c\bibinitperiod},
-         given={The\bibnamedelima KATRIN},
-         giveni={T\bibinitperiod\bibinitdelim K\bibinitperiod},
+      {{hash=T}{%
+         family={{The KATRIN collaboration}},
+         familyi={T\bibinitperiod},
       }}%
     }
     \list{publisher}{1}{%
       {JINST}%
     }
-    \strng{namehash}{cTK1}
-    \strng{fullhash}{cTK1}
+    \strng{namehash}{T2}
+    \strng{fullhash}{T2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
@@ -1829,8 +2971,8 @@
          familyi={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{A1}
-    \strng{fullhash}{A1}
+    \strng{namehash}{A2}
+    \strng{fullhash}{A2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
@@ -1856,8 +2998,8 @@
          familyi={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{A1}
-    \strng{fullhash}{A1}
+    \strng{namehash}{A2}
+    \strng{fullhash}{A2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
@@ -1970,8 +3112,8 @@
          familyi={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{A1}
-    \strng{fullhash}{A1}
+    \strng{namehash}{A2}
+    \strng{fullhash}{A2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{howpublished}{{ATL-PHYS-PUB-2023-039}}
@@ -2065,8 +3207,8 @@
          familyi={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{A1}
-    \strng{fullhash}{A1}
+    \strng{namehash}{A2}
+    \strng{fullhash}{A2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
@@ -2091,8 +3233,8 @@
          familyi={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{A1}
-    \strng{fullhash}{A1}
+    \strng{namehash}{A2}
+    \strng{fullhash}{A2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
@@ -2170,26 +3312,19 @@
   \endentry
 
   \entry{reco:oi}{article}{}
-    \name{author}{2}{}{%
+    \name{author}{1}{}{%
       {{hash=SA}{%
          family={Salzburger},
          familyi={S\bibinitperiod},
          given={Andreas},
          giveni={A\bibinitperiod},
       }}%
-      {{hash=obotAC}{%
-         prefix={on\bibnamedelima behalf of\bibnamedelima the},
-         prefixi={o\bibinitperiod\bibinitdelim b\bibinitperiod\bibinitdelim
-  o\bibinitperiod\bibinitdelim t\bibinitperiod},
-         family={ATLAS\bibnamedelima Collaboration},
-         familyi={A\bibinitperiod\bibinitdelim C\bibinitperiod},
-      }}%
     }
     \list{publisher}{1}{%
       {IOP Publishing}%
     }
-    \strng{namehash}{SAACobot1}
-    \strng{fullhash}{SAACobot1}
+    \strng{namehash}{SA1}
+    \strng{fullhash}{SA1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
@@ -2317,8 +3452,8 @@
          familyi={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{A1}
-    \strng{fullhash}{A1}
+    \strng{namehash}{A2}
+    \strng{fullhash}{A2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{howpublished}{{ATLAS-CONF-2012-047}}
@@ -2359,8 +3494,8 @@
          familyi={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{A1}
-    \strng{fullhash}{A1}
+    \strng{namehash}{A2}
+    \strng{fullhash}{A2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
@@ -2434,8 +3569,8 @@
          familyi={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{A1}
-    \strng{fullhash}{A1}
+    \strng{namehash}{A2}
+    \strng{fullhash}{A2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{howpublished}{{ATL-PHYS-PUB-2017-011}}
@@ -2454,8 +3589,8 @@
          familyi={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{A1}
-    \strng{fullhash}{A1}
+    \strng{namehash}{A2}
+    \strng{fullhash}{A2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
@@ -2481,8 +3616,8 @@
          familyi={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{A1}
-    \strng{fullhash}{A1}
+    \strng{namehash}{A2}
+    \strng{fullhash}{A2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
@@ -2508,8 +3643,8 @@
          familyi={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{A1}
-    \strng{fullhash}{A1}
+    \strng{namehash}{A2}
+    \strng{fullhash}{A2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
@@ -2575,8 +3710,8 @@
          familyi={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{A1}
-    \strng{fullhash}{A1}
+    \strng{namehash}{A2}
+    \strng{fullhash}{A2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
@@ -2602,8 +3737,8 @@
          familyi={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{A1}
-    \strng{fullhash}{A1}
+    \strng{namehash}{A2}
+    \strng{fullhash}{A2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
@@ -2630,8 +3765,8 @@
          familyi={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{A1}
-    \strng{fullhash}{A1}
+    \strng{namehash}{A2}
+    \strng{fullhash}{A2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{eprint}
@@ -2721,8 +3856,8 @@
          familyi={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{A1}
-    \strng{fullhash}{A1}
+    \strng{namehash}{A2}
+    \strng{fullhash}{A2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
@@ -2748,8 +3883,8 @@
          familyi={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{A1}
-    \strng{fullhash}{A1}
+    \strng{namehash}{A2}
+    \strng{fullhash}{A2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
@@ -2776,8 +3911,8 @@
          familyi={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{A1}
-    \strng{fullhash}{A1}
+    \strng{namehash}{A2}
+    \strng{fullhash}{A2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{howpublished}{{ATL-PHYS-PUB-2023-001}}
@@ -2796,8 +3931,8 @@
          familyi={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{A1}
-    \strng{fullhash}{A1}
+    \strng{namehash}{A2}
+    \strng{fullhash}{A2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
@@ -2824,8 +3959,8 @@
          familyi={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{A1}
-    \strng{fullhash}{A1}
+    \strng{namehash}{A2}
+    \strng{fullhash}{A2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
@@ -2851,8 +3986,8 @@
          familyi={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{A1}
-    \strng{fullhash}{A1}
+    \strng{namehash}{A2}
+    \strng{fullhash}{A2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
@@ -2879,8 +4014,8 @@
          familyi={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{A1}
-    \strng{fullhash}{A1}
+    \strng{namehash}{A2}
+    \strng{fullhash}{A2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{howpublished}{{ATLAS-CONF-2018-023}}
@@ -3099,8 +4234,8 @@
          familyi={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{A1}
-    \strng{fullhash}{A1}
+    \strng{namehash}{A2}
+    \strng{fullhash}{A2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{howpublished}{{ATL-PHYS-PUB-2014-021}}
@@ -3456,7 +4591,7 @@
          giveni={R\bibinitperiod},
       }}%
     }
-    \strng{namehash}{CS+1}
+    \strng{namehash}{CS+2}
     \strng{fullhash}{CSKFWBRKR1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
@@ -3673,8 +4808,8 @@
          familyi={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{A1}
-    \strng{fullhash}{A1}
+    \strng{namehash}{A2}
+    \strng{fullhash}{A2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
@@ -3700,8 +4835,8 @@
          familyi={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{A1}
-    \strng{fullhash}{A1}
+    \strng{namehash}{A2}
+    \strng{fullhash}{A2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{howpublished}{{ATLAS-CONF-2019-045}}
@@ -3720,8 +4855,8 @@
          familyi={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{A1}
-    \strng{fullhash}{A1}
+    \strng{namehash}{A2}
+    \strng{fullhash}{A2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
@@ -3748,8 +4883,8 @@
          familyi={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{A1}
-    \strng{fullhash}{A1}
+    \strng{namehash}{A2}
+    \strng{fullhash}{A2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
@@ -3776,8 +4911,8 @@
          familyi={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{A1}
-    \strng{fullhash}{A1}
+    \strng{namehash}{A2}
+    \strng{fullhash}{A2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
@@ -3854,8 +4989,8 @@
          giveni={G\bibinitperiod},
       }}%
     }
-    \strng{namehash}{AG+1}
-    \strng{fullhash}{AG+1}
+    \strng{namehash}{AG+2}
+    \strng{fullhash}{AG+2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
@@ -3877,8 +5012,8 @@
          familyi={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{A1}
-    \strng{fullhash}{A1}
+    \strng{namehash}{A2}
+    \strng{fullhash}{A2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{howpublished}{{ATL-PHYS-PUB-2014-001}}
@@ -3896,8 +5031,8 @@
          familyi={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{A1}
-    \strng{fullhash}{A1}
+    \strng{namehash}{A2}
+    \strng{fullhash}{A2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
@@ -3958,8 +5093,8 @@
          familyi={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{A1}
-    \strng{fullhash}{A1}
+    \strng{namehash}{A2}
+    \strng{fullhash}{A2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{howpublished}{{ATLAS-CONF-2017-052}}
@@ -4039,8 +5174,8 @@
          familyi={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{A1}
-    \strng{fullhash}{A1}
+    \strng{namehash}{A2}
+    \strng{fullhash}{A2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}

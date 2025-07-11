@@ -213,7 +213,7 @@ Irreducible background consists of \acs{SM} processes that result in \acs{SSML} 
 
 \subsection{Template fitting for fake/non-prompt estimation}
 \label{sec:template}
-Template fitting method is a semi-data-driven approach \citep{bg:ttH_ttW_ML} that estimates fake/non-prompt background distributions by fitting the \acs{MC} kinematic profile of background processes arising from fake/non-prompt leptons to data. Each of the four main sources of fake/non-prompt leptons is assigned a free-floating \acs{NF} constrained by a \acs{CR} enriched with the corresponding background resulting in four \acs{NF}s: $\mathrm{NF}_{\text{HF }e}$, $\mathrm{NF}_{\text{HF }\mu}$, $\mathrm{NF}_{\text{Mat. Conv.}}$, $\mathrm{NF}_{\text{Low }m_{\gamma^{*}}}$. The \acs{NF}s are fitted simultaneously with the signal.
+Template fitting method is a semi-data-driven approach \citep{bg:ttH_ttW_ML} that estimates fake/non-prompt background distributions by fitting the \acs{MC} kinematic profile of background processes arising from fake/non-prompt leptons to data. Each of the four main sources of fake/non-prompt leptons is assigned a free-floating \acs{NF} constrained by a \acs{CR} enriched with the corresponding background resulting in four $\mathrm{NF}_{\text{HF }e}$, $\mathrm{NF}_{\text{HF }\mu}$, $\mathrm{NF}_{\text{Mat. Conv.}}$ and $\mathrm{NF}_{\text{Low }m_{\gamma^{*}}}$. The \acs{NF}s are fitted simultaneously with the signal.
 
 
 \subsection{Charge misidentification data-driven estimation}
@@ -225,7 +225,7 @@ The charge flip probability $\epsilon$ is estimated in this analysis with a data
 Let $N_{ij}^\mathrm{SS}$ be the number of events with \acs{SS} electrons with the leading electron in the $i^\mathrm{th}$ 2D bin in $(\pT,|\eta|)$ and the sub-leading electron in the $j^\mathrm{th}$ bin. Assuming the \acs{QmisID} probabilities of electrons in an event are uncorrelated, $N_{ij}^\mathrm{SS}$ can be estimated as
 
 \begin{equation}
-N_{ij}^\mathrm{SS} = N_{ij}^\mathrm{tot} (\epsilon_i(1-\epsilon_j) + \epsilon_j(1-\epsilon_i),
+N_{ij}^\mathrm{SS} = N_{ij}^\mathrm{tot} \left[\epsilon_i(1-\epsilon_j) + \epsilon_j(1-\epsilon_i)\right],
 \end{equation}
 
 where $N_{ij}^\mathrm{tot}$ is the total number of events in the $i^\mathrm{th}$ and $j^\mathrm{th}$ bin regardless of charge, and $\epsilon_{i(j)}$ is the \acs{QmisID} rate in the $i^\mathrm{th}$($j^\mathrm{th}$) bin. Assuming $N_{ij}^\mathrm{SS}$ follows a Poisson distribution around the expectation value $\bar{N}_{ij}^\mathrm{SS}$, the $(i,n)^\text{th}$ rate $\epsilon$ can be estimated by minimizing a negative-\acs{LLH} function parameterized in \pT and $|\eta|$,
@@ -293,7 +293,7 @@ To account for the asymmetry in \ttWplus and \ttWminus cross-sections, $\mathrm{
 \end{equation}
 The normalization is calculated and applied separately for each sub-sample of \ttWplus and \ttWminus in a $N_\mathrm{jets}$ bin for $4\leq N_\mathrm{jets}<10$. Due to small contributions in the \acs{CR}s, events with $N_\mathrm{jets}<4$ and $N_\mathrm{jets}\geq 10$ are not normalized with this scheme. Instead, $N_\mathrm{jets}<4$ events are fitted by propagating normalization in the 4-jet bin without additional shape correction. The correction factor for \ttW events with $N_\mathrm{jets}\geq 10$ is obtained by summing up the overflow from $N_\mathrm{jets}=10$ to $N_\mathrm{jets}=12$, described as $\sum_{j'=10}^{12} \prod_{j=4}^{j'-1}\left(a_0+\frac{a_1}{1+(j-4)}\right)$. Events with $N_\mathrm{jets}\geq 13$ are negligible and are not included in the sum.
 
-The four \acs{CR}s, \CRttWpm and \CRonebpm, are constructed to fit $\mathrm{NF}_{\ttWpm(N_\mathrm{jets}=4))}$ and the scaling parameters $a_{0(1)}$, as well as validating the parameterization. Assuming the $N_\mathrm{jets}$ distribution of \ttW is similar across bins of $N_{b\text{-jets}}$, a fitted $N_\mathrm{jets}$ distribution in \CRonebpm can be used to describe the \ttW parameterization at higher $N_\mathrm{jets}$.
+The four regions, \CRttWpm and \CRonebpm, are constructed to fit $\mathrm{NF}_{\ttWpm(N_\mathrm{jets}=4))}$ and the scaling parameters $a_{0(1)}$, as well as validating the parameterization. Assuming the $N_\mathrm{jets}$ distribution of \ttW is similar across bins of $N_{b\text{-jets}}$, a fitted $N_\mathrm{jets}$ distribution in \CRonebpm can be used to describe the \ttW parameterization at higher $N_\mathrm{jets}$.
 %Validating the \ttW parameterization makes use of the unique charge asymmetry in \ttW production not present in other background or signal processes. The number of events with all negatively charged leptons is subtracted from that of events with all positively charged leptons, which cancels out charge symmetric events and leaves the \ttW background. Validation is done via a statistical-only (stat-only) fit to the \ttW MC prediction in \CRonebpm.
 %\subsection{\ttZ background validation}
 

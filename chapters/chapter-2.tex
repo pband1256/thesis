@@ -19,7 +19,7 @@ Elementary particles in the \acs{SM} can be classified into two groups: bosons c
 \end{figure}
 
 \subsubsection*{Fermions}
-Fermions consist of quarks and leptons with six flavors each, grouped into three generations of doublets. The six quark flavors are up ($u$), down ($d$), charm ($c$), strange ($s$), bottom ($b$) and top ($t$), arranged in increasing order of mass. The quark flavors form three doublets $(u,d)$, $(c,s)$ and $(t,b)$, with each doublet containing one quark with electric charge of $+2/3$ ($u$, $s$, $t$), and the other with charge of $-1/3$ ($d$, $c$, $b$). Each quark also possesses a property known as color charge, with possible values of red ($R$), green ($G$), blue ($B$) or their corresponding anticolor ($\bar{R}$, $\bar{G}$, $\bar{B}$). Color charge follows color confinement rules, which allows only configurations of quarks with total neutral color charge to exist in isolation. Neutral charge configurations can be formed from either a set of three colors $(R,G,B)$, a set of a color and its anticolor $(q,\bar{q})$, or any combination of the two. Consequently, quarks can only exist in bound states called hadrons and no isolated quark can be found in a vacuum. Quarks are the only elementary particles in the \acs{SM} that can interact with all four fundamental forces.
+Fermions consist of quarks and leptons with six flavors each, grouped into three generations of doublets. The six quark flavors are up ($u$), down ($d$), charm ($c$), strange ($s$), bottom ($b$) and top ($t$), arranged in increasing order of mass. The quark flavors form three doublets $(u,d)$, $(c,s)$ and $(t,b)$, with each doublet containing one quark with electric charge of $+2/3$ ($u$, $s$, $t$), and the other with charge of $-1/3$ ($d$, $c$, $b$). Each quark also possesses a property known as color charge, with possible values of red ($R$), green ($G$), blue ($B$) or their corresponding anticolor ($\bar{R}$, $\bar{G}$, $\bar{B}$). Color charge follows color confinement rules, which allows only configurations of quarks with total neutral color charge to exist in isolation. Neutral charge configurations can be formed from either a set of three colors $(R,G,B)$, a set of a color and its anticolor, or any combination of the two. Consequently, quarks can only exist in bound states called hadrons and no isolated quark can be found in a vacuum. Quarks are the only elementary particles in the \acs{SM} that can interact with all four fundamental forces.
 
 The three leptons doublets consist of three charged leptons: electron ($e$), muon ($\mu$), tau ($\tau$), and their respective neutrino flavors: electron neutrino ($\nu_e$), muon neutrino ($\nu_\mu$), tau neutrino ($\nu_\tau$). Charged leptons carry an electric charge of $-1$, while their antiparticles carry the opposite charge ($+1$) and their corresponding neutrino flavors carry no charge. Charged leptons interact with all fundamental forces except the strong force, while neutrinos only interact with the weak force and gravity.
 
@@ -31,7 +31,7 @@ Other than the vector gauge boson, the only scalar boson in the \acs{SM} is the 
 \subsubsection*{Top quark}
 \label{sec:top}
 
-As of now, the top quark ($t$) is the heaviest particle in the \acs{SM} with mass of about 173 GeV \citep{PDG}. For comparison, the heaviest boson, the Higgs boson, possesses mass of 125 GeV and the second most massive fermion, the $b$-quark has mass of about 4.2 GeV. This gives the top quark the strongest Yukawa coupling to the Higgs boson ($y_t \approx 1$) \citep{theory:top_coupling} and exotic resonances in many proposed \acs{BSM} models \citep{theory:top_exotics,theory:top_exotics2,theory:top_exotics3,theory:top_exotics4}, making the top quark and its processes attractive vehicles with which to probe new physics.
+As of now, the top quark ($t$) is the heaviest particle in the \acs{SM} with mass of about 173 GeV \citep{PDG}, approaching the \acs{EW} symmetry breaking scale. Its high mass gives the top quark the strongest Yukawa coupling to the Higgs boson ($y_t \approx 1$) \citep{theory:top_coupling} and exotic resonances in many proposed \acs{BSM} models \citep{theory:top_exotics,theory:top_exotics2,theory:top_exotics3,theory:top_exotics4}, making the top quark and its processes attractive vehicles with which to probe new physics.
 
 \begin{wrapfigure}{r}{0.5\textwidth}
 %\begin{figure}[!htb]
@@ -59,17 +59,14 @@ The foundation of modern \acs{QFT} involves gauge theory. A quantum field has ga
 The \acs{SM} Lagrangian is gauge invariant under global Poincar\'e symmetry and local $SU(3)_C \times SU(2)_L \times U(1)_Y$ gauge symmetry, with the $SU(3)_C$ symmetry group corresponding to the strong interaction and $SU(2)_L \times U(1)_Y$ to the \acs{EW} interaction. Global Poincar\'e symmetry ensures that $\mathcal{L}_\mathrm{SM}$ satisfies translational symmetry, rotational symmetry and Lorentz boost frame invariance \citep{theory:symmetry}. These symmetries give rise to corresponding conservation laws, which lead to conservation of momentum, angular momentum and energy in the \acs{SM} as a result of Noether's theorem.
 
 \subsubsection{Quantum chromodynamics}
+\label{sec:qcd}
 Quantum chromodynamics is a non-Abelian gauge theory i.e. Yang-Mills theory \citep{theory:yangmills,theory:yangmills2} describing the strong interaction between quarks in the \acs{SM} with the gauge group $SU(3)_C$, where $C$ represents conservation of color charge under $SU(3)_C$ symmetry. According to \acs{QFT}, quarks can be treated as excitations of the corresponding quark fields $\psi$.
 %Quark fields are invariant under $SU(3)_C$ transformation
 %\begin{equation}
 %\psi \rightarrow e^{i\theta(x)T_a} \psi
 %\end{equation}
 %where .
-The free Dirac Lagrangian for the quark fields
-\begin{equation}
-\mathcal{L}_0=\bar{\psi}(i\gamma^\mu\partial_\mu-m)\psi
-\end{equation}
-is invariant under global $SU(3)$ symmetry, but not under local $SU(3)_C$ symmetry.
+The free Dirac Lagrangian for the quark fields $\mathcal{L}_0=\bar{\psi}(i\gamma^\mu\partial_\mu-m)\psi$ is invariant under global $SU(3)$ symmetry, but not under local $SU(3)_C$ symmetry.
 To establish invariance under local $SU(3)_C$ symmetry, the gauge covariant derivative $D_\mu$ is defined so that
 \begin{equation}
 D_\mu \psi = (\partial_\mu-ig_sG^a_\mu T_a)\psi,
@@ -121,10 +118,10 @@ Fermions can have either left-handed or right-handed chirality with the exceptio
 %\begin{equation}
 %\psi \rightarrow e^{iY\theta(x)/2} \psi.
 %\end{equation}
-Similar to \acs{QCD}, to establish invariance under local $U(1)_Y$ symmetry, the $U(1)_Y$ gauge covariant derivative $D_\mu$ is defined as
-\begin{equation}
-D_\mu \phi = \left( \partial_\mu -ig' \frac{Y}{2} B_\mu \right) \psi
-\end{equation}
+%Similar to \autoref{sec:qcd}, to establish invariance under local $U(1)_Y$ symmetry, the $U(1)_Y$ gauge covariant derivative $D_\mu$ is defined as
+%\begin{equation}
+%D_\mu \phi = \left( \partial_\mu -ig' \frac{Y}{2} B_\mu \right) \psi
+%\end{equation}
 where $g'$ is the $B_\mu$ coupling constant and $B_\mu(x)$ is a vector gauge field that transforms under $U(1)_Y$ as
 \begin{equation}
 B_\mu \rightarrow B_\mu + \frac{1}{g'}\partial_\mu \theta(x).
@@ -142,16 +139,7 @@ Right-handed fermion singlets are not affected by $SU(2)_L$ transformation, so t
 \psi_R &\rightarrow \psi_R.
 \end{aligned}
 \end{equation}
-where $\vec{\sigma}/2$ are generators of $SU(2)_L$ with $\vec{\sigma}$ being the Pauli matrices. In order to preserve local symmetry, let the gauge covariant derivative for $SU(2)_L$ be
-\begin{equation}
-D_\mu \psi_L = \left( \partial_\mu - ig\frac{\sigma_i}{2}W_\mu^i \right) \psi_L
-\end{equation}
-where $W_\mu^i (x)$ ($i=1,2,3$) are three boson gauge fields that transform under $SU(2)_L$ as
-\begin{equation}
-W_\mu^i \rightarrow e^{i\displaystyle\frac{\sigma_i}{2}\theta_i(x)} \left( W_\mu^i+\frac{i}{g}\partial_\mu \right) e^{-i\displaystyle\frac{\sigma_i}{2}\theta_i(x)}
-= W_\mu^i + \frac{2}{g}\partial_\mu \theta_a(x) + \epsilon^{ijk}\theta_j(x) W_\mu^k,
-\end{equation}
-with $g$ as the $W^i_\mu$ gauge coupling constant, and $\epsilon^{ijk}$ as the $SU(2)_L$ structure constant. The gauge covariant derivative for $SU(2)_L \times U(1)_Y$ can then be written as
+where $\vec{\sigma}/2$ are generators of $SU(2)_L$ with $\vec{\sigma}$ being the Pauli matrices. In order to preserve local symmetry, the gauge covariant derivative for $SU(2)_L$ and $U(1)_Y$ can be defined \citep{theory:ew} so that the gauge covariant derivative for $SU(2)_L \times U(1)_Y$ can be written as
 \begin{equation}
 \begin{aligned}
 \label{eq:EW_cov}
@@ -159,15 +147,41 @@ D_\mu \psi_L &= \left( \partial_\mu - ig'\frac{Y_L}{2}B_\mu - ig\frac{\sigma_i}{
 D_\mu \psi_R &= \left( \partial_\mu - ig'\frac{Y_R}{2}B_\mu \right) \psi_R.
 \end{aligned}
 \end{equation}
-
-Similar to \acs{QCD}, the kinetic term is added by defining field strengths for the four gauge fields
+%\begin{equation}
+%D_\mu \psi_L = \left( \partial_\mu - ig\frac{\sigma_i}{2}W_\mu^i \right) \psi_L
+%\end{equation}
+where $B_\mu(x)$ is a vector gauge field associated with $U(1)_Y$ and $W_\mu^i (x)$ ($i=1,2,3$) are three vector gauge fields associated with $SU(2)_L$. The $B_\mu$ and $W_\mu^i$ gauge fields transform under their corresponding symmetry groups $U(1)_Y$ and $SU(2)_L$ as
+\begin{equation}
+\begin{aligned}
+B_\mu &\rightarrow B_\mu + \frac{1}{g'}\partial_\mu \theta(x) \\
+W_\mu^i 
+&\rightarrow W_\mu^i + \frac{2}{g}\partial_\mu \theta_a(x) + \epsilon^{ijk}\theta_j(x) W_\mu^k,
+\end{aligned}
+\end{equation}
+%&\rightarrow e^{i\displaystyle\frac{\sigma_i}{2}\theta_i(x)} \left( W_\mu^i+\frac{i}{g}\partial_\mu \right) e^{-i\displaystyle\frac{\sigma_i}{2}\theta_i(x)} \\
+where $g'$ is the $B_\mu$ gauge coupling constant, $g$ is the $W^i_\mu$ gauge coupling constants and $\epsilon^{ijk}$ is the $SU(2)_L$ structure constant. 
+%Meanwhile $W_\mu^i (x)$ transform under $SU(2)_L$ as
+%\begin{equation}
+%W_\mu^i \rightarrow e^{i\displaystyle\frac{\sigma_i}{2}\theta_i(x)} \left( W_\mu^i+\frac{i}{g}\partial_\mu \right) e^{-i\displaystyle\frac{\sigma_i}{2}\theta_i(x)}
+%= W_\mu^i + \frac{2}{g}\partial_\mu \theta_a(x) + \epsilon^{ijk}\theta_j(x) W_\mu^k,
+%\end{equation}
+%where
+%The gauge covariant derivative for $SU(2)_L \times U(1)_Y$ can then be written as
+%\begin{equation}
+%\begin{aligned}
+%\label{eq:EW_cov}
+%D_\mu \psi_L &= \left( \partial_\mu - ig'\frac{Y_L}{2}B_\mu - ig\frac{\sigma_i}{2}W_\mu^i \right) \psi_L \\
+%D_\mu \psi_R &= \left( \partial_\mu - ig'\frac{Y_R}{2}B_\mu \right) \psi_R.
+%\end{aligned}
+%\end{equation}
+Similar to section \ref{sec:qcd}, the kinetic term is added by defining field strengths for the four gauge fields
 \begin{equation}
 \begin{aligned}
 B_{\mu \nu}   &\equiv \partial_\mu B_\nu - \partial_\nu B_\mu \\
 W_{\mu \nu}^i &\equiv \partial_\mu W^i_\nu - \partial_\nu W^i_\mu - g e^{ijk} W^j_\mu W^k_\nu.
 \end{aligned}
 \end{equation}
-The local $SU(2)_L \times U(1)_Y$ invariant \acs{EW} Lagrangian is then \citep{theory:ew}
+The local $SU(2)_L \times U(1)_Y$ invariant \acs{EW} Lagrangian \citep{theory:ew} is then
 \begin{equation}
 \begin{aligned}
 \mathcal{L}_\text{EW} &= i\bar{\psi}(\gamma^\mu D_\mu)\psi - \frac{1}{4}W^i_{\mu\nu}W_i^{\mu\nu} - \frac{1}{4}B_{\mu\nu}B^{\mu\nu} \\
@@ -337,7 +351,7 @@ The single-top-associated channels $tjZ'$ and $tWZ'$ are suppressed by three-bod
 
 \subsection{\acs{BSM} four-top quark production}
 \label{sec:4top}
-This analysis uses the \tttt final state signal signature to search for the existence of a heavy \acs{BSM} resonance that couples strongly to the top quark. Cross section for \tttt production can be enhanced by many possible \acs{BSM} models, in particular two-Higgs-doublet-models \citep{Branco:2011iw,PhysRevD.93.075038,higgscomp} (2HDM) or possible production of a heavy neutral resonance boson $Z'$($\rightarrow\ttbar$) in association with a \ttbar pair in composite Higgs scenarios \citep{Ferretti:2013kya,Vecchi:2015fma}. The \ttZp production mode and consequently \tttt signal signature can provide a more sensitive channel for searches by avoiding contamination from the large \acs{SM} $gg\rightarrow \ttbar$ background in an inclusive $Z'\rightarrow\ttbar$ search.
+This analysis uses the \tttt final state signal signature to search for the existence of a heavy \acs{BSM} resonance that couples strongly to the top quark. Cross section for \tttt production can be enhanced by many possible \acs{BSM} models, in particular two-Higgs-doublet models (2HDM) \citep{Branco:2011iw,PhysRevD.93.075038,higgscomp} or possible production of a heavy neutral resonance boson $Z'$($\rightarrow\ttbar$) in association with a \ttbar pair in composite Higgs scenarios \citep{Ferretti:2013kya,Vecchi:2015fma}. The \ttZp production mode and consequently \tttt signal signature can provide a more sensitive channel for searches by avoiding contamination from the large \acs{SM} $gg\rightarrow \ttbar$ background in an inclusive $Z'\rightarrow\ttbar$ search.
 
 \subsection*{Decay modes}
 The different $W$ boson decay modes shown in \autoref{fig:theory:tt_decay} result in many different final states for \ttZp/\tttt decay, which can each be classified into one of three channels: all hadronic decays; exactly one lepton or two opposite-sign leptons (\acs{1LOS}); exactly two same-sign leptons or three or more leptons (\acs{SSML}). The branching ratio for each channel is shown in \autoref{fig:theory:tttt_channels}. The all hadronic and \acs{1LOS} channels have much larger branching ratios compared to \acs{SSML} channel but suffer heavily from $gg\rightarrow\ttbar$ background contamination, giving the \acs{SSML} channel better sensitivity at the cost of lower statistics. This is also the targeted channel for this analysis.

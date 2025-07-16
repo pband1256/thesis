@@ -86,9 +86,8 @@ For this analysis, $b$-jets are identified and tagged with the GN2v01 $b$-tagger
 \begin{equation}
 D_b = \ln \left( \displaystyle\frac{p_b}{f_c p_c + f_\tau p_\tau + (1-f_c-f_\tau) p_\text{light}} \right)
 \end{equation}
-where $p_x$ is the probability of the jet being an $x$-jet as predicted by GN2, and $f_c$, $f_\tau$ are tunable free parameters controlling balance between $c$- and light-jet rejection.
-
-Simulated \acs{SM} \ttbar and \acs{BSM} $Z'$ events from $pp$ collisions were used as training and evaluation samples. In order to minimize bias, both $b$- and light-jet samples are re-sampled to match $c$-jet distributions. \autoref{fig:ftag:gn2_beff} shows the performance of GN2 compared to the previous convolutional neural network-based standard $b$-tagging algorithm DL1d, in terms of $c$-, light- and $\tau$-jet rejection as a function of $b$-tagging efficiency. The network gives a factor of 1.5-4 improvement in experimental applications compared to DL1d \citep{ftag:gn2}, without dependence on the choice of MC event generator or inputs from low-level flavor tagging algorithm.
+where $p_x$ is the probability of the jet being an $x$-jet as predicted by GN2, and $f_c$, $f_\tau$ are tunable free parameters controlling balance between $c$- and light-jet rejection. Simulated \acs{SM} \ttbar and \acs{BSM} $Z'$ events from $pp$ collisions were used as training and evaluation samples. In order to minimize bias, both $b$- and light-jet samples are re-sampled to match $c$-jet distributions. 
+\autoref{fig:ftag:gn2_beff} shows the performance of GN2 compared to the previous convolutional neural network-based standard $b$-tagging algorithm DL1d, in terms of $c$-, light- and $\tau$-jet rejection as a function of $b$-tagging efficiency. The network gives a factor of 1.5-4 improvement in experimental applications compared to DL1d \citep{ftag:gn2}, without dependence on the choice of MC event generator or inputs from low-level flavor tagging algorithm.
 
 \begin{figure}[!htb]
 \centering
@@ -116,7 +115,7 @@ Electrons leave energy signature in the detector by interacting with the detecto
 Seed-cluster reconstruction and track reconstruction are performed sequentially in accordance with the iterative topo-clustering algorithm and track reconstruction method described in \autoref{sec:primaryreco}. The seed-cluster and \acs{GSF}-refitted track candidate not associated with a conversion vertex are matched to form an electron candidate. The cluster energy is then calibrated using multivariate techniques on data and simulation to match the original electron energy.
 
 \subsubsection*{Electron identification}
-Additional \acs{LH}-based identification selections using \acs{ID} and \acs{EM} calorimeter information are implemented to further improve the purity of reconstructed electrons in the $|\eta|<2.47$ region of the detector \citep{reco:electron_id}. The electron \acs{LH} function is built with the signal being prompt electrons and background being objects with similar signature to prompt electrons i.e. hadronic jet deposits, photon conversions or heavy-flavor hadron decays. Three identification \acs{OP}s are defined for physics analyses: \textit{Loose}, \textit{Medium} and \textit{Tight}, optimized for 9 bins in $|\eta|$ and 12 bins in \ET with each \acs{OP} corresponding to a fixed efficiency requirement for each bin. For typical \acs{EW} processes, the target efficiencies for \textit{Loose}, \textit{Medium} and \textit{Tight} start at 93\%, 88\% and 80\% respectively and increase with \ET. Similar to $b$-tagging \acs{OP}s, the electron identification {OP}s represent a trade-off in signal efficiency and background rejection. The electron efficiency are estimated using tag-and-probe method on samples of $J/\Psi \rightarrow ee$ and $Z \rightarrow ee$ \citep{reco:electron_id}.
+Additional \acs{LH}-based identification selections using \acs{ID} and \acs{EM} calorimeter information are implemented to further improve the purity of reconstructed electrons in the $|\eta|<2.47$ region of the detector \citep{reco:electron_id}. The electron \acs{LH} function is built with the signal being prompt electrons and background being objects with similar signature to prompt electrons i.e. hadronic jet deposits, photon conversions or heavy-flavor hadron decays. Three identification \acs{OP}s are defined for physics analyses: \textit{Loose}, \textit{Medium} and \textit{Tight}, optimized for 9 bins in $|\eta|$ and 12 bins in \ET with each \acs{OP} corresponding to a fixed efficiency requirement for each bin. For typical \acs{EW} processes, the target efficiencies for \textit{Loose}, \textit{Medium} and \textit{Tight} start at 93\%, 88\% and 80\% respectively and increase with \ET. Similar to $b$-tagging \acs{OP}s, the electron identification {OP}s represent a trade-off in signal efficiency and background rejection. The electron efficiency are estimated using tag-and-probe method on samples of $J/\Psi \rightarrow ee$ and $Z \rightarrow ee$ \citep{reco:electron_id}. The \textit{Tight} electron identification \acs{OP} is used for this analysis.
 %The analysis in this thesis uses Tight electron identification requirement.
 %\begin{figure}[!htbp]
 %\centering
@@ -136,8 +135,7 @@ Calorimeter-based isolation variables $E_\mathrm{T}^{\mathrm{cone}XX}$ are compu
 \begin{equation}
 \Delta R \equiv \min \left(\frac{10}{\pT}, \Delta R_{\max} \right),
 \end{equation}
-where \pT is expressed in GeV and $\Delta R_{\max}$ is the maximum cone size, defined to account for closer proximity of decay products to the electron in high-momentum heavy particle decays. Four isolation operating points are implemented to satisfy specific needs by physics analyses: \textit{Loose}, \textit{Tight}, \textit{HighPtCaloOnly} and \textit{Gradient} \citep{reco:electron_id}.
-%For this thesis, electrons isolation using Tight requirements.
+where \pT is expressed in GeV and $\Delta R_{\max}$ is the maximum cone size, defined to account for closer proximity of decay products to the electron in high-momentum heavy particle decays. Four isolation operating points are implemented to satisfy specific needs by physics analyses: \textit{Loose}, \textit{Tight}, \textit{HighPtCaloOnly} and \textit{Gradient} \citep{reco:electron_id}. For this analysis, electrons isolation uses \textit{Tight} requirements.
 
 %\begin{figure}[!htbp]
 %\centering
@@ -149,7 +147,9 @@ where \pT is expressed in GeV and $\Delta R_{\max}$ is the maximum cone size, de
 %\end{figure}
 
 \subsubsection*{Electron charge misidentification}
-Charge misidentification is a crucial irreducible background, particularly for analyses with electron charge selection criteria. Electron charge is determined by the curvature of the associated reconstructed track, and misidentification of charge can occur via either an incorrect curvature measurement or an incorrectly matched track. Inaccurate measurement is more likely for high energy electrons due to the small curvature in track trajectories at high \pT, while track matching error usually results from bremsstrahlung pair-production generating secondary tracks in close proximity \citep{reco:electron_id}. Suppression of this background is assisted via a boosted decision tree discriminant named the Electron Charge ID Selector (\acs{ECIDS}) \citep{reco:qmisid_cnn}. The addition of \acs{ECIDS} removed 90\% of electrons with incorrect charge while selecting 98\% of electrons with correct charge from electrons in $Z\rightarrow ee$ events satisfying \textit{Medium}/\textit{Tight} identification and \textit{Tight} isolation criteria.
+Charge misidentification is a crucial irreducible background, particularly for analyses with electron charge selection criteria. Electron charge is determined by the curvature of the associated reconstructed track, and misidentification of charge can occur via either an incorrect curvature measurement or an incorrectly matched track. Inaccurate measurement is more likely for high energy electrons due to the small curvature in track trajectories at high \pT, while track matching error usually results from bremsstrahlung pair-production generating secondary tracks in close proximity \citep{reco:electron_id}. Suppression of charge misidentification background in Run 2 is additionally assisted by a boosted decision tree discriminant known as the Electron Charge ID Selector (\acs{ECIDS}). For this analysis, all electrons are required to pass the \acs{ECIDS} criterion.
+% \citep{reco:qmisid_cnn}. 
+%The addition of \acs{ECIDS} removed 90\% of electrons with incorrect charge while selecting 98\% of electrons with correct charge from electrons in $Z\rightarrow ee$ events satisfying \textit{Medium} identification and \textit{Tight} isolation criteria.
 %\begin{figure}[!htbp]
 %\centering
 %\subfloat[Figure A]{
@@ -171,7 +171,7 @@ Muons act as minimum-ionizing particles, leaving tracks in the \acs{MS} or chara
 \end{itemize}
 \subsubsection*{Muon identification}
 %\citep{reco:muon_ID2}\\
-Reconstructed muons are further filtered by identification criteria to select for high-quality prompt muons. Requirements include number of hits in the \acs{MS} and \acs{ID}, track fit properties and compatibility between measurements of the two systems. Three standard \acs{OP}s (\textit{Loose}, \textit{Medium}, \textit{Tight}) are defined to better match the needs of different physics analyses concerning prompt muon \pT resolution, identification efficiency and non-prompt muon rejection. The default identification \acs{OP} for ATLAS physics is \textit{Medium} which provides efficiency and purity suitable for a wide range of analyses while minimizing systematic uncertainties \citep{reco:muon_ID}.
+Reconstructed muons are further filtered by identification criteria to select for high-quality prompt muons. Requirements include number of hits in the \acs{MS} and \acs{ID}, track fit properties and compatibility between measurements of the two systems. Three standard \acs{OP}s (\textit{Loose}, \textit{Medium}, \textit{Tight}) are defined to better match the needs of different physics analyses concerning prompt muon \pT resolution, identification efficiency and non-prompt muon rejection. The default identification \acs{OP} for ATLAS physics and also the \acs{OP} used in this analysis is \textit{Medium}, which provides efficiency and purity suitable for a wide range of studies while minimizing systematic uncertainties \citep{reco:muon_ID}.
 
 %\begin{figure}[!htbp]
 %\centering
@@ -180,7 +180,7 @@ Reconstructed muons are further filtered by identification criteria to select fo
 %\end{figure}
 
 \subsubsection*{Muon isolation}
-Muons from heavy particle decays are often produced in an isolated manner compared to muons from semileptonic decays, and is therefore an important tool for background rejection in many physics analyses. Muon isolation strategies are similar to that of electron in section \ref{sec:eiso}, with track-based and calorimeter-based isolation variables. Seven isolation \acs{OP}s are defined using either or both types of isolation variables \citep{reco:muon_ID}.
+Muons from heavy particle decays are often produced in an isolated manner compared to muons from semileptonic decays, and is therefore an important tool for background rejection in many physics analyses. Muon isolation strategies are similar to that of electron in section \ref{sec:eiso}, with track-based and calorimeter-based isolation variables. Seven isolation \acs{OP}s are defined using either or both types of isolation variables, balancing between prompt muon acceptance and non-prompt muon rejection. The full definition and description for the muon isolation \acs{OP}s are detailed in Ref. \citep{reco:muon_ID}.
 
 \section{Missing transverse momentum}
 \label{sec:met}
@@ -238,6 +238,41 @@ Muon		& Jet		& $\Delta R < \min(0.4, 0.04+10 \text{GeV/\ensuremath{p_\mathrm{T}^
 \end{tabular}
 \end{table}
 
+\section{Object definition}
+\label{sec:objdef}
+\autoref{tab:obj_sel} summarizes the selections on physics objects used in this analysis. Each selection comes with associated calibration scale factors (\acs{SF}s) to account for discrepancies between data and \acs{MC} simulation, and are applied multiplicatively to \acs{MC} event weights.
+
+\begin{table}[!htp]
+\centering
+\caption{\label{tab:obj_sel}Summary of object selection criteria used in this analysis. $\ell_0$ refers to the leading lepton in the event.}%
+\begin{tabular}{l|cccc}
+\toprule\midrule
+Selection			& Electrons	& Muons		& Jets	\\
+\midrule
+\midrule
+\multirow{ 2}{*}{\pT [GeV]}
+	& $>15$ 					& $>15$ 	& $>20$ \\
+	& $\pT (\ell_0)>28$ & & &  \\
+\midrule
+\multirow{ 2}{*}{$|\eta|$}
+	& $1.52\leq|\eta|<2.47$ 	& $<2.5$ 	& $<2.5$ \\
+	& $<1.37$ & & &  \\
+\midrule
+\multirow{ 2}{*}{Identification}
+	& \textit{TightLH} 			& \textit{Medium} & NNJvt \textit{FixedEffPt} \\
+	& pass \acs{ECIDS} ($ee$/$e\mu$) & 	& ($\pT<60$, $|\eta|<2.4$) \\
+\midrule
+Isolation
+	& \textit{Tight\_VarRad} 	& \textit{PflowTight\_VarRad}	& \\
+\midrule
+Track-vertex assoc.\vphantom{$\frac{1}{p}$} & & & \\
+\hspace{3mm} $|d_0^{\text{BL}}(\sigma)|$ 
+	& $<5$ 		& $<3$ 		& \\
+\hspace{3mm} $|\Delta z_0^{\mathrm{BL}}\sin\theta|$ [mm]
+	& $<0.5$ 	& $<0.5$ 	& \\
+\midrule\bottomrule
+\end{tabular}
+\end{table}
 
 
 \end{document}

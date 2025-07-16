@@ -17,7 +17,7 @@ Physics analysis inherently incurs uncertainties in the form of statistical and 
 %  \renewcommand{\arraystretch}{1.2} % Adjust row spacing
   \caption{Summary of the experimental systematic uncertainties considered in this analysis.} 
   \resizebox{0.8\textwidth}{!}{%
-  \begin{threeparttable}
+%  \begin{threeparttable}
   \label{tab:syst_summary}
     \begin{tabular}{lc}
       \toprule \midrule
@@ -29,12 +29,16 @@ Physics analysis inherently incurs uncertainties in the form of statistical and 
       \midrule
       \multicolumn{2}{l}{\textbf{Electrons}}  	\\	\midrule
       Trigger efficiency 				& 1 	\\
-      Reconstruction efficiency\textsuperscript{\textdagger}						& 1 \\ 
-      Identification efficiency\textsuperscript{\textdagger}						& 1 \\ 
-      Isolation efficiency\textsuperscript{\textdagger} 							& 1 \\
+%      Reconstruction efficiency\textsuperscript{\textdagger}						& 1 \\ 
+%      Identification efficiency\textsuperscript{\textdagger}						& 1 \\ 
+%      Isolation efficiency\textsuperscript{\textdagger} 							& 1 \\
+      Reconstruction efficiency			& 1 	\\ 
+      Identification efficiency			& 1 	\\ 
+      Isolation efficiency 				& 1 	\\
       Energy scale       				& 1 	\\ 
       Energy resolution  				& 1 	\\
-      Charge identification (\acs{ECIDS}) efficiency\textsuperscript{\textdagger}	& 1 \\
+%      Charge identification (\acs{ECIDS}) efficiency\textsuperscript{\textdagger}	& 1 \\
+      Charge identification (\acs{ECIDS}) efficiency								& 1 \\
       \midrule
       \multicolumn{2}{l}{\textbf{Muons}}  		\\	\midrule
       Trigger efficiency				& 2		\\
@@ -45,7 +49,7 @@ Physics analysis inherently incurs uncertainties in the form of statistical and 
       Charge-independent momentum scale & 1 	\\
       Charge-dependent momentum scale 	& 4 	\\ %GLOBAL/PTEXTRA?
       Energy resolution (\acs{CB}) 		& 1 	\\
-      Energy resolution (ID \& MS)\textsuperscript{\textdagger} 					& 2 \\
+      Energy resolution (ID \& MS) 		& 2 	\\
       \midrule
       \multicolumn{2}{l}{\textbf{Jets}}  		\\	\midrule
       JES effective NP					& 15	\\
@@ -80,19 +84,20 @@ Physics analysis inherently incurs uncertainties in the form of statistical and 
       %	METTrigSyst & \\
       \bottomrule
     \end{tabular}
-    \begin{tablenotes}
-      \scriptsize
-      \item \textsuperscript{\textdagger}Not ready for the analysis, but will be included
-%      \item \textsuperscript{*}Not included
-    \end{tablenotes}
-  \end{threeparttable}}
+%    \begin{tablenotes}
+%      \scriptsize
+%      \item \textsuperscript{\textdagger}Not ready for the analysis, but will be included
+%%      \item \textsuperscript{*}Not included
+%    \end{tablenotes}
+%  \end{threeparttable}
+}
 \end{table}
 
 \subsection{Luminosity \& pile-up reweighting}
-Uncertainty on the integrated luminosity of the 2015-2018 Run 2 data set is $0.83\%$ \citep{DAPR-2021-01}, obtained by the LUCID-2 detector \citep{LUCID2} for the primary luminosity measurements and complemented by the \acs{ID} and calorimeters. Pile-up was modeled in \acs{MC} and calibrated to data through pile-up reweighting, resulting in a set of calibration \acs{SF}s and associated uncertainties.
+The uncertainty on the integrated luminosity of the 2015-2018 Run 2 data set is $0.83\%$ \citep{DAPR-2021-01}, obtained by the LUCID-2 detector \citep{LUCID2} for the primary luminosity measurements and complemented by the \acs{ID} and calorimeters. Pile-up was modeled in \acs{MC} and calibrated to data through pile-up reweighting, resulting in a set of calibration \acs{SF}s and associated uncertainties.
 
 \subsection{Leptons}
-In general, calibrating \acs{MC} simulations to match performance in data incurs uncertainties associated obtaining the MC-to-data calibration \acs{SF}s, which are in turn propagated to observables in the analysis. The data-to-\acs{MC} calibration of trigger, reconstruction, identification and isolation efficiencies for electrons and muons incur associated uncertainties, with separate systematic and statistical components for those related to muons. Similarly, electron and muon energy-momentum scale and resolution are also subjected to calibration uncertainties estimated by varying the corresponding calibration quantity during simulation. Electron has an additional uncertainty related to \acs{ECIDS} efficiency. Muon has additional uncertainties for charge-independent and charge-dependent momentum scale, as well as detector-specific track resolution. Systematic uncertainties for electron reconstruction, identification, isolation, \acs{ECIDS} efficiencies and muon \acs{ID}/\acs{MS} energy resolution were not ready for the sample version used in this analysis, and are therefore not included.
+In general, calibrating \acs{MC} simulations to match performance in data incurs uncertainties associated obtaining the MC-to-data calibration \acs{SF}s, which are in turn propagated to observables in the analysis. The data-to-\acs{MC} calibration of trigger, reconstruction, identification and isolation efficiencies for electrons and muons incur associated uncertainties, with separate systematic and statistical components for those related to muons. Similarly, electron energy scale, muon momentum scale and resolution are also subjected to calibration uncertainties estimated by re-simulating the events while varying the energy/momentum scale and resolution. Electron has an additional uncertainty related to \acs{ECIDS} efficiency. Muon has additional uncertainties for charge-independent and charge-dependent momentum scale, as well as detector-specific track resolution. Systematic uncertainties for electron reconstruction, identification, isolation, \acs{ECIDS} efficiencies and muon \acs{ID}/\acs{MS} energy resolution were not ready for the sample version used in this analysis, and are therefore not included.
 
 \subsection{Jets}
 Experimental uncertainties for jets are dominated by flavor tagging-related uncertainties, with subleading contributions from uncertainties related to \acs{JES} \citep{reco:jet_jes}, \acs{JER} \citep{reco:jet_jer} and \acs{JVT} \citep{syst:jvt_calib} calibrations. 
@@ -288,7 +293,7 @@ Uncertainties on \acs{ETmiss} arise from possible mis-calibration of the soft-tr
 \section{Modeling uncertainties}
 \label{sec:syst_mod}
 \subsection{Signal and irreducible background uncertainties}
-The signal and background samples used were modeled using \acs{MC} simulation. Most uncertainties on simulation parameters (e.g. generator choice, \acs{PS} model) are estimated by varying the relevant parameters and comparing them with the nominal sample. Uncertainties involving \acs{PDF} in particular for most processes in the analysis are set to a flat 1\% uncertainty. Cross-section uncertainties were considered for all irreducible background except \ttW. 
+The signal and background samples used are modeled using \acs{MC} simulation. Most uncertainties on simulation parameters (e.g. generator choice, \acs{PS} model) are estimated by varying the relevant parameters and comparing them with the nominal sample. Uncertainties involving \acs{PDF} in particular for most processes in the analysis are set to a flat 1\% uncertainty. Cross-section uncertainties were considered for all irreducible background except \ttW, which is normalized in dedicated \acs{CR}s following section \ref{sec:ttW_BG}. 
 Extra uncertainties for the production of four or more $b$-jets (additional $b$-jets) in association with $t\bar{t}X$ and \acs{HF} jets were also considered due to a lack of theoretical predictions or dedicated measurements, rendering \acs{MC} modeling challenging. Uncertainties from missing higher-order \acs{QCD} corrections in \acs{MC} simulation are estimated by varying the renormalization scale $\mu_R$ and factorization scale $\mu_F$ within seven different combinations
 \[
 (\mu_R, \mu_F) = \{(0.5,0.5), (0.5,1), (1,0.5), (1,1), (1,2), (2,1), (2,2)\}.
@@ -297,13 +302,13 @@ Extra uncertainties for the production of four or more $b$-jets (additional $b$-
 Process-specific uncertainty treatments are detailed below.
 
 \subsubsection*{SM \tttt background}
-The generator uncertainty for \acs{SM} \tttt background was evaluated between a nominal sample of \mgamc and \sherpa. Parton shower uncertainty was evaluated between \pythia and \herwig. The cross-section uncertainty was estimated to be 20\% computed from a prediction at \acs{NLO} in \acs{QCD}+\acs{EW} \citep{Frederix:2017wme}.
+The generator uncertainty for the \acs{SM} \tttt background was evaluated between a nominal sample of \mgamc and \sherpa. The parton shower uncertainty was evaluated between \pythia and \herwig. The cross-section uncertainty was estimated to be 20\% computed from a prediction at \acs{NLO} in \acs{QCD}+\acs{EW} \citep{Frederix:2017wme}.
 
 \subsubsection*{\ttt background}
 The cross-section uncertainty for \ttt was estimated to be 30\% computed from a prediction at \acs{NLO} in \acs{QCD}+\acs{EW} \citep{Frederix:2017wme}. Events with additional $b$-jets also incur a 50\% uncertainty.
 
 \subsubsection*{\ttW, \ttZ, \ttH backgrounds}
-For \ttW, \ttZ and \ttH backgrounds, an uncertainty of 50\% is assigned to events with one additional truth $b$-jets that did not originate from a top quark decay, and an added 50\% uncertainty is assigned to events with two or more \citep{TOPQ-2017-12}. The generator uncertainty was estimated for \ttZ using a \mgamc nominal sample and a \sherpa sample, and for \ttH using \textsc{PowhegBox} samples interfaced with \pythia (nominal) and \textsc{Herwig7}. Cross-section uncertainties of 12\% and 10\% were applied to \ttZ and \ttH respectively \citep{deFlorian:2016spz}. No \ttW cross-section or \acs{PDF} uncertainty was considered since the normalizations and jet multiplicity spectrum for \ttW are estimated using the data-driven method described in section \ref{sec:ttW_BG}.
+For \ttW, \ttZ and \ttH backgrounds, an uncertainty of 50\% is assigned to events with one additional truth $b$-jets that did not originate from a top quark decay, and an added 50\% uncertainty is assigned to events with two or more \citep{TOPQ-2017-12} additional $b$-jets. The generator uncertainty was estimated for \ttZ using a \mgamc nominal sample and a \sherpa sample, and for \ttH using \textsc{PowhegBox} samples interfaced with \pythia (nominal) and \textsc{Herwig7}. Cross-section uncertainties of 12\% and 10\% were applied to \ttZ and \ttH respectively \citep{deFlorian:2016spz}. No \ttW cross-section or \acs{PDF} uncertainty was considered since the normalizations and jet multiplicity spectrum for \ttW are estimated using the data-driven method described in section \ref{sec:ttW_BG}.
 
 \subsubsection*{Other backgrounds}
 Other backgrounds include processes with small overall contribution in the \acs{SR}. The cross-section uncertainty for $tZ$ and $tWH$ is considered to be 30\% \citep{ATLAS-CONF-2017-052,Demartin_2017}. A conservative cross-section uncertainty of 50\% is applied to \ttVV, $VVV$ and $VH$. For $VV$, the cross-section uncertainty is dependent on jet multiplicity and is considered to be 20\%/50\%/60\% for events with $\leq 3$/$4$/$\geq 5$ jets \citep{STDM-2018-03}. For $VV$, \ttVV, $VVV$ and $VH$ events with additional truth $b$-jets, an uncertainty of 50\% is applied.
@@ -388,7 +393,7 @@ Uncertainties on the \acs{QmisID} background originate from the charge flip rate
 %These uncertainties originate from uncertainties on electron charge flip rates. The uncertainty is determined independently in the conversion and \ttW control regions and treated as correlated among all regions.
 
 \subsubsection*{Internal (low $\gamma^{*}$) and material conversion}
-The normalization for internal and material conversion background are free parameters in the fit, as a result the only uncertainties evaluated are from the shape of the distributions used in the template fit method (see section \ref{sec:template}). The uncertainties on internal (material) conversion are estimated based on the difference between data and \acs{MC} prediction in a region enriched in $Z+\gamma \rightarrow \mu^+\mu^- + e^+e^-$ events.
+The normalization for internal and material conversion backgrounds are free parameters in the fit, as a result the only uncertainties evaluated are from the shape of the distributions used in the template fit method (see section \ref{sec:template}). The uncertainties on internal (material) conversion are estimated based on the difference between data and \acs{MC} prediction in a region enriched in $Z+\gamma \rightarrow \mu^+\mu^- + e^+e^-$ events.
 %internal/material - 21%/33%
 
 \subsubsection*{Heavy-flavor non-prompt lepton}

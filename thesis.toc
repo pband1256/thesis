@@ -1,6 +1,6 @@
 \contentsline {chapter}{List of Tables}{vii}{chapter*.2}%
-\contentsline {chapter}{List of Figures}{viii}{chapter*.3}%
-\contentsline {chapter}{KEY TO ABBREVIATIONS}{x}{section*.4}%
+\contentsline {chapter}{List of Figures}{ix}{chapter*.3}%
+\contentsline {chapter}{KEY TO ABBREVIATIONS}{xi}{section*.4}%
 \contentsline {chapter}{\numberline {Chapter 1.}\negthickspace \negthickspace Introduction}{1}{chapter.1}%
 \contentsline {chapter}{\numberline {Chapter 2.}\negthickspace \negthickspace Theoretical Overview}{5}{chapter.2}%
 \contentsline {section}{\numberline {2.1}The Standard Model}{5}{section.2.1}%
@@ -11,17 +11,18 @@
 \contentsline {subsubsection}{\numberline {2.1.2.3}Higgs mechanism}{14}{subsubsection.2.1.2.3}%
 \contentsline {section}{\numberline {2.2}Beyond the Standard Model}{17}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Top-philic vector resonance}{17}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}\acs {BSM} four-top quark production}{19}{subsection.2.2.2}%
-\contentsline {chapter}{\numberline {Chapter 3.}\negthickspace \negthickspace LHC \& ATLAS Experiment}{21}{chapter.3}%
-\contentsline {section}{\numberline {3.1}The Large Hadron Collider}{21}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Overview}{21}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}LHC operations}{23}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}Physics at the LHC}{24}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {2.2.2}\acs {BSM} $\ensuremath {t\bar {t}Z'}\xspace \rightarrow \ensuremath {t\bar {t}t\bar {t}}\xspace $}{19}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Current exclusion limits}{20}{subsection.2.2.3}%
+\contentsline {chapter}{\numberline {Chapter 3.}\negthickspace \negthickspace LHC \& ATLAS Experiment}{22}{chapter.3}%
+\contentsline {section}{\numberline {3.1}The Large Hadron Collider}{22}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Overview}{22}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}LHC operations}{24}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Physics at the LHC}{25}{subsection.3.1.3}%
 \contentsline {section}{\numberline {3.2}The ATLAS detector}{25}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Inner detector}{27}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.1}Inner detector}{28}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Calorimeter systems}{29}{subsection.3.2.2}%
 \contentsline {subsection}{\numberline {3.2.3}Muon spectrometer}{31}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Trigger \& data acquisition}{32}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.4}Trigger \& data acquisition}{33}{subsection.3.2.4}%
 \contentsline {chapter}{\numberline {Chapter 4.}\negthickspace \negthickspace Particle Reconstruction \& Identification}{34}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Primary reconstruction}{34}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Tracks}{34}{subsection.4.1.1}%
@@ -46,24 +47,24 @@
 \contentsline {subsection}{\numberline {6.1.2}Event categorization}{56}{subsection.6.1.2}%
 \contentsline {section}{\numberline {6.2}Analysis regions}{57}{section.6.2}%
 \contentsline {subsection}{\numberline {6.2.1}Signal regions}{59}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}Control regions}{59}{subsection.6.2.2}%
-\contentsline {section}{\numberline {6.3}Background estimation}{62}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Template fitting for fake/non-prompt estimation}{63}{subsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.3.2}Charge misidentification data-driven estimation}{63}{subsection.6.3.2}%
-\contentsline {subsection}{\numberline {6.3.3}\ensuremath {t\bar {t}W}\xspace background data-driven estimation}{65}{subsection.6.3.3}%
-\contentsline {chapter}{\numberline {Chapter 7.}\negthickspace \negthickspace Systematic Uncertainties}{68}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Experimental uncertainties}{68}{section.7.1}%
-\contentsline {subsection}{\numberline {7.1.1}Luminosity \& pile-up reweighting}{68}{subsection.7.1.1}%
-\contentsline {subsection}{\numberline {7.1.2}Leptons}{68}{subsection.7.1.2}%
-\contentsline {subsection}{\numberline {7.1.3}Jets}{70}{subsection.7.1.3}%
-\contentsline {subsection}{\numberline {7.1.4}Missing transverse energy}{72}{subsection.7.1.4}%
-\contentsline {section}{\numberline {7.2}Modeling uncertainties}{73}{section.7.2}%
-\contentsline {subsection}{\numberline {7.2.1}Signal and irreducible background uncertainties}{73}{subsection.7.2.1}%
-\contentsline {subsection}{\numberline {7.2.2}Reducible background uncertainties}{75}{subsection.7.2.2}%
-\contentsline {chapter}{\numberline {Chapter 8.}\negthickspace \negthickspace Results}{77}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Statistical analysis}{77}{section.8.1}%
-\contentsline {subsection}{\numberline {8.1.1}Profile likelihood fit}{77}{subsection.8.1.1}%
-\contentsline {subsection}{\numberline {8.1.2}Exclusion limits}{79}{subsection.8.1.2}%
-\contentsline {section}{\numberline {8.2}Fit results}{79}{section.8.2}%
-\contentsline {chapter}{\numberline {Chapter 9.}\negthickspace \negthickspace Summary}{80}{chapter.9}%
-\contentsline {chapter}{References}{81}{chapter*.31}%
+\contentsline {subsection}{\numberline {6.2.2}Control regions}{62}{subsection.6.2.2}%
+\contentsline {section}{\numberline {6.3}Background estimation}{64}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Template fitting for fake/non-prompt estimation}{65}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Charge misidentification data-driven estimation}{65}{subsection.6.3.2}%
+\contentsline {subsection}{\numberline {6.3.3}\ensuremath {t\bar {t}W}\xspace background data-driven estimation}{67}{subsection.6.3.3}%
+\contentsline {chapter}{\numberline {Chapter 7.}\negthickspace \negthickspace Systematic Uncertainties}{70}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Experimental uncertainties}{70}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}Luminosity \& pile-up reweighting}{70}{subsection.7.1.1}%
+\contentsline {subsection}{\numberline {7.1.2}Leptons}{70}{subsection.7.1.2}%
+\contentsline {subsection}{\numberline {7.1.3}Jets}{72}{subsection.7.1.3}%
+\contentsline {subsection}{\numberline {7.1.4}Missing transverse energy}{74}{subsection.7.1.4}%
+\contentsline {section}{\numberline {7.2}Modeling uncertainties}{75}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}Signal and irreducible background uncertainties}{75}{subsection.7.2.1}%
+\contentsline {subsection}{\numberline {7.2.2}Reducible background uncertainties}{77}{subsection.7.2.2}%
+\contentsline {chapter}{\numberline {Chapter 8.}\negthickspace \negthickspace Results}{79}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Statistical interpretation}{79}{section.8.1}%
+\contentsline {subsection}{\numberline {8.1.1}Profile likelihood fit}{79}{subsection.8.1.1}%
+\contentsline {subsection}{\numberline {8.1.2}Exclusion limit}{82}{subsection.8.1.2}%
+\contentsline {section}{\numberline {8.2}Fit results}{83}{section.8.2}%
+\contentsline {chapter}{\numberline {Chapter 9.}\negthickspace \negthickspace Summary}{89}{chapter.9}%
+\contentsline {chapter}{References}{90}{chapter*.38}%

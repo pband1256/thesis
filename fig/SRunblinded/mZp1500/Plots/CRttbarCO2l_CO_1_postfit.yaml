@@ -1,0 +1,49 @@
+Samples:
+  - Name: t#bar{t}Z'
+    Yield: [0.011384466179372776]
+  - Name: t#bar{t}t#bar{t}
+    Yield: [0.14027086568183908]
+  - Name: t#bar{t}t
+    Yield: [0.036791778223178827]
+  - Name: t#bar{t}VV
+    Yield: [0.47039882666020127]
+  - Name: t#bar{t}Z
+    Yield: [5.6381895824488151]
+  - Name: t#bar{t}H
+    Yield: [3.3396436905247064]
+  - Name: QmisID
+    Yield: [113.72811827647793]
+  - Name: Mat.Conv.
+    Yield: [71.441665211192273]
+  - Name: Low m_{#gamma^{*}}
+    Yield: [19.013191380829756]
+  - Name: HF e
+    Yield: [10.274694751290699]
+  - Name: HF#mu
+    Yield: [12.398560785488451]
+  - Name: light
+    Yield: [2.7366968966064684]
+  - Name: Other fake
+    Yield: [37.593282925274288]
+  - Name: singleTop
+    Yield: [3.8472823588931879]
+  - Name: Diboson
+    Yield: [8.9043492179977992]
+  - Name: triboson
+    Yield: [0.067760836731515867]
+  - Name: vh
+    Yield: [9.4532790149906214e-07]
+  - Name: t#bar{t}W^{+}
+    Yield: [11.774653586703632]
+  - Name: t#bar{t}W^{-}
+    Yield: [6.2643694375674253]
+Total:
+  - Yield: [307.68130582009945]
+    UncertaintyUp: [17.397830980418338]
+    UncertaintyDown: [-17.397830980418338]
+Data:
+  - Yield: [309]
+Figure:
+  - BinEdges: [0, 1]
+    XaxisLabel: flat
+    YaxisLabel: ""

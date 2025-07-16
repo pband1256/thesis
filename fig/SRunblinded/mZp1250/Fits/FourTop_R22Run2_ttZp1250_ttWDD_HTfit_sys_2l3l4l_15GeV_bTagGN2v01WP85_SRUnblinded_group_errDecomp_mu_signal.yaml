@@ -1,0 +1,116 @@
+- Category: Diboson_syst_varRF
+  Impact: 0.0010222906027226185
+  ImpactUp: 0.00108753307321093
+  ImpactDown: 0.0009941145615070266
+- Category: Jet_unc
+  Impact: 0.054597453854077015
+  ImpactUp: 0.06694828102507262
+  ImpactDown: 0.046023810236351465
+- Category: Non-prompt electron normalisation factors
+  Impact: 0.0014396999151484863
+  ImpactUp: 0.001654292675656633
+  ImpactDown: 0.0013435687211648566
+- Category: Non-prompt lepton modeling
+  Impact: 0.0007534472361302608
+  ImpactUp: 0.0008131881022346019
+  ImpactDown: 0.0007606908231948105
+- Category: Non-prompt lepton normalisation factors
+  Impact: 0.002021272207094539
+  ImpactUp: 0.0019849474852263655
+  ImpactDown: 0.0022345487130198374
+- Category: Non-prompt muon normalisation factors
+  Impact: 0.001896730045545101
+  ImpactUp: 0.0020826641084792596
+  ImpactDown: 0.0018476332529727716
+- Category: Other bkg modeling
+  Impact: 0.018000340849037004
+  ImpactUp: 0.01721027947427852
+  ImpactDown: 0.01750070329520598
+- Category: Other instrumental uncertainty
+  Impact: 0.020618487411831855
+  ImpactUp: 0.020720747629827903
+  ImpactDown: 0.021926504111444547
+- Category: Other_exp
+  Impact: 0.003579451880537222
+  ImpactUp: 0.0037009115804186366
+  ImpactDown: 0.003524926781005128
+- Category: SM 4top modeling
+  Impact: 0.06398474519449353
+  ImpactUp: 0.06241842388302706
+  ImpactDown: 0.06812802886213737
+- Category: b-tagging B-jets uncertainties
+  Impact: 0.01465409538565717
+  ImpactUp: 0.014400307502473805
+  ImpactDown: 0.015513851057059849
+- Category: b-tagging C-jets uncertainties
+  Impact: 0.012519593086311936
+  ImpactUp: 0.012403644023601177
+  ImpactDown: 0.013328007387350205
+- Category: b-tagging Light-jets uncertainties
+  Impact: 0.023494734500271976
+  ImpactUp: 0.024897567930789323
+  ImpactDown: 0.023222185012882448
+- Category: ttH modeling
+  Impact: 0.00013426947970190904
+  ImpactUp: 0.0001428782019864399
+  ImpactDown: 0.00013059695987416108
+- Category: ttH_syst_varRF
+  Impact: 0.015578889149894188
+  ImpactUp: 0.015153631112998162
+  ImpactDown: 0.016576762404119975
+- Category: ttHmodeling
+  Impact: 0.02365078017157364
+  ImpactUp: 0.023472072341186007
+  ImpactDown: 0.022494042593431067
+- Category: ttW normalisation factors
+  Impact: 0.008280547726671606
+  ImpactUp: 0.008180887252695538
+  ImpactDown: 0.008003560841370664
+- Category: ttW_syst_varRF
+  Impact: 0.0009417259101333162
+  ImpactUp: 0.0010022466395209243
+  ImpactDown: 0.000916088462137694
+- Category: ttWmodeling
+  Impact: 0.018056565878568544
+  ImpactUp: 0.017906087337191484
+  ImpactDown: 0.019350589601249687
+- Category: ttZ modeling
+  Impact: 0.02194205785010883
+  ImpactUp: 0.03519940335581477
+  ImpactDown: 0.02269645912447151
+- Category: ttZ_syst_varRF
+  Impact: 0.003697172466248423
+  ImpactUp: 0.003708150792211337
+  ImpactDown: 0.004035418517683286
+- Category: ttZmodeling
+  Impact: 0.0069720946929666145
+  ImpactUp: 0.00685753572174575
+  ImpactDown: 0.007418704383153453
+- Category: ttZp_syst_varRF
+  Impact: 0
+  ImpactUp: 0
+  ImpactDown: 0
+- Category: ttt modeling
+  Impact: 0.004703293798513556
+  ImpactUp: 0.004574768638571879
+  ImpactDown: 0.004995689541596465
+- Category: ttt_syst_varRF
+  Impact: 1.61219687134225e-06
+  ImpactUp: 1.7158005089793745e-06
+  ImpactDown: 1.56833302469875e-06
+- Category: tttt_syst_varRF
+  Impact: 0.0026793054532402313
+  ImpactUp: 0.002851476524704124
+  ImpactDown: 0.002606370893067409
+- Category: MC stat.
+  Impact: 0.04650688081011039
+  ImpactUp: 0.05052374113050008
+  ImpactDown: -0.04436093960365839
+- Category: Total syst.
+  Impact: 0.11236949199539456
+  ImpactUp: 0.12281705731826748
+  ImpactDown: -0.11072673370502478
+- Category: Stat unc.
+  Impact: 0.3106130989815003
+  ImpactUp: 0.326891554052746
+  ImpactDown: -0.29936837399934096

@@ -1,7 +1,0 @@
-=== INFO::TRExFit::GetLimit: Using mixed Data/Asimov dataset in the limit estimate
-=== INFO::Common::ProcessLimitOutput: Printing results of the asymptotic limit estimate
-=== INFO::Common::ProcessLimitOutput: Expected limit (median): 0.363225, worst case error: 0.003857
-=== INFO::Common::ProcessLimitOutput: Expected limit (-1 sig): 0.256782, worst case error: 0.003550
-=== INFO::Common::ProcessLimitOutput: Expected limit ( 1 sig): 0.518512, worst case error: -0.008813
-=== INFO::Common::ProcessLimitOutput: Expected limit (-2 sig): 0.188841, worst case error: 0.002934
-=== INFO::Common::ProcessLimitOutput: Expected limit ( 2 sig): 0.716809, worst case error: -0.007517

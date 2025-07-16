@@ -28,7 +28,7 @@ Additional selections are applied based on the lepton flavors present. In the SS
 \centering
 \caption{\label{tab:obj_sel}Summary of object selection criteria used in this analysis. $\ell_0$ refers to the leading lepton in the event.}%
 \begin{tabular}{l|cccc}
-\toprule\toprule
+\toprule\midrule
 Selection			& Electrons	& Muons		& Jets	\\
 \midrule
 \midrule
@@ -52,7 +52,7 @@ Track-vertex assoc.\vphantom{$\frac{1}{p}$} & & & \\
 	& $<5$ 		& $<3$ 		& \\
 \hspace{3mm} $|\Delta z_0^{\mathrm{BL}}\sin\theta|$ [mm]
 	& $<0.5$ 	& $<0.5$ 	& \\
-\bottomrule\bottomrule
+\midrule\bottomrule
 \end{tabular}
 \end{table}
 
@@ -74,14 +74,14 @@ Simulated events are categorized using truth information of leptons ($e$/$\mu$) 
 
 \section{Analysis regions}
 \label{sec:ana}
-Events are selected and categorized into analysis regions belonging to one of two types: control regions (\acs{CR}s) enriched in background events, and signal regions (\acs{SR}s) enriched in signal events. This allows for the examination and control of backgrounds and systematic uncertainties, as well as study of signal sensitivities. The signal is then extracted from the \acs{SR}s with a profile \acs{LH} fit using all regions. The full selection criteria for each region are summarized in \autoref{tab:ana_regions}.
+Events are selected and categorized into analysis regions belonging to one of two types: control regions (\acs{CR}s) enriched in background events, and signal regions (\acs{SR}s) enriched in signal events. This allows for the examination and control of backgrounds and systematic uncertainties, as well as study of signal sensitivities. The signal is then extracted from the \acs{SR}s with a profile \acs{LH} fit using all regions. The full selection criteria for each region are summarized in \autoref{tab:ana_regions}. The background compositions in different \acs{CR}s and \acs{SR} sub-regions are shown in \autoref{fig:ana:bg_comp}.
 
 \begin{table}[!htbp]
 \centering
 \caption{\label{tab:ana_regions}Definitions of signal, control and validation regions (\acs{VR}) used in this analysis. $N_\mathrm{jets}$ and $N_b$ refers to the number of jets and number of $b$-tagged jets respectively. $\ell_1$ refers to the leading lepton, $\ell_2$ refers to the subleading lepton and so on. \HT refers to the \pT scalar sum of all leptons and jets in the event. \acs{mll} refers to the dilepton invariant mass, which must not coincide with the $Z$-boson mass range of 81-101 GeV for \acs{SS2L}+3L events.}%
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{l|lllll}
-\toprule\toprule
+\toprule\midrule
 Region & Channel & $N_\mathrm{jets}$ & $N_b$ & Other selections & Fitted variable \\
 \midrule
 \midrule
@@ -130,9 +130,16 @@ VR \ttW+1b+SR 	& SS2L+3L 	& 			&
 \multirow{2}{*}{SR} 					& \multirow{2}{*}{SS2L+3L} 		& \multirow{2}{*}{$\geq 6$}	& \multirow{2}{*}{$\geq 2$}	& 
 	$\HT > 500$ GeV & \multirow{2}{*}{\HT} \\
 	& & & & $m_{\ell\ell} \notin [81,101]$ GeV & \\
-\bottomrule\bottomrule
+\midrule\bottomrule
 \end{tabular}}
 \end{table}
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=0.9\linewidth]{fig/SRunblinded/mZp2000_PieChart_postFit.png}
+\caption{\label{fig:ana:bg_comp}Post-fit background composition in each analysis region and sub-region. The fit was performed using ideal pseudo-datasets (Asimov data) in the \acs{SR}.}
+\end{figure}
+
 
 \subsection{Signal regions}
 All events selected for the \acs{SR} must satisfy the following criteria:
@@ -141,10 +148,12 @@ All events selected for the \acs{SR} must satisfy the following criteria:
 \item Scalar sum of the transverse momenta of all leptons and jets $\HT > 500$ GeV.
 \item Dilepton invariant mass \acs{mll} does not coincide with the $Z$-boson mass range of $81-101$ GeV
 \end{itemize}
-The \acs{SR} is further divided into sub-regions by the number of $b$-jets and leptons as shown in \autoref{tab:ana:SR} to further study signal behavior and improve sensitivity.
+
+The \acs{SR} is further divided into sub-regions by the number of $b$-tagged jets and leptons  present to study signal behavior and sensitivity with respect to the selection variables.
 
 \begin{table}[!ht]
 \centering
+\setlength{\tabcolsep}{12pt} % Reduce column spacing
 \caption{\label{tab:ana:SR}Definitions of \acs{SR} sub-regions. Events are sorted into different sub-regions based on the number of $b$-tagged jets and leptons present.}%
 \begin{tabular}{p{2cm}|p{3cm}l}
 \toprule\toprule
@@ -159,6 +168,23 @@ SR 4b			& $N_b \geq 4$	& \\
 \bottomrule\bottomrule
 \end{tabular}
 \end{table}
+
+\subsubsection*{Signal extraction}
+Signal extraction in the \acs{SR} is performed via a binned profile likelihood (\acs{LH}) fit as described in \autoref{sec:stat} using \HT as the discriminant observable. The discriminant observable for a \acs{LH} fit serves as the set of observed data upon which the \acs{LH} function is constructed. Ideally, the chosen observable shows significant separation between the functional forms of the signal and background distributions, allowing for effective separation of the two. \autoref{fig:ana:signal_prefit} shows several pre-fit kinematic distributions in the inclusive \acs{SR}. From empirical optimization studies, \HT possesses good discriminating power compared to other observables constructed using event-level information.
+
+\begin{figure}[!htb]
+\centering
+\subfloat[]{
+\includegraphics[width=0.45\linewidth]{fig/SRunblinded/mZp2000/Plots/SR_HT_all.png}}
+\subfloat[]{
+\includegraphics[width=0.45\linewidth]{fig/SRunblinded/mZp2000/Plots/SR_nJets.png}}
+
+\subfloat[]{
+\includegraphics[width=0.45\linewidth]{fig/SRunblinded/mZp2000/Plots/SR_nBJets.png}}
+\subfloat[]{
+\includegraphics[width=0.45\linewidth]{fig/SRunblinded/mZp2000/Plots/SR_lepton_0_pt.png}}
+\caption[Caption]{\label{fig:ana:signal_prefit}Pre-fit kinematic distributions and event compositions for several observables in the inclusive \acs{SR}. The shaded band represents the uncertainty in the total distribution. The first and last bins of each distribution contains underflow and overflow events respectively.}
+\end{figure}
 
 \subsection{Control regions}
 Control regions are defined for each background to be enriched in the targeted process, in order to maximize the background's purity and minimize contamination from other sources within the region. This helps to constrain and reduce correlation between background normalization factors in the final fit. Fit variables and selection criteria are determined via optimization studies performed on \acs{CR}s that aimed to achieve the largest discriminating power possible between the target background and other event types.

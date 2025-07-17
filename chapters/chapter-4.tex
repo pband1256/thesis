@@ -43,9 +43,9 @@ Data samples used in this analysis were collected by the \acs{ATLAS} detector du
 
 \section{Monte Carlo samples}
 \label{sec:montecarlo}
-Monte Carlo simulated samples are used to estimate signal acceptance before unblinding, profile the physics background for the analysis and to study object optimizations. Simulated samples for this analysis use are generated from ATLAS generalized MC20a/d/e samples for Run 2, using full detector simulation (\acs{FS}) and fast simulation (\acs{AF3}) to simulate detector response. \acs{MC} samples used and simulation processes are summarized in \autoref{tab:MC}
+Monte Carlo simulated samples are used to estimate signal acceptance before unblinding, profile the physics background for the analysis and to study object optimizations. Simulated samples for this analysis use are generated from ATLAS generalized MC20a/d/e samples for Run 2, using full detector simulation (\acs{FS}) and fast simulation (\acs{AF3}) to simulate detector response. \acs{MC} samples used and simulation processes are summarized in \autoref{tab:MC}.
 
-\begin{table}[!htbp]
+\begin{table}[!htb]
 \small
 \setlength{\tabcolsep}{3pt} % Reduce column spacing
 \renewcommand{\arraystretch}{1.2} % Adjust row spacing
@@ -101,16 +101,26 @@ $VH$       & \powhegbox~v2  & NLO      & \nnpdfaznlo   & \pythia & A14     & FS 
 \end{table}
 
 \subsection{\ttZp signal samples}
-Signal \ttZp samples were generated based on the simplified top-philic resonance model in section \ref{sec:ttZp} where a color singlet vector resonance couples strongly to only top and antitop. Six $Z'$ mass points were utilized for the generation of the signal sample: 1000, 1250, 1500, 2000, 2500 and 3000 GeV. The top-$Z'$ coupling $c_t$ is chosen to be 1 for a narrow resonance peak, and the chirality angle $\theta$ is chosen to be $\pi/4$ to suppress loop production of $Z'$. The samples were then generated with \mgamc v.3.5.0 \citep{Alwall:2014hca} at \acs{LO} with the \nnpdfonelo \citep{Ball:2014uwa} \acs{PDF} set interfaced with \pythia \citep{Sjostrand:2014zea} using A14 tune and \nnpdftwo \acs{PDF} set for parton showering and hadronization. The resonance width is calculated to be $4\%$ for $c_t=1$.
+Signal \ttZp samples were generated based on the simplified top-philic resonance model in section \ref{sec:ttZp}. Six $Z'$ mass points were utilized for the generation of the signal sample: 1000, 1250, 1500, 2000, 2500 and 3000 GeV. The top-$Z'$ coupling $c_t$ is chosen to be 1 for a narrow resonance peak, and the chirality angle $\theta$ is chosen to be $\pi/4$ to suppress loop production of $Z'$. The samples were then generated with \mgamc v.3.5.0 \citep{Alwall:2014hca} at \acs{LO} with the \nnpdfonelo \citep{Ball:2014uwa} \acs{PDF} set interfaced with \pythia \citep{Sjostrand:2014zea} using A14 tune and \nnpdftwo \acs{PDF} set for parton showering and hadronization. The resonance width is calculated to be $4\%$ for $c_t=1$.
 %\textcolor{red}{plots: \HT, nJets, parameter comparison, interference, $m_{\ttbar}$ invariant mass}
 
 \subsection{Background samples}
 
 \subsubsection*{\acs{SM} \tttt background}
-The nominal \acs{SM} \tttt sample was generated with \mgamc \citep{Alwall:2014hca} at \acs{NLO} in \acs{QCD} with the \nnpdfnlo \citep{Ball:2014uwa} \acs{PDF} set and interfaced with \pythia.230 \citep{Sjostrand:2014zea} using A14 tune \citep{ATL-PHYS-PUB-2014-021}. Decays for top quarks are simulated at \acs{LO} with \madspin \citep{Frixione:2007zp, Artoisenet:2012st} to preserve spin information, while decays for $b$- and $c$-hadrons are simulated with \evtgen v1.6.0 \citep{Lange:2001uf}. The renormalization and factorization scales $\mu_R$ and $\mu_F$ are set to $\sqrt{m^2+\pT^2}/4$, which represents the sum of transverse mass of all particles generated from the \acs{ME} calculation \citep{Frederix:2017wme}. The ATLAS detector response was simulated with \acs{AF3}. Additional auxiliary \tttt samples are also generated to evaluate the impact of generator and \acs{PS} uncertainties as shown in \ref{tab:MC}.
+The nominal \acs{SM} \tttt sample was generated with \mgamc \citep{Alwall:2014hca} at \acs{NLO} in \acs{QCD} with the \nnpdfnlo \citep{Ball:2014uwa} \acs{PDF} set and interfaced with \pythia.230 \citep{Sjostrand:2014zea} using A14 tune \citep{ATL-PHYS-PUB-2014-021}. Decays for top quarks are simulated at \acs{LO} with \madspin \citep{Frixione:2007zp, Artoisenet:2012st} to preserve spin information, while decays for $b$- and $c$-hadrons are simulated with \evtgen v1.6.0 \citep{Lange:2001uf}. The renormalization and factorization scales $\mu_R$ and $\mu_F$ are set to $1/4\sqrt{m^2+\pT^2}$, which represents the sum of transverse mass of all particles generated from the \acs{ME} calculation \citep{Frederix:2017wme}. The ATLAS detector response was simulated with \acs{AF3}. Additional auxiliary \tttt samples are also generated to evaluate the impact of generator and \acs{PS} uncertainties as shown in \ref{tab:MC}.
 \subsubsection*{\ttW background}
 Nominal \ttW sample was generated using \sherpa v2.2.10 \citep{Bothmann:2019yzt} at \acs{NLO} in \acs{QCD} with the \nnpdfnnlo \citep{Ball:2014uwa} \acs{PDF} with up to one extra parton at \acs{NLO} and two at \acs{LO}, which are matched and merged with \sherpa \acs{PS} based on Catani-Seymour dipole factorization \citep{Schumann:2007mg} using the MEPS@NLO prescription \citep{Hoeche:2011fd, Hoeche:2012yf, Catani:2001cc, Hoeche:2009rj} and a merging scale of 30 GeV. Higher-order \acs{ME} corrections are provided in \acs{QCD} by the OpenLoops 2 library \citep{Cascioli:2011va, Denner:2016kdg, Buccioni:2019sur} and in \acs{EW} from $\mathcal{O}(\alpha^3)+\mathcal{O}(\alpha^2_S\alpha^2)$ (LO3 \& NLO2) via two sets of internal event weights. An alternative sample with only \acs{EW} corrections at \acs{LO} from $\mathcal{O}(\alpha_S\alpha^3)$ (NLO3) diagrams were also simulated with the same settings.
 \subsubsection*{$\ttbar(Z/\gamma^*)$ background}
 Nominal $\ttbar(Z/\gamma^*)$ samples were generated separately for different ranges of dilepton invariant mass $m_{\ell\ell}$ to account for on-shell and off-shell $Z/\gamma^*$ production. Sample for $m_{\ell\ell}$ between 1 and 5 GeV was produced using \mgamc \citep{Alwall:2014hca} at \acs{NLO} with the \nnpdfnlo \citep{Ball:2014uwa} \acs{PDF} set, interfaced with \pythia.230 \citep{Sjostrand:2014zea} using A14 tune \citep{ATL-PHYS-PUB-2014-021} and \nnpdftwo \acs{PDF} set. Sample for $m_{\ell\ell} < 5$ GeV was produced with \sherpa v2.2.10 \citep{Bothmann:2019yzt} at \acs{NLO} using \nnpdfnnlo \acs{PDF} set. To account for generator uncertainty, an alternative $m_{\ell\ell}>5$ GeV sample was generated with identical settings to the low $m_{\ell\ell}$ sample. The ATLAS detector response was simulated with full detector simulation (\acs{FS}).
+\subsubsection*{\ttH background}
+\subsubsection*{\ttt background}
+\subsubsection*{\ttbar background}
+\subsubsection*{Single-top ($tW$ \& $t(q)b$) background}
+\subsubsection*{\tWZ background}
+\subsubsection*{$tZ$ \& \ttVV background}
+\subsubsection*{Single boson ($V$) +jets background}
+\subsubsection*{Diboson ($VV$) +jets background}
+\subsubsection*{Triboson ($VVV$) +jets background}
+\subsubsection*{$VH$ background}
 
 \end{document}

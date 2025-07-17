@@ -84,11 +84,21 @@ Before fitting to real data (unblinded fit), the fit was first performed in both
 
 The unblinded fit results are presented below. No significant excess over \acs{SM} predictions is observed, and the fitted signal strength $\mu$ is compatible with zero for all $Z'$ mass points. \autoref{fig:results:ttZp_limits} shows the observed and expected upper limits at 95\% confidence level on the cross-section of $pp\rightarrow\ttZp$ production times the branching ratio of $Z'\rightarrow\ttbar$ as a function of the $Z'$ resonance mass. The exclusion limits range from 7.9 fb to 9.44 fb depending on $m_{Z'}$.
 
-The background modeling is evaluated under the background-only hypothesis. The fitted background \acs{NF}s are shown in \autoref{tab:results:NFs} and are consistent with their nominal values within one standard deviation, or two standard deviations in the case of $\mathrm{NF}_{\text{HF }e}$ and $\mathrm{NF}_{\ttWplus(4\mathrm{j})}$. \autoref{fig:results:bg_postfit} shows good agreement between data and post-fit background distributions in non-prompt background \acs{CR}s and \ttW \acs{CR}s.
-The pre-fit and post-fit background yields are shown in \autoref{tab:results:yield}. \textcolor{red}{Discuss differences between pre and post-fit yields. Which one increased/decreased? Why, NFs/NPs? Consistent with data within 1-2 stdev?}
+No significant variation is observed in fit output behavior using \ttZp samples of different $m_{Z'}$; results fitted using $m_{Z'}=2$ TeV are shown without substantial loss of generality. The background modeling is evaluated under the background-only hypothesis. The fitted background \acs{NF}s are shown in \autoref{tab:results:NFs} and are consistent with their nominal values within one standard deviation, or two standard deviations in the case of $\mathrm{NF}_{\text{HF }e}$ and $\mathrm{NF}_{\ttWplus(4\mathrm{j})}$. \autoref{fig:results:bg_postfit} shows good agreement between data and post-fit background distributions in non-prompt background \acs{CR}s and \ttW \acs{CR}s.
 
 
-\begin{table}[!ht]
+The pre-fit and post-fit background yields are shown in \autoref{tab:results:yield}. Except for HF $e$ background, post-fit yields for various backgrounds e.g. \tttt, \ttH, other fake, etc. are increased; the pre-fit to post-fit variations are consistent within $\pm \acs{stdev}$. Data and total post-fit yields are also consistent within $\pm \acs{stdev}$. Post-fit yield for HF $e$ background is lowered compared to pre-fit yield within within $2\acs{stdev}$ which can be related to the fitted value of $\text{NF}_{\text{HF }e}$ in \autoref{tab:results:NFs}; however, this difference in pre- and post-fit yields of HF $e$ background has negligible impact on the $\mu$ as seen in \autoref{tab:results:uncertainty}.
+
+\autoref{tab:results:uncertainty} outlines the impact on the signal strength $\mu$ of various sources of uncertainty grouped by their corresponding category. The background sources of uncertainty with the largest impact is \tttt modeling, in particular \tttt generator choice and cross-section uncertainties, followed by \ttW modeling due to their significant contributions in the \acs{SR} observed in \autoref{fig:ana:bg_comp}, especially in the more sensitive regions requiring three or more $b$-tagged jets. The most significant impact on $\mu$ within the set of instrumental uncertainties are uncertainties on jet $b$-tagging attributable to the high jet and $b$-jet multiplicities in the \acs{BSM} \tttt signal signature.
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=0.7\linewidth]{fig/SRunblinded/ttZp_limits_fb.png}
+\caption[Observed (solid line) and expected (dotted line) upper limits as a function of the $Z'$ mass at 95\% \acs{CL} on the cross-section of $pp\rightarrow\ttZp$ production times the $Z'\rightarrow\ttbar$ branching ratio. The region above the observed limit is excluded. The solid blue line represents the theoretical signal cross-section with $c_t=1$ at \acs{LO} in \acs{QCD}. The green and yellow bands represent the 68\% ($\pm\sigma$) and 95\% ($\pm 2\sigma$) confidence intervals respectively.]{\label{fig:results:ttZp_limits}Observed (solid line) and expected (dotted line) upper limits as a function of the $Z'$ mass at 95\% \acs{CL} on the cross-section of $pp\rightarrow\ttZp$ production times the $Z'\rightarrow\ttbar$ branching ratio. The region above the observed limit is excluded. The solid blue line represents the theoretical signal cross-section with $c_t=1$ at \acs{LO} in \acs{QCD} \citep{theory:ttZp_LHC}. The green and yellow bands represent the 68\% ($\pm\sigma$) and 95\% ($\pm 2\sigma$) confidence intervals respectively.}
+\end{figure}
+
+
+\begin{table}[!htb]
 \centering
 \scriptsize
 \setlength{\tabcolsep}{3pt} % Reduce column spacing
@@ -106,17 +116,6 @@ Fit value	& $0.68^{+0.23}_{-0.22}$ & $0.97^{+0.17}_{-0.16}$ & $0.97^{+0.31}_{-0.
 \end{tabular}
 }
 \end{table}
-
-\autoref{tab:results:uncertainty} shows the impact of various sources of uncertainty grouped by their corresponding category on the signal strength. \textcolor{red}{Largest sources of uncertainty? Why?}
-
-
-\begin{figure}[!htb]
-\centering
-\includegraphics[width=0.7\linewidth]{fig/SRunblinded/ttZp_limits_fb.png}
-\caption[Observed (solid line) and expected (dotted line) upper limits as a function of the $Z'$ mass at 95\% \acs{CL} on the cross-section of $pp\rightarrow\ttZp$ production times the $Z'\rightarrow\ttbar$ branching ratio. The region above the observed limit is excluded. The solid blue line represents the theoretical signal cross-section with $c_t=1$ at \acs{LO} in \acs{QCD}. The green and yellow bands represent the 68\% ($\pm\sigma$) and 95\% ($\pm 2\sigma$) confidence intervals respectively.]{\label{fig:results:ttZp_limits}Observed (solid line) and expected (dotted line) upper limits as a function of the $Z'$ mass at 95\% \acs{CL} on the cross-section of $pp\rightarrow\ttZp$ production times the $Z'\rightarrow\ttbar$ branching ratio. The region above the observed limit is excluded. The solid blue line represents the theoretical signal cross-section with $c_t=1$ at \acs{LO} in \acs{QCD} \citep{theory:ttZp_LHC}. The green and yellow bands represent the 68\% ($\pm\sigma$) and 95\% ($\pm 2\sigma$) confidence intervals respectively.}
-\end{figure}
-
-
 
 \begin{figure}[!htbp]
 \centering
@@ -146,7 +145,7 @@ Fit value	& $0.68^{+0.23}_{-0.22}$ & $0.97^{+0.17}_{-0.16}$ & $0.97^{+0.31}_{-0.
   \scriptsize
   \setlength{\tabcolsep}{8pt} % Reduce column spacing
   \renewcommand{\arraystretch}{1.2} % Adjust row spacing
-  \caption{\label{tab:results:yield}Pre-fit and post-fit background yields in the inclusive \acs{SR}. The number of data events and pre-fit estimate signal yields are also shown. Background yields shown are obtained from the fit using the \ttZp signal sample with $m_{Z'}=2$ TeV. Total yield uncertainty differs from the quadrature sum of constituent uncertainties due to correlation and anticorrelation effects.}
+  \caption{\label{tab:results:yield}Pre-fit and post-fit background yields in the inclusive \acs{SR}. The number of data events and pre-fit estimate signal yields are also shown. Background yields shown are obtained from the fit using the \ttZp signal sample with $m_{Z'}=2$ TeV. Pre-fit yields for \ttW background are set to 0 nominally prior to data-driven normalization. Total yield uncertainty differs from the quadrature sum of constituent uncertainties due to correlation and anticorrelation effects.}
   \resizebox{0.9\textwidth}{!}{%\
     \begin{tabular}{lcc}
       \toprule \midrule
@@ -155,8 +154,8 @@ Fit value	& $0.68^{+0.23}_{-0.22}$ & $0.97^{+0.17}_{-0.16}$ & $0.97^{+0.31}_{-0.
       \multicolumn{3}{l}{\textbf{Background}} 	\\	
 %      \midrule
       \tttt 					& 42.35 $\pm$ 5.45		& 46.91 $\pm$ 5.19 \\
-      \ttWplus 					& 97.38 $\pm$ 0.71		& 103.93 $\pm$ 15.91 \\
-      \ttWminus 				& 56.92 $\pm$ 0.42		& 55.27 $\pm$ 11.14 \\
+      \ttWplus 					& -		& 103.93 $\pm$ 15.91 \\
+      \ttWminus 				& -		& 55.27 $\pm$ 11.14 \\
       \ttZ 						& 78.02 $\pm$ 14.12		& 75.57 $\pm$ 11.13 \\
       \ttH 						& 81.00 $\pm$ 7.10		& 82.90 $\pm$ 7.30 \\
       \ttt 						& 3.33 $\pm$ 0.59		& 3.37 $\pm$ 0.60 \\
@@ -173,7 +172,7 @@ Fit value	& $0.68^{+0.23}_{-0.22}$ & $0.97^{+0.17}_{-0.16}$ & $0.97^{+0.31}_{-0.
       Light-flavor decays 		& 13.47 $\pm$ 0.53		& 13.54 $\pm$ 0.53 \\
       Other fake \& non-prompt 	& 24.90 $\pm$ 2.26		& 26.00 $\pm$ 1.96 \\
       \midrule
-      Total background		 	& 593.90 $\pm$ 18.79	& 576.53 $\pm$ 19.86 \\
+      Total background		 	& -	& 576.53 $\pm$ 19.86 \\
       \midrule
       \multicolumn{3}{l}{\textbf{Signal $\ttZp \rightarrow \tttt$}} 	\\	
 %      \midrule

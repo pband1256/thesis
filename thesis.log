@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.20)  16 JUL 2025 23:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.20)  16 JUL 2025 23:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2373,7 +2373,7 @@ Package pdftex.def Info: fig/theory_smparticles.pdf  used on input line 16.
  [5
 
 ] [6 <./fig/theory_smparticles.pdf>] [7]
-<fig/theory_tt_decay.pdf, id=1066, 406.51875pt x 298.11375pt>
+<fig/theory_tt_decay.pdf, id=1069, 406.51875pt x 298.11375pt>
 File: fig/theory_tt_decay.pdf Graphic file (type pdf)
 <use fig/theory_tt_decay.pdf>
 Package pdftex.def Info: fig/theory_tt_decay.pdf  used on input line 39.
@@ -2386,7 +2386,7 @@ y/m/n/12 ^^B
  []
 
 [9] [10] [11] [12] [13]
-<fig/theory_higgs_potential.png, id=1181, 872.25874pt x 587.19376pt>
+<fig/theory_higgs_potential.png, id=1184, 872.25874pt x 587.19376pt>
 File: fig/theory_higgs_potential.png Graphic file (type png)
 <use fig/theory_higgs_potential.png>
 Package pdftex.def Info: fig/theory_higgs_potential.png  used on input line 265
@@ -2406,23 +2406,23 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 309.
 
 [16] [17] [18]
-<fig/theory_ttZp.png, id=1301, 278.03876pt x 188.705pt>
+<fig/theory_ttZp.png, id=1304, 278.03876pt x 188.705pt>
 File: fig/theory_ttZp.png Graphic file (type png)
 <use fig/theory_ttZp.png>
 Package pdftex.def Info: fig/theory_ttZp.png  used on input line 348.
 (pdftex.def)             Requested size: 150.32504pt x 102.02586pt.
-<fig/theory_tjZp.png, id=1303, 278.03876pt x 197.73875pt>
+<fig/theory_tjZp.png, id=1306, 278.03876pt x 197.73875pt>
 File: fig/theory_tjZp.png Graphic file (type png)
 <use fig/theory_tjZp.png>
 Package pdftex.def Info: fig/theory_tjZp.png  used on input line 350.
 (pdftex.def)             Requested size: 150.32504pt x 106.91008pt.
-<fig/theory_tWZp.png, id=1304, 278.03876pt x 197.73875pt>
+<fig/theory_tWZp.png, id=1307, 278.03876pt x 197.73875pt>
 File: fig/theory_tWZp.png Graphic file (type png)
 <use fig/theory_tWZp.png>
 Package pdftex.def Info: fig/theory_tWZp.png  used on input line 352.
 (pdftex.def)             Requested size: 150.32504pt x 106.91008pt.
  [19 <./fig/theory_ttZp.png> <./fig/theory_tjZp.png> <./fig/theory_tWZp.png>]
-<fig/theory_tttt_channels.png, id=1318, 588.1975pt x 462.72874pt>
+<fig/theory_tttt_channels.png, id=1321, 588.1975pt x 462.72874pt>
 File: fig/theory_tttt_channels.png Graphic file (type png)
 <use fig/theory_tttt_channels.png>
 Package pdftex.def Info: fig/theory_tttt_channels.png  used on input line 385.
@@ -2438,38 +2438,38 @@ Chapter 3.
 (./chapters/chapter-3.tex [21
 
 ]
-<fig/lhc_map.png, id=1373, 346.896pt x 282.3348pt>
+<fig/lhc_map.png, id=1376, 346.896pt x 282.3348pt>
 File: fig/lhc_map.png Graphic file (type png)
 <use fig/lhc_map.png>
 Package pdftex.def Info: fig/lhc_map.png  used on input line 23.
 (pdftex.def)             Requested size: 469.75502pt x 382.35039pt.
  [22 <./fig/lhc_map.png>]
-<fig/lhc_hl_lhc.png, id=1396, 1242.6425pt x 352.31625pt>
+<fig/lhc_hl_lhc.png, id=1399, 1242.6425pt x 352.31625pt>
 File: fig/lhc_hl_lhc.png Graphic file (type png)
 <use fig/lhc_hl_lhc.png>
 Package pdftex.def Info: fig/lhc_hl_lhc.png  used on input line 36.
 (pdftex.def)             Requested size: 469.75502pt x 133.1827pt.
  [23 <./fig/lhc_hl_lhc.png>]
-<fig/lhc_xsec_Run23.png, id=1430, 2855.66875pt x 2144.01pt>
+<fig/lhc_xsec_Run23.png, id=1433, 2855.66875pt x 2144.01pt>
 File: fig/lhc_xsec_Run23.png Graphic file (type png)
 <use fig/lhc_xsec_Run23.png>
 Package pdftex.def Info: fig/lhc_xsec_Run23.png  used on input line 52.
 (pdftex.def)             Requested size: 469.75502pt x 352.6668pt.
  [24]
-<fig/lhc_atlas_particle_path_white.png, id=1453, 866.23625pt x 719.68875pt>
+<fig/lhc_atlas_particle_path_white.png, id=1456, 866.23625pt x 719.68875pt>
 File: fig/lhc_atlas_particle_path_white.png Graphic file (type png)
 <use fig/lhc_atlas_particle_path_white.png>
 Package pdftex.def Info: fig/lhc_atlas_particle_path_white.png  used on input l
 ine 67.
 (pdftex.def)             Requested size: 469.75502pt x 390.28435pt.
  [25 <./fig/lhc_xsec_Run23.png>] [26 <./fig/lhc_atlas_particle_path_white.png>]
-<fig/lhc_atlas_id.jpg, id=1486, 810.52812pt x 540.51938pt>
+<fig/lhc_atlas_id.jpg, id=1489, 810.52812pt x 540.51938pt>
 File: fig/lhc_atlas_id.jpg Graphic file (type jpg)
 <use fig/lhc_atlas_id.jpg>
 Package pdftex.def Info: fig/lhc_atlas_id.jpg  used on input line 81.
 (pdftex.def)             Requested size: 328.82707pt x 219.28853pt.
  [27 <./fig/lhc_atlas_id.jpg>] [28]
-<fig/lhc_atlas_calorimeter.jpg, id=1516, 810.52812pt x 545.53813pt>
+<fig/lhc_atlas_calorimeter.jpg, id=1519, 810.52812pt x 545.53813pt>
 File: fig/lhc_atlas_calorimeter.jpg Graphic file (type jpg)
 <use fig/lhc_atlas_calorimeter.jpg>
 Package pdftex.def Info: fig/lhc_atlas_calorimeter.jpg  used on input line 101.
@@ -2480,12 +2480,12 @@ Chapter 4.
 (./chapters/chapter-5.tex [33
 
 ] [34] [35]
-<fig/reco_topo1.png, id=1678, 438.63875pt x 335.2525pt>
+<fig/reco_topo1.png, id=1681, 438.63875pt x 335.2525pt>
 File: fig/reco_topo1.png Graphic file (type png)
 <use fig/reco_topo1.png>
 Package pdftex.def Info: fig/reco_topo1.png  used on input line 40.
 (pdftex.def)             Requested size: 234.8775pt x 179.51945pt.
-<fig/reco_topo2.png, id=1679, 430.60875pt x 335.2525pt>
+<fig/reco_topo2.png, id=1682, 430.60875pt x 335.2525pt>
 File: fig/reco_topo2.png Graphic file (type png)
 <use fig/reco_topo2.png>
 Package pdftex.def Info: fig/reco_topo2.png  used on input line 42.
@@ -2495,31 +2495,31 @@ Overfull \hbox (7.83324pt too wide) in paragraph at lines 40--43
  [][][][] 
  []
 
-<fig/reco_topo3.png, id=1680, 430.60875pt x 335.2525pt>
+<fig/reco_topo3.png, id=1683, 430.60875pt x 335.2525pt>
 File: fig/reco_topo3.png Graphic file (type png)
 <use fig/reco_topo3.png>
 Package pdftex.def Info: fig/reco_topo3.png  used on input line 45.
 (pdftex.def)             Requested size: 234.8775pt x 182.87013pt.
 [36 <./fig/reco_topo1.png> <./fig/reco_topo2.png> <./fig/reco_topo3.png>]
 [37]
-<fig/reco_jet_jes_calib.png, id=1714, 848.16875pt x 292.09125pt>
+<fig/reco_jet_jes_calib.png, id=1717, 848.16875pt x 292.09125pt>
 File: fig/reco_jet_jes_calib.png Graphic file (type png)
 <use fig/reco_jet_jes_calib.png>
 Package pdftex.def Info: fig/reco_jet_jes_calib.png  used on input line 63.
 (pdftex.def)             Requested size: 469.75502pt x 161.77382pt.
  [38 <./fig/reco_jet_jes_calib.png>]
-<fig/reco_ftag_gn2.png, id=1736, 1026.83624pt x 449.68pt>
+<fig/reco_ftag_gn2.png, id=1739, 1026.83624pt x 449.68pt>
 File: fig/reco_ftag_gn2.png Graphic file (type png)
 <use fig/reco_ftag_gn2.png>
 Package pdftex.def Info: fig/reco_ftag_gn2.png  used on input line 81.
 (pdftex.def)             Requested size: 469.75502pt x 205.71628pt.
  [39]
-<fig/reco_ftag_gn2_ttbar.png, id=1753, 464.73625pt x 574.145pt>
+<fig/reco_ftag_gn2_ttbar.png, id=1756, 464.73625pt x 574.145pt>
 File: fig/reco_ftag_gn2_ttbar.png Graphic file (type png)
 <use fig/reco_ftag_gn2_ttbar.png>
 Package pdftex.def Info: fig/reco_ftag_gn2_ttbar.png  used on input line 95.
 (pdftex.def)             Requested size: 234.8775pt x 290.1731pt.
-<fig/reco_ftag_gn2_zp.png, id=1754, 464.73625pt x 574.145pt>
+<fig/reco_ftag_gn2_zp.png, id=1757, 464.73625pt x 574.145pt>
 File: fig/reco_ftag_gn2_zp.png Graphic file (type png)
 <use fig/reco_ftag_gn2_zp.png>
 Package pdftex.def Info: fig/reco_ftag_gn2_zp.png  used on input line 97.
@@ -2688,7 +2688,7 @@ Chapter 6.
 (./chapters/chapter-7.tex [55
 
 ] [56]
-<fig/SRunblinded/mZp2000_PieChart_postFit.png, id=2051, 871.255pt x 575.14874pt
+<fig/SRunblinded/mZp2000_PieChart_postFit.png, id=2054, 871.255pt x 575.14874pt
 >
 File: fig/SRunblinded/mZp2000_PieChart_postFit.png Graphic file (type png)
 <use fig/SRunblinded/mZp2000_PieChart_postFit.png>
@@ -2696,25 +2696,25 @@ Package pdftex.def Info: fig/SRunblinded/mZp2000_PieChart_postFit.png  used on
 input line 103.
 (pdftex.def)             Requested size: 469.75502pt x 310.10179pt.
  [57 <./fig/SRunblinded/mZp2000_PieChart_postFit.png>] [58] [59]
-<fig/SRunblinded/mZp2000/Plots/SR_HT_all.png, id=2083, 598.235pt x 674.52pt>
+<fig/SRunblinded/mZp2000/Plots/SR_HT_all.png, id=2087, 598.235pt x 674.52pt>
 File: fig/SRunblinded/mZp2000/Plots/SR_HT_all.png Graphic file (type png)
 <use fig/SRunblinded/mZp2000/Plots/SR_HT_all.png>
 Package pdftex.def Info: fig/SRunblinded/mZp2000/Plots/SR_HT_all.png  used on i
 nput line 142.
 (pdftex.def)             Requested size: 211.38832pt x 238.33955pt.
-<fig/SRunblinded/mZp2000/Plots/SR_nJets.png, id=2084, 598.235pt x 674.52pt>
+<fig/SRunblinded/mZp2000/Plots/SR_nJets.png, id=2088, 598.235pt x 674.52pt>
 File: fig/SRunblinded/mZp2000/Plots/SR_nJets.png Graphic file (type png)
 <use fig/SRunblinded/mZp2000/Plots/SR_nJets.png>
 Package pdftex.def Info: fig/SRunblinded/mZp2000/Plots/SR_nJets.png  used on in
 put line 144.
 (pdftex.def)             Requested size: 211.38832pt x 238.33955pt.
-<fig/SRunblinded/mZp2000/Plots/SR_nBJets.png, id=2085, 598.235pt x 674.52pt>
+<fig/SRunblinded/mZp2000/Plots/SR_nBJets.png, id=2089, 598.235pt x 674.52pt>
 File: fig/SRunblinded/mZp2000/Plots/SR_nBJets.png Graphic file (type png)
 <use fig/SRunblinded/mZp2000/Plots/SR_nBJets.png>
 Package pdftex.def Info: fig/SRunblinded/mZp2000/Plots/SR_nBJets.png  used on i
 nput line 147.
 (pdftex.def)             Requested size: 211.38832pt x 238.33955pt.
-<fig/SRunblinded/mZp2000/Plots/SR_lepton_0_pt.png, id=2086, 598.235pt x 674.52p
+<fig/SRunblinded/mZp2000/Plots/SR_lepton_0_pt.png, id=2090, 598.235pt x 674.52p
 t>
 File: fig/SRunblinded/mZp2000/Plots/SR_lepton_0_pt.png Graphic file (type png)
 <use fig/SRunblinded/mZp2000/Plots/SR_lepton_0_pt.png>
@@ -2730,13 +2730,13 @@ Overfull \hbox (16.28302pt too wide) detected at line 232
  []
 
 [65]
-<fig/ana_qmisID_SR_etabins2D.pdf, id=2197, 569.12625pt x 426.59375pt>
+<fig/ana_qmisID_SR_etabins2D.pdf, id=2200, 569.12625pt x 426.59375pt>
 File: fig/ana_qmisID_SR_etabins2D.pdf Graphic file (type pdf)
 <use fig/ana_qmisID_SR_etabins2D.pdf>
 Package pdftex.def Info: fig/ana_qmisID_SR_etabins2D.pdf  used on input line 24
 3.
 (pdftex.def)             Requested size: 234.8775pt x 176.0567pt.
-<fig/ana_qmisID_ttW_etabins2D.pdf, id=2200, 569.12625pt x 426.59375pt>
+<fig/ana_qmisID_ttW_etabins2D.pdf, id=2203, 569.12625pt x 426.59375pt>
 File: fig/ana_qmisID_ttW_etabins2D.pdf Graphic file (type pdf)
 <use fig/ana_qmisID_ttW_etabins2D.pdf>
 Package pdftex.def Info: fig/ana_qmisID_ttW_etabins2D.pdf  used on input line 2
@@ -2753,7 +2753,7 @@ Chapter 7.
 (./chapters/chapter-8.tex [69
 
 ] [70] [71] [72] [73] [74] [75]
-<fig/syst_qmisid_combined.png, id=2474, 2404.985pt x 1427.3325pt>
+<fig/syst_qmisid_combined.png, id=2477, 2404.985pt x 1427.3325pt>
 File: fig/syst_qmisid_combined.png Graphic file (type png)
 <use fig/syst_qmisid_combined.png>
 Package pdftex.def Info: fig/syst_qmisid_combined.png  used on input line 388.
@@ -2763,13 +2763,13 @@ Chapter 8.
 (./chapters/chapter-9.tex [78
 
 ] [79] [80] [81] [82]
-<fig/SRunblinded/ttZp_limits_fb.png, id=2596, 755.82375pt x 596.2275pt>
+<fig/SRunblinded/ttZp_limits_fb.png, id=2599, 755.82375pt x 596.2275pt>
 File: fig/SRunblinded/ttZp_limits_fb.png Graphic file (type png)
 <use fig/SRunblinded/ttZp_limits_fb.png>
 Package pdftex.def Info: fig/SRunblinded/ttZp_limits_fb.png  used on input line
  96.
 (pdftex.def)             Requested size: 328.82707pt x 259.39325pt.
-<fig/SRunblinded/mZp2000/Plots/CRttW2l_minus_nJets_postFit.png, id=2613, 598.23
+<fig/SRunblinded/mZp2000/Plots/CRttW2l_minus_nJets_postFit.png, id=2616, 598.23
 5pt x 674.52pt>
 File: fig/SRunblinded/mZp2000/Plots/CRttW2l_minus_nJets_postFit.png Graphic fil
 e (type png)
@@ -2777,7 +2777,7 @@ e (type png)
 Package pdftex.def Info: fig/SRunblinded/mZp2000/Plots/CRttW2l_minus_nJets_post
 Fit.png  used on input line 123.
 (pdftex.def)             Requested size: 150.32504pt x 169.49414pt.
-<fig/SRunblinded/mZp1250/Plots/CRttW2l_plus_nJets_postFit.png, id=2614, 598.235
+<fig/SRunblinded/mZp1250/Plots/CRttW2l_plus_nJets_postFit.png, id=2617, 598.235
 pt x 674.52pt>
 File: fig/SRunblinded/mZp1250/Plots/CRttW2l_plus_nJets_postFit.png Graphic file
  (type png)
@@ -2785,7 +2785,7 @@ File: fig/SRunblinded/mZp1250/Plots/CRttW2l_plus_nJets_postFit.png Graphic file
 Package pdftex.def Info: fig/SRunblinded/mZp1250/Plots/CRttW2l_plus_nJets_postF
 it.png  used on input line 125.
 (pdftex.def)             Requested size: 150.32504pt x 169.49414pt.
-<fig/SRunblinded/mZp2000/Plots/CR1bminus_nJets_postFit.png, id=2615, 598.235pt 
+<fig/SRunblinded/mZp2000/Plots/CR1bminus_nJets_postFit.png, id=2618, 598.235pt 
 x 674.52pt>
 File: fig/SRunblinded/mZp2000/Plots/CR1bminus_nJets_postFit.png Graphic file (t
 ype png)
@@ -2793,7 +2793,7 @@ ype png)
 Package pdftex.def Info: fig/SRunblinded/mZp2000/Plots/CR1bminus_nJets_postFit.
 png  used on input line 127.
 (pdftex.def)             Requested size: 150.32504pt x 169.49414pt.
-<fig/SRunblinded/mZp1250/Plots/CR1bplus_nJets_postFit.png, id=2616, 598.235pt x
+<fig/SRunblinded/mZp1250/Plots/CR1bplus_nJets_postFit.png, id=2619, 598.235pt x
  674.52pt>
 File: fig/SRunblinded/mZp1250/Plots/CR1bplus_nJets_postFit.png Graphic file (ty
 pe png)
@@ -2801,7 +2801,7 @@ pe png)
 Package pdftex.def Info: fig/SRunblinded/mZp1250/Plots/CR1bplus_nJets_postFit.p
 ng  used on input line 130.
 (pdftex.def)             Requested size: 150.32504pt x 169.49414pt.
-<fig/SRunblinded/mZp2000/Plots/CR1b3le_lep_2_pt_postFit.png, id=2617, 598.235pt
+<fig/SRunblinded/mZp2000/Plots/CR1b3le_lep_2_pt_postFit.png, id=2620, 598.235pt
  x 674.52pt>
 File: fig/SRunblinded/mZp2000/Plots/CR1b3le_lep_2_pt_postFit.png Graphic file (
 type png)
@@ -2809,7 +2809,7 @@ type png)
 Package pdftex.def Info: fig/SRunblinded/mZp2000/Plots/CR1b3le_lep_2_pt_postFit
 .png  used on input line 132.
 (pdftex.def)             Requested size: 150.32504pt x 169.49414pt.
-<fig/SRunblinded/mZp2000/Plots/CR1b3lm_lep_2_pt_postFit.png, id=2618, 598.235pt
+<fig/SRunblinded/mZp2000/Plots/CR1b3lm_lep_2_pt_postFit.png, id=2621, 598.235pt
  x 674.52pt>
 File: fig/SRunblinded/mZp2000/Plots/CR1b3lm_lep_2_pt_postFit.png Graphic file (
 type png)
@@ -2817,7 +2817,7 @@ type png)
 Package pdftex.def Info: fig/SRunblinded/mZp2000/Plots/CR1b3lm_lep_2_pt_postFit
 .png  used on input line 134.
 (pdftex.def)             Requested size: 150.32504pt x 169.49414pt.
-<fig/SRunblinded/mZp2000/Plots/CRttbarCO2l_CO_1_postFit.png, id=2619, 598.235pt
+<fig/SRunblinded/mZp2000/Plots/CRttbarCO2l_CO_1_postFit.png, id=2622, 598.235pt
  x 674.52pt>
 File: fig/SRunblinded/mZp2000/Plots/CRttbarCO2l_CO_1_postFit.png Graphic file (
 type png)
@@ -2825,7 +2825,7 @@ type png)
 Package pdftex.def Info: fig/SRunblinded/mZp2000/Plots/CRttbarCO2l_CO_1_postFit
 .png  used on input line 137.
 (pdftex.def)             Requested size: 150.32504pt x 169.49414pt.
-<fig/SRunblinded/mZp2000/Plots/CRttbarCO2l_gstr_1_postFit.png, id=2620, 598.235
+<fig/SRunblinded/mZp2000/Plots/CRttbarCO2l_gstr_1_postFit.png, id=2623, 598.235
 pt x 674.52pt>
 File: fig/SRunblinded/mZp2000/Plots/CRttbarCO2l_gstr_1_postFit.png Graphic file
  (type png)
@@ -2943,7 +2943,7 @@ Here is how much of TeX's memory you used:
  44838 multiletter control sequences out of 15000+600000
  492010 words of font info for 111 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,22n,90p,1947b,1877s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 85i,22n,90p,1947b,1874s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
@@ -2974,10 +2974,10 @@ s/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2022/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2022/texmf-dist/fonts/
 type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2022/texmf-dist/fo
 nts/type1/public/cm-super/sfrm1200.pfb>
-Output written on thesis.pdf (122 pages, 4498351 bytes).
+Output written on thesis.pdf (122 pages, 4498304 bytes).
 PDF statistics:
- 3640 PDF objects out of 4296 (max. 8388607)
- 3209 compressed objects within 33 object streams
+ 3643 PDF objects out of 4296 (max. 8388607)
+ 3212 compressed objects within 33 object streams
  574 named destinations out of 1000 (max. 500000)
  746 words of extra memory for PDF output out of 10000 (max. 10000000)
 

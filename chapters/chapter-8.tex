@@ -10,88 +10,88 @@ Physics analysis inherently incurs uncertainties in the form of statistical and 
 \label{sec:sysexp}
 %Instrumental \& minor
 
-\begin{table}[!htbp]
-  \centering
-  \scriptsize
-%  \setlength{\tabcolsep}{3pt} % Reduce column spacing
-%  \renewcommand{\arraystretch}{1.2} % Adjust row spacing
-  \caption{Summary of the experimental systematic uncertainties considered in this analysis.} 
-  \resizebox{0.8\textwidth}{!}{%
-%  \begin{threeparttable}
-  \label{tab:syst_summary}
-    \begin{tabular}{lc}
-      \toprule \midrule
-      Systematic uncertainty 			& Components	\\
-      \midrule
-      \multicolumn{2}{l}{\textbf{Event}} 		\\	\midrule
-      Luminosity 						& 1		\\
-      Pile-up reweighting				& 1		\\
-      \midrule
-      \multicolumn{2}{l}{\textbf{Electrons}}  	\\	\midrule
-      Trigger efficiency 				& 1 	\\
-%      Reconstruction efficiency\textsuperscript{\textdagger}						& 1 \\ 
-%      Identification efficiency\textsuperscript{\textdagger}						& 1 \\ 
-%      Isolation efficiency\textsuperscript{\textdagger} 							& 1 \\
-      Reconstruction efficiency			& 1 	\\ 
-      Identification efficiency			& 1 	\\ 
-      Isolation efficiency 				& 1 	\\
-      Energy scale       				& 1 	\\ 
-      Energy resolution  				& 1 	\\
-%      Charge identification (\acs{ECIDS}) efficiency\textsuperscript{\textdagger}	& 1 \\
-      Charge identification (\acs{ECIDS}) efficiency								& 1 \\
-      \midrule
-      \multicolumn{2}{l}{\textbf{Muons}}  		\\	\midrule
-      Trigger efficiency				& 2		\\
-      Track-to-vertex association efficiency										& 2 \\
-      Reconstruction/identification efficiency										& 2 \\
-      Low-\pT ($<15$ GeV) reconstruction/identification efficiency					& 2 \\
-      Isolation efficiency			 	& 2 	\\
-      Charge-independent momentum scale & 1 	\\
-      Charge-dependent momentum scale 	& 4 	\\ %GLOBAL/PTEXTRA?
-      Energy resolution (\acs{CB}) 		& 1 	\\
-      Energy resolution (ID \& MS) 		& 2 	\\
-      \midrule
-      \multicolumn{2}{l}{\textbf{Jets}}  		\\	\midrule
-      JES effective NP					& 15	\\
-      JES $\eta$ intercalibration		& 3  	\\
-      JES flavor composition 			& 2	 	\\
-      JES flavor response				& 1	 	\\
-      JES pile-up						& 4	 	\\
-      JES punch-through (FS/AF3)		& 2	 	\\
-      JES non-closure					& 1  	\\
-      JES high-\pT single particle		& 1	 	\\
-      JES $b$-jet response				& 1  	\\
-      \midrule
-      JER effective NP					& 12  	\\
-      JER data/MC (FS/AF3)				& 2  	\\
+%\begin{table}[!htbp]
+%  \centering
+%  \scriptsize
+%%  \setlength{\tabcolsep}{3pt} % Reduce column spacing
+%%  \renewcommand{\arraystretch}{1.2} % Adjust row spacing
+%  \caption{Summary of the experimental systematic uncertainties considered in this analysis.} 
+%  \resizebox{0.8\textwidth}{!}{%
+%%  \begin{threeparttable}
+%  \label{tab:syst_summary}
+%    \begin{tabular}{lc}
+%      \toprule \midrule
+%      Systematic uncertainty 			& Components	\\
 %      \midrule
-      JVT efficiency					& 1  	\\
-      \midrule
-      GN2v01 $b$-tagging efficiency		& 85	\\
-      GN2v01 $c$-tagging efficiency		& 56 	\\
-      GN2v01 light-tagging efficiency	& 42 	\\
-    %   Jet PCBT high $p_T$ & $b$-tagging efficiency uncertainty on the extrapolation on high \pt-jets \\
-      %% no extrapolation uncertainties?
-      %% ATLAS\_FTAG\_GN2v01\_extrapolation &  $b$-tagging efficiency uncertainty on the extrapolation on high \pt-jets  \\ 
-      %% ATLAS\_FTAG\_GN2v01\_extrapolation\_from\_charm & $b$-tagging efficiency uncertainty on $\tau$-jets   \\
-      \midrule
-      \multicolumn{2}{l}{\textbf{\ETmiss track-based soft terms}}  \\	\midrule
-      Transversal resolution			& 1  	\\
-      Longitudinal resolution			& 1  	\\
-      Longitudinal energy scale			& 1  	\\
-      %	MET\_JetTrk\_Scale        & track MET scale uncertainty due to tracks in jets   \\
-      %	METTrigStat & \multirow{2}{*}{trigger efficiency uncertainty} -  \\
-      %	METTrigSyst & \\
-      \bottomrule
-    \end{tabular}
-%    \begin{tablenotes}
-%      \scriptsize
-%      \item \textsuperscript{\textdagger}Not ready for the analysis, but will be included
-%%      \item \textsuperscript{*}Not included
-%    \end{tablenotes}
-%  \end{threeparttable}
-}
-\end{table}
+%      \multicolumn{2}{l}{\textbf{Event}} 		\\	\midrule
+%      Luminosity 						& 1		\\
+%      Pile-up reweighting				& 1		\\
+%      \midrule
+%      \multicolumn{2}{l}{\textbf{Electrons}}  	\\	\midrule
+%      Trigger efficiency 				& 1 	\\
+%%      Reconstruction efficiency\textsuperscript{\textdagger}						& 1 \\ 
+%%      Identification efficiency\textsuperscript{\textdagger}						& 1 \\ 
+%%      Isolation efficiency\textsuperscript{\textdagger} 							& 1 \\
+%      Reconstruction efficiency			& 1 	\\ 
+%      Identification efficiency			& 1 	\\ 
+%      Isolation efficiency 				& 1 	\\
+%      Energy scale       				& 1 	\\ 
+%      Energy resolution  				& 1 	\\
+%%      Charge identification (\acs{ECIDS}) efficiency\textsuperscript{\textdagger}	& 1 \\
+%      Charge identification (\acs{ECIDS}) efficiency								& 1 \\
+%      \midrule
+%      \multicolumn{2}{l}{\textbf{Muons}}  		\\	\midrule
+%      Trigger efficiency				& 2		\\
+%      Track-to-vertex association efficiency										& 2 \\
+%      Reconstruction/identification efficiency										& 2 \\
+%      Low-\pT ($<15$ GeV) reconstruction/identification efficiency					& 2 \\
+%      Isolation efficiency			 	& 2 	\\
+%      Charge-independent momentum scale & 1 	\\
+%      Charge-dependent momentum scale 	& 4 	\\ %GLOBAL/PTEXTRA?
+%      Energy resolution (\acs{CB}) 		& 1 	\\
+%      Energy resolution (ID \& MS) 		& 2 	\\
+%      \midrule
+%      \multicolumn{2}{l}{\textbf{Jets}}  		\\	\midrule
+%      JES effective NP					& 15	\\
+%      JES $\eta$ intercalibration		& 3  	\\
+%      JES flavor composition 			& 2	 	\\
+%      JES flavor response				& 1	 	\\
+%      JES pile-up						& 4	 	\\
+%      JES punch-through (FS/AF3)		& 2	 	\\
+%      JES non-closure					& 1  	\\
+%      JES high-\pT single particle		& 1	 	\\
+%      JES $b$-jet response				& 1  	\\
+%      \midrule
+%      JER effective NP					& 12  	\\
+%      JER data/MC (FS/AF3)				& 2  	\\
+%%      \midrule
+%      JVT efficiency					& 1  	\\
+%      \midrule
+%      GN2v01 $b$-tagging efficiency		& 85	\\
+%      GN2v01 $c$-tagging efficiency		& 56 	\\
+%      GN2v01 light-tagging efficiency	& 42 	\\
+%    %   Jet PCBT high $p_T$ & $b$-tagging efficiency uncertainty on the extrapolation on high \pt-jets \\
+%      %% no extrapolation uncertainties?
+%      %% ATLAS\_FTAG\_GN2v01\_extrapolation &  $b$-tagging efficiency uncertainty on the extrapolation on high \pt-jets  \\ 
+%      %% ATLAS\_FTAG\_GN2v01\_extrapolation\_from\_charm & $b$-tagging efficiency uncertainty on $\tau$-jets   \\
+%      \midrule
+%      \multicolumn{2}{l}{\textbf{\ETmiss track-based soft terms}}  \\	\midrule
+%      Transversal resolution			& 1  	\\
+%      Longitudinal resolution			& 1  	\\
+%      Longitudinal energy scale			& 1  	\\
+%      %	MET\_JetTrk\_Scale        & track MET scale uncertainty due to tracks in jets   \\
+%      %	METTrigStat & \multirow{2}{*}{trigger efficiency uncertainty} -  \\
+%      %	METTrigSyst & \\
+%      \bottomrule
+%    \end{tabular}
+%%    \begin{tablenotes}
+%%      \scriptsize
+%%      \item \textsuperscript{\textdagger}Not ready for the analysis, but will be included
+%%%      \item \textsuperscript{*}Not included
+%%    \end{tablenotes}
+%%  \end{threeparttable}
+%}
+%\end{table}
 
 \subsection{Luminosity \& pile-up reweighting}
 The uncertainty on the integrated luminosity of the 2015-2018 Run 2 data set is $0.83\%$ \citep{DAPR-2021-01}, obtained by the LUCID-2 detector \citep{LUCID2} for the primary luminosity measurements and complemented by the \acs{ID} and calorimeters. Pile-up was modeled in \acs{MC} and calibrated to data through pile-up reweighting, resulting in a set of calibration \acs{SF}s and associated uncertainties.

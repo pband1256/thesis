@@ -3308,6 +3308,70 @@
     \field{year}{2015}
   \endentry
 
+  \entry{Ferretti:2013kya}{article}{}
+    \name{author}{2}{}{%
+      {{hash=FG}{%
+         family={Ferretti},
+         familyi={F\bibinitperiod},
+         given={Gabriele},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=KD}{%
+         family={Karateev},
+         familyi={K\bibinitperiod},
+         given={Denis},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {Springer Science}%
+      {Business Media LLC}%
+    }
+    \strng{namehash}{FGKD1}
+    \strng{fullhash}{FGKD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/jhep03(2014)077
+    \endverb
+    \field{issn}{1029-8479}
+    \field{number}{3}
+    \field{title}{Fermionic UV completions of composite Higgs models}
+    \field{volume}{2014}
+    \field{journaltitle}{Journal of High Energy Physics}
+    \field{month}{03}
+    \field{year}{2014}
+  \endentry
+
+  \entry{Vecchi:2015fma}{article}{}
+    \name{author}{1}{}{%
+      {{hash=VL}{%
+         family={Vecchi},
+         familyi={V\bibinitperiod},
+         given={Luca},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{VL1}
+    \strng{fullhash}{VL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/JHEP02(2017)094
+    \endverb
+    \verb{eprint}
+    \verb 1506.00623
+    \endverb
+    \field{pages}{094}
+    \field{title}{{A dangerous irrelevant UV-completion of the composite
+  Higgs}}
+    \field{volume}{02}
+    \field{journaltitle}{JHEP}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{year}{2017}
+  \endentry
+
   \entry{theory:Zp_U1p}{article}{}
     \name{author}{1}{}{%
       {{hash=C}{%
@@ -3660,70 +3724,6 @@
     \field{eprinttype}{arXiv}
     \field{eprintclass}{hep-ex}
     \field{year}{2023}
-  \endentry
-
-  \entry{Ferretti:2013kya}{article}{}
-    \name{author}{2}{}{%
-      {{hash=FG}{%
-         family={Ferretti},
-         familyi={F\bibinitperiod},
-         given={Gabriele},
-         giveni={G\bibinitperiod},
-      }}%
-      {{hash=KD}{%
-         family={Karateev},
-         familyi={K\bibinitperiod},
-         given={Denis},
-         giveni={D\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{2}{%
-      {Springer Science}%
-      {Business Media LLC}%
-    }
-    \strng{namehash}{FGKD1}
-    \strng{fullhash}{FGKD1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1007/jhep03(2014)077
-    \endverb
-    \field{issn}{1029-8479}
-    \field{number}{3}
-    \field{title}{Fermionic UV completions of composite Higgs models}
-    \field{volume}{2014}
-    \field{journaltitle}{Journal of High Energy Physics}
-    \field{month}{03}
-    \field{year}{2014}
-  \endentry
-
-  \entry{Vecchi:2015fma}{article}{}
-    \name{author}{1}{}{%
-      {{hash=VL}{%
-         family={Vecchi},
-         familyi={V\bibinitperiod},
-         given={Luca},
-         giveni={L\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{VL1}
-    \strng{fullhash}{VL1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1007/JHEP02(2017)094
-    \endverb
-    \verb{eprint}
-    \verb 1506.00623
-    \endverb
-    \field{pages}{094}
-    \field{title}{{A dangerous irrelevant UV-completion of the composite
-  Higgs}}
-    \field{volume}{02}
-    \field{journaltitle}{JHEP}
-    \field{eprinttype}{arXiv}
-    \field{eprintclass}{hep-ph}
-    \field{year}{2017}
   \endentry
 
   \entry{Sabatini:2784150}{report}{}
@@ -4945,26 +4945,6 @@
     \field{year}{2019}
   \endentry
 
-  \entry{reco:qmisid_cnn}{booklet}{}
-    \name{author}{1}{}{%
-      {{hash=A}{%
-         family={{ATLAS Collaboration}},
-         familyi={A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{A2}
-    \strng{fullhash}{A2}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{howpublished}{{ATL-PHYS-PUB-2023-001}}
-    \field{title}{{Electron Identification with a Convolutional Neural Network
-  in the ATLAS Experiment}}
-    \verb{url}
-    \verb https://cds.cern.ch/record/2850666
-    \endverb
-    \field{year}{2023}
-  \endentry
-
   \entry{reco:muon_ID}{article}{}
     \name{author}{1}{}{%
       {{hash=A}{%
@@ -5840,6 +5820,462 @@
     \field{eprinttype}{arXiv}
     \field{eprintclass}{hep-ph}
     \field{year}{2019}
+  \endentry
+
+  \entry{Frixione:2007nw}{article}{}
+    \name{author}{3}{}{%
+      {{hash=FS}{%
+         family={Frixione},
+         familyi={F\bibinitperiod},
+         given={Stefano},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=RG}{%
+         family={Ridolfi},
+         familyi={R\bibinitperiod},
+         given={Giovanni},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=NP}{%
+         family={Nason},
+         familyi={N\bibinitperiod},
+         given={Paolo},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FSRGNP1}
+    \strng{fullhash}{FSRGNP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1088/1126-6708/2007/09/126
+    \endverb
+    \verb{eprint}
+    \verb 0707.3088
+    \endverb
+    \field{pages}{126}
+    \field{title}{{A positive-weight next-to-leading-order Monte Carlo for
+  heavy flavour hadroproduction}}
+    \field{volume}{09}
+    \field{journaltitle}{JHEP}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{year}{2007}
+  \endentry
+
+  \entry{Nason:2004rx}{article}{}
+    \name{author}{1}{}{%
+      {{hash=NP}{%
+         family={Nason},
+         familyi={N\bibinitperiod},
+         given={Paolo},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{NP1}
+    \strng{fullhash}{NP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1088/1126-6708/2004/11/040
+    \endverb
+    \verb{eprint}
+    \verb hep-ph/0409146
+    \endverb
+    \field{pages}{040}
+    \field{title}{{A new method for combining NLO QCD with shower Monte Carlo
+  algorithms}}
+    \field{volume}{11}
+    \field{journaltitle}{JHEP}
+    \field{eprinttype}{arXiv}
+    \field{year}{2004}
+  \endentry
+
+  \entry{Frixione:2007vw}{article}{}
+    \name{author}{3}{}{%
+      {{hash=FS}{%
+         family={Frixione},
+         familyi={F\bibinitperiod},
+         given={Stefano},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=NP}{%
+         family={Nason},
+         familyi={N\bibinitperiod},
+         given={Paolo},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=OC}{%
+         family={Oleari},
+         familyi={O\bibinitperiod},
+         given={Carlo},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FSNPOC1}
+    \strng{fullhash}{FSNPOC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1088/1126-6708/2007/11/070
+    \endverb
+    \verb{eprint}
+    \verb 0709.2092
+    \endverb
+    \field{pages}{070}
+    \field{title}{{Matching NLO QCD computations with parton shower
+  simulations: the POWHEG method}}
+    \field{volume}{11}
+    \field{journaltitle}{JHEP}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{year}{2007}
+  \endentry
+
+  \entry{Alioli:2010xd}{article}{}
+    \name{author}{4}{}{%
+      {{hash=AS}{%
+         family={Alioli},
+         familyi={A\bibinitperiod},
+         given={Simone},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=NP}{%
+         family={Nason},
+         familyi={N\bibinitperiod},
+         given={Paolo},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=OC}{%
+         family={Oleari},
+         familyi={O\bibinitperiod},
+         given={Carlo},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=RE}{%
+         family={Re},
+         familyi={R\bibinitperiod},
+         given={Emanuele},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AS+2}
+    \strng{fullhash}{ASNPOCRE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/JHEP06(2010)043
+    \endverb
+    \verb{eprint}
+    \verb 1002.2581
+    \endverb
+    \field{pages}{043}
+    \field{title}{{A general framework for implementing NLO calculations in
+  shower Monte Carlo programs: the POWHEG BOX}}
+    \field{volume}{06}
+    \field{journaltitle}{JHEP}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{year}{2010}
+  \endentry
+
+  \entry{Ball:2012cx}{article}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{2}{}{%
+      {{hash=N}{%
+         family={{NNPDF Collaboration}},
+         familyi={N\bibinitperiod},
+      }}%
+      {{hash=BRD}{%
+         family={Ball},
+         familyi={B\bibinitperiod},
+         given={Richard\bibnamedelima D.},
+         giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{NBRD+1}
+    \strng{fullhash}{NBRD+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.nuclphysb.2012.10.003
+    \endverb
+    \verb{eprint}
+    \verb 1207.1303
+    \endverb
+    \field{pages}{244}
+    \field{title}{{Parton distributions with LHC data}}
+    \field{volume}{867}
+    \field{journaltitle}{Nucl. Phys. B}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{year}{2013}
+  \endentry
+
+  \entry{Bahr:2008pv}{article}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{1}{}{%
+      {{hash=BM}{%
+         family={B{\"a}hr},
+         familyi={B\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BM+1}
+    \strng{fullhash}{BM+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1140/epjc/s10052-008-0798-9
+    \endverb
+    \verb{eprint}
+    \verb 0803.0883
+    \endverb
+    \field{pages}{639}
+    \field{title}{{Herwig++ physics and manual}}
+    \field{volume}{58}
+    \field{journaltitle}{Eur. Phys. J. C}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{year}{2008}
+  \endentry
+
+  \entry{Bellm:2015jjp}{article}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{1}{}{%
+      {{hash=BJ}{%
+         family={Bellm},
+         familyi={B\bibinitperiod},
+         given={Johannes},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BJ+1}
+    \strng{fullhash}{BJ+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1140/epjc/s10052-016-4018-8
+    \endverb
+    \verb{eprint}
+    \verb 1512.01178
+    \endverb
+    \field{number}{4}
+    \field{pages}{196}
+    \field{title}{{Herwig 7.0/Herwig++ 3.0 release note}}
+    \field{volume}{76}
+    \field{journaltitle}{Eur. Phys. J. C}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Alekhin_2010}{article}{}
+    \name{author}{4}{}{%
+      {{hash=AS}{%
+         family={Alekhin},
+         familyi={A\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Blümlein},
+         familyi={B\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=KS}{%
+         family={Klein},
+         familyi={K\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Moch},
+         familyi={M\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society (APS)}%
+    }
+    \strng{namehash}{AS+1}
+    \strng{fullhash}{ASBJKSMS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/physrevd.81.014032
+    \endverb
+    \verb{eprint}
+    \verb 0908.2766
+    \endverb
+    \field{issn}{1550-2368}
+    \field{number}{1}
+    \field{title}{The 3-, 4-, and 5-flavor NNLO parton distribution functions
+  from deep-inelastic-scattering data at hadron colliders}
+    \field{volume}{81}
+    \field{journaltitle}{Physical Review D}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{month}{01}
+    \field{year}{2010}
+  \endentry
+
+  \entry{ATL-PHYS-PUB-2016-020}{booklet}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{ATLAS Collaboration}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A2}
+    \strng{fullhash}{A2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{{ATL-PHYS-PUB-2016-020}}
+    \field{title}{{Studies on top-quark Monte Carlo modelling for Top2016}}
+    \verb{url}
+    \verb https://cds.cern.ch/record/2216168
+    \endverb
+    \field{year}{2016}
+  \endentry
+
+  \entry{Frixione:2008yi}{article}{}
+    \name{author}{5}{}{%
+      {{hash=FS}{%
+         family={Frixione},
+         familyi={F\bibinitperiod},
+         given={Stefano},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=LE}{%
+         family={Laenen},
+         familyi={L\bibinitperiod},
+         given={Eric},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=MP}{%
+         family={Motylinski},
+         familyi={M\bibinitperiod},
+         given={Patrick},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=WC}{%
+         family={White},
+         familyi={W\bibinitperiod},
+         given={Chris},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=WBR}{%
+         family={Webber},
+         familyi={W\bibinitperiod},
+         given={Bryan\bibnamedelima R.},
+         giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FS+1}
+    \strng{fullhash}{FSLEMPWCWBR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1088/1126-6708/2008/07/029
+    \endverb
+    \verb{eprint}
+    \verb 0805.3067
+    \endverb
+    \field{pages}{029}
+    \field{title}{{Single-top hadroproduction in association with a \(W\)
+  boson}}
+    \field{volume}{07}
+    \field{journaltitle}{JHEP}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{year}{2008}
+  \endentry
+
+  \entry{Gleisberg:2008fv}{article}{}
+    \name{author}{2}{}{%
+      {{hash=GT}{%
+         family={Gleisberg},
+         familyi={G\bibinitperiod},
+         given={Tanju},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=HS}{%
+         family={H{\"o}che},
+         familyi={H\bibinitperiod},
+         given={Stefan},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GTHS1}
+    \strng{fullhash}{GTHS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1088/1126-6708/2008/12/039
+    \endverb
+    \verb{eprint}
+    \verb 0808.3674
+    \endverb
+    \field{pages}{039}
+    \field{title}{{Comix, a new matrix element generator}}
+    \field{volume}{12}
+    \field{journaltitle}{JHEP}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{year}{2008}
+  \endentry
+
+  \entry{Anastasiou:2003ds}{article}{}
+    \name{author}{4}{}{%
+      {{hash=AC}{%
+         family={Anastasiou},
+         familyi={A\bibinitperiod},
+         given={Charalampos},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=DL}{%
+         family={Dixon},
+         familyi={D\bibinitperiod},
+         given={Lance},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=MK}{%
+         family={Melnikov},
+         familyi={M\bibinitperiod},
+         given={Kirill},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=PF}{%
+         family={Petriello},
+         familyi={P\bibinitperiod},
+         given={Frank},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AC+1}
+    \strng{fullhash}{ACDLMKPF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevD.69.094008
+    \endverb
+    \verb{eprint}
+    \verb hep-ph/0312266
+    \endverb
+    \field{pages}{094008}
+    \field{title}{{High-precision QCD at hadron colliders: Electroweak gauge
+  boson rapidity distributions at next-to-next-to leading order}}
+    \field{volume}{69}
+    \field{journaltitle}{Phys. Rev. D}
+    \field{eprinttype}{arXiv}
+    \field{year}{2004}
   \endentry
 
   \entry{sample:data}{article}{}

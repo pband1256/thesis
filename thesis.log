@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.20)  18 JUL 2025 00:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.20)  18 JUL 2025 17:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2733,22 +2733,25 @@ File: fig/SRunblinded/mZp2000/Plots/SR_lepton_0_pt.png Graphic file (type png)
 Package pdftex.def Info: fig/SRunblinded/mZp2000/Plots/SR_lepton_0_pt.png  used
  on input line 149.
 (pdftex.def)             Requested size: 211.38832pt x 238.33955pt.
- [63 <./fig/SRunblinded/mZp2000/Plots/SR_HT_all.png> <./fig/SRunblinded/mZp2000
-/Plots/SR_nJets.png> <./fig/SRunblinded/mZp2000/Plots/SR_nBJets.png> <./fig/SRu
-nblinded/mZp2000/Plots/SR_lepton_0_pt.png>] [64] [65]
-[66] [67]
+ [63]
+
+LaTeX Warning: Text page 64 contains only floats.
+
+[64 <./fig/SRunblinded/mZp2000/Plots/SR_HT_all.png> <./fig/SRunblinded/mZp2000/
+Plots/SR_nJets.png> <./fig/SRunblinded/mZp2000/Plots/SR_nBJets.png> <./fig/SRun
+blinded/mZp2000/Plots/SR_lepton_0_pt.png>] [65] [66] [67]
 Overfull \hbox (16.28302pt too wide) detected at line 232
 [][][][][]
  []
 
 [68]
-<fig/ana_qmisID_SR_etabins2D.pdf, id=2354, 569.12625pt x 426.59375pt>
+<fig/ana_qmisID_SR_etabins2D.pdf, id=2353, 569.12625pt x 426.59375pt>
 File: fig/ana_qmisID_SR_etabins2D.pdf Graphic file (type pdf)
 <use fig/ana_qmisID_SR_etabins2D.pdf>
 Package pdftex.def Info: fig/ana_qmisID_SR_etabins2D.pdf  used on input line 24
 3.
 (pdftex.def)             Requested size: 234.8775pt x 176.0567pt.
-<fig/ana_qmisID_ttW_etabins2D.pdf, id=2357, 569.12625pt x 426.59375pt>
+<fig/ana_qmisID_ttW_etabins2D.pdf, id=2356, 569.12625pt x 426.59375pt>
 File: fig/ana_qmisID_ttW_etabins2D.pdf Graphic file (type pdf)
 <use fig/ana_qmisID_ttW_etabins2D.pdf>
 Package pdftex.def Info: fig/ana_qmisID_ttW_etabins2D.pdf  used on input line 2
@@ -2760,157 +2763,142 @@ Overfull \hbox (7.83324pt too wide) in paragraph at lines 243--246
  []
 
 [69 <./fig/ana_qmisID_SR_etabins2D.pdf, page is rotated 90 degrees> <./fig/ana_
-qmisID_ttW_etabins2D.pdf, page is rotated 90 degrees>] [70]) [71]
+qmisID_ttW_etabins2D.pdf, page is rotated 90 degrees>] [70] [71]) [72]
 Chapter 7.
-(./chapters/chapter-8.tex [72
+(./chapters/chapter-8.tex [73
 
-] [73] [74] [75] [76] [77]
-<fig/syst_qmisid_combined.png, id=2622, 2404.985pt x 1427.3325pt>
+] [74] [75] [76] [77] [78]
+<fig/syst_qmisid_combined.png, id=2626, 2404.985pt x 1427.3325pt>
 File: fig/syst_qmisid_combined.png Graphic file (type png)
 <use fig/syst_qmisid_combined.png>
 Package pdftex.def Info: fig/syst_qmisid_combined.png  used on input line 388.
 (pdftex.def)             Requested size: 422.77664pt x 250.89767pt.
- [78]) [79 <./fig/syst_qmisid_combined.png>]
+ [79]) [80 <./fig/syst_qmisid_combined.png>]
 Chapter 8.
-(./chapters/chapter-9.tex [80
+(./chapters/chapter-9.tex [81
 
-] [81] [82] [83] [84]
-<fig/SRunblinded/ttZp_limits_fb.png, id=2742, 755.82375pt x 596.2275pt>
+] [82] [83] [84] [85]
+<fig/SRunblinded/ttZp_limits_fb.png, id=2746, 755.82375pt x 596.2275pt>
 File: fig/SRunblinded/ttZp_limits_fb.png Graphic file (type png)
 <use fig/SRunblinded/ttZp_limits_fb.png>
 Package pdftex.def Info: fig/SRunblinded/ttZp_limits_fb.png  used on input line
  96.
 (pdftex.def)             Requested size: 328.82707pt x 259.39325pt.
-<fig/SRunblinded/mZp2000/Plots/CRttW2l_minus_nJets_postFit.png, id=2759, 598.23
-5pt x 674.52pt>
-File: fig/SRunblinded/mZp2000/Plots/CRttW2l_minus_nJets_postFit.png Graphic fil
-e (type png)
-<use fig/SRunblinded/mZp2000/Plots/CRttW2l_minus_nJets_postFit.png>
-Package pdftex.def Info: fig/SRunblinded/mZp2000/Plots/CRttW2l_minus_nJets_post
-Fit.png  used on input line 123.
-(pdftex.def)             Requested size: 150.32504pt x 169.49414pt.
-<fig/SRunblinded/mZp1250/Plots/CRttW2l_plus_nJets_postFit.png, id=2760, 598.235
-pt x 674.52pt>
-File: fig/SRunblinded/mZp1250/Plots/CRttW2l_plus_nJets_postFit.png Graphic file
- (type png)
-<use fig/SRunblinded/mZp1250/Plots/CRttW2l_plus_nJets_postFit.png>
-Package pdftex.def Info: fig/SRunblinded/mZp1250/Plots/CRttW2l_plus_nJets_postF
-it.png  used on input line 125.
-(pdftex.def)             Requested size: 150.32504pt x 169.49414pt.
-<fig/SRunblinded/mZp2000/Plots/CR1bminus_nJets_postFit.png, id=2761, 598.235pt 
-x 674.52pt>
-File: fig/SRunblinded/mZp2000/Plots/CR1bminus_nJets_postFit.png Graphic file (t
-ype png)
-<use fig/SRunblinded/mZp2000/Plots/CR1bminus_nJets_postFit.png>
-Package pdftex.def Info: fig/SRunblinded/mZp2000/Plots/CR1bminus_nJets_postFit.
-png  used on input line 127.
-(pdftex.def)             Requested size: 150.32504pt x 169.49414pt.
-<fig/SRunblinded/mZp1250/Plots/CR1bplus_nJets_postFit.png, id=2762, 598.235pt x
- 674.52pt>
-File: fig/SRunblinded/mZp1250/Plots/CR1bplus_nJets_postFit.png Graphic file (ty
-pe png)
-<use fig/SRunblinded/mZp1250/Plots/CR1bplus_nJets_postFit.png>
-Package pdftex.def Info: fig/SRunblinded/mZp1250/Plots/CR1bplus_nJets_postFit.p
-ng  used on input line 130.
-(pdftex.def)             Requested size: 150.32504pt x 169.49414pt.
-<fig/SRunblinded/mZp2000/Plots/CR1b3le_lep_2_pt_postFit.png, id=2763, 598.235pt
- x 674.52pt>
-File: fig/SRunblinded/mZp2000/Plots/CR1b3le_lep_2_pt_postFit.png Graphic file (
-type png)
-<use fig/SRunblinded/mZp2000/Plots/CR1b3le_lep_2_pt_postFit.png>
-Package pdftex.def Info: fig/SRunblinded/mZp2000/Plots/CR1b3le_lep_2_pt_postFit
-.png  used on input line 132.
-(pdftex.def)             Requested size: 150.32504pt x 169.49414pt.
-<fig/SRunblinded/mZp2000/Plots/CR1b3lm_lep_2_pt_postFit.png, id=2764, 598.235pt
- x 674.52pt>
-File: fig/SRunblinded/mZp2000/Plots/CR1b3lm_lep_2_pt_postFit.png Graphic file (
-type png)
-<use fig/SRunblinded/mZp2000/Plots/CR1b3lm_lep_2_pt_postFit.png>
-Package pdftex.def Info: fig/SRunblinded/mZp2000/Plots/CR1b3lm_lep_2_pt_postFit
-.png  used on input line 134.
-(pdftex.def)             Requested size: 150.32504pt x 169.49414pt.
-<fig/SRunblinded/mZp2000/Plots/CRttbarCO2l_CO_1_postFit.png, id=2765, 598.235pt
- x 674.52pt>
-File: fig/SRunblinded/mZp2000/Plots/CRttbarCO2l_CO_1_postFit.png Graphic file (
-type png)
-<use fig/SRunblinded/mZp2000/Plots/CRttbarCO2l_CO_1_postFit.png>
-Package pdftex.def Info: fig/SRunblinded/mZp2000/Plots/CRttbarCO2l_CO_1_postFit
-.png  used on input line 137.
-(pdftex.def)             Requested size: 150.32504pt x 169.49414pt.
-<fig/SRunblinded/mZp2000/Plots/CRttbarCO2l_gstr_1_postFit.png, id=2766, 598.235
-pt x 674.52pt>
-File: fig/SRunblinded/mZp2000/Plots/CRttbarCO2l_gstr_1_postFit.png Graphic file
- (type png)
-<use fig/SRunblinded/mZp2000/Plots/CRttbarCO2l_gstr_1_postFit.png>
-Package pdftex.def Info: fig/SRunblinded/mZp2000/Plots/CRttbarCO2l_gstr_1_postF
-it.png  used on input line 139.
-(pdftex.def)             Requested size: 150.32504pt x 169.49414pt.
+<fig/SRunblinded/CRttW2l_minus_nJets_postFit.png, id=2763, 529.98pt x 598.235pt
+>
+File: fig/SRunblinded/CRttW2l_minus_nJets_postFit.png Graphic file (type png)
+<use fig/SRunblinded/CRttW2l_minus_nJets_postFit.png>
+Package pdftex.def Info: fig/SRunblinded/CRttW2l_minus_nJets_postFit.png  used 
+on input line 124.
+(pdftex.def)             Requested size: 150.32504pt x 169.68633pt.
+<fig/SRunblinded/CRttW2l_plus_nJets_postFit.png, id=2764, 529.98pt x 598.235pt>
+
+File: fig/SRunblinded/CRttW2l_plus_nJets_postFit.png Graphic file (type png)
+<use fig/SRunblinded/CRttW2l_plus_nJets_postFit.png>
+Package pdftex.def Info: fig/SRunblinded/CRttW2l_plus_nJets_postFit.png  used o
+n input line 126.
+(pdftex.def)             Requested size: 150.32504pt x 169.68633pt.
+<fig/SRunblinded/CR1bminus_nJets_postFit.png, id=2765, 529.98pt x 598.235pt>
+File: fig/SRunblinded/CR1bminus_nJets_postFit.png Graphic file (type png)
+<use fig/SRunblinded/CR1bminus_nJets_postFit.png>
+Package pdftex.def Info: fig/SRunblinded/CR1bminus_nJets_postFit.png  used on i
+nput line 128.
+(pdftex.def)             Requested size: 150.32504pt x 169.68633pt.
+<fig/SRunblinded/CR1bplus_nJets_postFit.png, id=2766, 529.98pt x 598.235pt>
+File: fig/SRunblinded/CR1bplus_nJets_postFit.png Graphic file (type png)
+<use fig/SRunblinded/CR1bplus_nJets_postFit.png>
+Package pdftex.def Info: fig/SRunblinded/CR1bplus_nJets_postFit.png  used on in
+put line 131.
+(pdftex.def)             Requested size: 150.32504pt x 169.68633pt.
+<fig/SRunblinded/CR1b3le_lep_2_pt_postFit.png, id=2767, 529.98pt x 598.235pt>
+File: fig/SRunblinded/CR1b3le_lep_2_pt_postFit.png Graphic file (type png)
+<use fig/SRunblinded/CR1b3le_lep_2_pt_postFit.png>
+Package pdftex.def Info: fig/SRunblinded/CR1b3le_lep_2_pt_postFit.png  used on 
+input line 133.
+(pdftex.def)             Requested size: 150.32504pt x 169.68633pt.
+<fig/SRunblinded/CR1b3lm_lep_2_pt_postFit.png, id=2768, 529.98pt x 598.235pt>
+File: fig/SRunblinded/CR1b3lm_lep_2_pt_postFit.png Graphic file (type png)
+<use fig/SRunblinded/CR1b3lm_lep_2_pt_postFit.png>
+Package pdftex.def Info: fig/SRunblinded/CR1b3lm_lep_2_pt_postFit.png  used on 
+input line 135.
+(pdftex.def)             Requested size: 150.32504pt x 169.68633pt.
+<fig/SRunblinded/CRttbarCO2l_CO_1_postFit.png, id=2769, 529.98pt x 598.235pt>
+File: fig/SRunblinded/CRttbarCO2l_CO_1_postFit.png Graphic file (type png)
+<use fig/SRunblinded/CRttbarCO2l_CO_1_postFit.png>
+Package pdftex.def Info: fig/SRunblinded/CRttbarCO2l_CO_1_postFit.png  used on 
+input line 138.
+(pdftex.def)             Requested size: 150.32504pt x 169.68633pt.
+<fig/SRunblinded/CRttbarCO2l_gstr_1_postFit.png, id=2770, 529.98pt x 598.235pt>
+
+File: fig/SRunblinded/CRttbarCO2l_gstr_1_postFit.png Graphic file (type png)
+<use fig/SRunblinded/CRttbarCO2l_gstr_1_postFit.png>
+Package pdftex.def Info: fig/SRunblinded/CRttbarCO2l_gstr_1_postFit.png  used o
+n input line 140.
+(pdftex.def)             Requested size: 150.32504pt x 169.68633pt.
 
 
-LaTeX Warning: Float too large for page by 9.55634pt on input line 141.
+LaTeX Warning: Float too large for page by 10.13289pt on input line 142.
 
-) [85] [86 <./fig/SRunblinded/ttZp_limits_fb.png>] [87 <./fig/SRunblinded/mZp20
-00/Plots/CRttW2l_minus_nJets_postFit.png> <./fig/SRunblinded/mZp1250/Plots/CRtt
-W2l_plus_nJets_postFit.png> <./fig/SRunblinded/mZp2000/Plots/CR1bminus_nJets_po
-stFit.png> <./fig/SRunblinded/mZp1250/Plots/CR1bplus_nJets_postFit.png> <./fig/
-SRunblinded/mZp2000/Plots/CR1b3le_lep_2_pt_postFit.png> <./fig/SRunblinded/mZp2
-000/Plots/CR1b3lm_lep_2_pt_postFit.png> <./fig/SRunblinded/mZp2000/Plots/CRttba
-rCO2l_CO_1_postFit.png> <./fig/SRunblinded/mZp2000/Plots/CRttbarCO2l_gstr_1_pos
-tFit.png>] [88] [89]
+) [86] [87 <./fig/SRunblinded/ttZp_limits_fb.png>] [88 <./fig/SRunblinded/CRttW
+2l_minus_nJets_postFit.png> <./fig/SRunblinded/CRttW2l_plus_nJets_postFit.png> 
+<./fig/SRunblinded/CR1bminus_nJets_postFit.png> <./fig/SRunblinded/CR1bplus_nJe
+ts_postFit.png> <./fig/SRunblinded/CR1b3le_lep_2_pt_postFit.png> <./fig/SRunbli
+nded/CR1b3lm_lep_2_pt_postFit.png> <./fig/SRunblinded/CRttbarCO2l_CO_1_postFit.
+png> <./fig/SRunblinded/CRttbarCO2l_gstr_1_postFit.png>] [89] [90]
 Chapter 9.
-(./chapters/chapter-10.tex) [90
+(./chapters/chapter-10.tex) [91
 
-] [91
+] [92
 
 ]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
-[92] [93]
+[93] [94]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no © in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no © in font cmr12!
-[94]
+[95]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
-[95] [96]
+[96] [97]
 Overfull \hbox (21.8044pt too wide) in paragraph at lines 356--356
 \OT1/cmr/m/it/12 per-i-men-tal Tests\OT1/cmr/m/n/12 . See Chap-ter 8.2. Cam-bri
 dge Uni-ver-sity Press, 2023. \OT1/cmr/m/sc/12 isbn\OT1/cmr/m/n/12 : 9781009320
 378
  []
 
-[97]
+[98]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
 Missing character: There is no â in font cmti12!
 Missing character: There is no € in font cmti12!
 Missing character: There is no ™ in font cmti12!
-[98]
+[99]
 Overfull \hbox (0.56221pt too wide) in paragraph at lines 356--356
 \OT1/cmr/m/it/12 di-men-sional de-con-struc-tion\OT1/cmr/m/n/12 . [][]Physics L
 et-ters B 513.1-2 (July 2001), pp. 232{240[][]. arXiv:
  []
 
-[99]
+[100]
 Missing character: There is no â in font cmti12!
 Missing character: There is no € in font cmti12!
 Missing character: There is no ¯ in font cmti12!
-[100] [101] [102] [103] [104] [105]
+[101] [102] [103] [104] [105] [106]
 Overfull \hbox (3.53278pt too wide) in paragraph at lines 356--356
 \OT1/cmr/m/it/12 hadropro-duc-tion from sup-pos-edly sub-lead-ing EW con-tri-bu
 -tions\OT1/cmr/m/n/12 . [][]JHEP 02 (2018), p. 031[][].
  []
 
-[106]
+[107]
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/scit' undefined
 (Font)              using `OT1/cmr/m/sc' instead on input line 356.
 
-[107]
+[108]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¼ in font cmr12!
 
@@ -2919,7 +2907,7 @@ Overfull \hbox (5.65752pt too wide) in paragraph at lines 356--356
  Web-ber. \OT1/cmr/m/it/12 Single-top hadropro-
  []
 
-[108]
+[109]
 Overfull \hbox (7.98215pt too wide) in paragraph at lines 356--356
 []\OT1/cmr/m/n/12 ATLAS Col-lab-o-ra-tion. \OT1/cmr/m/it/12 Mea-sure-ments of i
 n-clu-sive and dif-fer-en-tial fidu-cial cross-sections
@@ -2932,20 +2920,23 @@ Overfull \hbox (0.24307pt too wide) in paragraph at lines 356--356
  [hep-ex][][]
  []
 
-[109] [110]
+[110] [111]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
-[111] (./thesis.aux)
+[112] (./thesis.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.26pt have occurred.
 
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: EB659C8F48BF42C5A0E410127C9D89AC;11422.
@@ -2959,9 +2950,9 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27744 strings out of 478268
- 497470 string characters out of 5846347
- 1203836 words of memory out of 5000000
+ 27743 strings out of 478268
+ 496737 string characters out of 5846347
+ 1203839 words of memory out of 5000000
  44894 multiletter control sequences out of 15000+600000
  492010 words of font info for 111 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2996,10 +2987,10 @@ s/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2022/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2022/texmf-dist/fonts/
 type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2022/texmf-dist/fo
 nts/type1/public/cm-super/sfrm1200.pfb>
-Output written on thesis.pdf (126 pages, 4510980 bytes).
+Output written on thesis.pdf (127 pages, 6235718 bytes).
 PDF statistics:
- 3881 PDF objects out of 4296 (max. 8388607)
- 3444 compressed objects within 35 object streams
- 588 named destinations out of 1000 (max. 500000)
+ 3895 PDF objects out of 4296 (max. 8388607)
+ 3449 compressed objects within 35 object streams
+ 589 named destinations out of 1000 (max. 500000)
  746 words of extra memory for PDF output out of 10000 (max. 10000000)
 

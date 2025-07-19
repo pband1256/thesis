@@ -3726,6 +3726,35 @@
     \field{year}{2023}
   \endentry
 
+  \entry{NewPhysicsWorkingGroup:2010hhy}{inproceedings}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{1}{}{%
+      {{hash=BG}{%
+         family={Brooijmans},
+         familyi={B\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BG+2}
+    \strng{fullhash}{BG+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{{6th Les Houches Workshop on Physics at TeV Colliders}}
+    \verb{eprint}
+    \verb 1005.1229
+    \endverb
+    \field{note}{See Chapter 12}
+    \field{pages}{191\bibrangedash 380}
+    \field{title}{{New Physics at the LHC. A Les Houches Report: Physics at TeV
+  Colliders 2009 - New Physics Working Group}}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{month}{05}
+    \field{year}{2010}
+  \endentry
+
   \entry{Sabatini:2784150}{report}{}
     \name{author}{1}{}{%
       {{hash=SP}{%

@@ -66,5 +66,5 @@
 \contentsline {subsection}{\numberline {8.1.1}Profile likelihood fit}{82}{subsection.8.1.1}%
 \contentsline {subsection}{\numberline {8.1.2}Exclusion limit}{85}{subsection.8.1.2}%
 \contentsline {section}{\numberline {8.2}Fit results}{86}{section.8.2}%
-\contentsline {chapter}{\numberline {Chapter 9.}\negthickspace \negthickspace Summary}{92}{chapter.9}%
-\contentsline {chapter}{References}{93}{chapter*.37}%
+\contentsline {chapter}{\numberline {Chapter 9.}\negthickspace \negthickspace Summary}{93}{chapter.9}%
+\contentsline {chapter}{References}{94}{chapter*.37}%

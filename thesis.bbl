@@ -17,143 +17,6 @@
 \endgroup
 
 \datalist[entry]{none/global//global/global}
-  \entry{NewPhysicsWorkingGroup:2010hhy}{inproceedings}{}
-    \true{moreauthor}
-    \true{morelabelname}
-    \name{author}{1}{}{%
-      {{hash=BG}{%
-         family={Brooijmans},
-         familyi={B\bibinitperiod},
-         given={G.},
-         giveni={G\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{BG+2}
-    \strng{fullhash}{BG+1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{booktitle}{{6th Les Houches Workshop on Physics at TeV Colliders}}
-    \verb{eprint}
-    \verb 1005.1229
-    \endverb
-    \field{note}{See Chapter 12}
-    \field{pages}{191\bibrangedash 380}
-    \field{title}{{New Physics at the LHC. A Les Houches Report: Physics at TeV
-  Colliders 2009 - New Physics Working Group}}
-    \field{eprinttype}{arXiv}
-    \field{eprintclass}{hep-ph}
-    \field{month}{05}
-    \field{year}{2010}
-  \endentry
-
-  \entry{theory:ttZp}{article}{}
-    \name{author}{5}{}{%
-      {{hash=GN}{%
-         family={Greiner},
-         familyi={G\bibinitperiod},
-         given={Nicolas},
-         giveni={N\bibinitperiod},
-      }}%
-      {{hash=KK}{%
-         family={Kong},
-         familyi={K\bibinitperiod},
-         given={Kyoungchul},
-         giveni={K\bibinitperiod},
-      }}%
-      {{hash=PJC}{%
-         family={Park},
-         familyi={P\bibinitperiod},
-         given={Jong-Chul},
-         giveni={J\bibinithyphendelim C\bibinitperiod},
-      }}%
-      {{hash=PSC}{%
-         family={Park},
-         familyi={P\bibinitperiod},
-         given={Seong\bibnamedelima Chan},
-         giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
-      }}%
-      {{hash=WJC}{%
-         family={Winter},
-         familyi={W\bibinitperiod},
-         given={Jan-Christopher},
-         giveni={J\bibinithyphendelim C\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{GN+1}
-    \strng{fullhash}{GNKKPJCPSCWJC1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1007/JHEP04(2015)029
-    \endverb
-    \verb{eprint}
-    \verb 1410.6099
-    \endverb
-    \field{issn}{1029-8479}
-    \field{number}{4}
-    \field{pages}{29}
-    \field{title}{Model-independent production of a top-philic resonance at the
-  LHC}
-    \field{volume}{2015}
-    \field{journaltitle}{Journal of High Energy Physics}
-    \field{eprinttype}{arXiv}
-    \field{eprintclass}{hep-ph}
-    \field{year}{2015}
-    \warn{\item Invalid format of field 'month'}
-  \endentry
-
-  \entry{theory:ttZp_LHC}{article}{}
-    \name{author}{4}{}{%
-      {{hash=KJH}{%
-         family={Kim},
-         familyi={K\bibinitperiod},
-         given={Jeong\bibnamedelima Han},
-         giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
-      }}%
-      {{hash=KK}{%
-         family={Kong},
-         familyi={K\bibinitperiod},
-         given={Kyoungchul},
-         giveni={K\bibinitperiod},
-      }}%
-      {{hash=LSJ}{%
-         family={Lee},
-         familyi={L\bibinitperiod},
-         given={Seung\bibnamedelima J.},
-         giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
-      {{hash=MG}{%
-         family={Mohlabeng},
-         familyi={M\bibinitperiod},
-         given={Gopolang},
-         giveni={G\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {American Physical Society}%
-    }
-    \strng{namehash}{KJH+1}
-    \strng{fullhash}{KJHKKLSJMG1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1103/PhysRevD.94.035023
-    \endverb
-    \verb{eprint}
-    \verb 1604.07421
-    \endverb
-    \field{issue}{3}
-    \field{pages}{035023}
-    \field{title}{{Probing TeV scale top-philic resonances with boosted
-  top-tagging at the high luminosity LHC}}
-    \field{volume}{94}
-    \field{journaltitle}{Phys. Rev. D}
-    \field{eprinttype}{arXiv}
-    \field{eprintclass}{hep-ph}
-    \field{year}{2016}
-    \warn{\item Invalid format of field 'month'}
-  \endentry
-
   \entry{PhysRev.73.416}{article}{}
     \name{author}{1}{}{%
       {{hash=SJ}{%
@@ -2742,6 +2605,62 @@
     \field{year}{2023}
   \endentry
 
+  \entry{theory:ttZp}{article}{}
+    \name{author}{5}{}{%
+      {{hash=GN}{%
+         family={Greiner},
+         familyi={G\bibinitperiod},
+         given={Nicolas},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=KK}{%
+         family={Kong},
+         familyi={K\bibinitperiod},
+         given={Kyoungchul},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=PJC}{%
+         family={Park},
+         familyi={P\bibinitperiod},
+         given={Jong-Chul},
+         giveni={J\bibinithyphendelim C\bibinitperiod},
+      }}%
+      {{hash=PSC}{%
+         family={Park},
+         familyi={P\bibinitperiod},
+         given={Seong\bibnamedelima Chan},
+         giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=WJC}{%
+         family={Winter},
+         familyi={W\bibinitperiod},
+         given={Jan-Christopher},
+         giveni={J\bibinithyphendelim C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GN+1}
+    \strng{fullhash}{GNKKPJCPSCWJC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/JHEP04(2015)029
+    \endverb
+    \verb{eprint}
+    \verb 1410.6099
+    \endverb
+    \field{issn}{1029-8479}
+    \field{number}{4}
+    \field{pages}{29}
+    \field{title}{Model-independent production of a top-philic resonance at the
+  LHC}
+    \field{volume}{2015}
+    \field{journaltitle}{Journal of High Energy Physics}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{year}{2015}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{ttHA}{article}{}
     \name{author}{1}{}{%
       {{hash=A}{%
@@ -3710,6 +3629,58 @@
     \field{year}{2009}
   \endentry
 
+  \entry{theory:ttZp_LHC}{article}{}
+    \name{author}{4}{}{%
+      {{hash=KJH}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={Jeong\bibnamedelima Han},
+         giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=KK}{%
+         family={Kong},
+         familyi={K\bibinitperiod},
+         given={Kyoungchul},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=LSJ}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={Seung\bibnamedelima J.},
+         giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=MG}{%
+         family={Mohlabeng},
+         familyi={M\bibinitperiod},
+         given={Gopolang},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{KJH+1}
+    \strng{fullhash}{KJHKKLSJMG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevD.94.035023
+    \endverb
+    \verb{eprint}
+    \verb 1604.07421
+    \endverb
+    \field{issue}{3}
+    \field{pages}{035023}
+    \field{title}{{Probing TeV scale top-philic resonances with boosted
+  top-tagging at the high luminosity LHC}}
+    \field{volume}{94}
+    \field{journaltitle}{Phys. Rev. D}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{year}{2016}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{theory:Zp_topphilic}{article}{}
     \name{author}{3}{}{%
       {{hash=FPJ}{%
@@ -3781,6 +3752,35 @@
     \field{eprinttype}{arXiv}
     \field{eprintclass}{hep-ex}
     \field{year}{2023}
+  \endentry
+
+  \entry{NewPhysicsWorkingGroup:2010hhy}{inproceedings}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{1}{}{%
+      {{hash=BG}{%
+         family={Brooijmans},
+         familyi={B\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BG+2}
+    \strng{fullhash}{BG+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{{6th Les Houches Workshop on Physics at TeV Colliders}}
+    \verb{eprint}
+    \verb 1005.1229
+    \endverb
+    \field{note}{See Chapter 12}
+    \field{pages}{191\bibrangedash 380}
+    \field{title}{{New Physics at the LHC. A Les Houches Report: Physics at TeV
+  Colliders 2009 - New Physics Working Group}}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{hep-ph}
+    \field{month}{05}
+    \field{year}{2010}
   \endentry
 
   \entry{Sabatini:2784150}{report}{}

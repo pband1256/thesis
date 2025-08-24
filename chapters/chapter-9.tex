@@ -78,10 +78,10 @@ The value of $\mu$ such that the signal hypothesis leads to $\text{CL}_s = 1-\al
 \begin{figure}[!htb]
 \centering
 \includegraphics[width=0.8\linewidth]{fig/theory_sample_xsec.png}
-\caption{\label{fig:results:sample_xsec}Example of an exclusion limit graph. The solid (dotted) line represents the observed (expected) upper limits as a function of the $Z'$ mass at 95\% \acs{CL} on the cross-section of $pp\rightarrow\ttZp$ production times the $Z'\rightarrow\ttbar$ branching ratio. The solid blue line represents the theoretical signal cross-section with $c_t=1$ at \acs{LO} in \acs{QCD} \citep{theory:ttZp_LHC}. The green and yellow bands represent the 68\% ($\pm 1\sigma$) and 95\% ($\pm 2\sigma$) confidence intervals for the expected upper limits. Values of $\mu$ within the region above the observed limit is excluded under the current model. Masses below the $m_{Z'}$ value at which the observed limit intersect the theoretical cross section are excluded.}
+\caption{\label{fig:results:sample_xsec}Example of an exclusion limit graph. The solid (dotted) line represents the observed (expected) upper limits as a function of the $Z'$ mass at 95\% \acs{CL} on the cross-section of $pp\rightarrow\ttZp$ production times the $Z'\rightarrow\ttbar$ branching ratio. The solid blue line represents the theoretical signal cross-section with $c_t=1$ at \acs{LO} in \acs{QCD} \citep{theory:ttZp_LHC}. The green and yellow bands represent the 68\% ($\pm 1\sigma$) and 95\% ($\pm 2\sigma$) confidence intervals for the expected upper limits. Cross section of \ttZp within the region above the observed limit is excluded under the current model. Masses below the $m_{Z'}$ value at which the observed limit intersect the theoretical cross section are excluded.}
 \end{figure}
 
-In a search for an exotic particle of unknown mass, a lower bound on the mass can be determined using the theoretical cross section for the particle and the obtained observed limits. \autoref{fig:results:sample_xsec} shows a sample exclusion limit graph of the \ttZp cross section as a function of the $Z'$ mass. Values of the signal strength $\mu$ (and by proxy the cross section $\sigma$) above the observed limits are incompatible with the analysis model. Consequently, mass points with a smaller observed cross section than the theoretical cross section are excluded from the model; the cross section for the particle predicted by the analysis model lies in the exclusion region obtained using observed data. Such masses are eliminated as a possibility for the model.
+In a search for an exotic particle of unknown mass, a lower bound on the mass can be determined using the theoretical cross section for the particle and the obtained observed limits. \autoref{fig:results:sample_xsec} shows a sample exclusion limit graph of the \ttZp cross section as a function of the $Z'$ mass. Values of the signal strength $\mu$ (and by proxy the cross section $\sigma$ via $\mu=\sigma/\sigma_\text{theory}$) above the observed limits are incompatible with the analysis model. Consequently, mass points with a smaller observed cross section than the theoretical cross section are excluded from the model; the cross section for the particle predicted by the analysis model lies in the exclusion region obtained using observed data. Such masses are eliminated as a possibility for the model.
 
 
 \section{Fit results}
@@ -93,7 +93,7 @@ Before fitting to real data (unblinded fit), the fit was first performed in both
 
 The unblinded fit results are presented below. No significant variation is observed in fit output behavior using \ttZp samples of different $m_{Z'}$; results fitted using $m_{Z'}=2$ TeV are shown without substantial loss of generality. The background modeling is evaluated under the background-only hypothesis. The fitted background \acs{NF}s are shown in \autoref{tab:results:NFs} and are consistent with their nominal values within one standard deviation, or two standard deviations in the case of $\mathrm{NF}_{\text{HF }e}$ and $\mathrm{NF}_{\ttWplus(4\mathrm{j})}$. \autoref{fig:results:bg_postfit} shows good agreement between data and post-fit background distributions in non-prompt background \acs{CR}s and \ttW \acs{CR}s.
 
-The pre-fit and post-fit background yields are shown in \autoref{tab:results:yield}. Except for HF $e$ background, post-fit yields for various backgrounds e.g. \tttt, \ttH, other fake, etc. are increased; the pre-fit to post-fit variations are consistent within $\pm \acs{stdev}$. Data and total post-fit yields are also consistent within $\pm \acs{stdev}$. Post-fit yield for \acs{HF} $e$ background is lowered compared to pre-fit yield within $2\acs{stdev}$ which can be related to the fitted value of $\text{NF}_{\text{HF }e}$ in \autoref{tab:results:NFs}; however, this difference in pre- and post-fit yields of HF $e$ background has negligible impact on the $\mu$ as seen in \autoref{tab:results:uncertainty}.
+The pre-fit and post-fit background yields are shown in \autoref{tab:results:yield}. Except for HF $e$ background, post-fit yields for various backgrounds e.g. \tttt, \ttH, other fake, etc. are increased; the pre-fit to post-fit variations are consistent within $\pm \acs{stdev}$. Post-fit yield for \acs{HF} $e$ background is lowered compared to pre-fit yield within $2\acs{stdev}$ which can be related to the fitted value of $\text{NF}_{\text{HF }e}$ in \autoref{tab:results:NFs}; however, this difference in pre- and post-fit yields of HF $e$ background has negligible impact on the $\mu$ as seen in \autoref{tab:results:uncertainty}. Post-fit yields for signal are consistent with zero within $\pm2\acs{stdev}$. Data and total post-fit yields are consistent within $\pm 1\acs{stdev}$.
 
 \autoref{tab:results:uncertainty} outlines the impact on the signal strength $\mu$ of various sources of uncertainty grouped by their corresponding category. The background sources of uncertainty with the largest impact is \tttt modeling, in particular \tttt generator choice and cross-section uncertainties, followed by \ttW modeling due to their significant contributions in the \acs{SR} observed in \autoref{fig:ana:bg_comp}, especially in the more sensitive regions requiring three or more $b$-tagged jets. The most significant impact on $\mu$ within the set of instrumental uncertainties are uncertainties on jet $b$-tagging attributable to the high jet and $b$-jet multiplicities in the \acs{BSM} \tttt signal signature.
 
@@ -163,41 +163,92 @@ Fit value	& $0.68^{+0.23}_{-0.22}$ & $0.97^{+0.17}_{-0.16}$ & $0.97^{+0.31}_{-0.
       \midrule
       \multicolumn{3}{l}{\textbf{Background}} 	\\	
 %      \midrule
-      \tttt 					& 42.35 $\pm$ 5.45		& 46.91 $\pm$ 5.19 \\
-      \ttWplus 					& 97.38 $\pm$ 0.71\textsuperscript{\textdagger}		& 103.93 $\pm$ 15.91 \\
-      \ttWminus 				& 56.92 $\pm$ 0.42\textsuperscript{\textdagger}		& 55.27 $\pm$ 11.14 \\
-      \ttZ 						& 78.02 $\pm$ 14.12		& 75.57 $\pm$ 11.13 \\
-      \ttH 						& 81.00 $\pm$ 7.10		& 82.90 $\pm$ 7.30 \\
-      \ttt 						& 3.33 $\pm$ 0.59		& 3.37 $\pm$ 0.60 \\
+      \tttt 					& 42.35 $\pm$ 9.57		& 46.80 $\pm$ 9.75 \\
+      \ttWplus 					& 97.38 $\pm$ 0.71\textsuperscript{\textdagger}		& 104.36 $\pm$ 19.44 \\
+      \ttWminus 				& 56.92 $\pm$ 0.42\textsuperscript{\textdagger}		& 55.36 $\pm$ 13.88 \\
+      \ttZ 						& 78.02 $\pm$ 19.24		& 71.51 $\pm$ 15.29 \\
+      \ttH 						& 81.00 $\pm$ 9.91		& 83.16 $\pm$ 9.76 \\
+      \ttt 						& 3.33 $\pm$ 1.03		& 3.36 $\pm$ 1.04 \\
       Single-top ($tq$, $tZq$, $tWZ$, etc.)
-      							& 13.38 $\pm$ 2.87		& 12.69 $\pm$ 2.86 \\
-      \ttVV/\ttVH/\ttHH			& 17.07 $\pm$ 4.66		& 16.44 $\pm$ 4.64 \\
-      Charge misidentification	& 40.31 $\pm$ 0.32		& 40.33 $\pm$ 0.32 \\
-      $VV/VVV/VH$	 			& 10.01 $\pm$ 4.76		& 6.69 $\pm$ 2.75 \\
+      							& 13.38 $\pm$ 4.08		& 12.70 $\pm$ 4.01 \\
+      \ttVV/\ttVH/\ttHH			& 17.07 $\pm$ 6.75		& 16.42 $\pm$ 6.66 \\
+      Charge misidentification	& 40.31 $\pm$ 0.32		& 40.31 $\pm$ 0.00 \\
+      $VV/VVV/VH$	 			& 10.01 $\pm$ 6.27		& 6.72 $\pm$ 3.62 \\
 %      \midrule
-      Mat. Conv. 				& 26.20 $\pm$ 0.91		& 25.76 $\pm$ 6.06 \\
-      Low $m_{\gamma^{*}}$ 		& 26.14 $\pm$ 0.66		& 25.62 $\pm$ 4.23 \\
-      HF $e$ 					& 21.99 $\pm$ 1.45		& 15.42 $\pm$ 3.70 \\
-      HF $\mu$ 					& 31.33 $\pm$ 3.47		& 31.53 $\pm$ 5.06 \\
-      Light-flavor decays 		& 13.47 $\pm$ 0.53		& 13.54 $\pm$ 0.53 \\
-      Other fake \& non-prompt 	& 24.90 $\pm$ 2.26		& 26.00 $\pm$ 1.96 \\
+      Mat. Conv. 				& 26.20 $\pm$ 0.95		& 25.72 $\pm$ 7.88 \\
+      Low $m_{\gamma^{*}}$ 		& 26.14 $\pm$ 0.74		& 25.51 $\pm$ 5.61 \\
+      HF $e$ 					& 21.99 $\pm$ 2.02		& 15.37 $\pm$ 5.01 \\
+      HF $\mu$ 					& 31.33 $\pm$ 3.96		& 31.41 $\pm$ 6.07 \\
+      Light-flavor decays 		& 13.47 $\pm$ 0.55		& 13.51 $\pm$ 0.53 \\
+      Other fake \& non-prompt 	& 24.90 $\pm$ 2.73		& 26.01 $\pm$ 2.35 \\
       \midrule
-      Total background		 	& 56.92 $\pm$ 0.42\textsuperscript{\textdagger}		& 576.53 $\pm$ 19.86 \\
+      Total background		 	& 583.77 $\pm$ 32.02\textsuperscript{\textdagger}		& 578.23 $\pm$ 27.11 \\
       \midrule
       \multicolumn{3}{l}{\textbf{Signal $\ttZp \rightarrow \tttt$}} 	\\	
 %      \midrule
-      $m_{Z'}=1$ TeV 			& 52.83 $\pm$ 1.41		& - \\
-      $m_{Z'}=1.25$ TeV 		& 52.94 $\pm$ 1.35		& - \\
-      $m_{Z'}=1.5$ TeV 			& 53.07 $\pm$ 1.47		& - \\
-      $m_{Z'}=2$ TeV 			& 52.49 $\pm$ 1.43		& - \\ %24.60 $\pm$ 7.14 \\
-      $m_{Z'}=2.5$ TeV 			& 53.07 $\pm$ 1.47		& - \\
-      $m_{Z'}=3$ TeV 			& 52.45 $\pm$ 1.50		& - \\
+      $m_{Z'}=1$ TeV 			& 52.83 $\pm$ 2.75		& 26.96 $\pm$ 16.31 \\
+      $m_{Z'}=1.25$ TeV 		& 52.94 $\pm$ 2.72		& 25.02 $\pm$ 15.45 \\
+      $m_{Z'}=1.5$ TeV 			& 53.07 $\pm$ 2.78		& 24.55 $\pm$ 15.07 \\
+      $m_{Z'}=2$ TeV 			& 52.49 $\pm$ 2.76		& 24.52 $\pm$ 14.91 \\
+      $m_{Z'}=2.5$ TeV 			& 53.07 $\pm$ 2.78		& 25.35 $\pm$ 15.20 \\
+      $m_{Z'}=3$ TeV 			& 52.45 $\pm$ 2.80		& 25.64 $\pm$ 15.26 \\
       \midrule
       \textbf{Data}				& \multicolumn{2}{c}{604} 		\\
       \midrule\bottomrule
     \end{tabular}
 }
 \end{table}
+
+
+%\begin{table}[!htb]
+%  \centering
+%  \scriptsize
+%  \setlength{\tabcolsep}{8pt} % Reduce column spacing
+%  \renewcommand{\arraystretch}{1.2} % Adjust row spacing
+%  \caption{\label{tab:results:yield}Pre-fit and post-fit background yields in the inclusive \acs{SR}. The number of data events and pre-fit estimate signal yields are also shown. Background yields shown are obtained using the \ttZp signal sample with $m_{Z'}=2$ TeV. Total yield uncertainty differs from the quadrature sum of constituent uncertainties due to (anti-)correlation effects.\\
+%\textsuperscript{\textdagger}Pre-fit yields for \ttW background are nominally set to 0 prior to data-driven normalization. Yields shown are estimated using best fit parameters.}
+%  \resizebox{0.9\textwidth}{!}{%\
+%    \begin{tabular}{lcc}
+%      \toprule \midrule
+%      Process 					& Pre-fit 			& Post-fit	\\
+%      \midrule
+%      \multicolumn{3}{l}{\textbf{Background}} 	\\	
+%%      \midrule
+%      \tttt 					& 42.35 $\pm$ 5.45		& 46.91 $\pm$ 5.19 \\
+%      \ttWplus 					& 97.38 $\pm$ 0.71\textsuperscript{\textdagger}		& 103.93 $\pm$ 15.91 \\
+%      \ttWminus 				& 56.92 $\pm$ 0.42\textsuperscript{\textdagger}		& 55.27 $\pm$ 11.14 \\
+%      \ttZ 						& 78.02 $\pm$ 14.12		& 75.57 $\pm$ 11.13 \\
+%      \ttH 						& 81.00 $\pm$ 7.10		& 82.90 $\pm$ 7.30 \\
+%      \ttt 						& 3.33 $\pm$ 0.59		& 3.37 $\pm$ 0.60 \\
+%      Single-top ($tq$, $tZq$, $tWZ$, etc.)
+%      							& 13.38 $\pm$ 2.87		& 12.69 $\pm$ 2.86 \\
+%      \ttVV/\ttVH/\ttHH			& 17.07 $\pm$ 4.66		& 16.44 $\pm$ 4.64 \\
+%      Charge misidentification	& 40.31 $\pm$ 0.32		& 40.33 $\pm$ 0.32 \\
+%      $VV/VVV/VH$	 			& 10.01 $\pm$ 4.76		& 6.69 $\pm$ 2.75 \\
+%%      \midrule
+%      Mat. Conv. 				& 26.20 $\pm$ 0.91		& 25.76 $\pm$ 6.06 \\
+%      Low $m_{\gamma^{*}}$ 		& 26.14 $\pm$ 0.66		& 25.62 $\pm$ 4.23 \\
+%      HF $e$ 					& 21.99 $\pm$ 1.45		& 15.42 $\pm$ 3.70 \\
+%      HF $\mu$ 					& 31.33 $\pm$ 3.47		& 31.53 $\pm$ 5.06 \\
+%      Light-flavor decays 		& 13.47 $\pm$ 0.53		& 13.54 $\pm$ 0.53 \\
+%      Other fake \& non-prompt 	& 24.90 $\pm$ 2.26		& 26.00 $\pm$ 1.96 \\
+%      \midrule
+%      Total background		 	& 593.90 $\pm$ 18.79\textsuperscript{\textdagger}		& 576.53 $\pm$ 19.86 \\
+%      \midrule
+%      \multicolumn{3}{l}{\textbf{Signal $\ttZp \rightarrow \tttt$}} 	\\	
+%%      \midrule
+%      $m_{Z'}=1$ TeV 			& 52.83 $\pm$ 1.41		& - \\
+%      $m_{Z'}=1.25$ TeV 		& 52.94 $\pm$ 1.35		& - \\
+%      $m_{Z'}=1.5$ TeV 			& 53.07 $\pm$ 1.47		& - \\
+%      $m_{Z'}=2$ TeV 			& 52.49 $\pm$ 1.43		& - \\ %24.60 $\pm$ 7.14 \\
+%      $m_{Z'}=2.5$ TeV 			& 53.07 $\pm$ 1.47		& - \\
+%      $m_{Z'}=3$ TeV 			& 52.45 $\pm$ 1.50		& - \\
+%      \midrule
+%      \textbf{Data}				& \multicolumn{2}{c}{604} 		\\
+%      \midrule\bottomrule
+%    \end{tabular}
+%}
+%\end{table}
 
 \begin{table}[!htb]
   \centering

@@ -22,12 +22,21 @@
 \RequirePackage{ifthen}
 \RequirePackage{setspace}
 \RequirePackage[titles,subfigure]{tocloft}
-\RequirePackage[margin=1in]{geometry}
+%\RequirePackage[margin=1in]{geometry}
+\usepackage[margin=1in,includehead, headheight=0pt, headsep=0pt]{geometry}
 \RequirePackage{pdflscape}
 \RequirePackage{titlesec}
 
 %this command formats chapter titles
-\newcommand{\FormatChapterTitles}{\titleformat{\chapter}[block]{\vspace*{.15in}\bfseries\fontsize{22pt}{22pt}\selectfont}{\chaptertitlename~\thechapter.}{10pt}{}}
+%\newcommand{\FormatChapterTitles}{\titleformat{\chapter}[block]{\vspace*{.15in}\bfseries\fontsize{22pt}{22pt}\selectfont}{\chaptertitlename~\thechapter.}{10pt}{}}
+\newcommand{\FormatChapterTitles}{
+	\titleformat{\chapter}[block]{
+		\vspace*{0.17in}\bfseries\fontsize{22pt}{22pt}\selectfont
+	}{\chaptertitlename~\thechapter.}{
+		10pt
+	}{}
+%	[\vspace*{-1\baselineskip}]
+}
 
 %This command formats Appendix titles
 \newcommand{\FormatAppTitles}{\titleformat{\chapter}[block]{\vspace*{.325in}\filcenter\bfseries\fontsize{12pt}{12pt}\selectfont}{\chaptertitlename~\thechapter.\negthickspace \negthickspace \negthickspace \negthickspace \negthickspace \negthickspace \negthickspace}{10pt}{}}
@@ -89,14 +98,19 @@
 \newcommand\maketitlepage
 	{\begin{titlepage}%
 	\vspace*{.6in} %modified HMT 2023
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\vspace*{-0.2\baselineskip}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	\begin{center}%
 	\begin{singlespace}
 	\MakeUppercase{\@title} %Removed \large{} to comply with sizing requirements HMT 2023
 \vspace{4.5\baselineskip}
 	\end{singlespace}
         \begin{doublespace}
+        \vspace{0.6\baselineskip}
           By % DO NOT REMOVE THE FOLLOWING BLANK LINE
-
+		\vspace{0.17\baselineskip}
+		
 \vspace{.25\baselineskip}  %Added for spacing compliance HMT 2023
 	\begin{tabular}[t]{c}%
 	\@author
@@ -105,18 +119,19 @@
 	%\vspace{\fill}
 \vspace{13\baselineskip}  %Added for spacing compliance HMT 2023
 	{%
+	\vspace{-0.5\baselineskip}
 	A  DISSERTATION 
-	\vspace{1.5\baselineskip}%  %Added for spacing compliance HMT 2023
+	\vspace{1.8\baselineskip}%  %Added for spacing compliance HMT 2023
 
 	Submitted to \\
 	Michigan State University \\
 	in partial fulfillment of the requirements \\
 	for the degree of 
    
-	\vspace{\baselineskip}%
+	\vspace{0.75\baselineskip}%
 	\fromunit % Inserts unit name and degree type%
   
-	\vspace{.5\baselineskip}%  %Added for spacing compliance HMT 2023
+	\vspace{0.85\baselineskip}%  %Added for spacing compliance HMT 2023
 	{\number\year}  
 	} 
 	\vspace{\baselineskip}
@@ -203,8 +218,9 @@
 	\pagestyle{plain}
 	\begin{center}
 	{\bfseries\ackname}
-	\vspace{\baselineskip}
+	\vspace{-\baselineskip}
 	\end{center}
+%    \vspace*{-2\baselineskip}
 	\begin{doublespace}
 	}
 	{\end{doublespace}\thispagestyle{plain}
@@ -218,7 +234,7 @@
       	\pagestyle{plain}
        	\begin{center}
      	{\bfseries\prefname}
-    	\vspace{-1\baselineskip} 
+    	\vspace{-1\baselineskip}
      	\end{center}
 	\begin{doublespace}
 	}
@@ -278,7 +294,8 @@
 	\chapter*{\vspace{-2.6\baselineskip}\centerline{\normalsize \MakeUppercase\contentsname}
 	\@mkboth{%
 	\MakeUppercase\contentsname}{\MakeUppercase\contentsname}}%
-	\vspace{-2.5\baselineskip}
+	%\vspace{-2.5\baselineskip}
+	\vspace{-3\baselineskip} % HERE
 	\@starttoc{toc}%
     		\if@restonecol\twocolumn\fi
 	\end{singlespace}}
@@ -372,9 +389,10 @@
 	\thispagestyle{plain}\pagestyle{plain}
 	\phantomsection
 	\begin{center}
-	\bfseries{\MakeUppercase{\large KEY TO ABBREVIATIONS}}
+	\bfseries{\MakeUppercase{\large LIST OF ABBREVIATIONS}}
 	\end{center}
-	\tocentry{KEY TO ABBREVIATIONS}{Key To Abbreviations}%
+    \vspace*{-2\baselineskip}
+	\tocentry{LIST OF ABBREVIATIONS}{List of Abbreviations}%
 	\vspace*{\baselineskip}}
 {\newpage}
 
@@ -408,6 +426,7 @@
 %	\vfill
 %	\newpage
 	\chapter*{\vspace{-1.9\baselineskip}\centerline{\normalsize\MakeUppercase{\bibname}}}%
+%	\vspace*{-2\baselineskip}
 	\@mkboth{\bibname}{\bibname}%
 	\tocentry{\bibname}{\bibnamelc}%Include this line to move ToC entry.
 	\vspace{-1.9\baselineskip}
@@ -420,7 +439,7 @@
 	\usecounter{enumiv}%
 	\let\p@enumiv\@empty
 	\renewcommand\theenumiv{\@arabic\c@enumiv}}%
-	\setlength{\itemsep}{.13in}% needed to get appropriate separation of bib items.
+	\setlength{\itemsep}{0.13in}% needed to get appropriate separation of bib items.
 	\sloppy
       	\clubpenalty4000
       	\@clubpenalty \clubpenalty

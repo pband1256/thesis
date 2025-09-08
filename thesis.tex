@@ -51,8 +51,8 @@
 \hypersetup{
 colorlinks=true,
 allcolors=black,
-urlcolor=blue,
-citecolor=blue
+urlcolor=black,
+citecolor=black
 %hidelinks for plain black text
 }
 \usepackage[nottoc, numbib]{tocbibind}
@@ -227,13 +227,13 @@ Finally, I would like to thank my family, to whom this dissertation is dedicated
 %%  the following line.
 %%List of Tables is no longer required by MSU formatting requirements
 %%but may be optionally included
-\LOT
+%\LOT
 
 %% If your document contains figures, remove the "%" in front of
 %% the following line.
 %%List of Figures is no longer required by MSU formatting requirements
 %%but may be optionally included
-\LOF
+%\LOF
 
 %%%% LIST OF SYMBOLS OR LIST OF ABBREVIATIONS %%%%
 %% If you wish to have a list of symbols or a list of abbreviations,
@@ -339,6 +339,7 @@ Finally, I would like to thank my family, to whom this dissertation is dedicated
 %% which is permitted for long tables. Finally remove the "%" from the next line.
 %\end{landacape}
 
+\end{doublespace}
 
 %%%%%%  Bibliography %%%%%
 %% A bibliography is required. By default it is called, "Bibliography"
@@ -346,14 +347,22 @@ Finally, I would like to thank my family, to whom this dissertation is dedicated
 %% instead of �BIBLIOGRAPHY� if that is the convention in your discipline.
 %% To do so, copy and paste your choice into the empty argument
 %% of the following command and remove the "%".
-%\renewcommand{\bibname}{References}
+\renewcommand{\bibname}{BIBLIOGRAPHY}
 %% The bibliography may be made using BibTeX.
 %% To do so the necessary commands must be entered in the
 %%uncomment the following two lines.
 %\bibliographystyle{ieeetr}
+\defbibheading{bibliography}[\bibname]{%
+	\subsubsection*{\centering #1}%
+	\markboth{#1}{#1}}
+\setlength{\bibitemsep}{\baselineskip}
+\clearpage
+\phantomsection
+\addcontentsline{toc}{chapter}{BIBLIOGRAPHY}
 
+\printbibliography
 %\renewcommand*{\UrlFont}{\rmfamily}
-\printbibliography[heading=bibintoc,title={References}]
+%\printbibliography[heading=bibintoc,title={\normalsize\centering BIBLIOGRAPHY}]
 
 
 %% If the Bibliography is made from scratch,
@@ -406,7 +415,7 @@ Finally, I would like to thank my family, to whom this dissertation is dedicated
 }%End format appendices block
 
 %These commands close out the doublespace area and end the document.
-\end{doublespace}
+%\end{doublespace}
 \end{document}
 
 %%%%%% FINAL COMMENTS %%%%

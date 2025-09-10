@@ -73,6 +73,7 @@ citecolor=black
 \DeclareFieldFormat{journaltitle}{#1\isdot}
 \DeclareNameAlias{sortname}{family-given}
 \renewbibmacro{in:}{}
+\renewcommand*{\mkbibacro}[1]{#1}
 \ExecuteBibliographyOptions{doi=false}
 \DeclareFieldFormat{doilink}{%
 \iffieldundef{doi}{#1}%
@@ -111,6 +112,20 @@ citecolor=black
   \setunit{\bibpagerefpunct}\newblock
   \usebibmacro{pageref}%
   \usebibmacro{finentry}}
+\makeatletter
+\DeclareFieldFormat{eprint:arxiv}{%
+  arXiv\addcolon\space
+  \ifhyperref
+    {\href{https://arxiv.org/\abx@arxivpath/#1}{%
+       \nolinkurl{#1}%
+       \iffieldundef{eprintclass}
+         {}
+         {\addspace\mkbibbrackets{\thefield{eprintclass}}}}}
+    {\nolinkurl{#1}%
+     \iffieldundef{eprintclass}
+       {}
+       {\addspace\mkbibbrackets{\thefield{eprintclass}}}}}
+\makeatother
 \bibliography{bib/citations}
 \bibliography{bib/ANA-EXOT-2022-44-INT1.bib}
 \bibliography{bib/ATLAS.bib}
@@ -359,6 +374,7 @@ Finally, I would like to thank my family, to whom this dissertation is dedicated
 \clearpage
 \phantomsection
 \addcontentsline{toc}{chapter}{BIBLIOGRAPHY}
+%\renewcommand*{\bibfont}{\normalfont}
 
 \printbibliography
 %\renewcommand*{\UrlFont}{\rmfamily}

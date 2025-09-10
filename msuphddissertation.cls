@@ -389,7 +389,7 @@
 	\thispagestyle{plain}\pagestyle{plain}
 	\phantomsection
 	\begin{center}
-	\bfseries{\MakeUppercase{\large LIST OF ABBREVIATIONS}}
+	\bfseries{\MakeUppercase{LIST OF ABBREVIATIONS}}
 	\end{center}
     \vspace*{-2\baselineskip}
 	\tocentry{LIST OF ABBREVIATIONS}{List of Abbreviations}%

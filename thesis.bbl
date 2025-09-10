@@ -3080,7 +3080,6 @@
     \verb{doi}
     \verb 10.1017/9781009320392
     \endverb
-    \field{isbn}{9781009320378}
     \field{note}{See Chapter 8.2}
     \field{title}{The Standard Model: From Fundamental Symmetries to
   Experimental Tests}
@@ -3558,46 +3557,6 @@
     \field{eprinttype}{arXiv}
     \field{eprintclass}{hep-ph}
     \field{year}{2003}
-    \warn{\item Invalid format of field 'month'}
-  \endentry
-
-  \entry{theory:fcnc}{article}{}
-    \name{author}{2}{}{%
-      {{hash=LP}{%
-         family={Langacker},
-         familyi={L\bibinitperiod},
-         given={Paul},
-         giveni={P\bibinitperiod},
-      }}%
-      {{hash=PM}{%
-         family={Pl\"umacher},
-         familyi={P\bibinitperiod},
-         given={Michael},
-         giveni={M\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {American Physical Society}%
-    }
-    \strng{namehash}{LPPM1}
-    \strng{fullhash}{LPPM1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1103/PhysRevD.62.013006
-    \endverb
-    \verb{eprint}
-    \verb hep-ph/0001204
-    \endverb
-    \field{issue}{1}
-    \field{pages}{013006}
-    \field{title}{Flavor changing effects in theories with a heavy $Z'$ boson
-  with family nonuniversal couplings}
-    \field{volume}{62}
-    \field{journaltitle}{Phys. Rev. D}
-    \field{eprinttype}{arXiv}
-    \field{eprintclass}{hep-ph}
-    \field{year}{2000}
     \warn{\item Invalid format of field 'month'}
   \endentry
 
@@ -6909,6 +6868,26 @@
     \field{year}{2000}
   \endentry
 
+  \entry{ATL-DAPR-PUB-2023-001}{booklet}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={{ATLAS Collaboration}},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A2}
+    \strng{fullhash}{A2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{{ATL-DAPR-PUB-2023-001}}
+    \field{title}{{Preliminary analysis of the luminosity calibration of the
+  ATLAS \(13.6\,\text{TeV}\) data recorded in 2022}}
+    \verb{url}
+    \verb https://cds.cern.ch/record/2853525
+    \endverb
+    \field{year}{2023}
+  \endentry
+
   \entry{PhysRevLett.131.211901}{article}{}
     \name{author}{3}{}{%
       {{hash=vBM}{%
@@ -6950,26 +6929,6 @@
     \field{journaltitle}{Phys. Rev. Lett.}
     \field{year}{2023}
     \warn{\item Invalid format of field 'month'}
-  \endentry
-
-  \entry{ATL-DAPR-PUB-2023-001}{booklet}{}
-    \name{author}{1}{}{%
-      {{hash=A}{%
-         family={{ATLAS Collaboration}},
-         familyi={A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{A2}
-    \strng{fullhash}{A2}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{howpublished}{{ATL-DAPR-PUB-2023-001}}
-    \field{title}{{Preliminary analysis of the luminosity calibration of the
-  ATLAS \(13.6\,\text{TeV}\) data recorded in 2022}}
-    \verb{url}
-    \verb https://cds.cern.ch/record/2853525
-    \endverb
-    \field{year}{2023}
   \endentry
 \enddatalist
 \endinput
